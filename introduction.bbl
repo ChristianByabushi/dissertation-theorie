@@ -1,0 +1,44 @@
+\begin{thebibliography}{1}
+
+\bibitem{chen2017survey}
+Guangquan Chen, Weijun Wang, and Xuan Zhou.
+\newblock A survey on sms spam filtering techniques.
+\newblock {\em Journal of Network and Computer Applications}, 80:149--159,
+  2017.
+
+\bibitem{cimpanu2019simjacker}
+Catalin Cimpanu.
+\newblock Simjacker vulnerability exploited for surveillance by at least one
+  nation-state.
+\newblock {\em ZDNet}, 2019.
+
+\bibitem{jangir2016design}
+Sunil~Kumar Jangir, Manoj~Kumar Sharma, and Pawan~Kumar Gupta.
+\newblock Design and implementation of sms gateway api for mobile communication
+  networks.
+\newblock {\em International Journal of Computer Applications}, 151(9):1--5,
+  2016.
+
+\bibitem{lavanya2582sms}
+M~Lavanya and KR~Aruna.
+\newblock Sms spam detection using deep learning.
+\newblock {\em Journal homepage: www. ijrpr. com ISSN}, 2582:7421.
+
+\bibitem{le2005mobile}
+Gwenael Le~Bodic.
+\newblock {\em Mobile messaging technologies and services: SMS, EMS and MMS}.
+\newblock John Wiley \& Sons, 2005.
+
+\bibitem{Statista2020}
+Statista's own team~of researchers and analysts.
+\newblock {\em Number of mobile messages worldwide from 2019 to 2023 (in
+  trillions)}.
+\newblock https://fr.statista.com/, 2020.
+
+\bibitem{raschka2017python}
+Sebastian Raschka and Vahid Mirjalili.
+\newblock Python machine learning: Machine learning and deep learning with
+  python.
+\newblock {\em Scikit-Learn, and TensorFlow. Second edition ed}, 3, 2017.
+
+\end{thebibliography}

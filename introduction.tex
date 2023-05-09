@@ -8,7 +8,10 @@
 \usepackage{listings}  
 \usepackage{graphicx}
 \usepackage{minted} 
-\usepackage{hyperref} 
+\usepackage{hyperref}  
+
+
+
 %\renewcommand{\thepart}{\roman{part}}
 \usemintedstyle{default}
 % Define a style for Python code
@@ -49,7 +52,7 @@
 			\vspace{0.18 cm}
 			\begin{minipage}[c]{15cm}
 				\begin{center}
-					\LARGE{\textbf{\textcolor{black}{Development of a messaging application for communication and detection of spam on a mobile network, case study of Airtel, Vodacom or Orange.}}}
+					\LARGE{\textbf{\textcolor{black}{Development of a messaging application for communication and detection of spam on a mobile network, case study of Airtel, Vodacom and Orange.}}}
 				\end{center}
 		\end{minipage}
 	\end{center}
@@ -83,13 +86,48 @@
 \begin{center} 
 	\huge{\textbf{Academic year: 2022-2023}}
 \end{center}
-\end{titlepage}
+\end{titlepage} 
+	\tableofcontents 
 	\listoffigures
-	\tableofcontents
+	\listoftables
+	
 	\newpage
 	
+
+	\addcontentsline{toc}{chapter}{Introduction} 
+	\chapter*{Introduction}
+	\section{Context and generalities} 
+	With the increasing of use of mobile devices and the rise of mobile communication, the number of text messages sent every day has grown exponentially. According to \textit{Statista}, a company that provides market and consumer data on a wide range of topics, including digital media and technology; the number of mobile messages sent worldwide in 2020 was 3.5 trillion \cite{Statista2020}. Along with this growth, there has been an increase in the number of spam messages that aim to deceive people into providing personal information, sending money, menacing to death or taking other actions that benefit the scammer.\\
 	
-	\chapter{Introduction}  
+	To address this problem, the development of a messaging application with advanced spam detection capabilities is essential. This dissertation focuses on the development of such an application for mobile networks, with a specific case study of Airtel, Vodacom and Orange. \\
+	Indeed, Airtel, Vodacom, and Orange are major telecommunications operators which mostly function in Democratic Republic of Congo, with a significant market share and importance in online services, including messaging. 
+	 
+	\section{Problematic} 
+	In communication domain, we use mobile devices or phones for sharing \textit{SMS}, Email, chats by using some specific apps. Among all these we use specifically \textit{SMS} for personal and professional information sharing \cite{lavanya2582sms}. The SMS stands for Short Message Service, which is a text messaging service for mobile phones and other mobile devices. It allows users to send and receive short messages of up to 160 characters \cite{le2005mobile}. It also possible to send or receive automatic SMS which are not sent by human, whereas by using web interface or API \cite{jangir2016design}.
+	
+	Due to all these means, we are facing against malicious attacks inside of messages which are commonly responsible of annoyance of users, wasting mobile network resources and potentially introducing security risks like \textit{Simjacker} vulnerability which was discovered in 2019, which allows attackers to exploit a weakness in the SMS messaging system to remotely install spyware on mobile devices \cite{cimpanu2019simjacker}. Besides, the spam messages  are increasing likelihood of users by leading them to ignore important messages or being more hesitant to engage with \textit{SMS} marketing campaigns \cite{chen2017survey}. 
+	
+	Considering all above issues caused by spam, what are key technical challenges that could be addressed in messaging apps which can effectively facilitate the communication as well as detecting and filtering spam messages ? 
+	
+	\section{Hypotheses} 
+	 Using the content-based filtering techniques, which involves analyzing the content of messages and determining it is spam or not. This would be done by utilizing the Machine learning algorithms which are : \textbf{Naive Bayes, Logistic Regression, and Supper vector Machines}. All these would be combined by the ensemble methods for making a more predictive model  \cite{raschka2017python}. 
+	 
+	 Besides, we would integrate the model inside of the system able of adding technically in a blacklist or whitelist suspect users based on the specific probability of being a potential attack. 
+	\section{Delimitation and objectives} 
+	
+	
+	
+	
+	
+	%\bibliographystyle{apacite} % or whatever citation style you choose
+	\bibliographystyle{plain}
+	\bibliography{bibfile.bib}
+	
+	\newpage	
+	
+	
+	
+	
 	
 	
 	
