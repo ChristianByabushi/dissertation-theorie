@@ -4,3 +4,7 @@
 \contentsline {section}{\numberline {0.2}Problematic}{4}{section.0.2}%
 \contentsline {section}{\numberline {0.3}Hypotheses}{5}{section.0.3}%
 \contentsline {section}{\numberline {0.4}Delimitation and objectives}{5}{section.0.4}%
+\contentsline {subsection}{\numberline {0.4.1}Delimitation}{5}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {0.4.2}Objectives}{5}{subsection.0.4.2}%
+\contentsline {section}{\numberline {0.5}Interest}{5}{section.0.5}%
+\contentsline {section}{\numberline {0.6}Research Methodology}{6}{section.0.6}%

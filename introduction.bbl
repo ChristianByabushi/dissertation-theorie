@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{bluman2017elementary}
+Allan Bluman.
+\newblock {\em Elementary statistics: A step by step approach}.
+\newblock McGraw-Hill Education, 2017.
+
 \bibitem{chen2017survey}
 Guangquan Chen, Weijun Wang, and Xuan Zhou.
 \newblock A survey on sms spam filtering techniques.
@@ -11,6 +16,12 @@ Catalin Cimpanu.
 \newblock Simjacker vulnerability exploited for surveillance by at least one
   nation-state.
 \newblock {\em ZDNet}, 2019.
+
+\bibitem{creswell2014research}
+John~W Creswell.
+\newblock {\em Research design: Qualitative, quantitative, and mixed methods
+  approaches}.
+\newblock Sage publications, 2014.
 
 \bibitem{jangir2016design}
 Sunil~Kumar Jangir, Manoj~Kumar Sharma, and Pawan~Kumar Gupta.
