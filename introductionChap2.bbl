@@ -18,6 +18,11 @@ Allan Bluman.
 \newblock {\em Elementary statistics: A step by step approach}.
 \newblock McGraw-Hill Education, 2017.
 
+\bibitem{brown2007sms}
+Jeff Brown, Bill Shipman, and Ron Vetter.
+\newblock Sms: The short message service.
+\newblock {\em Computer}, 40(12):106--110, 2007.
+
 \bibitem{cambria2014jumping}
 Erik Cambria and Bebo White.
 \newblock Jumping nlp curves: A review of natural language processing research.
@@ -97,6 +102,12 @@ Thomas~R Karl, Claude~N Williams~Jr, Pamela~J Young, and Wayne~M Wendland.
 \newblock {\em Journal of Applied Meteorology and Climatology}, 25(2):145--160,
   1986.
 
+\bibitem{katankar2010short}
+Veena~K Katankar and VM~Thakare.
+\newblock Short message service using sms gateway.
+\newblock {\em International Journal on Computer Science and Engineering},
+  2(04):1487--1491, 2010.
+
 \bibitem{lavanya2582sms}
 M~Lavanya and KR~Aruna.
 \newblock Sms spam detection using deep learning.
@@ -117,6 +128,12 @@ Matti Lepp{\"a}niemi and Heikki Karjaluoto.
 \newblock Mobile marketing: From marketing strategy to mobile marketing
   campaign implementation.
 \newblock {\em International Journal of Mobile Marketing}, 3(1), 2008.
+
+\bibitem{medani2011review}
+A~Medani, Abdullah Gani, O~Zakaria, AA~Zaidan, and BB~Zaidan.
+\newblock Review of mobile short message service security issues and techniques
+  towards the solution.
+\newblock {\em Scientific Research and Essays}, 6(6):1147--1165, 2011.
 
 \bibitem{mishra2007advanced}
 Ajay~R Mishra.

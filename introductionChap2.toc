@@ -1,4 +1,4 @@
-\babel@toc {english}{}\relax 
+\babel@toc {english}{}
 \contentsline {chapter}{Introduction}{4}{chapter*.4}%
 \contentsline {section}{\numberline {0.1}Context and generalities}{4}{section.0.1}%
 \contentsline {section}{\numberline {0.2}Problematic}{4}{section.0.2}%
@@ -21,3 +21,5 @@
 \contentsline {section}{\numberline {1.4}Solutions}{14}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Conclusion}{14}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Review of the Literature and description of the approach}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Revue of the Literature}{15}{section.2.2}%
