@@ -189,7 +189,7 @@
 		 AI refers to the field of computer science that focuses on creating intelligent machines or systems that can perform tasks that would typically require human intelligence. For being practical, it encompasses algorithms, models and technologies that enable computers and machines to simulate human like cognitive processes such as learning, reasoning, problem-solving, perception and language understanding.  
 		 
 		 \item ML (Machine Learning)  : 
-		 Machine learning is a subfield of Artificial Intelligence that focus on the development of algorithms and models that enable computers to learn from data and make decisions or predictions without being explicitly programmed\cite{smola2010introduction}. Clearly, when data is labeled during the training, we refer to it as supervised model. If contrast, we the data is unlabeled and the model must discover patterns and relationships itself, it is an unsupervised model.   
+		 Machine learning is a subfield of Artificial Intelligence that focus on the development of algorithms and models that enable computers to learn from data and make decisions or predictions without being explicitly programmed\cite{smola2010introduction}. Clearly, when the data is labeled during the training, we refer to it as supervised model. If contrast, when the data is unlabeled and the model must discover patterns and relationships itself, it is an unsupervised model. Additionally, whenever it performs both the labeling  and discovering patterns tasks, it refers to a semi-supervised model. Furthermore, there is the last type called reinforcement. This one, is used to teach a computer or an AI agent how to make series of decisions in an environment. Just like, we learn to play the game better by playing it over and over.   
 		 
 		 \item NLP (Natural Language Process):
 		 NLP is a subfield of Machine Learning that studies the human language and combing techniques from statistics, linguistics, life-hoods for making sentiment analysis, text classification, machine translation, question answering and text generation in a way that it can be understood computationally \cite{cambria2014jumping}. 
@@ -260,15 +260,15 @@ And finally, the others Mobiles apps: This party includes the health services, e
 \section{Purposes of spammers in mobile messages}
 Most of the time, spammers prefer to promise recipients prizes and then ask for money to claim the offer. They also attack SMS gateways with DoS (Denial of Service) messages \cite{androulidakis2013fimess} whose goal is to overwhelm the system with unnecessary messages. Spammers send advertising and promotional messages based on company objectives, as well as SMS containing fake links or impersonating organizations to deceive recipients into taking certain actions or providing sensitive information \cite{tang2022clues}. Additionally, they may send SMS disguised as surveys to gather personal information for various fraudulent purposes.
 \section{Solutions}
-To address theses problems, it is necessary to involve various stakeholders, including network operators, app developers, regulatory bodies, and users. Firstly, it is recommended to implement mechanisms at the network level \cite{hao2009detecting} to filter messages and block users involved in spamming. Secondly, users (subscribers) should be educated on how to analyze messages and report any one that is causing disturbances. Thirdly, regulatory measures should be enforced to establish stringent regulations and penalties for spammers and those engaged in fraudulent mobile activities. Fourthly, the development of apps that enable filtering, classification, and reporting in the subscriber side would be beneficial. Fifthly, a website can be set to collect messages whether spam or ham reported by users who have doubts about their legitimacy, and then Machine Learning models can be used for detection purposes. For this, supervised or unsupervised methods can be employed to classify and predicting wether a message is spam or  ham. 
-\section{Conclusion}
+To address theses problems, it is necessary to involve various stakeholders, including network operators, app developers, regulatory bodies, and users. Firstly, it is recommended to implement mechanisms at the network level \cite{hao2009detecting} to filter messages and block users involved in spamming. Secondly, users (subscribers) should be educated on how to analyze messages and report any one that is causing disturbances. Thirdly, regulatory measures should be enforced to establish stringent regulations and penalties for spammers and those engaged in fraudulent mobile activities. Fourthly, the development of apps that enable filtering, classification, and reporting in the subscriber side would be beneficial. Fifthly, a website can be set to collect messages whether spam or ham reported by users who have doubts about their legitimacy, and then Machine Learning models can be used for detection purposes. For this, supervised or unsupervised methods can be employed to classify and predicting whether a message is spam or  ham. 
+\section{Summary}
 Overall, with the growth of mobile technologies, subscribers benefit from diversified services including : text messaging, voice calls, mobile baking, entertainment apps, and many others. However, These advancements also bring new challenges, such as the development of spam messages that aim to disturb network subscribers with unwanted or threatening messages. 
 
 In DRC, especially in the eastern party, users face similar issues. This chapter emphasizes methods or techniques that can be used to address this problem and relatively reduce spam. One of the prominent techniques suggested is based on Artificial Intelligence, particularly Machine Learning algorithms.
     
     \chapter{Review of the Literature and description of the approach}
     \section{Introduction}
-    This chapter delves into theory, methodologies, and machine learning techniques, including relevant algorithms and their deployment in the suggested solution. It also highlights the the contributions of previous researchers in the field.  
+    This chapter delves into theory, methodologies, and machine learning techniques, including relevant algorithms and their deployment in the suggested solution. It also highlights the contributions of previous researchers in the field.  
     \section{Revue of the Literature}  
     Numerous researchers have extensively explored the subject of spam detection. Within this domain, some have directed their investigations towards the web environment, while others have delved into realm of mobile	technologies.
     
@@ -283,15 +283,69 @@ In DRC, especially in the eastern party, users face similar issues. This chapter
 	
 	Moreover, the article highlights that some of these aggregators may choose to collaborate with cellular networks. In this collaborative role, they act as intermediaries, connecting third-party entities that don't have direct relationships with cellular service providers. To achieve this, they employ a \textit{SMPP (Simple Messaging Peer to Peer)} protocols.\\
 	
-	\cite{medani2011review} \textbf{A. Medani and A. Gani} at the University of Malaysia published a review focused on mobile short message service security issues and techniques towards the solution. This paper shows clearly how a subscriber sends a message to another by respecting certain principles of the \textit{OTA}(\textit{Over-The Air}) structure before being sent to the base station and transmitted to the destination by the \textit{SMSC (SMS Center)}. Indeed, according to the \textit{OTA} every SMS should be secured by the \textit{PKI (Public Key Infrastructure)} which provides an end-to-end transmission security so the message can not be modified by anyone once again. However the PKI decreases the mobile performance as it requires high mobile power capability to apply the process and doesn't assure integrity between all standars. Therefore, to address this issues observed on the GSM systems, this work suggests to deploy for the behalf of clients a \textit{XML Key Management Specification} as a \textit{middleware} (A intermediary system that should work as facilitator between ).   
+	\cite{medani2011review} \textbf{Researchers A. Medani and A. Gani}, affiliated with the University of Malaysia, have published a comprehensive review focusing on security concerns and techniques related to mobile Short Message Service (SMS).
+	
+	In their paper, they illuminate the process by wich a subscriber sends a message to another party while adhering to specific principles of the Over-The-Air (OTA) structure. This process involves transmitting the message from the sender to the base station and then forwarding it to the intended recipient trough the SMS Center (SMSC).
+	
+	Crucially, they emphasize the importance of securing every SMS using \textit{Public Key Infrastructure (PKI)}, ensuring end-to-end transmission security and safeguarding the message from unauthorized modifications. However, it's worth noting that the use of PKI can potentially impact mobile device performance due to the significant power requirements for the encryption process, and it may not guarantee integrity across all standards.
+	
+	To address these security concerns within GSM systems, the researchers propose the implementation of \textit{XML Key Management Specification} as a middleware solution. This middle ware system servers an intermediary, facilitating secure communication between mobile devices and enhancing overall system security for the benefit of clients.\\
+	
+	
+	\cite{crawford2015survey} \textbf{Nikhil Kumar}, a reseacher affiliated with the University of New Delphi in India, published an article focusing on the topic of Email Spam Detection Using Machine Learning. In his study, he placed particular emphasis on comparing various machine algorithms, including \textbf{\textit{Naive Bayes, Support Vector Classifier, AdaBoosting, K-Nearest Neighbour, and Bagging Classifier}}. The objective was to predict wether an email was categorized as spam or legitimate (ham). To demonstrate his approach, he utilized an existing dataset available in the Kaggle workspace.
+	
+	Through experimentation and parameter tuning, Nikhil found that Naive Bayes delivered promising results in terms of accuracy. However, he also pointed out a limitation associated with the Naive Bayes algorithm. This limitation is tied to its assumption of class-conditional independence, which implies that each feature is considered independent of the presence of the other features. In cases where this assumption does not hold, it can lead to misclassification of data points.
+	
+	To address this limitation and enhance the performance of spam detection, the author recommended the use of \textbf{ensemble methods}. These methods involve the use of multiple classifiers for making class predictions, allowing for more robust and accurate results.\\
+		
+	\cite{navaney2018sms} In 2018, researchers Pavas Navaney, Gaurav Dubey, and Ajax Rana, who are affiliated with the University of Southern California and Amity presented a conference paper titled "SMS Spam Filtering using Supervised Machine Learning Algorithms".
+	
+	Their study concentrated on a dataset comprising 5574 records, of which 4827 messages were categorized as "ham" (legimate messages), while 747 messages were classified as "spam" (unsollicited or unwanted messages).
+	
+	The researchers applied three different machine learning methods to this dataset. Among these methods, it was observed that the \textit{Support Vector Machine (SVM)} algorithm achieved the highest accuracy compared to the Naive Bayes and Maximum Entropy Classifier algorithms. \\
+	
+	\cite{shirani2013sms}  \textbf{Houshmand Shirani-Mehr}, a researcher in Machine Learning, published an article in 2013 titled : "SMS Spam Detection using Machine Learning Approach". His purpose was to address the spam filtering problem by utilizing ML algorithms. Therefore, He utilized a dataset from the  \textit{UCI Machine Learning Repository} repository \footnote{\textbf{UCI ML} : The UCI Machine Learning Repository is a popular collection of datasets maintained by the University of California, Irvine (UCI). It serves as a valuable resource for researchers and practitioners in the field of machine learning and data mining. \url{https://archive.ics.uci.edu/}} , which contained real SMS messages. In development, he employed the algorithms to tackle that problem such as :  Naive Bayes with Laplace smoothing, Support Vector Machine, and Ensemble methods (\textit{AdaBoosting and Random Forest}). As an improvement, the author added meaningful features such as the length of messages in terms of the number of characters and certain thresholds.
+	
+	The results obtained after applying these methods to the dataset indicate that the SVM algorithm achieved the highest accuracy score.
 	\\
-	However by this article's exploration 
+	
+	\cite{gupta2021sms} The authors of the article titled "SMS Spam Detection Using Machine Learning", namely
+	\textbf{Gupta, Suparna Das and Saha, Soumyabrata and Das, Suman Kumar}. Their focus was on reviewing various techniques employed by other researchers in the realm of machine algorithms for SMS spam detection. 
+	
+	In their research, they adopted a similar approach by incorporating the \textit{TF-IDF (Term Frenquency-Inverse Document Frequency)} method. This technique assesses the frequency of a word within a document and evaluates its importance in that document. \textit{TF-IDF} is a well-known method for measuring word relevance in a collection of texts.
+	
+	To assess the effectiveness of these techniques, the authors applied them to a spam dataset obtained from \textit{Kaggle} 
+	\footnote{ \textbf{Kaggle :} a platform for data science competitions and datasets. \url{https://www.kaggle.com/}}
+	. After conducting their experiments and evaluations, the authors arrived at a noteworthy conclusion. They found that among all the ML algorithms they employed, the Naive Bayes algorithm consistently achieved the highest level of accuracy in SMS spam detection.\\
+	
+	As shown above, many researchers have investigated the same topic using different approaches. Some have focused on security within mobile architecture, including message transfer processes, while others have concentrated on using Machine Learning (ML) models to combat the issue of spam. In general, these approaches are valuable to this project and serve as its inspiration at the point that many techniques related to these approaches have approaches have been implemented in this project.\\
 
-	
-	
+    However, what sets this project apart is its pratical approach involving specific society. Rather than solely relying on existing datasets from platforms like \textit{Kaggle and UC Machine Learning Repository}, this project has actively engaged with people to collect data. It has also integrated some data from these platform datasets to enhance the quality of information. 
     
+    Furthermore, this project harnesses the latest advancements in machine learning. It utilizes Ensemble Methods to achieve high levels of accuracy. Addionnally, it employs technical parameter tuning, including \textit{GridSearcher and VotingClassifier}. In fact, GridSearcher assists in identifying the most suitable parameters required for algorithm models.  
     
+    Moreover, this project doesn't stop at model development, it extends to the deployment of the models generated through the processes. It provides backend \textit{APIs} for certain platforms interested in learning from these results. Additionally, it outlines the structure of GSM deployment, encompassing the SMSCenter's role in the mobile messaging system.
+   
+  \section{ Thinking in Machine Learning}  
+  Machine Learning comprises a collection of methods and techniques designed to autonomously identify patterns within data. Subsequently, these discovered patterns are leveraged for tasks such as predicting future data points or facilitating decision-taking in uncertain scenarios. 
+  
+  In contrast to conventional programming, where applications are crafted with algorithms tailored to solve particular problems or accomplish specific tasks, ML algorithms take a different approach. They build models that possess the ability to learn independently from input data, accumulate experience over time, and actively contribute to the decision-making process of computers   \cite{anwar2019machine}.
     
+  Nowadays ML algorithms are utilized in many domains of life. In automotive industry for example, they are integrated in drive-systems to treat data got from sensors, cameras for making autonomous vehicles. In huge companies like Amazon they are used in demand-forecasting by ensuring that popular items are well-stocked, reducing the chances of running out of stock or overstocking; they are also used  to suggest products that customers are likely to be interested in \cite{herbrich2017machine}.\\
+  Additionally, they are used in healthcare systems where they play a significant role since they are able to identify patterns in medical images to detect diseases like cancer; even tailoring treatment plans to individual patients based on their medical history, genetic makeup as well as skin features. 
+  \\
+ 
+  \section{Tools and Techniques} 
+  In this section we are going to dive into the technologies such  softwares and hardwares used to render this project achievable. 
+  
+  
+  
+  
+  
+  
+  
+  
+   
 	%\bibliographystyle{apacite} % or whatever citation style you choose
 	\bibliographystyle{plain}
 	\bibliography{bibfile.bib}

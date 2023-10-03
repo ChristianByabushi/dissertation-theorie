@@ -6,6 +6,13 @@ Iosif Androulidakis, Vasileios Vlachos, and Alexandros Papanikolaou.
 \newblock In {\em Proceedings of the 6th Balkan Conference in Informatics},
   pages 221--227, 2013.
 
+\bibitem{anwar2019machine}
+Khalid Anwar, Jamshed Siddiqui, and Shahab Saquib~Sohail.
+\newblock Machine learning techniques for book recommendation: an overview.
+\newblock In {\em Proceedings of International Conference on Sustainable
+  Computing in Science, Technology and Management (SUSCOM), Amity University
+  Rajasthan, Jaipur-India}, 2019.
+
 \bibitem{stateInternet2019}
 Paul Kimumwe Lillian Nalwoga Juliet Nanfuka Edrine Wanyama Wairagala Wakabi~PhD
   Ashnah~Kalemera, Victor~Kapiyo.
@@ -40,6 +47,12 @@ Catalin Cimpanu.
   nation-state.
 \newblock {\em ZDNet}, 2019.
 
+\bibitem{crawford2015survey}
+Michael Crawford, Taghi~M Khoshgoftaar, Joseph~D Prusa, Aaron~N Richter, and
+  Hamzah Al~Najada.
+\newblock Survey of review spam detection using machine learning techniques.
+\newblock {\em Journal of Big Data}, 2(1):1--24, 2015.
+
 \bibitem{creswell2014research}
 John~W Creswell.
 \newblock {\em Research design: Qualitative, quantitative, and mixed methods
@@ -70,6 +83,12 @@ Antonio Ghezzi, Marcelo~Nogueira Cortimiglia, and Alejandro~Germ{\'a}n Frank.
   industries: A study on italian mobile network operators.
 \newblock {\em Technological Forecasting and Social Change}, 90:346--354, 2015.
 
+\bibitem{gupta2021sms}
+Suparna~Das Gupta, Soumyabrata Saha, and Suman~Kumar Das.
+\newblock Sms spam detection using machine learning.
+\newblock In {\em Journal of Physics: Conference Series}, volume 1797, page
+  012017. IOP Publishing, 2021.
+
 \bibitem{hadullo2021machine}
 Kennedy~Ochilo Hadullo and DM~Getuno.
 \newblock Machine learning software architecture and model workflow. a case of
@@ -87,6 +106,11 @@ Shuang Hao, Nadeem~Ahmed Syed, Nick Feamster, Alexander~G Gray, and Sven
 Marko Hassinen and Smile Markovski.
 \newblock Secure sms messaging using quasigroup encryption and java sms api.
 \newblock {\em SPLST}, 3:187, 2003.
+
+\bibitem{herbrich2017machine}
+Ralf Herbrich.
+\newblock Machine learning at amazon.
+\newblock {\em WSDM}, 535, 2017.
 
 \bibitem{jangir2016design}
 Sunil~Kumar Jangir, Manoj~Kumar Sharma, and Pawan~Kumar Gupta.
@@ -141,6 +165,12 @@ Ajay~R Mishra.
   G/3G... evolution to 4G}.
 \newblock John Wiley \& Sons, 2007.
 
+\bibitem{navaney2018sms}
+Pavas Navaney, Gaurav Dubey, and Ajay Rana.
+\newblock Sms spam filtering using supervised machine learning algorithms.
+\newblock In {\em 2018 8th international conference on cloud computing, data
+  science \& engineering (confluence)}, pages 43--48. IEEE, 2018.
+
 \bibitem{Statista2020}
 Statista's own team~of researchers and analysts.
 \newblock {\em Number of mobile messages worldwide from 2019 to 2023 (in
@@ -164,6 +194,12 @@ Muhammad~Abdulhamid Shafi’I, Muhammad~Shafie Abd~Latiff, Haruna Chiroma,
   Oluwafemi Osho, Gaddafi Abdul-Salaam, Adamu~I Abubakar, and Tutut Herawan.
 \newblock A review on mobile sms spam filtering techniques.
 \newblock {\em IEEE Access}, 5:15650--15666, 2017.
+
+\bibitem{shirani2013sms}
+Houshmand Shirani-Mehr.
+\newblock Sms spam detection using machine learning approach.
+\newblock {\em unpublished) http://cs229. stanford. edu/proj2013/Shir aniMeh
+  r-SMSSpamDetectionUsingMachineLearningApproach. pdf}, 2013.
 
 \bibitem{smola2010introduction}
 Alex Smola and S.V.N. Vishwanathan.

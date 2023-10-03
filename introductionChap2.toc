@@ -16,10 +16,12 @@
 \contentsline {subsection}{\numberline {1.2.2}Presentation of the working framework}{9}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Network coverage and infrastructure}{10}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}Mobile Phone Models}{12}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.2.5}Mobile usage and prevalence}{12}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.5}Mobile usage and prevalence}{13}{subsection.1.2.5}%
 \contentsline {section}{\numberline {1.3}Purposes of spammers in mobile messages}{14}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Solutions}{14}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Conclusion}{14}{section.1.5}%
+\contentsline {section}{\numberline {1.5}Summary}{14}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Review of the Literature and description of the approach}{15}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduction}{15}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Revue of the Literature}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3} Thinking in Machine Learning}{18}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Tools and Techniques}{18}{section.2.4}%
