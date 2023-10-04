@@ -24,4 +24,5 @@
 \contentsline {section}{\numberline {2.1}Introduction}{15}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Revue of the Literature}{15}{section.2.2}%
 \contentsline {section}{\numberline {2.3} Thinking in Machine Learning}{18}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Tools and Techniques}{18}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Tasks of ML}{19}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Tools and Techniques}{19}{section.2.5}%

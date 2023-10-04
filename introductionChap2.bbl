@@ -65,6 +65,11 @@ Prof.~Dantu’s CSE.
 \newblock In {\em ADV. REAL-WORLD NETWORKS}, volume 14-760. University of North
   Texas, 2018.
 
+\bibitem{mlwithpython}
+Julian David.
+\newblock Designing machine learning systems with python.
+\newblock {\em Community Experience Distilled}, pages 381--386, April 2016.
+
 \bibitem{monusco2015}
 MONUSCO DRC.
 \newblock Protect, stabilize, consolidate peace, monusco's report.
@@ -211,6 +216,12 @@ Siyuan Tang, Xianghang Mi, Ying Li, XiaoFeng Wang, and Kai Chen.
 \newblock Clues in tweets: Twitter-guided discovery and analysis of sms spam.
 \newblock In {\em Proceedings of the 2022 ACM SIGSAC Conference on Computer and
   Communications Security}, pages 2751--2764, 2022.
+
+\bibitem{unwin2020data}
+Antony Unwin.
+\newblock Why is data visualization important? what is important in data
+  visualization?
+\newblock {\em Harvard Data Science Review}, 2(1):1, 2020.
 
 \bibitem{giswatch2018}
 Pacifique Zikomangane.

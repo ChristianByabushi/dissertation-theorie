@@ -51,45 +51,45 @@ Warning--empty journal in faklaris2016oh
 Warning--can't use both volume and number fields in gupta2021sms
 Warning--empty year in lavanya2582sms
 Warning--empty journal in giswatch2018
-You've used 37 entries,
+You've used 39 entries,
             2118 wiz_defined-function locations,
-            710 strings with 10811 characters,
-and the built_in function-call counts, 11617 in all, are:
-= -- 1129
-> -- 544
-< -- 8
-+ -- 220
-- -- 178
-* -- 753
-:= -- 1961
-add.period$ -- 115
-call.type$ -- 37
-change.case$ -- 193
+            720 strings with 11060 characters,
+and the built_in function-call counts, 12235 in all, are:
+= -- 1195
+> -- 558
+< -- 9
++ -- 226
+- -- 182
+* -- 787
+:= -- 2058
+add.period$ -- 121
+call.type$ -- 39
+change.case$ -- 201
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 473
-empty$ -- 920
-format.name$ -- 178
-if$ -- 2419
+cite$ -- 43
+duplicate$ -- 504
+empty$ -- 973
+format.name$ -- 182
+if$ -- 2556
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 45
-newline$ -- 189
-num.names$ -- 74
-pop$ -- 223
+int.to.str$ -- 39
+missing$ -- 47
+newline$ -- 199
+num.names$ -- 78
+pop$ -- 229
 preamble$ -- 1
-purify$ -- 163
+purify$ -- 169
 quote$ -- 0
-skip$ -- 324
+skip$ -- 350
 stack$ -- 0
-substring$ -- 607
-swap$ -- 91
-text.length$ -- 8
+substring$ -- 652
+swap$ -- 102
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
+type$ -- 140
 warning$ -- 4
-while$ -- 111
-width$ -- 39
-write$ -- 400
+while$ -- 119
+width$ -- 41
+write$ -- 422
 (There were 15 error messages)
