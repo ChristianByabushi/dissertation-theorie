@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{alchin2013pro}
+Marty Alchin.
+\newblock {\em Pro Django}.
+\newblock Apress, 2013.
+
 \bibitem{androulidakis2013fimess}
 Iosif Androulidakis, Vasileios Vlachos, and Alexandros Papanikolaou.
 \newblock Fimess: filtering mobile external sms spam.
@@ -17,6 +22,12 @@ Paul Kimumwe Lillian Nalwoga Juliet Nanfuka Edrine Wanyama Wairagala Wakabi~PhD
 Allan Bluman.
 \newblock {\em Elementary statistics: A step by step approach}.
 \newblock McGraw-Hill Education, 2017.
+
+\bibitem{bogdanchikov2013python}
+Andrey Bogdanchikov, Meirambek Zhaparov, and Rassim Suliyev.
+\newblock Python to learn programming.
+\newblock In {\em Journal of Physics: Conference Series}, volume 423, page
+  012027. IOP Publishing, 2013.
 
 \bibitem{brown2007sms}
 Jeff Brown, Bill Shipman, and Ron Vetter.
