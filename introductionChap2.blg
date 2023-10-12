@@ -50,46 +50,47 @@ while executing---line 1090 of file plain.bst
 Warning--empty journal in faklaris2016oh
 Warning--can't use both volume and number fields in gupta2021sms
 Warning--empty year in lavanya2582sms
+Warning--empty school in tulchak2016history
 Warning--empty journal in giswatch2018
-You've used 39 entries,
+You've used 36 entries,
             2118 wiz_defined-function locations,
-            720 strings with 11060 characters,
-and the built_in function-call counts, 12235 in all, are:
-= -- 1195
-> -- 558
-< -- 9
-+ -- 226
-- -- 182
-* -- 787
-:= -- 2058
-add.period$ -- 121
-call.type$ -- 39
-change.case$ -- 201
+            705 strings with 10520 characters,
+and the built_in function-call counts, 11340 in all, are:
+= -- 1106
+> -- 532
+< -- 8
++ -- 215
+- -- 174
+* -- 741
+:= -- 1915
+add.period$ -- 112
+call.type$ -- 36
+change.case$ -- 187
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 504
-empty$ -- 973
-format.name$ -- 182
-if$ -- 2556
+cite$ -- 41
+duplicate$ -- 458
+empty$ -- 889
+format.name$ -- 174
+if$ -- 2357
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 47
-newline$ -- 199
-num.names$ -- 78
-pop$ -- 229
+int.to.str$ -- 36
+missing$ -- 43
+newline$ -- 184
+num.names$ -- 72
+pop$ -- 216
 preamble$ -- 1
-purify$ -- 169
+purify$ -- 159
 quote$ -- 0
-skip$ -- 350
+skip$ -- 316
 stack$ -- 0
-substring$ -- 652
-swap$ -- 102
-text.length$ -- 9
+substring$ -- 602
+swap$ -- 89
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 140
-warning$ -- 4
-while$ -- 119
-width$ -- 41
-write$ -- 422
+type$ -- 128
+warning$ -- 5
+while$ -- 109
+width$ -- 38
+write$ -- 389
 (There were 15 error messages)
