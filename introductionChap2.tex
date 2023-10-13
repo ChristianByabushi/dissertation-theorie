@@ -12,7 +12,24 @@
 \usepackage{enumitem} 
 \usepackage{csquotes} 
 \usepackage{longtable}
-\usepackage[labelfont=bf]{caption}
+\usepackage[labelfont=bf]{caption} 
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{darkgreen}{RGB}{0, 128, 64}
+\definecolor{dark}{RGB}{35, 35, 35}
+\definecolor{orange}{RGB}{255, 69, 0}
+
+\lstdefinestyle{stylepython}{
+	language=Python,
+	basicstyle=\ttfamily,
+	keywordstyle=\color{blue},
+	commentstyle=\color{darkgreen},
+	stringstyle=\color{dark},
+	numbers=left,
+	frame=single,
+	moredelim=**[is][\color{orange}]{@}{@},
+}
+
 %\renewcommand{\thepart}{\roman{part}}
 \usemintedstyle{default}
 % Define a style for Python code
@@ -341,27 +358,122 @@ In DRC, especially in the eastern party, users face similar issues. This chapter
 	
 	Hence, The choices made by the authors are \textit{Python (with Django \textit{Framework})} as programming language and \textit{SQL} for data structuring language in \textit{backend} development and HTML, CSS and Javascript (with \textit{Vue-Js Framework}) for \textit{frontend} environment. \\
 	
-	\subsubsection{Back-end Development with Python (Django) and SQL :} 
-	 Python is a powerful language appeared in 1980 firstly implemented by Guido van Rossum at \textit{CWI} in the Netherlands as a successor to the \textit{ABC} programming language \cite{tulchak2016history}. It newest version is \textit{Python 3} \footnote{Python : \url{https://www.python.org/}}  which is available for all most environments, either \textit{Macos} or \textit{Linux} and \textit{Windows}.
+	\subsubsection{Back-end Development with Python (Django) and SQL :}  
+	\includegraphics[width=0.2\linewidth]{pythonImage.png}
+	 Python is a powerful language appeared in 1980 firstly implemented by Guido van Rossum at \textit{Stichting Mathematisch Centrum} in the Netherlands as a successor of a language called  \textit{ABC} \cite{tulchak2016history}. It newest version is \textit{Python 3} \footnote{Python : \url{https://www.python.org/}}  which is available for all most environments, either \textit{Macos} or \textit{Linux} and \textit{Windows}.
 	 
 	 In comparison with \textit{Java, C, C++, MATLAB}, \textit{Python} is more readable, since it requires few lines of code which are clean. Next, it is a good choice for those who want to start with programming \cite{bogdanchikov2013python}. Technically it is versatile, since it used for a wide range of applications, from web development to mobile apps (with Kivy \footnote{Kivy: \url{ https://realpython.com/mobile-app-kivy-python/}} ), data analysis, machine learning, and scientific computing. Actually, the high reason that influenced the use of this programming language is its capacity to deal with data by proving scientists with many libraries. 
 	 
-	 Since the frameworks help to gain time in terms of development and structuring a project, \textit{Python} provides many frameworks for web development. Notable these are Django, Flask, and more. Authors's choice, Django, is a high-level, open-source web framework for building robust and dynamic web applications. It's written in \textit{Python}, which is one of the reasons for its popularity. It follows the \textbf{\textit{batteries-included}} philosophy, providing a wealth of built-in features like authentification, URL routing, a powerful admin interface, and an ORM (Object-Relational Mapping) system, which simplifies database operations \cite{alchin2013pro}. 
+	 Since the frameworks help to gain time in terms of development and structuring a project, \textit{Python} provides many frameworks for web development. Notable these are Django, Flask, and more. Authors's choice, Django, is a high-level, open-source web framework for building robust and dynamic web applications. It's written in \textit{Python}, which is one of the reasons for its popularity. It follows the \textbf{\textit{batteries-included}} philosophy, providing a wealth of built-in features like authentification, URL routing, a powerful admin interface, and an ORM (Object-Relational Mapping) system, which simplifies database operations \cite{alchin2013pro}. \\
 	 
-	 For sure, the ORM mapps the relational \textit{SQL (Structured Query language)} which is the   
-	  
-
-	  
-	 
-	
-	
-
-
-
-
+	Actually, Django's ORM abstracts many \textit{SQL} complexities, enabling developers to interact with the database using \textit{Python} code, without needing to write raw \textit{SQL} queries. This higher-level interaction simplifies database access and makes the development process more efficient. So, while \textit{SQL} is at core of database interaction, Django's \textit{ORM} providers a user-interface for developers, streamlining the development of data-driven web applications.\\ 
+	Suppose we want to retrieve all the employees in a database with salaries greater than \$4000 using raw SQL. Here's what the SQL query would look like : 	
+ 
+    % SQL Query
+  \texttt{\textcolor{blue}{SELECT} \textcolor{green}{*} \textcolor{blue}{FROM} \textcolor{purple}{employees} \textcolor{blue}{WHERE} \textcolor{purple}{salary} \textcolor{blue}{>} \textcolor{red}{4000};} \newline While Django accomplishes the same task using the following code:
   
+  % Django ORM Query 
+  \texttt{\textcolor{blue}{from} myapp.models \textcolor{blue}{import} Employee}
   
-  
+  \texttt{employees = \textcolor{black}{Employee.objects.\textcolor{green}{filters}(salary\_\_gt = \textcolor{red}{4000})}}
+   \\
+   
+   \textbf{{How have we gotten till there }{den}}? In fact, the project must be running for doing that. For installing \textit{Python}, just go to the official website for the  download, no matter the OS version, either \textit{ \href{https://www.python.org/downloads/macos/}{MACOS} , \href{https://www.python.org/downloads/windows/}{Windows} } or \href{https://www.python.org/downloads/source/}{\textit{Linux/UNIX}} since \textit{Python} is portable. Indeed, the last version at the writing of this project was Python 3.12.0. To test if the it is working, just enter the command \textcolor{blue}{python} as in figure \ref{fig:testpython}.
+   \begin{figure}
+   	\centering
+   	\includegraphics[width=1\linewidth]{testPython}
+   	\caption{Testing if python is running on the OS (LINUX)}
+   	\label{fig:testpython}
+   \end{figure}
+   
+   
+   Next, for installing \textit{Django}, the steps remain pretty the same, going on the official page and following the guides as resumed in the as follows:   
+   For the step 1, Installing the virtual environment ( \textit{V.M}) \footnote{How to create the VM ?https://realpython.com/python-virtual-environments-a-primer/}    : \newline
+   \textbf{In Windows} : \texttt{python -m venv myenv}; then active it by : \texttt{myenv\textbackslash Scripts\textbackslash activate} \newline
+   The word \textit{myenv} is just the name of virtual environment. But Why do we create it ? In fact, it is a best practice in Python development to manage dependencies, isolate projects, and maintain a clean and organized development environment. \newline 
+  In\textit{ \textbf{MACOS/Linux}} : Only the way of activating the VM changes. Then just by entering the following command:\newline
+  \texttt{source myenv/bin/activate}; the virtual will be functioning. 
+  \newline
+   \textbf{Finally}, as the \textit{V.M} is working Django, can be installed, by the command :  \texttt{pip install Django}. At the writing of this project, the last version 4.2.6. The bit steps to follow for installing are demonstrated in the figure \ref{fig:installdjango}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{installDjango}
+	\caption{How to install django ? Here, the name of \textit{VE} is SpamAppEnv}
+	\label{fig:installdjango}
+\end{figure}
+\\
+ Now, the project can be created, followed by the app inside, depending on interests. For that the commands  : \textcolor{blue}{ \texttt{django-admin startproject projectname}} and : \textcolor{blue}{\texttt{django-admin startproject appname}} can be utilized. The result is demonstrated in figure \ref{fig:visualstudio}. 
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{visualStudio}
+	\caption{After the project and app are already created}
+	\label{fig:visualstudio}
+\end{figure} 
+ \newline However, the configuration about the app created, ought to be made lest it should raise the error. Thus, in settings file, present in the project folder the properties called \textit{INSTALLED\_APPS}, as in the figure \ref{fig:appinstallname}.\newline After, this we can just enter the commands : \texttt{ python manage.py makemigrations; 
+ python manage.py migrate;}. \newline For sure, the first command says to \textit{Django} the new changes, and the second applies or assesses them. 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{appInstallName}
+	\caption{Adding the appname in INSTALLED\_APPS dependencies }
+	\label{fig:appinstallname}
+\end{figure} 
+\\
+\newline
+\textbf{How does \textit{Django} deal with the database ?} 
+
+\textit{Django} deals with databases through \textit{ORM} as mentioned above. Its management involves to follow different steps such as:
+
+\textbf{Database Configuration } : in the Django project's settings (usually in the \textit{settings.py}, we have to specify the database we want to use. Django supports various databases types, including \textit{PostgreSQL, Mysql, SQLite and Oracle} \footnote{Setting Databases in Django : \url{https://docs.djangoproject.com/fr/4.2/ref/databases/\#mysql-notes}}  . We have only define the database backend, connection details, and other options in the \textit{DATABASES} setting. For instance the configuration of \textit{MYSQL} will be like this : 
+\begin{lstlisting}[style=stylepython]
+DATABASES = {
+  'default': {
+  'ENGINE': 'django.db.backends.mysql',
+  'NAME': 'the_db_name',
+  'USER': 'the_db_user',
+  'PASSWORD': 'the_db_password',
+  'HOST': 'localhost',  # or the IP address of the MySQL server
+  'PORT': '3306',  # MySQL default port
+ }
+}
+\end{lstlisting} 
+
+\textbf{Model Definitions} : \textit{Django} models are Python classes that define the structure of the database. Models are defined in the the \textbf{\textit{models.py}} file. Each model class represents a database table, and each model field represents a table column. The syntax used for creating a database is as follows: 
+\begin{lstlisting}[style=stylepython]
+from django.db import models
+class Employee(models.Model):
+	name = models.CharField(max_length=100)
+	salary = models.DecimalField(max_digits=10, decimal_places=2)
+\end{lstlisting} 
+The corresponding \textit{SQL} code is this:  
+\begin{verbatim}
+	CREATE TABLE Employee (
+	 id INTEGER PRIMARY KEY,
+	 name VARCHAR(100),
+	 salary NUMERIC(10, 2)
+	);
+\end{verbatim}  
+ \textbf{Migrations} : Every time a model (database table) is created or modified, \textit{Django} need to notified for assessing these changes. As mentioned earlier, the command'\textbf{python manage.py makemigrations}' is executed in the terminal for managing the changes,  '\textbf{manage.py migrate}' command is entered to apply all of these changes.   
+    
+\textbf{ Database abstraction} : With this technique, we do'nt no longer need to write \textit{SQL} code, since by \textit{Python} it is possible to interact with the database, and making a \textit{queryset} request(\textit{crud}  \footnote{CRUD: Create Read Update Detele item}).Let's see how it works once again: 
+
+\begin{lstlisting}
+	new_employee = Employee(name ="Eistein", salary=45OOOO) 
+	new_employee.save()
+\end{lstlisting} 
+instead of doing this in SQL : 
+\begin{verbatim}
+	INSERT INTO employees (name, salary) VALUES ('Einstein', 45000);
+\end{verbatim} 
+Indeed, we can see that even a non-professional in \textit{SQL} can now deal with the databse without any \textit{SQL} code. \newline
+Furhermore, the use of abstraction techniques to interact with database, enhances its security of by guarding against \textit{SQL injection}. 
+\\
+
+\textbf{What does \textit{Django} for interacting the APIs ?}
+
+\textit{Django} presents a useful package for interactiong with the \textit{API} called \textit{DRF \footnote{DRF (Django Rest Framwork) : a powerful tools serving to interact with Apis. \url{https://www.django-rest-framework.org/}}} It allows : authentication policies including optional packages for \textit{OAuth1a} and \textit{OAuth2 \footnote{OAuth2 :   (Open Authorization 2.0) : is a framework that allows third-party applications to access a user's data without exposing their credentials, such as passwords.OAuth 1.Oa is the old version of OAuth2  }}, web browsable API  and serialization \footnote{Serialization : converting data into formats like \textit{JSON}, \textit{XML}, etc. The deserialization involves the recontruction of the same operation} and deserialization that supports both \textit{ORM} And \textit{NO-ORM} data sources \cite{nader2023django}. 
+
+\subsubsection{Front-end Development with HTML, CSS and Js :}
+
   
    
 	%\bibliographystyle{apacite} % or whatever citation style you choose
