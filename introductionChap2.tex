@@ -548,7 +548,7 @@ Apart from that, the other powerful tool used in web development is \textit{JS(J
 In this example, the button with the ID 'ChangeTitleButton' and the function called 'ChangeTitle()' are added. The click on the 'Change Title' button executes the changeTitle function. Then, the function retrieves the \texttt{<h1>} element by its
 ID ("pageTitle") and changes its text to "New page Title". Thus, by this bit snippet code, \textit{JavaScript} really appears interactive.
 
-\subsection{Data Science tools and frameworks}
+\subsection{\large Data Science tools and frameworks}
 Data science involves learning from data, visualizing, analyzing it, and making predictions. To do this, we need the right tools. \textit{Python} is one of best and powerful tools used for these tasks. It has a large and active community that continuously contributes to its growth. \textit{Python} offers a variety of packages that assist data scientists in their work.
 
 In Python, common packages used for working with data include\textbf{ numpy, pandas, matplotlib, seaborn, scikit-learn, tensorflow}, and more.
@@ -563,11 +563,10 @@ To start a new project we just execute in the terminal, the command :  \texttt{j
 	\label{fig:jupyteropen}
 \end{figure}  
 
-\subsubsection{Data manipulation with \textit{Numpy, Pandas}}
+\subsubsection{{\large Data manipulation with Numpy, Pandas}}
  
- \subsubsection*{Computing with \textit{Numpy}}
-
- \textbf{\textit{Numpy}} is a fundamental library for scientific computing with Python. It provides support for large, mutli-dimensional arrays and matrices, along with an assortment of high-level mathematical functions to operate on these arrays.\newline 
+ \subsubsection*{{\large Numpy Library :}}
+ Numpy is a fundamental library for scientific computing with Python. It provides support for large, mutli-dimensional arrays and matrices, along with an assortment of high-level mathematical functions to operate on these arrays.\newline 
  Actually, the reason of thinking about a new tool of computing in Python is because, all  data structures it provides: lists for enumerating a collection of objects, dictionaries to build hast tables, are not ideally suited to high-performance numerical computation \cite{van2011numpy}.\newline 
  Basically, the usage of Numpy asks for importing its modules like this :  
  \begin{lstlisting}[style=stylepython]
@@ -576,8 +575,7 @@ To start a new project we just execute in the terminal, the command :  \texttt{j
  Out [4] : '1.24.3'
  \end{lstlisting} 
  %% We assume that the np alias created will be used for other demonstration.\newline
- \textbf{The structure and creation of a \textit{NumPy} array}. \newline 
- The fundamental data structure provided by the Numpy library for representing arrays is \textbf{ndarray} it refers to the array which is n-dimensional or multi-dimensional \cite{coursAnalyseDonne2}. Thus, several means can be used to create an array as follows  : \newline
+ \textbf{The structure and creation of a \textit{NumPy} array}. The fundamental data structure provided by the Numpy library for representing arrays is \textbf{ndarray} it refers to the array which is n-dimensional or multi-dimensional \cite{coursAnalyseDonne2}. Thus, several means can be used to create an array as follows  : \newline
  - With 1D(dimension):
  \begin{lstlisting}[style=stylepython]
 In[8] : np.array([1, 2, 3, 4, 5])
@@ -598,8 +596,7 @@ Out[10] : array([1, 3, 5, 7, 9])
  \end{lstlisting} 
   Many other functions can be used for creating arrays, like : empty, zeros, ones, eye, etc. \\
   
- \noindent\textbf{Manipulation of array}. \newline
-  The manipulation operation includes : The splitting, slicing, indexing,reshaping, arithmetical operations, concatenations, comparisons and many others. Let's dive into some of that operations as follows:
+ \noindent\textbf{Manipulation of arrays}. The manipulation operation includes : The splitting, slicing, indexing,reshaping, arithmetical operations, concatenations, comparisons and many others. Let's dive into some of that operations as follows:
  \begin{lstlisting}[style=stylepython] 
  #We generate the integers from zero to twelve and
  # re pack them into a 4x3 array
@@ -643,24 +640,42 @@ In [60] : arr[1:3, 1:3]  # Get a 2x2 subarray
 Out [60] : array([[5, 6],
 		  [8, 9]])
 \end{lstlisting}   
- 
+ Some others functions are used as follows : all, any, cov-corrcoef, dot, where, random(), randint() and many others. The details of usage are given on the official of Numpy package \footnote{Numpy, official page : https://numpy.org/}.
+\\
 
-  
+\subsubsection*{{\large  Pandas library :}} 
+\textit{Pandas \footnote{https://pandas.pydata.org/} } is an essential open-source Python library used for data manipulation and analysis. It provides functions for reading and writing data structures in various formats, including \textit{CSV} and text files, Microsoft Excel, SQL databases, and the fast \textit{HDF5} \footnote{HDFR (Hierchical Data Format version 5) : It is a versatile and high-performance data storage format commonly used in scientific and data analysis fields} format. Additionally, Pandas can \textbf{align data, handle missing data, allow reshaping and pivoting, perform data aggregation and transformation, and merge and join data sets} \cite{mckinney2015pandas}. \newline It offers many other capabilities for efficient data processing. 
+To start with \textit{pandas}, we have to create the pandas  object like this: 
+\begin{lstlisting}[style=stylepython]
+import pandas as pd # pd is an alias name
+\end{lstlisting}
+
+\textbf{Data Structures}.
+Pandas has two main structures: Series and DataFrame. The first is one-dimensional array, while the second is a two-dimensional table that is similar to a spreadsheet or SQL. Let's break in example: 
+- Series:
+\begin{lstlisting}[style=stylepython]
+# Creating a Series from a list
+In [46] : data = [1, 2, 3, 4, 5]
+Out [46] : pd.Series(data) 
+0    1
+1    2
+2    3
+3    4
+4    5
+dtype: int64
+\end{lstlisting} 
+- DataFrame: \newline 
+
+\noindent \includegraphics[width=16cm, height=3.7cm]{demoDataFrame}
 
 
- 
- 
-  
-  
- 
- 
+
 
 
 
 
 \newpage
-  
-	%\bibliographystyle{apacite} % or whatever citation style you choose
+ %\bibliographystyle{apacite} % or whatever citation style you choose
 	\bibliographystyle{plain}
 	\bibliography{bibliofile.bib}
 	

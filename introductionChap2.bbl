@@ -152,6 +152,11 @@ Matti Lepp{\"a}niemi and Heikki Karjaluoto.
   campaign implementation.
 \newblock {\em International Journal of Mobile Marketing}, 3(1), 2008.
 
+\bibitem{mckinney2015pandas}
+Wes McKinney and PD~Team.
+\newblock Pandas-powerful python data analysis toolkit.
+\newblock {\em Pandas—Powerful Python Data Analysis Toolkit}, 1625, 2015.
+
 \bibitem{medani2011review}
 A~Medani, Abdullah Gani, O~Zakaria, AA~Zaidan, and BB~Zaidan.
 \newblock Review of mobile short message service security issues and techniques
