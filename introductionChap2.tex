@@ -644,7 +644,7 @@ Out [60] : array([[5, 6],
 \\
 
 \subsubsection*{{\large  Pandas library :}} 
-\textit{Pandas \footnote{https://pandas.pydata.org/} } is an essential open-source Python library used for data manipulation and analysis. It provides functions for reading and writing data structures in various formats, including \textit{CSV} and text files, Microsoft Excel, SQL databases, and the fast \textit{HDF5} \footnote{HDFR (Hierchical Data Format version 5) : It is a versatile and high-performance data storage format commonly used in scientific and data analysis fields} format. Additionally, Pandas can \textbf{align data, handle missing data, allow reshaping and pivoting, perform data aggregation and transformation, and merge and join data sets} \cite{mckinney2015pandas}. \newline It offers many other capabilities for efficient data processing. 
+\textit{Pandas \footnote{https://pandas.pydata.org/} } is an essential open-source Python library used for data manipulation and analysis. It provides functions for reading and writing data structures in various formats, including \textit{CSV} and text files, Microsoft Excel, SQL databases, and the fast \textit{HDF5} \footnote{HDFR (Hierchical Data Format version 5) : It is a versatile and high-performance data storage format commonly used in scientific and data analysis fields.} format. Additionally, Pandas can \textbf{align data, handle missing data, allow reshaping and pivoting, perform data aggregation and transformation, and merge and join data sets} \cite{mckinney2015pandas}. \newline It offers many other capabilities for efficient data processing. 
 To start with \textit{pandas}, we have to create the pandas  object like this: 
 \begin{lstlisting}[style=stylepython]
 import pandas as pd # pd is an alias name
@@ -667,11 +667,143 @@ dtype: int64
 - DataFrame: \newline 
 
 \noindent \includegraphics[width=16cm, height=3.7cm]{demoDataFrame}
+\\
 
+\textbf{Reading and Writing data.} Pandas offers versatile functionality which deal with various sources and formats. The common sources include : \newline
+\textbf{- CSV files}: They are read and written like this : 
+\begin{lstlisting}[style=stylepython]
+ #Reading from CSV
+ data = pd.read_csv('dafileName.csv') 
+ #Writing to CSV
+ data.to_csv('new_data_file_name.csv', index=False)
+\end{lstlisting} 
 
+\noindent \textbf{- Excel files} : 
+ \begin{lstlisting}[style=stylepython]
+# Reading from Excel
+ data = pd.read_excel('dafileName.xlsx', sheet_name='Sheet1')
 
+# Writing to Excel
+ data.to_excel('new_data_file_name.xlsx', sheet_name='Sheet1', index=False)
+ \end{lstlisting} 
+ 
+ \textbf{- SQL Databases} :
+  \begin{lstlisting}[style=stylepython]
+# Reading from SQL database sqlite
+connection = sqlite3.connect('my_database.db')
+query = 'SELECT * FROM my_table'
+data = pd.read_sql(query, connection)
 
+# Writing to SQL database
+data.to_sql('new_table', connection, if_exists='replace', index=False)
+ \end{lstlisting}
+ 
+In the same way, functions \textbf{read\_json, read\_html}  are also respectively computing the JSON and HTML data.\\
 
+\textbf{- Data Cleaning.} Pandas uses several functions, among them we have drop\_duplicates(), fillna(). Which are used like this:
+\begin{lstlisting}[style=stylepython]
+# Removing duplicates
+df = df.drop_duplicates()
+
+# Handling missing values
+df = df.fillna(0)
+\end{lstlisting} 
+
+\textbf{- Data Exploration}. Pandas provides methods for exploring the dataset, such as \textbf{head(), tail(), describe(), and info()}. Thus, the application will look like :
+\begin{lstlisting}[style=stylepython]
+data = {'A': [1, 2, 3, 4, 5],
+'B': ['X', 'Y', 'Z', 'X', 'Y']}
+df = pd.DataFrame(data)
+# Display the summary statistics of numeric columns
+print(df.describe()) 
+
+              A
+count  5.000000
+mean   3.000000
+std    1.581139
+min    1.000000
+25%    2.000000
+50%    3.000000
+75%    4.000000
+max    5.000000
+\end{lstlisting} 
+
+\noindent \textbf{Data Manipulation}. Pandas performs the manipulation of tables as Excel using the pivot\_table() and merge() function perform combination operation for analysis.
+Additionally it allows indexing, slicing, filtering, modifying data. Let's break into the demonstration:
+\newline
+\textbf{- Pivot table }:
+\begin{lstlisting}[style=stylepython]
+In [72] : df.pivot_table(index='B', values='A', aggfunc='mean')
+print(pivot) 
+     A
+B     
+X  2.5
+Y  3.5
+Z  3.0 
+
+#The operation computed is the average measurement
+\end{lstlisting} 
+
+\textbf{- Merging} :
+\begin{lstlisting}[style=stylepython]
+ #Create two DataFrames
+ data1 = {'Key': [1, 2, 3, 4, 5],
+'Value1': ['A', 'B', 'C', 'D', 'E']}
+data2 = {'Key': [3, 4, 5, 6, 7],
+'Value2': ['X', 'Y', 'Z', 'U', 'V']}
+df1 = pd.DataFrame(data1)
+df2 = pd.DataFrame(data2)
+
+# Perform combination-like operation
+result = pd.merge(df1, df2, on='Key', how='left')
+print(result) 
+
+Key Value1 Value2
+0    1      A    NaN
+1    2      B    NaN
+2    3      C      X
+3    4      D      Y
+4    5      E      Z
+\end{lstlisting} 
+
+\textbf{- Slicing}:
+\begin{lstlisting}[style=stylepython] 
+#Consider the example on the top about 
+#name, age, city
+# Slice specific rows and columns
+  df.loc[1:3, 'Name':'Age']  
+#From the second column till the threeth line 
+#From the Name till the Age column
+#The result gives this: 
+
+Name  Age
+1      Bob   30
+2  Charlie   35
+\end{lstlisting} 
+Assume we want to apply some characteristic on a column 
+\begin{lstlisting}[style=stylepython]
+# Create a new column based on an existing column
+df['days'] = df['Age'].apply(lambda x: x * 360)
+print(df)
+# The result is like this: 
+      Name   Age    City       days
+0    Alice   25     New York   9000
+1      Bob   30  Los Angeles  10800
+2  Charlie   35      Chicago  12600
+\end{lstlisting}
+
+\textbf{- Modifying Data} : 
+\begin{lstlisting}[style=stylepython]
+df.loc[2, 'Name'] = "Jonathan"
+print(df)
+#The df becomes like this : 
+Name  Age         City   days
+0     Alice   25     New York   9000
+1       Bob   30  Los Angeles  10800
+2  Jonathan   35      Chicago  12600
+\end{lstlisting} 
+
+\subsubsection{Data Visulation With Matplotlib and Seaborn}
 
 
 \newpage
