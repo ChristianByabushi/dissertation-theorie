@@ -14,12 +14,12 @@
 \usepackage{longtable}
 \usepackage[labelfont=bf]{caption} 
 \usepackage{listings}
-\usepackage{xcolor}
+\usepackage{xcolor}  
 \definecolor{darkgreen}{RGB}{0, 128, 64}
 \definecolor{dark}{RGB}{35, 35, 35}
 \definecolor{orange}{RGB}{255, 69, 0}
-
-\lstdefinestyle{stylepython}{
+\setlength{\parindent}{10pt}
+\lstdefinestyle{mystyle}{
 	language=Python,
 	basicstyle=\ttfamily,
 	keywordstyle=\color{blue},
@@ -29,6 +29,22 @@
 	frame=single,
 	moredelim=**[is][\color{orange}]{@}{@},
 }
+\renewcommand{\lstlistingname}{Code Example} 
+\definecolor{myblack}{rgb}{0.1, 0.1, 0}
+\lstdefinestyle{stylepython}{
+	backgroundcolor=\color{blue!8},  % Background color (adjust to your desired color)
+	basicstyle=\ttfamily,            % Font style
+	language=Python,                % Language (e.g., Python)
+	numbers=left,                   % Line numbers on the left
+	numberstyle=\tiny\color{myblack},  % Line number style
+	breaklines=true,                % Automatically wrap long lines
+	frame=single,                   % Add a frame around the code
+	showstringspaces=false,         % Don't show spaces in strings
+	keywordstyle=\color{myblack},      % Keyword color
+	commentstyle=\color{myblack},     % Comment color
+	stringstyle=\color{myblack}         % String color
+}
+
 
 %\renewcommand{\thepart}{\roman{part}}
 \usemintedstyle{default}
@@ -227,7 +243,8 @@
 	    Airtel Congo, Orange DRC and Africell DRC. Vodacom is the leader in the voice segment, with 35.2\% of the market,
 	    followed by Orange (30\%), Airtel (23.9\%) and Africell (10.9\%). In the mobile internet market, Vodacom has 37.44\%, Airtel
 	    31.25\%, Orange 28.14\% and Africell 3.17\% \cite{stateInternet2019}. 
-	     	        	     	        
+	     	 \\
+	     	     	        
 	   Additionally, since the 190s, when the DRC witnessed the first installation of operator systems such as Celtel(now Airtel) and Vodacom, followed by Orange and Africell, the telecomunications sector has shown significant market growth, reaching 1 Billion in 2022\$ and expanding at a rate of 21\% per year according to  \textit{GlobalData} \footnote{\href{https://www.globaldata.com/store/report/drc-telecom-operators-market-analysis/}{GlobalData: Expert Company of Analysis, innovatove Solutions}}. 
 	   However, this growth necessitates the updating of the infrastructure, which includes various generations of technologies, namely the second generation, third, fourth, and fifth(under development).\\
 	   	   
@@ -249,6 +266,7 @@
 	    \captionsetup{position=top}
 		\label{fig:mobilevendor} 
 	\end{figure}
+\\
 
 Furthermore, all these models provided above sell the telephone following different types which include mobile phones, offering the features such as touchscreen displays, cameras, internet, connectivity, and access to mobile apps; features phones, which are basic mobile phones used for calling and texting; smartphones used by the majority (around 35\% in DRC ), providing access to mobile internet, mobile apps, multimedia messaging, and various productivity tools; Tablets, used for reading and for the same functionalities as smartphones.
 \subsection{Mobile usage and prevalence} 
@@ -338,9 +356,10 @@ In DRC, especially in the eastern party, users face similar issues. This chapter
 	
 	As shown above, many researchers have investigated the same topic using different approaches. Some have focused on security within mobile architecture, including message transfer processes, while others have concentrated on using Machine Learning (ML) models to combat the issue of spam. In general, these approaches are valuable to this project and serve as its inspiration at the point that many techniques related to these approaches have approaches have been implemented in this project.\\
 
-    However, what sets this project apart is its pratical approach involving specific society. Rather than solely relying on existing datasets from platforms like \textit{Kaggle and UC Machine Learning Repository}, this project has actively engaged with people to collect data. It has also integrated some data from these platform datasets to enhance the quality of information. 
-    
+    However, what sets this project apart is its pratical approach involving specific society. Rather than solely relying on existing datasets from platforms like \textit{Kaggle and UC Machine Learning Repository}, this project has actively engaged with people to collect data. It has also integrated some data from these platform datasets to enhance the quality of information. \\
+        
     Furthermore, this project harnesses the latest advancements in machine learning. It utilizes Ensemble Methods to achieve high levels of accuracy. Addionnally, it employs technical parameter tuning, including \textit{GridSearcher and VotingClassifier}. In fact, GridSearcher assists in identifying the most suitable parameters required for algorithm models.  
+    \\
     
     Moreover, this project doesn't stop at model development, it extends to the deployment of the models generated through the processes. It provides backend \textit{APIs} for certain platforms interested in learning from these results. Additionally, it outlines the structure of GSM deployment, encompassing the SMSCenter's role in the mobile messaging system.
    
@@ -353,32 +372,31 @@ In DRC, especially in the eastern party, users face similar issues. This chapter
 	
 	To combat spam effectively, this project is enlisting the help of machine learning. It delves into the world of data analysis and machine learning tools and frameworks : \textit{numpy, pandas, matplotlib, scikit-learn,} that empower the authors to analyze, detect and prevent spam messages.\\
 	
-	\subsection{Messaging Application Development Tools}
+	\subsection{Messaging application development tools}
 	In the realm of modern software development, the choices of development tools can significantly impact the efficiency and effectiveness of the project. When crafting application, the authors carefully considered the tools that will shape the foundation of the \textit{backend} and \textit{frontend} development. Actually, the \textit{backend} references the environment where data of the app are stored, structured and more secured; while the \textit{frontend} involves the space where techniques are developed to show to the user the interface comfortable for his understanding. Among all tools, some serve as programming languages and others as editors. 
 	
 	Hence, The choices made by the authors are \textit{Python (with Django \textit{Framework})} as programming language and \textit{SQL} for data structuring language in \textit{backend} development and HTML, CSS and Javascript (with \textit{Vue-Js Framework}) for \textit{frontend} environment. \\
 	
-	\subsubsection{Back-end Development with Python (Django) and SQL :}  
+	\subsubsection{Back-end Development with \textit{Python} (\textit{Django}) and \textit{SQL} :}  
 	\includegraphics[width=0.2\linewidth]{pythonImage.png}
-	 Python is a powerful language appeared in 1980 firstly implemented by Guido van Rossum at \textit{Stichting Mathematisch Centrum} in the Netherlands as a successor of a language called  \textit{ABC} \cite{tulchak2016history}. It newest version is \textit{Python 3} \footnote{Python : \url{https://www.python.org/}}  which is available for all most environments, either \textit{Macos} or \textit{Linux} and \textit{Windows}.
+	 is a powerful language appeared in 1980 firstly implemented by Guido van Rossum at \textit{Stichting Mathematisch Centrum} in the Netherlands as a successor of a language called  \textit{ABC} \cite{tulchak2016history}. It newest version is \textit{Python 3} \footnote{Python : \url{https://www.python.org/}}  which is available for all most environments, either \textit{Macos} or \textit{Linux} and \textit{Windows}.
 	 
-	 In comparison with \textit{Java, C, C++, MATLAB}, \textit{Python} is more readable, since it requires few lines of code which are clean. Next, it is a good choice for those who want to start with programming \cite{bogdanchikov2013python}. Technically it is versatile, since it used for a wide range of applications, from web development to mobile apps (with Kivy \footnote{Kivy: \url{ https://realpython.com/mobile-app-kivy-python/}} ), data analysis, machine learning, and scientific computing. Actually, the high reason that influenced the use of this programming language is its capacity to deal with data by proving scientists with many libraries. 
+	 In comparison with \textit{Java, C, C++, MATLAB}, \textit{Python} is more readable, since it requires few lines of code which are clean. Next, it is a good choice for those who want to start with programming \cite{bogdanchikov2013python}. Technically it is versatile, since it used for a wide range of applications, from web development to mobile apps (with Kivy \footnote{Kivy: \url{ https://realpython.com/mobile-app-kivy-python/}} ), data analysis, machine learning, and scientific computing. Actually, the high reason that influenced the use of this programming language is its capacity to deal with data by proving scientists with many libraries. \\
 	 
 	 Since the frameworks help to gain time in terms of development and structuring a project, \textit{Python} provides many frameworks for web development. Notable these are Django, Flask, and more. Authors's choice, Django, is a high-level, open-source web framework for building robust and dynamic web applications. It's written in \textit{Python}, which is one of the reasons for its popularity. It follows the \textbf{\textit{batteries-included}} philosophy, providing a wealth of built-in features like authentification, URL routing, a powerful admin interface, and an ORM (Object-Relational Mapping) system, which simplifies database operations \cite{alchin2013pro}. \\
 	 
 	Actually, Django's ORM abstracts many \textit{SQL} complexities, enabling developers to interact with the database using \textit{Python} code, without needing to write raw \textit{SQL} queries. This higher-level interaction simplifies database access and makes the development process more efficient. So, while \textit{SQL} is at core of database interaction, Django's \textit{ORM} providers a user-interface for developers, streamlining the development of data-driven web applications.\\ 
 	Suppose we want to retrieve all the employees in a database with salaries greater than \$4000 using raw SQL. Here's what the SQL query would look like : 	
- 
-    % SQL Query
-  \texttt{\textcolor{blue}{SELECT} \textcolor{green}{*} \textcolor{blue}{FROM} \textcolor{purple}{employees} \textcolor{blue}{WHERE} \textcolor{purple}{salary} \textcolor{blue}{>} \textcolor{red}{4000};} \newline While Django accomplishes the same task using the following code:
-  
-  % Django ORM Query 
-  \texttt{\textcolor{blue}{from} myapp.models \textcolor{blue}{import} Employee}
-  
-  \texttt{employees = \textcolor{black}{Employee.objects.\textcolor{green}{filters}(salary\_\_gt = \textcolor{red}{4000})}}
-   \\
-   
-   \textbf{{How have we gotten till there }{den}}? In fact, the project must be running for doing that. For installing \textit{Python}, just go to the official website for the  download, no matter the OS version, either \textit{ \href{https://www.python.org/downloads/macos/}{MACOS} , \href{https://www.python.org/downloads/windows/}{Windows} } or \href{https://www.python.org/downloads/source/}{\textit{Linux/UNIX}} since \textit{Python} is portable. Indeed, the last version at the writing of this project was Python 3.12.0. To test if the it is working, just enter the command \textcolor{blue}{python} as in figure \ref{fig:testpython}.
+\begin{lstlisting}[style=stylepython]
+ SELECT * FROM employees WHERE salary > 4000
+\end{lstlisting}
+  While Django accomplishes the same task using the following code:
+\begin{lstlisting}[style=stylepython]
+from myapp.models import Employee
+  employees = Employee.objects.filters(salary__gt = 4000)
+\end{lstlisting}
+    \subsubsection*{How did we get there ?}
+   In fact, the project must be running for doing that. For installing \textit{Python}, just go to the official website for the  download, no matter the OS version, either \textit{ \href{https://www.python.org/downloads/macos/}{MACOS} , \href{https://www.python.org/downloads/windows/}{Windows} } or \href{https://www.python.org/downloads/source/}{\textit{Linux/UNIX}} since \textit{Python} is portable. Indeed, the last version at the writing of this project was Python 3.12.0. To test if the it is working, just enter the command \textcolor{blue}{python} as in figure \ref{fig:testpython}.
    \begin{figure}
    	\centering
    	\includegraphics[width=1\linewidth]{testPython}
@@ -387,14 +405,14 @@ In DRC, especially in the eastern party, users face similar issues. This chapter
    \end{figure}
    
    
-   Next, for installing \textit{Django}, the steps remain pretty the same, going on the official page and following the guides as resumed in the as follows:   
+   Next, for installing Django, the steps remain pretty the same, going on the official page and following the guides as resumed in the as follows:   
    For the step 1, Installing the virtual environment ( \textit{V.M}) \footnote{How to create the VM ?https://realpython.com/python-virtual-environments-a-primer/}    : \newline
    \textbf{In Windows} : \texttt{python -m venv myenv}; then active it by : \texttt{myenv\textbackslash Scripts\textbackslash activate} \newline
    The word \textit{myenv} is just the name of virtual environment. But Why do we create it ? In fact, it is a best practice in Python development to manage dependencies, isolate projects, and maintain a clean and organized development environment. \newline 
-  In\textit{ \textbf{MACOS/Linux}} : Only the way of activating the VM changes. Then just by entering the following command:\newline
+  In \textbf{MACOS/Linux} : Only the way of activating the \textit{VM} changes. Then just by entering the following command:\newline
   \texttt{source myenv/bin/activate}; the virtual will be functioning. 
   \newline
-   \textbf{Finally}, as the \textit{V.M} is working Django, can be installed, by the command :  \texttt{pip install Django}. At the writing of this project, the last version 4.2.6. The bit steps to follow for installing are demonstrated in the figure \ref{fig:installdjango}
+   \textbf{Finally}, as the \textit{VM} is working Django, can be installed, by the command :  \texttt{pip install Django}. At the writing of this project, the last version 4.2.6. The bit steps to follow for installing are demonstrated in the figure \ref{fig:installdjango}
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{installDjango}
@@ -409,19 +427,22 @@ In DRC, especially in the eastern party, users face similar issues. This chapter
 	\caption{After the project and app are already created}
 	\label{fig:visualstudio}
 \end{figure} 
- \newline However, the configuration about the app created, ought to be made lest it should raise the error. Thus, in settings file, present in the project folder the properties called \textit{INSTALLED\_APPS}, as in the figure \ref{fig:appinstallname}.\newline After, this we can just enter the commands : \texttt{ python manage.py makemigrations; 
- python manage.py migrate;}. \newline For sure, the first command says to \textit{Django} the new changes, and the second applies or assesses them. 
+ \newline However, the configuration about the app created, ought to be made lest it should raise the error. Thus, in settings file, present in the project folder the properties called \textit{INSTALLED\_APPS}, as in the figure \ref{fig:appinstallname}.\newline After, this we can just enter the commands : 
+ \begin{lstlisting}[style=stylepython]
+ python manage.py makemigrations
+ python manage.py migrate}
+\end{lstlisting}
+For sure, the first command line says to Django the new changes, and the second applies or assesses them. 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{appInstallName}
-	\caption{Adding the appname in INSTALLED\_APPS dependencies }
+	\includegraphics[width=1\linewidth, height=3.5cm]{appInstallName}
+	\caption{Adding the appname in \textit{INSTALLED\_APPS} dependencies }
 	\label{fig:appinstallname}
 \end{figure} 
 \\
 \newline
-\textbf{How does \textit{Django} deal with the database ?} 
-
-\textit{Django} deals with databases through \textit{ORM} as mentioned above. Its management involves to follow different steps such as:
+\subsubsection*{How does Django deal with the database ?} 
+Django deals with databases through \textit{ORM} as mentioned above. Its management involves to follow different steps such as:
 
 \textbf{Database Configuration } : in the Django project's settings (usually in the \textit{settings.py}, we have to specify the database we want to use. Django supports various databases types, including \textit{PostgreSQL, Mysql, SQLite and Oracle} \footnote{Setting Databases in Django : \url{https://docs.djangoproject.com/fr/4.2/ref/databases/\#mysql-notes}}  . We have only define the database backend, connection details, and other options in the \textit{DATABASES} setting. For instance the configuration of \textit{MYSQL} will be like this : 
 \begin{lstlisting}[style=stylepython]
@@ -441,44 +462,207 @@ DATABASES = {
 \begin{lstlisting}[style=stylepython]
 from django.db import models
 class Employee(models.Model):
-	name = models.CharField(max_length=100)
-	salary = models.DecimalField(max_digits=10, decimal_places=2)
+     name = models.CharField(max_length=100)
+	     salary = models.DecimalField(max_digits=10, decimal_places=2)
 \end{lstlisting} 
 The corresponding \textit{SQL} code is this:  
-\begin{verbatim}
+\begin{lstlisting}[style=stylepython]
 	CREATE TABLE Employee (
 	 id INTEGER PRIMARY KEY,
 	 name VARCHAR(100),
 	 salary NUMERIC(10, 2)
 	);
-\end{verbatim}  
- \textbf{Migrations} : Every time a model (database table) is created or modified, \textit{Django} need to notified for assessing these changes. As mentioned earlier, the command'\textbf{python manage.py makemigrations}' is executed in the terminal for managing the changes,  '\textbf{manage.py migrate}' command is entered to apply all of these changes.   
-    
+\end{lstlisting}  
+
+ \textbf{Migrations} : Every time a model (database table) is created or modified, \textit{Django} need to notified for assessing these changes. As mentioned earlier, the command'\textbf{python manage.py makemigrations}' is executed in the terminal for managing the changes,  '\textbf{manage.py migrate}' command is entered to apply all of these changes.   \\
+ 
 \textbf{ Database abstraction} : With this technique, we do'nt no longer need to write \textit{SQL} code, since by \textit{Python} it is possible to interact with the database, and making a \textit{queryset} request(\textit{crud}  \footnote{CRUD: Create Read Update Detele item}).Let's see how it works once again: 
 
-\begin{lstlisting}
-	new_employee = Employee(name ="Eistein", salary=45OOOO) 
-	new_employee.save()
+\begin{lstlisting}[style=stylepython]
+new_employee = Employee(name ="Eistein", salary=45OOOO) 
+new_employee.save()
 \end{lstlisting} 
 instead of doing this in SQL : 
-\begin{verbatim}
-	INSERT INTO employees (name, salary) VALUES ('Einstein', 45000);
-\end{verbatim}  
+\begin{lstlisting}[style=stylepython]
+INSERT INTO employees (name, salary) VALUES ('Einstein', 45000);
+\end{lstlisting}  
 
 Indeed, we can see that even a non-professional in \textit{SQL} can now deal with the databse without any \textit{SQL} code. \newline
 Furhermore, the use of abstraction techniques to interact with database, enhances its security of by guarding against \textit{SQL injection}. 
-\\
+\subsubsection{What does \textit{Django} do for interacting with APIs ?}
 
-\textbf{What does \textit{Django} for interacting the APIs ?}
+\textit{Django} presents a useful package for interactiong with the \textit{API} called \textit{DRF \footnote{DRF (Django Rest Framwork) : a powerful tools serving to interact with Apis. \url{https://www.django-rest-framework.org/}}} It allows : authentication policies including optional packages for \textit{OAuth1a} and \textit{OAuth2 \footnote{OAuth2 :   (Open Authorization 2.0) : is a framework that allows third-party applications to access a user's data without exposing their credentials, such as passwords.OAuth 1.Oa is the old version of OAuth2  }}, web browsable API  and serialization \footnote{Serialization : converting data into formats like \textit{JSON}, \textit{XML}, etc. The deserialization involves the recontruction of the same operation} and deserialization that supports both \textit{ORM} And \textit{NO-ORM} data sources \cite{nader2023django}.
+ 
+\subsubsection{Front-end Development with \textit{HTML}, \textit{CSS} and \textit{Js} :} 
+The Front-end development is a crucial aspect of web development that focuses on creating the user interface and user experience of a website or web application. It involves using a combination of HTML,CSS, and Javascript to build the visible and interactive elements of a website. 
 
-\textit{Django} presents a useful package for interactiong with the \textit{API} called \textit{DRF \footnote{DRF (Django Rest Framwork) : a powerful tools serving to interact with Apis. \url{https://www.django-rest-framework.org/}}} It allows : authentication policies including optional packages for \textit{OAuth1a} and \textit{OAuth2 \footnote{OAuth2 :   (Open Authorization 2.0) : is a framework that allows third-party applications to access a user's data without exposing their credentials, such as passwords.OAuth 1.Oa is the old version of OAuth2  }}, web browsable API  and serialization \footnote{Serialization : converting data into formats like \textit{JSON}, \textit{XML}, etc. The deserialization involves the recontruction of the same operation} and deserialization that supports both \textit{ORM} And \textit{NO-ORM} data sources \cite{nader2023django} . 
-\subsubsection{Front-end Development with HTML, CSS and Js :} 
+The HTML (Hypertext Markup Language) is used as a maker of web pages by providing its structure and content. It uses a markup language with various tags to define headings, paragraphs, links, images, forms, and more \cite{stark2010building}. For example a page with a heading and a paragraph should look like this in the content :
+\begin{lstlisting}[style=stylepython]
+ <div>
+     <h1>Page Dev</h1>
+     <p>this is our page</p>
+ </div}
+\end{lstlisting}
+
+Furthermore, the \textit{CSS (Cascading Style Sheets)} is used for styling and layout. Thus, it controls the visual presentation of HTML elements. For example for our above code : \newline
+\begin{lstlisting}[style=stylepython]
+h1{
+   color : blue; /* set the color to the element*/
+   font-size: 24px; /* sets the font size */
+   text-align: center; /* centers the element*/
+}
+\end{lstlisting} 
+
+Apart from that, the other powerful tool used in web development is \textit{JS(JavaScript)}. It adds interactivity and dynamic behavior to web pages. It also leveraged for creating features like images sliders, form validation, animations and real-time updates without having to \textbf{reload the page}. The common frameworks used to extend its productivity are : React, Angular and Vue-js \cite{wohlgethan2018supportingweb}. By updating the above \textit{HTML} code, we can see the interactity created by JS: 
+\begin{lstlisting}[style=stylepython, label=lst:jsCode]
+<!DOCTYPE html>
+<html>
+<head>
+ <title>JavaScript Example</title>
+</head>
+<body>
+ <div>
+ <h1 id="pageTitle">Page Dev</h1>
+ <p>this is our page</p>
+ </div>
+	
+ <button id="changeTitleButton"  onclick="changeTitle()">Change  Title</button>
+	
+ <script>
+ 	// JavaScript function to  change the title
+ 	function changeTitle() {
+ 	// Get the h1 element by its ID
+ 	var titleElement =  document.getElementById("pageTitle");
+	
+ 	// Check if the element exists
+ 	if (titleElement) {
+	// Change the text of the h1 element
+ 	titleElement.innerText = "New Page Title";
+	  }
+	}
+ </script>
+</body>
+</html>	
+\end{lstlisting} 
+
+In this example, the button with the ID 'ChangeTitleButton' and the function called 'ChangeTitle()' are added. The click on the 'Change Title' button executes the changeTitle function. Then, the function retrieves the \texttt{<h1>} element by its
+ID ("pageTitle") and changes its text to "New page Title". Thus, by this bit snippet code, \textit{JavaScript} really appears interactive.
+
+\subsection{Data Science tools and frameworks}
+Data science involves learning from data, visualizing, analyzing it, and making predictions. To do this, we need the right tools. \textit{Python} is one of best and powerful tools used for these tasks. It has a large and active community that continuously contributes to its growth. \textit{Python} offers a variety of packages that assist data scientists in their work.
+
+In Python, common packages used for working with data include\textbf{ numpy, pandas, matplotlib, seaborn, scikit-learn, tensorflow}, and more.
+
+The \textit{IDE (Integrated Development Environment)} used for working in Python, even for all backend-development is : Visual studio which is portable and downloadable from the official page : \url{https://code.visualstudio.com/}.  On the other hand, we have a famous \textit{IDE} called \textit{Anaconda} including \textit{Jupyter notebook} is used for machine learning and data science projects. It's designed to simplify package management and deployment by using a package manager called \textit{Conda} which helps users to install, update, and manage packages, libraries and dependencies \cite{teimourzadeh2022application}.
+
+To start a new project we just execute in the terminal, the command :  \texttt{jupyter notebook}, then a default browser configured just open directly the link. The page look like in the fig \ref{fig:jupyteropen}.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{jupyterOpen}
+	\caption{Start jupyter in conda kernel}
+	\label{fig:jupyteropen}
+\end{figure}  
+
+\subsubsection{Data manipulation with \textit{Numpy, Pandas}}
+ 
+ \subsubsection*{Computing with \textit{Numpy}}
+
+ \textbf{\textit{Numpy}} is a fundamental library for scientific computing with Python. It provides support for large, mutli-dimensional arrays and matrices, along with an assortment of high-level mathematical functions to operate on these arrays.\newline 
+ Actually, the reason of thinking about a new tool of computing in Python is because, all  data structures it provides: lists for enumerating a collection of objects, dictionaries to build hast tables, are not ideally suited to high-performance numerical computation \cite{van2011numpy}.\newline 
+ Basically, the usage of Numpy asks for importing its modules like this :  
+ \begin{lstlisting}[style=stylepython]
+ import numpy as np  #np is a common alias used  
+ In [4]: np.__version__
+ Out [4] : '1.24.3'
+ \end{lstlisting} 
+ %% We assume that the np alias created will be used for other demonstration.\newline
+ \textbf{The structure and creation of a \textit{NumPy} array}. \newline 
+ The fundamental data structure provided by the Numpy library for representing arrays is \textbf{ndarray} it refers to the array which is n-dimensional or multi-dimensional \cite{coursAnalyseDonne2}. Thus, several means can be used to create an array as follows  : \newline
+ - With 1D(dimension):
+ \begin{lstlisting}[style=stylepython]
+In[8] : np.array([1, 2, 3, 4, 5])
+#Creates a NumPy array from a given list or iterable.
+Out[8] : array([1, 2, 3, 4, 5]) 
+
+#2D array
+In[12] : np.array([[1, 2, 3], [4, 5, 6]])
+
+In[12]: array([[1, 2, 3],
+		[4, 5, 6]])
+ \end{lstlisting}
+ \begin{lstlisting}[style=stylepython]
+In[10] : np.arange(1, 10, 2)  
+# Creates a 1D array from 1 to 9 with a step of 2
+Out[10] : array([1, 3, 5, 7, 9]) 
+#2D array for arange function, requires manipulation
+ \end{lstlisting} 
+  Many other functions can be used for creating arrays, like : empty, zeros, ones, eye, etc. \\
+  
+ \noindent\textbf{Manipulation of array}. \newline
+  The manipulation operation includes : The splitting, slicing, indexing,reshaping, arithmetical operations, concatenations, comparisons and many others. Let's dive into some of that operations as follows:
+ \begin{lstlisting}[style=stylepython] 
+ #We generate the integers from zero to twelve and
+ # re pack them into a 4x3 array
+ In [21] : np.arange(12).reshape((4,3))  
+ Out [21] : array([[ 0,  1,  2],
+ 		    [ 3,  4,  5],
+ 		    [ 6,  7,  8],
+ 		    [ 9, 10, 11]]) 
+ #Suppose we want to multiply each vector element by 3
+ In [24] :  a = [3,7,4] 
+           [4*x for x in a]
+ Out[25] : [12, 28, 16]  
+ #Concatenate arrays vertically  
+ In [29] : np.vstack(([1, 2, 3],[1, 2, 3]))  
+ Out [29] : array([[1, 2, 3],
+                   [1, 2, 3]]) 
+ #Concatenate arrays horizontally
+ In [31] : np.hstack(([1, 2, 3],[1, 2, 3]))
+ Out [31] : array([1, 2, 3, 1, 2, 3])   
+ 
+ 
+ \end{lstlisting} 
+ Let's mention that ndarray object is homogeneous since all elements within must have the same data type. The types allowed are : Float, int, bytes, str, number and complex (for decimal complex numbers). To define, the type on the array on creation is made by \textbf{dtype} property like this: 
+\begin{lstlisting}[style=stylepython] 
+ In [55] : np.array([1, 2, 3, 4, 5], dtype='float') 
+ Out [55] : array([1., 2., 3., 4., 5.]) 
+\end{lstlisting} 
+
+Besides, dealing with slicing and splitting still depends on the dimension. Lets break in the code to see that : 
+\begin{lstlisting}[style=stylepython]
+In [56] : arr = np.array([[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]]) 
+
+#split along rows (axis=0)
+In [59] : split_rows = np.vsplit(arr, 3) # Split into threee 1-row arrays
+Out[59] : [array([[1, 2, 3]]), array([[4, 5, 6]]), array([[7, 8, 9]])]
+
+#slicing 
+In [60] : arr[1:3, 1:3]  # Get a 2x2 subarray
+Out [60] : array([[5, 6],
+		  [8, 9]])
+\end{lstlisting}   
+ 
 
   
-   
+
+
+ 
+ 
+  
+  
+ 
+ 
+
+
+
+
+\newpage
+  
 	%\bibliographystyle{apacite} % or whatever citation style you choose
 	\bibliographystyle{plain}
-	\bibliography{bibfile.bib}
+	\bibliography{bibliofile.bib}
 	
 	\newpage	
 	

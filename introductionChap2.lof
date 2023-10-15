@@ -3,7 +3,8 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Market share of mobile device vendors in the Democratic Republic of the Congo from January 2018 to March 2022\relax }}{12}{figure.caption.6}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces SMS Gateway Provider Architecture\relax }}{13}{figure.caption.7}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Testing if python is running on the OS (LINUX)\relax }}{19}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces How to install django ? Here, the name of \textit {VE} is SpamAppEnv\relax }}{20}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces After the project and app are already created\relax }}{20}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Adding the appname in INSTALLED\_APPS dependencies \relax }}{20}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Testing if python is running on the OS (LINUX)\relax }}{19}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces How to install django ? Here, the name of \textit {VE} is SpamAppEnv\relax }}{20}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces After the project and app are already created\relax }}{20}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Adding the appname in \textit {INSTALLED\_APPS} dependencies \relax }}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Start jupyter in conda kernel\relax }}{24}{figure.caption.17}%

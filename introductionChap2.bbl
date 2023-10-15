@@ -210,16 +210,45 @@ Alex Smola and S.V.N. Vishwanathan.
 \newblock {\em Introduction to Machine Learning}.
 \newblock Cambridge University Press, Cambridge, UK, 2010.
 
+\bibitem{stark2010building}
+Jonathan Stark, Paco Nathan, John Papaconstantinou, Paco Lagerstrom, and Paco
+  Hope.
+\newblock {\em Building Android apps with HTML, CSS, and JavaScript}.
+\newblock " O'Reilly Media, Inc.", 2010.
+
 \bibitem{tang2022clues}
 Siyuan Tang, Xianghang Mi, Ying Li, XiaoFeng Wang, and Kai Chen.
 \newblock Clues in tweets: Twitter-guided discovery and analysis of sms spam.
 \newblock In {\em Proceedings of the 2022 ACM SIGSAC Conference on Computer and
   Communications Security}, pages 2751--2764, 2022.
 
+\bibitem{teimourzadeh2022application}
+Aria Teimourzadeh, Samaneh Kakavand, and Benjamin Kakavand.
+\newblock Application of python in marketing education: a big data analytics
+  perspective.
+\newblock {\em Marketing Education Review}, pages 1--16, 2022.
+
 \bibitem{tulchak2016history}
 LV~Tulchak and AO~Mapchuk.
 \newblock {\em History of python}.
 \newblock PhD thesis, 2016.
+
+\bibitem{van2011numpy}
+Stefan Van Der~Walt, S~Chris Colbert, and Gael Varoquaux.
+\newblock The numpy array: a structure for efficient numerical computation.
+\newblock {\em Computing in science \& engineering}, 13(2):22--30, 2011.
+
+\bibitem{wohlgethan2018supportingweb}
+Eric Wohlgethan.
+\newblock {\em Supporting web development decisions by comparing three major
+  javascript frameworks: Angular, react and vue. js}.
+\newblock PhD thesis, Hochschule f{\"u}r Angewandte Wissenschaften Hamburg,
+  2018.
+
+\bibitem{coursAnalyseDonne2}
+Phd.~Elie Zihindula.
+\newblock Courses of multivariate statistical analysis.
+\newblock (23):2--10, 2023.
 
 \bibitem{giswatch2018}
 Pacifique Zikomangane.

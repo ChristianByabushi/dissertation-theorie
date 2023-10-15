@@ -2,27 +2,27 @@ This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: introductionChap2.aux
 The style file: plain.bst
-Database file #1: bibfile.bib
-I was expecting a `,' or a `}'---line 57 of file bibfile.bib
+Database file #1: bibliofile.bib
+I was expecting a `,' or a `}'---line 57 of file bibliofile.bib
  :  
  :  publisher ={Cambridge, MA: MIT Press.}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 65 of file bibfile.bib
+I was expecting a `,' or a `}'---line 65 of file bibliofile.bib
  : 
  : pages={34-39},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 197 of file bibfile.bib
+Repeated entry---line 197 of file bibliofile.bib
  : @book{le2005mobile
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 276 of file bibfile.bib
+I was expecting a `,' or a `}'---line 276 of file bibliofile.bib
  :  
  :  adress={12, Avenue des Aviateurs-Gombe, Kinshasa-BP 8111}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 296 of file bibfile.bib
+I was expecting a `,' or a `}'---line 296 of file bibliofile.bib
  :  
  :  pages={1--19}
 (Error may have been on previous line)
@@ -53,46 +53,48 @@ Warning--can't use both volume and number fields in gupta2021sms
 Warning--empty year in lavanya2582sms
 Warning--empty journal in nader2023django
 Warning--empty school in tulchak2016history
+Warning--empty journal in coursAnalyseDonne2
+Warning--there's a number but no volume in coursAnalyseDonne2
 Warning--empty journal in giswatch2018
-You've used 39 entries,
+You've used 44 entries,
             2118 wiz_defined-function locations,
-            719 strings with 10816 characters,
-and the built_in function-call counts, 12231 in all, are:
-= -- 1194
-> -- 564
-< -- 10
-+ -- 228
-- -- 184
-* -- 785
-:= -- 2055
-add.period$ -- 122
-call.type$ -- 39
-change.case$ -- 200
+            746 strings with 11742 characters,
+and the built_in function-call counts, 13769 in all, are:
+= -- 1343
+> -- 642
+< -- 11
++ -- 260
+- -- 210
+* -- 892
+:= -- 2322
+add.period$ -- 137
+call.type$ -- 44
+change.case$ -- 226
 chr.to.int$ -- 0
-cite$ -- 46
-duplicate$ -- 507
-empty$ -- 963
-format.name$ -- 184
-if$ -- 2556
+cite$ -- 53
+duplicate$ -- 566
+empty$ -- 1075
+format.name$ -- 210
+if$ -- 2869
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 47
-newline$ -- 199
-num.names$ -- 78
-pop$ -- 238
+int.to.str$ -- 44
+missing$ -- 52
+newline$ -- 224
+num.names$ -- 88
+pop$ -- 268
 preamble$ -- 1
-purify$ -- 170
+purify$ -- 193
 quote$ -- 0
-skip$ -- 353
+skip$ -- 390
 stack$ -- 0
-substring$ -- 629
-swap$ -- 107
-text.length$ -- 10
+substring$ -- 705
+swap$ -- 116
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 138
-warning$ -- 7
-while$ -- 116
-width$ -- 41
-write$ -- 421
+type$ -- 156
+warning$ -- 9
+while$ -- 132
+width$ -- 46
+write$ -- 474
 (There were 15 error messages)

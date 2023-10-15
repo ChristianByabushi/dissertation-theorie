@@ -24,6 +24,9 @@
 \contentsline {section}{\numberline {2.1}Introduction}{15}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Revue of the Literature}{15}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Tools and Techniques}{18}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Messaging Application Development Tools}{18}{subsection.2.3.1}%
-\contentsline {subsubsection}{Back-end Development with Python (Django) and SQL :}{18}{section*.8}%
-\contentsline {subsubsection}{Front-end Development with HTML, CSS and Js :}{22}{section*.13}%
+\contentsline {subsection}{\numberline {2.3.1}Messaging application development tools}{18}{subsection.2.3.1}%
+\contentsline {subsubsection}{Back-end Development with \textit {Python} (\textit {Django}) and \textit {SQL} :}{18}{section*.8}%
+\contentsline {subsubsection}{What does \textit {Django} do for interacting with APIs ?}{22}{section*.15}%
+\contentsline {subsubsection}{Front-end Development with \textit {HTML}, \textit {CSS} and \textit {Js} :}{22}{section*.16}%
+\contentsline {subsection}{\numberline {2.3.2}Data Science tools and frameworks}{24}{subsection.2.3.2}%
+\contentsline {subsubsection}{Data manipulation with \textit {Numpy, Pandas}}{24}{section*.18}%
