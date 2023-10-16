@@ -30,4 +30,4 @@
 \contentsline {subsubsection}{Front-end Development with \textit {HTML}, \textit {CSS} and \textit {Js} :}{22}{section*.16}%
 \contentsline {subsection}{\numberline {2.3.2}\large Data Science tools and frameworks}{24}{subsection.2.3.2}%
 \contentsline {subsubsection}{{\large Data manipulation with Numpy, Pandas}}{24}{section*.18}%
-\contentsline {subsubsection}{Data Visulation With Matplotlib and Seaborn}{30}{section*.21}%
+\contentsline {subsubsection}{Data Visualization With \textit {Matplotlib}}{30}{section*.21}%
