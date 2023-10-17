@@ -11,6 +11,13 @@ Iosif Androulidakis, Vasileios Vlachos, and Alexandros Papanikolaou.
 \newblock In {\em Proceedings of the 6th Balkan Conference in Informatics},
   pages 221--227, 2013.
 
+\bibitem{anwar2019machine}
+Khalid Anwar, Jamshed Siddiqui, and Shahab Saquib~Sohail.
+\newblock Machine learning techniques for book recommendation: an overview.
+\newblock In {\em Proceedings of International Conference on Sustainable
+  Computing in Science, Technology and Management (SUSCOM), Amity University
+  Rajasthan, Jaipur-India}, 2019.
+
 \bibitem{stateInternet2019}
 Paul Kimumwe Lillian Nalwoga Juliet Nanfuka Edrine Wanyama Wairagala Wakabi~PhD
   Ashnah~Kalemera, Victor~Kapiyo.
@@ -69,6 +76,11 @@ Prof.~Dantu’s CSE.
 \newblock In {\em ADV. REAL-WORLD NETWORKS}, volume 14-760. University of North
   Texas, 2018.
 
+\bibitem{mlwithpython}
+Julian David.
+\newblock Designing machine learning systems with python.
+\newblock {\em Community Experience Distilled}, pages 381--386, April 2016.
+
 \bibitem{monusco2015}
 MONUSCO DRC.
 \newblock Protect, stabilize, consolidate peace, monusco's report.
@@ -110,6 +122,11 @@ Shuang Hao, Nadeem~Ahmed Syed, Nick Feamster, Alexander~G Gray, and Sven
 Marko Hassinen and Smile Markovski.
 \newblock Secure sms messaging using quasigroup encryption and java sms api.
 \newblock {\em SPLST}, 3:187, 2003.
+
+\bibitem{herbrich2017machine}
+Ralf Herbrich.
+\newblock Machine learning at amazon.
+\newblock {\em WSDM}, 535, 2017.
 
 \bibitem{jangir2016design}
 Sunil~Kumar Jangir, Manoj~Kumar Sharma, and Pawan~Kumar Gupta.
@@ -262,6 +279,12 @@ Sandro Tosi.
 LV~Tulchak and AO~Mapchuk.
 \newblock {\em History of python}.
 \newblock PhD thesis, 2016.
+
+\bibitem{unwin2020data}
+Antony Unwin.
+\newblock Why is data visualization important? what is important in data
+  visualization?
+\newblock {\em Harvard Data Science Review}, 2(1):1, 2020.
 
 \bibitem{van2011numpy}
 Stefan Van Der~Walt, S~Chris Colbert, and Gael Varoquaux.

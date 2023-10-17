@@ -481,7 +481,7 @@ The corresponding \textit{SQL} code is this:
 
  \textbf{Migrations} : Every time a model (database table) is created or modified, \textit{Django} need to notified for assessing these changes. As mentioned earlier, the command'\textbf{python manage.py makemigrations}' is executed in the terminal for managing the changes,  '\textbf{manage.py migrate}' command is entered to apply all of these changes.   \\
  
-\textbf{ Database abstraction} : With this technique, we do'nt no longer need to write \textit{SQL} code, since by \textit{Python} it is possible to interact with the database, and making a \textit{queryset} request(\textit{crud}  \footnote{CRUD: Create Read Update Delete item}).Let's see how it works once again: 
+\textbf{Database abstraction} : With this technique, we do'nt no longer need to write \textit{SQL} code, since by \textit{Python} it is possible to interact with the database, and making a \textit{queryset} request(\textit{crud}  \footnote{CRUD: Create Read Update Delete item}).Let's see how it works once again: 
 
 \begin{lstlisting}[style=stylepython]
 new_employee = Employee(name ="Eistein", salary=45OOOO) 
@@ -492,13 +492,13 @@ instead of doing this in SQL :
 INSERT INTO employees (name, salary) VALUES ('Einstein', 45000);
 \end{lstlisting}  
 
-Indeed, we can see that even a non-professional in \textit{SQL} can now deal with the databse without any \textit{SQL} code. \newline
+Indeed, we can see that even a non-professional in \textit{SQL} can now deal with the database without any \textit{SQL} code. \newline
 Furhermore, the use of abstraction techniques to interact with database, enhances its security of by guarding against \textit{SQL injection}. 
 \subsubsection{How does Django do for interacting with APIs ?}
 
-\textit{Django} presents a useful package for interactiong with the \textit{API} called \textit{DRF \footnote{DRF (Django Rest Framwork) : a powerful tools serving to interact with Apis. \url{https://www.django-rest-framework.org/}}} It allows : authentication policies including optional packages for \textit{OAuth1a} and \textit{OAuth2 \footnote{OAuth2 :   (Open Authorization 2.0) : is a framework that allows third-party applications to access a user's data without exposing their credentials, such as passwords.OAuth 1.Oa is the old version of OAuth2  }}, web browsable API  and serialization \footnote{Serialization : converting data into formats like \textit{JSON}, \textit{XML}, etc. The deserialization involves the recontruction of the same operation} and deserialization that supports both \textit{ORM} And \textit{NO-ORM} data sources \cite{nader2023django}.
+\textit{Django} presents a useful package for interacting with the \textit{API} called \textit{DRF \footnote{DRF (Django Rest Framwork) : a powerful tools serving to interact with Apis. \url{https://www.django-rest-framework.org/}}} It allows : authentication policies including optional packages for \textit{OAuth1a} and \textit{OAuth2 \footnote{OAuth2 :   (Open Authorization 2.0) : is a framework that allows third-party applications to access a user's data without exposing their credentials, such as passwords.OAuth 1.Oa is the old version of OAuth2  }}, web browsable API  and serialization \footnote{Serialization : converting data into formats like \textit{JSON}, \textit{XML}, etc. The deserialization involves the reconstruction of the same operation} and deserialization that supports both \textit{ORM} And \textit{NO-ORM} data sources \cite{nader2023django}. 
  
-\subsubsection{Front-end Development with \textit{HTML}, \textit{CSS} and \textit{Js} :} 
+\subsubsection{\large \textit{Front-end} Development with \textit{HTML}, \textit{CSS} and \textit{Js} :} 
 The Front-end development is a crucial aspect of web development that focuses on creating the user interface and user experience of a website or web application. It involves using a combination of HTML,CSS, and Javascript to build the visible and interactive elements of a website. 
 
 The HTML (Hypertext Markup Language) is used as a maker of web pages by providing its structure and content. It uses a markup language with various tags to define headings, paragraphs, links, images, forms, and more \cite{stark2010building}. For example a page with a heading and a paragraph should look like this in the content :
@@ -553,12 +553,12 @@ Apart from that, the other powerful tool used in web development is \textit{JS(J
 In this example, the button with the ID 'ChangeTitleButton' and the function called 'ChangeTitle()' are added. The click on the 'Change Title' button executes the changeTitle function. Then, the function retrieves the \texttt{<h1>} element by its
 ID ("pageTitle") and changes its text to "New page Title". Thus, by this bit snippet code, \textit{JavaScript} really appears interactive.
 
-\subsection{\large Machine Learning tools and frameworks}
+\subsection{\large Machine Learning tools and frameworks} 
 Machine learning involves learning from data, visualizing, analyzing it, and making predictions. To do this, we need the right tools. \textit{Python} is one of best and powerful tools used for these tasks. It has a large and active community that continuously contributes to its growth. \textit{Python} offers a variety of packages that assist data scientists in their work.
 
 In Python, common packages used for working with data include\textbf{ numpy, pandas, matplotlib, seaborn, scikit-learn, tensorflow}, and more.
 
-The \textit{IDE (Integrated Development Environment)} used for working in Python, even for all backend-development is : Visual studio which is portable and downloadable from the official page : \url{https://code.visualstudio.com/}.  On the other hand, we have a famous \textit{IDE} called \textit{Anaconda} including \textit{Jupyter notebook} is used for machine learning and data science projects. It's designed to simplify package management and deployment by using a package manager called \textit{Conda} which helps users to install, update, and manage packages, libraries and dependencies \cite{teimourzadeh2022application}.
+The Integrated Development Environment (\textit{IDE}) used for working in Python, even for all backend-development is : Visual studio. It is portable and downloadable from the official page( \url{https://code.visualstudio.com/}). Additionally, we have another \textit{IDE} called \textit{Anaconda} including \textit{Jupyter notebook} which is used for machine learning and data science projects. It's designed to simplify package management and deployment by using a package manager called \textit{Conda} which helps users to install, update, and manage packages, libraries and dependencies \cite{teimourzadeh2022application}.
 
 To start a new project we just execute in the terminal, the command :  \texttt{jupyter notebook}, then a default browser configured just open directly the link. The page look like in the fig \ref{fig:jupyteropen}.
 \begin{figure}
@@ -568,12 +568,12 @@ To start a new project we just execute in the terminal, the command :  \texttt{j
 	\label{fig:jupyteropen}
 \end{figure}  
 
-\subsubsection{{\large Data manipulation with Numpy, Pandas}}
+\subsubsection{{\large Data manipulation with \textit{Numpy}, \textit{Pandas}}}
+  \textit{\textbf{Numpy}} Library
  
- \subsubsection*{{\large Numpy Library :}}
- Numpy is a fundamental library for scientific computing with Python. It provides support for large, mutli-dimensional arrays and matrices, along with an assortment of high-level mathematical functions to operate on these arrays.\newline 
+   \textit{Numpy} is a fundamental library for scientific computing with Python. It provides support for large, mutli-dimensional arrays and matrices, along with an assortment of high-level mathematical functions to operate on these arrays.\newline 
  Actually, the reason of thinking about a new tool of computing in Python is because, all  data structures it provides: lists for enumerating a collection of objects, dictionaries to build hast tables, are not ideally suited to high-performance numerical computation \cite{van2011numpy}.\newline 
- Basically, the usage of Numpy asks for importing its modules like this :  
+ Basically, the usage of numpy asks for importing its modules like this :  
  \begin{lstlisting}[style=stylepython]
  import numpy as np  #np is a common alias used  
  In [4]: np.__version__
@@ -967,15 +967,90 @@ plt.show() # Show the plot
 The data used in the following code, named 'tips,' is provided for practice purposes. \textit{Seaborn} is used to generate the plot, while \textit{matplotlib} customizes it by adding a legend and saving the image generated in figure.
 
 
-\subsubsection*{Machine learning with scikit-learn} 
+\subsubsection*{\large Machine learning with scikit-learn} 
+  
 Since Python programming language is establishing itself as one the most popular languages for scientific computing. Many and various libraries are developed inside making it more and more appealing \cite{pedregosa2011scikit}. \newline
-\textit{Scikit-learn} is an open-source and commercially(usage - BSD license) machine learning library for the Python programming language. It was initially developped by David Counapeu in 2007 as part of the Google Summer of Code project. Since then, it has grown to become one the most popular and widely used Machine Learning libraries in Python ecosystem \cite{scikitlearnCode1}.   
+\textit{Scikit-learn} is an open-source and commercially(usage - BSD license) machine learning library for the Python programming language. It was initially developed by David Counapeu in 2007 as part of the Google Summer of Code project. Since then, it has grown to become one the most popular and widely used Machine Learning libraries in Python ecosystem \cite{scikitlearnCode1}.   
 The techniques and properties used inside of it, allows it to predictive data analysis by performing the  classification, regression, clustering, preprocessing and more other tasks.\newline
 To get started with it as usually, the official page present all the steps for downloading all the packages or using \textit{IDE} like \textit{Anaconda} which encompasses it. 
 
 Before using its functions we have to initialize the by import the class which includes the methods and properties achieving a given task. For example, suppose that we are about to process data a class called \textit{StandardScaler} can be useful \textbf{when the dataset contains features with different scales} . Then, it standardizes the data, making it have a mean of 0 and standard deviation of 1, assuring that all features have the same scale.
+\begin{lstlisting}[style=stylepython]
+In[2]:  from sklearn.preprocessing import StandardScaler
+	import numpy as np
+	
+	# Example data
+	data = np.array([[1.0, 2.0, 3.0],
+	[4.0, 5.0, 6.0],
+	[7.0, 8.0, 9.0]])
+	
+	# Create a StandardScaler instance
+	scaler = StandardScaler()
+	
+	# Fit the scaler to the data and transform the data
+	data_standardized = scaler.fit_transform(data)
+	
+	print("Original Data:")
+	print(data)
+	print("Standardized Data:")
+	print(data_standardized)  
+	
+Out[2]:
+	
+	Original Data:
+	[[1. 2. 3.]
+	[4. 5. 6.]
+	[7. 8. 9.]]
+	Standardized Data:
+	[[-1.22474487 -1.22474487 -1.22474487]
+	[ 0.          0.          0.        ]
+	[ 1.22474487  1.22474487  1.22474487]]
+	
+\end{lstlisting}
+  We just notice that, this time, all the standardized data have a mean close to 0 and a standard deviation close to 1. For that, the data become centered around zero and have now consistent units of measurement. \newline
+  Additionally, the \textit{\textbf{fitstransform()}} method on the object, defines both fitting and transformation process. Actually, the \textit{\textbf{fit()}} method computes the mean and standard deviation of the trained data and \textit{\textbf{transform()}} method scales the trained data based on the mean and standard deviation. Indeed,  \textit{fitstransform()} includes all both. \newline Actually, the explanations about training, fitting and others principles concerning a model are going to be tackled in the section 3 untitled :'Thinking in machine learning'.
+  
+\section{Summary concerning the tools and frameworks}
+The completion of this project necessitated the utilization of various dependencies, tools, frameworks. These resources were instrumental in realizing the project's objectives. Notably, they were categorized into two main areas: those integral to the core functionality and others relevant to the user side, distinguishing the back-end from the front-end. Moreover, the project involved tools for data analysis and predictive modeling. The structure of these tools is presented in the  table \ref{tableStructuring}  for clarity.
+  \\
+\begin{table}
+\begin{tabular}{|p{4.1cm}|p{4cm}|p{6cm}|}
+	\cline{2-3}
+    \multicolumn{1}{c|}{} & Tools   & Utilities  \\
+	\hline
+\multirow{11}{4cm}{Data analysis and Machine Learning libraries}	& Numpy & Scientific computing library   \\ 
+	\cline{2-3} 
+	& Panda  & Data manipulation and
+	analysis library  \\ 
+	\cline{2-3} 
+	& Matplotlib  & Python library used for 2D and 3D data visualization   \\ 
+	\cline{2-3}  
+	& Seaborn & Seaborn is another Python library for statistical data visualization, built on matplotlib.\\
+	\cline{2-3} 
+		& Scickit learn & Machine learning machine learning library \\
+	\hline
+	\multirow{5}{4cm}{Programming Languages (Front-end and Back-end)}&   Django Python & Python framework for developing web applications and APIs \\ 
+	 \cline{2-3}
+	 & HTML & Maker of web pages by providing
+	 its structure and content \\ 
+	 \cline{2-3}
+	 & CS & Styling the content\\ 
+	 \cline{2-3}
+	 & JS & Rendering web pages interactive and dynamic \\
+	 
+	 \hline
+	
+\end{tabular}
+\caption{Structuring the tools} 
+\label{tableStructuring}
+\end{table} 
+\section{Thinking in Machine Learning}
 
- 
+
+
+
+
+
 
 \newpage
  %\bibliographystyle{apacite} % or whatever citation style you choose

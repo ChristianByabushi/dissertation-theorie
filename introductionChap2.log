@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.9.7)  17 OCT 2023 08:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.9.7)  17 OCT 2023 22:41
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -742,7 +742,7 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 \c@lstlisting=\count344
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<../../../../Latex Projects/ucb.jpeg, id=112, 225.84375pt x 225.84375pt>
+<../../../../Latex Projects/ucb.jpeg, id=120, 225.84375pt x 225.84375pt>
 File: ../../../../Latex Projects/ucb.jpeg Graphic file (type jpg)
 <use ../../../../Latex Projects/ucb.jpeg>
 Package pdftex.def Info: ../../../../Latex Projects/ucb.jpeg  used on input lin
@@ -827,7 +827,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--260
  []
 
 [11]
-<Images/mobileMarket.png, id=310, 761.84625pt x 450.68375pt>
+<Images/mobileMarket.png, id=322, 761.84625pt x 450.68375pt>
 File: Images/mobileMarket.png Graphic file (type png)
 <use Images/mobileMarket.png>
 Package pdftex.def Info: Images/mobileMarket.png  used on input line 268.
@@ -838,7 +838,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--274
  []
 
 [12 <./Images/mobileMarket.png>]
-<Images/SMSgateway.png, id=323, 826.08624pt x 441.65pt>
+<Images/SMSgateway.png, id=335, 826.08624pt x 441.65pt>
 File: Images/SMSgateway.png Graphic file (type png)
 <use Images/SMSgateway.png>
 Package pdftex.def Info: Images/SMSgateway.png  used on input line 290.
@@ -929,7 +929,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
-<pythonImage.png, id=375, 254.9525pt x 63.23625pt>
+<pythonImage.png, id=387, 254.9525pt x 63.23625pt>
 File: pythonImage.png Graphic file (type png)
 <use pythonImage.png>
 Package pdftex.def Info: pythonImage.png  used on input line 387.
@@ -944,7 +944,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 392--393
 
  []
 
-<testPython.png, id=396, 635.37375pt x 92.345pt>
+<testPython.png, id=408, 635.37375pt x 92.345pt>
 File: testPython.png Graphic file (type png)
 <use testPython.png>
 Package pdftex.def Info: testPython.png  used on input line 408.
@@ -957,18 +957,18 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbackslash' on input line 416.
 
-<installDjango.png, id=399, 907.39pt x 59.22125pt>
+<installDjango.png, id=411, 907.39pt x 59.22125pt>
 File: installDjango.png Graphic file (type png)
 <use installDjango.png>
 Package pdftex.def Info: installDjango.png  used on input line 424.
 (pdftex.def)             Requested size: 455.24411pt x 29.71175pt.
-<visualStudio.png, id=401, 1367.1075pt x 597.23125pt>
+<visualStudio.png, id=413, 1367.1075pt x 597.23125pt>
 File: visualStudio.png Graphic file (type png)
 <use visualStudio.png>
 Package pdftex.def Info: visualStudio.png  used on input line 432.
 (pdftex.def)             Requested size: 455.24411pt x 198.87306pt.
 [19 <./testPython.png>]
-<appInstallName.png, id=419, 831.105pt x 178.6675pt>
+<appInstallName.png, id=431, 831.105pt x 178.6675pt>
 File: appInstallName.png Graphic file (type png)
 <use appInstallName.png>
 Package pdftex.def Info: appInstallName.png  used on input line 444.
@@ -994,7 +994,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 512--513
  []
 
 [23]
-<jupyterOpen.png, id=539, 1357.07pt x 323.2075pt>
+<jupyterOpen.png, id=552, 1357.07pt x 323.2075pt>
 File: jupyterOpen.png Graphic file (type png)
 <use jupyterOpen.png>
 Package pdftex.def Info: jupyterOpen.png  used on input line 566.
@@ -1014,7 +1014,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 673--674
 
  []
 
-<demoDataFrame.png, id=627, 1119.18124pt x 227.85126pt>
+<demoDataFrame.png, id=638, 1119.18124pt x 227.85126pt>
 File: demoDataFrame.png Graphic file (type png)
 <use demoDataFrame.png>
 Package pdftex.def Info: demoDataFrame.png  used on input line 675.
@@ -1036,12 +1036,12 @@ Overfull \hbox (6.55533pt too wide) in paragraph at lines 709--710
  []
 
 [28] [29] [30]
-<matplotLibExample.png, id=797, 1076.1003pt x 354.123pt>
+<matplotLibExample.png, id=808, 1076.1003pt x 354.123pt>
 File: matplotLibExample.png Graphic file (type png)
 <use matplotLibExample.png>
 Package pdftex.def Info: matplotLibExample.png  used on input line 867.
 (pdftex.def)             Requested size: 455.24411pt x 149.81133pt.
-<3Ddimension.png, id=799, 296.307pt x 285.4665pt>
+<3Ddimension.png, id=810, 296.307pt x 285.4665pt>
 File: 3Ddimension.png Graphic file (type png)
 <use 3Ddimension.png>
 Package pdftex.def Info: 3Ddimension.png  used on input line 897.
@@ -1051,39 +1051,45 @@ Underfull \hbox (badness 3557) in paragraph at lines 914--916
 \OT1/cmr/m/n/12 Example: Show-ing the com-po-si-tion of
  []
 
-[32 <./3Ddimension.png>] [33] (./introductionChap2.bbl [34] [35
+[32 <./3Ddimension.png>] [33]
+Underfull \hbox (badness 1292) in paragraph at lines 1028--1029
+[]|\OT1/cmr/m/n/12 Seaborn is an-other Python li-
+ []
 
-] [36]
-Underfull \hbox (badness 1248) in paragraph at lines 222--226
+[34] (./introductionChap2.bbl [35] [36] [37
+
+] [38]
+Underfull \hbox (badness 1248) in paragraph at lines 239--243
 []\OT1/cmr/m/n/12 Houshmand Shirani-Mehr.  Sms spam de-tec-tion us-ing ma-chine
  learn-ing ap-
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 222--226
+Underfull \hbox (badness 3872) in paragraph at lines 239--243
 \OT1/cmr/m/n/12 proach.  \OT1/cmr/m/it/12 un-pub-lished) http://cs229. stan-for
 d. edu/proj2013/Shir ani-Meh r-
  []
 
-[37]) [38]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 993.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 993.
+[39]) [40]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1068.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1068.
  (./introductionChap2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 993.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 993.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1068.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1068.
+
 Package rerunfilecheck Info: File `introductionChap2.out' has not changed.
-(rerunfilecheck)             Checksum: A8F1B89FD8DEEA8E5FEFE9F354440CC3;1981.
+(rerunfilecheck)             Checksum: C9B19EA49ACEAAED26F49AF4E2727A63;2146.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 993.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1068.
  ) 
 Here is how much of TeX's memory you used:
- 15352 strings out of 481239
- 245596 string characters out of 5920378
+ 15406 strings out of 481239
+ 246439 string characters out of 5920378
  938538 words of memory out of 5000000
- 29858 multiletter control sequences out of 15000+600000
+ 29874 multiletter control sequences out of 15000+600000
  544288 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,44p,1695b,2004s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1103,10 +1109,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1
 /public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
 m1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on introductionChap2.pdf (39 pages, 763319 bytes).
+Output written on introductionChap2.pdf (41 pages, 771423 bytes).
 PDF statistics:
- 1055 PDF objects out of 1200 (max. 8388607)
- 964 compressed objects within 10 object streams
- 488 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1117 PDF objects out of 1200 (max. 8388607)
+ 1023 compressed objects within 11 object streams
+ 526 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 

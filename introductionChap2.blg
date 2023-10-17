@@ -56,45 +56,45 @@ Warning--empty school in tulchak2016history
 Warning--empty journal in coursAnalyseDonne2
 Warning--there's a number but no volume in coursAnalyseDonne2
 Warning--empty journal in giswatch2018
-You've used 49 entries,
+You've used 53 entries,
             2118 wiz_defined-function locations,
-            771 strings with 12866 characters,
-and the built_in function-call counts, 15910 in all, are:
-= -- 1532
-> -- 821
-< -- 11
-+ -- 331
-- -- 276
-* -- 1077
-:= -- 2710
-add.period$ -- 152
-call.type$ -- 49
-change.case$ -- 272
+            790 strings with 13476 characters,
+and the built_in function-call counts, 17039 in all, are:
+= -- 1644
+> -- 860
+< -- 12
++ -- 347
+- -- 288
+* -- 1138
+:= -- 2898
+add.period$ -- 164
+call.type$ -- 53
+change.case$ -- 290
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 620
-empty$ -- 1188
-format.name$ -- 276
-if$ -- 3276
+cite$ -- 62
+duplicate$ -- 675
+empty$ -- 1286
+format.name$ -- 288
+if$ -- 3519
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 58
-newline$ -- 249
-num.names$ -- 98
-pop$ -- 311
+int.to.str$ -- 53
+missing$ -- 62
+newline$ -- 269
+num.names$ -- 106
+pop$ -- 329
 preamble$ -- 1
-purify$ -- 235
+purify$ -- 249
 quote$ -- 0
-skip$ -- 428
+skip$ -- 469
 stack$ -- 0
-substring$ -- 792
-swap$ -- 121
-text.length$ -- 11
+substring$ -- 847
+swap$ -- 135
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 174
+type$ -- 190
 warning$ -- 9
-while$ -- 146
-width$ -- 51
-write$ -- 528
+while$ -- 158
+width$ -- 55
+write$ -- 571
 (There were 15 error messages)
