@@ -234,12 +234,12 @@
 		  \end{enumerate}
 		\subsection{Presentation of the working framework}  
 		In the eastern party of DRC (South Kivu- and North Kivu) the usage of mobile phones has become more common, transforming communication and connectivity in the region. 
-	The DRC itself is large country, covering over 2,345,000 square kilometers with the eastern provinces of North and South Kivu spanning approximately 59,483 and 65,070 square kilometers respectively \cite{giswatch2018}. According to recent statistics from \textit{GlobalEdge} \footnote{ \href{https://globaledge.msu.edu/}{GlobalEdge}  : Created in 1994 by the International Business Center and the Eli Broad College of Business at Michigan State University (IBC), globalEDGE™ is a knowledge web-portal that connects international business professionals worldwide to a wealth of information, insights, and learning resources on global business activities}, an American company, around 95 million people were living in the DRC in 2022 \cite{monusco2015}, of which approximately 46.9\% had active mobile phones based on \textit{GSM} \footnote{\href{https://www.gsma.com/aboutus/}{GSMA}  (Global System Communications Association) : An industry Organization which represents the interests of mobile network operators worldwide created in 1982 to ease cooperation between countries deploying \textit{GSM} (Global System fo Mobile) technology.} research. \\ 
+	The DRC itself is a large country, covering over 2,345,000 square kilometers with the eastern provinces of North and South Kivu spanning approximately 59,483 and 65,070 square kilometers respectively \cite{giswatch2018}. According to recent statistics from \textit{GlobalEdge} \footnote{ \href{https://globaledge.msu.edu/}{GlobalEdge}  : Created in 1994 by the International Business Center and the Eli Broad College of Business at Michigan State University (IBC), globalEDGE™ is a knowledge web-portal that connects international business professionals worldwide to a wealth of information, insights, and learning resources on global business activities}, an American company, around 95 million people were living in the DRC in 2022 \cite{monusco2015}, of which approximately 46.9\% had active mobile phones based on \textit{GSM} \footnote{\href{https://www.gsma.com/aboutus/}{GSMA}  (Global System Communications Association) : An industry Organization which represents the interests of mobile network operators worldwide created in 1982 to ease cooperation between countries deploying \textit{GSM} (Global System fo Mobile) technology.} research. \\ 
 		
 		
 		In this context, it is observed that more people in cities use mobile phones compared to those in villages, primarily due to limited accessibility. A research study conducted by \textit{Target Canibet} \footnote{\href{https://www.target-sarl.cd/fr/content/etude-sur-la-telephonie-mobile-en-rdc}{Target Canibet: Reseach \& Consulting Group working in DRC. \url{https://www.target-sarl.cd/fr/content/etude-sur-la-telephonie-mobile-en-rdc} }}in 2015 focused on mobile connections in DRC cities including Bukavu, Goma, Kinshasa, Lubumbashi, and Matadi, found that among 1,000 people surveyed in each city, 9 out of 10 individuals were subscribed to a network operator. However, it was noted that approximately half of them subscribed to two operators, while a quarter subscribed to four operators, and 18\% used the services of a single operator.  
 		
-		Furthermore, the recent statistics made by \textit{DataReportal} \footnote{DataReportal: A online Company designed to help people and organizations all over the world to find the data, insights, and trends they need to make better informed decisions produced by Simon Kemp, \url{https://datareportal.com/reports/digital-2023-global-overview-report}}  in DRC shows that the mobiles users continues to increase exponentially merely because of new services provided by internet and Telecoms Operators, at the point that since 2021 to 2022, it is has been reported 3.6 million of new users between 2021 to 2022, a report that proves how much mobile phones is inevitable in this last decades.
+		Furthermore, the recent statistics made by \textit{DataReportal} \footnote{DataReportal: A online Company designed to help people and organizations all over the world to find the data, insights, and trends they need to make better informed decisions produced by Simon Kemp, \url{https://datareportal.com/reports/digital-2023-global-overview-report}}  in DRC shows that the mobiles users continues to increase exponentially, merely because of new services provided by internet and Telecoms Operators, at the point that since 2021 to 2022, it is has been reported 3.6 million of new users between 2021 to 2022, a report that proves how much mobile phones is inevitable in this last decades.
 			
 	   \subsection{Network coverage and infrastructure}   
 	    In fact, two telecoms services exist in DRC such as : Fixed services (26\%) and Mobile services (74\%). The first one known as landline or wired services, involve the use of physical infrastructure; the second one which is popular is the mobiles services refer to telecommunications services provided through mobile networks.
@@ -265,7 +265,7 @@
 	Samsung was the market leader in terms of share from January 2018 to November 2020, but in 2022, Tecno has emerged as the market leader.
 	\begin{figure}
 		\centering 
-		\includegraphics[width=18cm, height=11cm]{Images/mobileMarket.png}
+		\includegraphics[width=1\linewidth]{Images/mobileMarket.png}
 		\caption{Market share of mobile device vendors in the Democratic Republic of the Congo from January 2018 to March 2022}
 	    \captionsetup{position=top}
 		\label{fig:mobilevendor} 
@@ -287,7 +287,7 @@ Furthermore, with the architecture of GSM(Global System for Mobile Communication
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{Images/SMSgateway}
+	\includegraphics[width=1\linewidth]{Images/SMSgateway}
 	\caption{SMS Gateway Provider Architecture}
 	\label{fig:smsgateway} 
 \end{figure}
@@ -434,7 +434,7 @@ from myapp.models import Employee
  \newline However, the configuration about the app created, ought to be made lest it should raise the error. Thus, in settings file, present in the project folder the properties called \textit{INSTALLED\_APPS}, as in the figure \ref{fig:appinstallname}.\newline After, this we can just enter the commands : 
  \begin{lstlisting}[style=stylepython]
  python manage.py makemigrations
- python manage.py migrate}
+ python manage.py migrate
 \end{lstlisting}
 For sure, the first command line says to Django the new changes, and the second applies or assesses them. 
 \begin{figure}
@@ -443,8 +443,7 @@ For sure, the first command line says to Django the new changes, and the second 
 	\caption{Adding the appname in \textit{INSTALLED\_APPS} dependencies }
 	\label{fig:appinstallname}
 \end{figure} 
-\\
-\newline
+
 \subsubsection*{How does Django deal with the database ?} 
 Django deals with databases through \textit{ORM} as mentioned above. Its management involves to follow different steps such as:
 
@@ -480,7 +479,7 @@ The corresponding \textit{SQL} code is this:
 
  \textbf{Migrations} : Every time a model (database table) is created or modified, \textit{Django} need to notified for assessing these changes. As mentioned earlier, the command'\textbf{python manage.py makemigrations}' is executed in the terminal for managing the changes,  '\textbf{manage.py migrate}' command is entered to apply all of these changes.   \\
  
-\textbf{ Database abstraction} : With this technique, we do'nt no longer need to write \textit{SQL} code, since by \textit{Python} it is possible to interact with the database, and making a \textit{queryset} request(\textit{crud}  \footnote{CRUD: Create Read Update Detele item}).Let's see how it works once again: 
+\textbf{ Database abstraction} : With this technique, we do'nt no longer need to write \textit{SQL} code, since by \textit{Python} it is possible to interact with the database, and making a \textit{queryset} request(\textit{crud}  \footnote{CRUD: Create Read Update Delete item}).Let's see how it works once again: 
 
 \begin{lstlisting}[style=stylepython]
 new_employee = Employee(name ="Eistein", salary=45OOOO) 
@@ -552,8 +551,8 @@ Apart from that, the other powerful tool used in web development is \textit{JS(J
 In this example, the button with the ID 'ChangeTitleButton' and the function called 'ChangeTitle()' are added. The click on the 'Change Title' button executes the changeTitle function. Then, the function retrieves the \texttt{<h1>} element by its
 ID ("pageTitle") and changes its text to "New page Title". Thus, by this bit snippet code, \textit{JavaScript} really appears interactive.
 
-\subsection{\large Data Science tools and frameworks}
-Data science involves learning from data, visualizing, analyzing it, and making predictions. To do this, we need the right tools. \textit{Python} is one of best and powerful tools used for these tasks. It has a large and active community that continuously contributes to its growth. \textit{Python} offers a variety of packages that assist data scientists in their work.
+\subsection{\large Machine Learning tools and frameworks}
+Machine learning involves learning from data, visualizing, analyzing it, and making predictions. To do this, we need the right tools. \textit{Python} is one of best and powerful tools used for these tasks. It has a large and active community that continuously contributes to its growth. \textit{Python} offers a variety of packages that assist data scientists in their work.
 
 In Python, common packages used for working with data include\textbf{ numpy, pandas, matplotlib, seaborn, scikit-learn, tensorflow}, and more.
 
@@ -655,7 +654,8 @@ import pandas as pd # pd is an alias name
 \end{lstlisting}
 
 \textbf{Data Structures}.
-Pandas has two main structures: Series and DataFrame. The first is one-dimensional array, while the second is a two-dimensional table that is similar to a spreadsheet or SQL. Let's break in example: 
+Pandas has two main structures: Series and DataFrame. The first is one-dimensional array, while the second is a two-dimensional table that is similar to a spreadsheet or SQL. Let's break into an example: 
+
 - Series:
 \begin{lstlisting}[style=stylepython]
 # Creating a Series from a list
@@ -784,7 +784,7 @@ Name  Age
 1      Bob   30
 2  Charlie   35
 \end{lstlisting} 
-Assume we want to apply some characteristic on a column :
+Assume that we want to apply some characteristic on a column :
 \begin{lstlisting}[style=stylepython]
 # Create a new column based on an existing column
 df['days'] = df['Age'].apply(lambda x: x * 360)
@@ -807,14 +807,15 @@ Name  Age         City   days
 2  Jonathan   35      Chicago  12600
 \end{lstlisting} 
 
-\subsubsection{Data Visualization With \textit{Matplotlib}}
-Matplotlib is a open-source, flexible and customizable Python package used for generating 2D plotting that generates production-quality graphs. In addition to this, it includes the capacity of saving images in different output formats (JPG, PNG, PS and others) \cite{tosi2009matplotlib}. 
+\subsubsection{Data Visualization With \textit{Matplotlib} and \textit{Seaborn}} 
+\subsubsection*{\textit{Matplotlib}}
+\textit{Matplotlib} is a open-source, flexible and customizable Python package used for creating 2D and 3D \footnote{mpl\_toolkits.mplots3d : \url{https://matplotlib.org/stable/tutorials/toolkits/mplot3d.html}, tools used for generating 3D plots } plotting having a high production-quality. In addition to this, it includes the capacity of saving images in different output formats (JPG, PNG, PS and others) \cite{tosi2009matplotlib}. 
 
-To get started with it, we just go to the official page and download the version \footnote{Matplotlib: \url{https://matplotlib.org/}}. However, for those using some \textit{IDE} like \textit{Anaconda}, packages like : \textit{numpy}, \textit{pandas}, and \textit{matplotlib} are incorporated inside.
-When working with data visualization, the type of plot to choose should depend on the nature the data. In the table , the overview of types of plots and when to use them is given. However, some plots can be combined even though they are primarily made for whether categorical or numerical visualization. 
+To get started with it, we just go to the official page and download the dependencies \footnote{Matplotlib: \url{https://matplotlib.org/}}. However, for who are those using integrated development environment (\textit{IDE}) like \textit{Anaconda} \textit{numpy}, \textit{pandas}, and \textit{matplotlib} are incorporated inside.
+When working with data visualization, the type of plot to choose should depend on the nature of the data. In the table \ref{tab:plotTypeDataTable} , the overview of types of plots and when to use them is given. However, some plots can be combined even though they are primarily made for whether categorical or numerical visualization. 
 
-\noindent The usage of \textit{matplotlib} properties require a good manipulation of data, often done by the \textit{numpy} and \textit{pandas}. Let's break into examples of it usage: 
-First all, the import of \textit{matplotlib} is required for the manipulation like this :
+\noindent The usage of \textit{matplotlib} properties require a good manipulation of data, often done by the \textit{numpy} and \textit{pandas}. Let's break into examples of its usage: \newline
+First all, the import of \textit{matplotlib} is required for any manipulation. It is done like this :
 \begin{lstlisting}[style=stylepython]
 import matplotlib.pyplot as plt #plt is also an alias
 \end{lstlisting} 
@@ -864,8 +865,39 @@ plt.show()
 	\includegraphics[width=1\linewidth]{matplotLibExample}
 	\caption{How to use \textit{matplotlib} for visualization}
 	\label{fig:matplotlibexample}
+\end{figure} 
+
+Additionally, \textit{matplotlib} is used for creating 3D as follows : 
+\begin{lstlisting}[style=stylepython]
+	from mpl_toolkits.mplot3d import Axes3D
+	import matplotlib.pyplot as plt
+	import numpy as np
+	
+	fig = plt.figure()
+	ax = fig.add_subplot(111, projection='3d')
+	
+	x = np.random.rand(10)
+	y = np.random.rand(10)
+	z = np.random.rand(10)
+	
+	ax.scatter(x, y, z, c='r', marker='o')
+	
+	ax.set_xlabel('X-axis')
+	ax.set_ylabel('Y-axis')
+	ax.set_zlabel('Z-axis')
+	
+	plt.show()
+\end{lstlisting} 
+Notice that: \textit{matplotlib}, uses \textit{mpl\_toolkits} for integrating 3D, since at its release it was creating 2D plots. 
+Besides, the difference observed in the code at axis where the function \textit{add\_subplot} receives 111 value as the first argument. It just defines that the plot will be a single one for all 3 dimensions as shown in the figure \ref{fig:3ddimensionPlotlib}. 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{3Ddimension}
+	\caption{3D plot with Matplotlib}
+	\label{fig:3ddimensionPlotlib}
 \end{figure}
-\begin{table} 
+
+\begin{table}[htb] 
 	 % Color every other row
 \begin{tabular}{|p{3cm}|p{3.5cm}|p{8cm}|} 
 \hline 	
@@ -906,18 +938,45 @@ Example : Analyzing the distribution of ages in a population\\
 
 \end{tabular}    
 \caption{Choose the plot depending on data's nature}
-
+\label{tab:plotTypeDataTable}
 \end{table}
 
+\subsubsection*{\textit{Seaborn}}
+\textit{Seaborn} is another Python library for statistical data visualization, built on \textit{matplotlib}. It just provides properties able to create more informative an visually appealing graphics \cite{sial2021comparative}. To get started with it, we just visit the official page \footnote{Seaborn: \url{https://seaborn.pydata.org/}} which presents all steps required for installing. Alternatively, we can use an  the integrated development environment \textit{IDE} like \textit{Anaconda} once again, which already includes it. 
 
+The following example shows how it is possible to combine both \textit{matplotlib} and \textit{seaborn}:  
+\begin{lstlisting}[style=stylepython]
+import matplotlib.pyplot as plt 
+import seaborn as sns # Its how to start the 
+
+# Create a Seaborn plot
+sns.set(style="whitegrid")
+tips = sns.load_dataset("tips")
+ax = sns.barplot(x="day", y="total_bill", data=tips)
+
+# Customize the plot using Matplotlib
+ax.set(xlabel="Day of the Week", ylabel="Total Bill Amount")
+plt.title("Average Total Bill Amount by Day")
+
+#Save the plot as an image
+plt.savefig("seaborn_customized_plot.png")
+plt.show() # Show the plot
+\end{lstlisting} 
+The data used in the following code, named 'tips,' is provided for practice purposes. \textit{Seaborn} is used to generate the plot, while \textit{matplotlib} customizes it by adding a legend saving the image generated in figure.
+
+
+\subsubsection*{Machine learning with scikit-learn} 
+Since Python programming language is establishing itself as one the most popular languages for scientific computing. Many and various libraries are developed inside making more and more appealing \cite{pedregosa2011scikit}. \newline
+\textit{Scikit-learn} is an open-source and commercially(usage - BSD license) machine learning library for the Python programming language. It was initially developped by David Counapeu in 2007 as part of the Google Summer of Code project. Since then, it has grown to become one the most popular and widely used Machine Learning libraries in Python ecosystem \cite{scikitlearnCode1}.   
+\textit{Scikit learn} is ease use 
 
 
 \newpage
  %\bibliographystyle{apacite} % or whatever citation style you choose
-	\bibliographystyle{plain}
-	\bibliography{bibliofile.bib}
+\bibliographystyle{plain}
+\bibliography{bibliofile.bib}
 	
-	\newpage	
+\newpage	
 	
 	
 	

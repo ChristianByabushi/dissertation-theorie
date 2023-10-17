@@ -192,6 +192,20 @@ Chris Park.
 \newblock Oxford University Press, 1 edition, 2012.
 \newblock Online Publication.
 
+\bibitem{scikitlearnCode1}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
+  D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research}, 12:2825--2830, 2011.
+
+\bibitem{pedregosa2011scikit}
+Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel,
+  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
+  Weiss, Vincent Dubourg, et~al.
+\newblock Scikit-learn: Machine learning in python.
+\newblock {\em the Journal of machine Learning research}, 12:2825--2830, 2011.
+
 \bibitem{raschka2017python}
 Sebastian Raschka and Vahid Mirjalili.
 \newblock Python machine learning: Machine learning and deep learning with
@@ -209,6 +223,12 @@ Houshmand Shirani-Mehr.
 \newblock Sms spam detection using machine learning approach.
 \newblock {\em unpublished) http://cs229. stanford. edu/proj2013/Shir aniMeh
   r-SMSSpamDetectionUsingMachineLearningApproach. pdf}, 2013.
+
+\bibitem{sial2021comparative}
+Ali~Hassan Sial, Syed Yahya~Shah Rashdi, and Abdul~Hafeez Khan.
+\newblock Comparative analysis of data visualization libraries matplotlib and
+  seaborn in python.
+\newblock {\em International Journal}, 10(1), 2021.
 
 \bibitem{smola2010introduction}
 Alex Smola and S.V.N. Vishwanathan.
