@@ -298,7 +298,7 @@ Fourthly, the Mobile Entertainment: Mobile phones offer a range of entertainment
 
 And finally, the others Mobiles apps: This party includes the health services, education, social medias applications.
 \section{Purposes of spammers in mobile messages}
-Most of the time, spammers prefer to promise recipients prizes and then ask for money to claim the offer. They also attack SMS gateways with DoS (Denial of Service) messages \cite{androulidakis2013fimess} whose goal is to overwhelm the system with unnecessary messages. Spammers send advertising and promotional messages based on company objectives, as well as SMS containing fake links or impersonating organizations to deceive recipients into taking certain actions or providing sensitive information \cite{tang2022clues}. Additionally, they may send SMS disguised as surveys to gather personal information for various fraudulent purposes.
+Most of the time, spammers prefer to promise recipients prizes and then ask for money to claim the offer. They also attack SMS gateways with \textit{DoS} (Denial of Service) messages \cite{androulidakis2013fimess} whose goal is to overwhelm the system with unnecessary messages. Spammers send advertising and promotional messages based on company objectives, as well as SMS containing fake links or impersonating organizations to deceive recipients into taking certain actions or providing sensitive information \cite{tang2022clues}. Additionally, they may send SMS disguised as surveys to gather personal information for various fraudulent purposes.
 \section{Solutions}
 To address theses problems, it is necessary to involve various stakeholders, including network operators, app developers, regulatory bodies, and users. Firstly, it is recommended to implement mechanisms at the network level \cite{hao2009detecting} to filter messages and block users involved in spamming. Secondly, users (subscribers) should be educated on how to analyze messages and report any one that is causing disturbances. Thirdly, regulatory measures should be enforced to establish stringent regulations and penalties for spammers and those engaged in fraudulent mobile activities. Fourthly, the development of apps that enable filtering, classification, and reporting in the subscriber side would be beneficial. Fifthly, a website can be set to collect messages whether spam or ham reported by users who have doubts about their legitimacy, and then Machine Learning models can be used for detection purposes. For this, supervised or unsupervised methods can be employed to classify and predicting whether a message is spam or  ham. 
 \section{Summary}
@@ -358,14 +358,16 @@ In DRC, especially in the eastern party, users face similar issues. This chapter
 	\footnote{ \textbf{Kaggle :} a platform for data science competitions and datasets. \url{https://www.kaggle.com/}}
 	. After conducting their experiments and evaluations, the authors arrived at a noteworthy conclusion. They found that among all the ML algorithms they employed, the Naive Bayes algorithm consistently achieved the highest level of accuracy in SMS spam detection.\\
 	
-	As shown above, many researchers have investigated the same topic using different approaches. Some have focused on security within mobile architecture, including message transfer processes, while others have concentrated on using Machine Learning (ML) models to combat the issue of spam. In general, these approaches are valuable to this project and serve as its inspiration at the point that many techniques related to these approaches have approaches have been implemented in this project.\\
+	As shown above, many researchers have investigated the same topic using different approaches. Some have focused on security within mobile architecture, including message transfer processes, while others have concentrated on using Machine Learning (ML) models to combat the issue of spam. In general, these approaches are valuable to this project and serve as its inspiration at the point that many techniques related to these approaches have been implemented in this project.\\
 
     However, what sets this project apart is its pratical approach involving specific society. Rather than solely relying on existing datasets from platforms like \textit{Kaggle and UC Machine Learning Repository}, this project has actively engaged with people to collect data. It has also integrated some data from these platform datasets to enhance the quality of information. \\
         
     Furthermore, this project harnesses the latest advancements in machine learning. It utilizes Ensemble Methods to achieve high levels of accuracy. Addionnally, it employs technical parameter tuning, including \textit{GridSearcher and VotingClassifier}. In fact, GridSearcher assists in identifying the most suitable parameters required for algorithm models.  
     \\
     
-    Moreover, this project doesn't stop at model development, it extends to the deployment of the models generated through the processes. It provides backend \textit{APIs} for certain platforms interested in learning from these results. Additionally, it outlines the structure of GSM deployment, encompassing the SMSCenter's role in the mobile messaging system.
+    Moreover, this project doesn't stop at model development, it extends to the deployment of the models generated through the processes. It provides backend \textit{APIs} for certain platforms interested in learning from these results. 
+    
+    Additionally, it outlines the structure of GSM deployment, encompassing the SMSCenter's role in the mobile messaging system.
    
    
     
@@ -492,7 +494,7 @@ INSERT INTO employees (name, salary) VALUES ('Einstein', 45000);
 
 Indeed, we can see that even a non-professional in \textit{SQL} can now deal with the databse without any \textit{SQL} code. \newline
 Furhermore, the use of abstraction techniques to interact with database, enhances its security of by guarding against \textit{SQL injection}. 
-\subsubsection{What does \textit{Django} do for interacting with APIs ?}
+\subsubsection{How does Django do for interacting with APIs ?}
 
 \textit{Django} presents a useful package for interactiong with the \textit{API} called \textit{DRF \footnote{DRF (Django Rest Framwork) : a powerful tools serving to interact with Apis. \url{https://www.django-rest-framework.org/}}} It allows : authentication policies including optional packages for \textit{OAuth1a} and \textit{OAuth2 \footnote{OAuth2 :   (Open Authorization 2.0) : is a framework that allows third-party applications to access a user's data without exposing their credentials, such as passwords.OAuth 1.Oa is the old version of OAuth2  }}, web browsable API  and serialization \footnote{Serialization : converting data into formats like \textit{JSON}, \textit{XML}, etc. The deserialization involves the recontruction of the same operation} and deserialization that supports both \textit{ORM} And \textit{NO-ORM} data sources \cite{nader2023django}.
  
@@ -888,8 +890,8 @@ Additionally, \textit{matplotlib} is used for creating 3D as follows :
 	
 	plt.show()
 \end{lstlisting} 
-Notice that: \textit{matplotlib}, uses \textit{mpl\_toolkits} for integrating 3D, since at its release it was creating 2D plots. 
-Besides, the difference observed in the code at axis where the function \textit{add\_subplot} receives 111 value as the first argument. It just defines that the plot will be a single one for all 3 dimensions as shown in the figure \ref{fig:3ddimensionPlotlib}. 
+Notice that: \textit{matplotlib}, uses \textit{mpl\_toolkits} for integrating with 3D, since at its release it was creating 2D plots only. 
+Besides, the difference observed in the code at axis where the function \textit{add\_subplot} receives 111 value as the first argument. It just defines that the plot will be a single for all 3 dimensions as shown in the figure \ref{fig:3ddimensionPlotlib}. 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{3Ddimension}
@@ -944,7 +946,7 @@ Example : Analyzing the distribution of ages in a population\\
 \subsubsection*{\textit{Seaborn}}
 \textit{Seaborn} is another Python library for statistical data visualization, built on \textit{matplotlib}. It just provides properties able to create more informative an visually appealing graphics \cite{sial2021comparative}. To get started with it, we just visit the official page \footnote{Seaborn: \url{https://seaborn.pydata.org/}} which presents all steps required for installing. Alternatively, we can use an  the integrated development environment \textit{IDE} like \textit{Anaconda} once again, which already includes it. 
 
-The following example shows how it is possible to combine both \textit{matplotlib} and \textit{seaborn}:  
+The following example shows how to combine both \textit{matplotlib} and \textit{seaborn}:  
 \begin{lstlisting}[style=stylepython]
 import matplotlib.pyplot as plt 
 import seaborn as sns # Its how to start the 
@@ -962,14 +964,18 @@ plt.title("Average Total Bill Amount by Day")
 plt.savefig("seaborn_customized_plot.png")
 plt.show() # Show the plot
 \end{lstlisting} 
-The data used in the following code, named 'tips,' is provided for practice purposes. \textit{Seaborn} is used to generate the plot, while \textit{matplotlib} customizes it by adding a legend saving the image generated in figure.
+The data used in the following code, named 'tips,' is provided for practice purposes. \textit{Seaborn} is used to generate the plot, while \textit{matplotlib} customizes it by adding a legend and saving the image generated in figure.
 
 
 \subsubsection*{Machine learning with scikit-learn} 
-Since Python programming language is establishing itself as one the most popular languages for scientific computing. Many and various libraries are developed inside making more and more appealing \cite{pedregosa2011scikit}. \newline
+Since Python programming language is establishing itself as one the most popular languages for scientific computing. Many and various libraries are developed inside making it more and more appealing \cite{pedregosa2011scikit}. \newline
 \textit{Scikit-learn} is an open-source and commercially(usage - BSD license) machine learning library for the Python programming language. It was initially developped by David Counapeu in 2007 as part of the Google Summer of Code project. Since then, it has grown to become one the most popular and widely used Machine Learning libraries in Python ecosystem \cite{scikitlearnCode1}.   
-\textit{Scikit learn} is ease use 
+The techniques and properties used inside of it, allows it to predictive data analysis by performing the  classification, regression, clustering, preprocessing and more other tasks.\newline
+To get started with it as usually, the official page present all the steps for downloading all the packages or using \textit{IDE} like \textit{Anaconda} which encompasses it. 
 
+Before using its functions we have to initialize the by import the class which includes the methods and properties achieving a given task. For example, suppose that we are about to process data a class called \textit{StandardScaler} can be useful \textbf{when the dataset contains features with different scales} . Then, it standardizes the data, making it have a mean of 0 and standard deviation of 1, assuring that all features have the same scale.
+
+ 
 
 \newpage
  %\bibliographystyle{apacite} % or whatever citation style you choose
