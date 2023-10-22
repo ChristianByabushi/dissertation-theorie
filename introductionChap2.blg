@@ -27,6 +27,11 @@ I was expecting a `,' or a `}'---line 296 of file bibliofile.bib
  :  pages={1--19}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `{' or a `('---line 319 of file bibliofile.bib
+ : 
+ : @inproceedings{tang2022clues,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
@@ -36,6 +41,8 @@ while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
 while executing---line 1090 of file plain.bst
@@ -51,50 +58,54 @@ Warning--can't use both volume and number fields in bogdanchikov2013python
 Warning--empty journal in faklaris2016oh
 Warning--can't use both volume and number fields in gupta2021sms
 Warning--empty year in lavanya2582sms
+Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
+while executing---line 1090 of file plain.bst
+Warning--empty journal in reviewVideo2020
 Warning--empty journal in nader2023django
+Warning--empty journal in sirisuriya2015comparative
 Warning--empty school in tulchak2016history
 Warning--empty journal in coursAnalyseDonne2
 Warning--there's a number but no volume in coursAnalyseDonne2
 Warning--empty journal in giswatch2018
-You've used 53 entries,
+You've used 54 entries,
             2118 wiz_defined-function locations,
-            790 strings with 13476 characters,
-and the built_in function-call counts, 17039 in all, are:
-= -- 1644
-> -- 860
-< -- 12
-+ -- 347
-- -- 288
-* -- 1138
-:= -- 2898
-add.period$ -- 164
-call.type$ -- 53
-change.case$ -- 290
+            792 strings with 13669 characters,
+and the built_in function-call counts, 17073 in all, are:
+= -- 1640
+> -- 873
+< -- 11
++ -- 354
+- -- 292
+* -- 1137
+:= -- 2924
+add.period$ -- 167
+call.type$ -- 54
+change.case$ -- 293
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 675
-empty$ -- 1286
-format.name$ -- 288
-if$ -- 3519
+cite$ -- 65
+duplicate$ -- 673
+empty$ -- 1282
+format.name$ -- 292
+if$ -- 3510
 int.to.chr$ -- 0
-int.to.str$ -- 53
-missing$ -- 62
-newline$ -- 269
-num.names$ -- 106
-pop$ -- 329
+int.to.str$ -- 54
+missing$ -- 64
+newline$ -- 274
+num.names$ -- 108
+pop$ -- 338
 preamble$ -- 1
-purify$ -- 249
+purify$ -- 252
 quote$ -- 0
-skip$ -- 469
+skip$ -- 464
 stack$ -- 0
-substring$ -- 847
-swap$ -- 135
-text.length$ -- 12
+substring$ -- 822
+swap$ -- 124
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 190
-warning$ -- 9
-while$ -- 158
-width$ -- 55
-write$ -- 571
-(There were 15 error messages)
+type$ -- 192
+warning$ -- 11
+while$ -- 157
+width$ -- 56
+write$ -- 578
+(There were 18 error messages)

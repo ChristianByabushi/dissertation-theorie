@@ -195,9 +195,9 @@
 	
 	The research will be conducted in two phases. The first phase will involve data collection through a survey questionnaire that can be completed on website, or can be directly provided to the web interface (API) by the mobile phone users for collecting their experience with messages and especially spams. Thus, the data collected will be analyzed using descriptive statistics \cite{bluman2017elementary} to identify the common types of spam messages and the frequency of occurrence, languages inside, and other attributes.  
 	
-	The second phase will involve the development of the messaging application using the data collected from the survey and the analysis of existing messaging applications. The development of the application will be guided by the principles of agile software development by using Python (Django framework) for \textit{Back-end} and HTML,CSS and JavaScript for \textit{front-end}. Then,the application will  integrate the use of machine learning models, including Naive Bayes, Logistic regression, and Support Vector Machine.
+	The second phase will involve the development of the messaging application using the data collected from the survey and the analysis of existing messaging applications. The development of the application will be guided by the principles of agile software development by using Python (Django framework) for \textit{Back-end} and HTML,CSS and JavaScript for \textit{front-end}. Then,the application will  integrate the use of machine learning models based on selection's research of each other.
 	
-	The evaluation of the messaging application will be conducted using both quantitative and qualitative methods. The qualitative evaluation will involve the measurement of the application's accuracy and efficiency in detecting and filtering spam messages, on the other hand the qualitative evaluation will involve a user study to determine the usability and user experience of the application.
+	The evaluation of the messaging application interface will be conducted using both quantitative and qualitative methods. The qualitative evaluation will involve the measurement of the application's accuracy and efficiency in detecting and filtering spam messages, on the other hand the qualitative evaluation will involve a user study to determine the usability and user experience of the application.
 	
 	\section{Work Plan (or Work Subdivision)}
 	The work plan of this dissertation is divided into four parts. The first is the introduction, which provides a background information on the research problem.
@@ -899,12 +899,14 @@ Besides, the difference observed in the code at axis where the function \textit{
 	\label{fig:3ddimensionPlotlib}
 \end{figure}
 
-\begin{table}[htb] 
+\begin{table}
 	 % Color every other row
 \begin{tabular}{|p{3cm}|p{3.5cm}|p{8cm}|} 
+\hline
 \hline 	
-Type of data	& Plot name & Utilities  \\
+ Type of data	& Plot name & Utilities  \\
 
+\hline
 \hline
 \centering
 \multirow{10}{3cm}{{\large Categorical Data}} &   Bar Plot&  It is deal for showing the frequency or count of categorical data. \newline
@@ -1010,26 +1012,26 @@ Out[2]:
   We just notice that, this time, all the standardized data have a mean close to 0 and a standard deviation close to 1. For that, the data become centered around zero and have now consistent units of measurement. \newline
   Additionally, the \textit{\textbf{fitstransform()}} method on the object, defines both fitting and transformation process. Actually, the \textit{\textbf{fit()}} method computes the mean and standard deviation of the trained data and \textit{\textbf{transform()}} method scales the trained data based on the mean and standard deviation. Indeed,  \textit{fitstransform()} includes all both. \newline Actually, the explanations about training, fitting and others principles concerning a model are going to be tackled in the section 3 untitled :'Thinking in machine learning'.
   
-\section{Summary concerning the tools and frameworks}
-The completion of this project necessitated the utilization of various dependencies, tools, frameworks. These resources were instrumental in realizing the project's objectives. Notably, they were categorized into two main areas: those integral to the core functionality and others relevant to the user side, distinguishing the back-end from the front-end. Moreover, the project involved tools for data analysis and predictive modeling. The structure of these tools is presented in the  table \ref{tableStructuring}  for clarity.
+\subsection{Summary concerning the tools and frameworks}
+The completion of this project necessitated the utilization of various dependencies, tools, frameworks. These resources were instrumental in realizing the project's objectives. Notably, they were categorized into two main areas: those integral to the core functionality and others relevant to the user side, distinguishing the back-end from the front-end. Moreover, the project involved tools for data analysis and predictive modeling. The structure of these tools is presented in the  table \ref{tableStructuring}  for more clarity.
   \\
 \begin{table}
 \begin{tabular}{|p{4.1cm}|p{4cm}|p{6cm}|}
-	\cline{2-3}
-    \multicolumn{1}{c|}{} & Tools   & Utilities  \\
-	\hline
-\multirow{11}{4cm}{Data analysis and Machine Learning libraries}	& Numpy & Scientific computing library   \\ 
 	\cline{2-3} 
-	& Panda  & Data manipulation and
+    \multicolumn{1}{c|}{} & \textbf{Tools}   & \textbf{Roles}  \\
+	\hline
+\multirow{11}{4cm}{\textbf{Data analysis and Machine Learning libraries}}	& \textit{Numpy} & Scientific computing library   \\ 
+	\cline{2-3} 
+	& \textit{Panda}  & Data manipulation and
 	analysis library  \\ 
 	\cline{2-3} 
-	& Matplotlib  & Python library used for 2D and 3D data visualization   \\ 
+	& \textit{Matplotlib}  & Python library used for 2D and 3D data visualization   \\ 
 	\cline{2-3}  
-	& Seaborn & Seaborn is another Python library for statistical data visualization, built on matplotlib.\\
+	& \textit{Seaborn} & Another Python library for statistical data visualization, built on \textit{matplotlib}.\\
 	\cline{2-3} 
-		& Scickit learn & Machine learning machine learning library \\
+		& \textit{Scickit-learn}  & Machine learning machine learning library \\
 	\hline
-	\multirow{5}{4cm}{Programming Languages (Front-end and Back-end)}&   Django Python & Python framework for developing web applications and APIs \\ 
+	\multirow{5}{4cm}{\textbf{Programming Languages (\textit{Front-end} and \textit{Back-end})}}& \textit{Django} Python & Python framework for developing web applications and \textit{APIs}\\ 
 	 \cline{2-3}
 	 & HTML & Maker of web pages by providing
 	 its structure and content \\ 
@@ -1037,20 +1039,66 @@ The completion of this project necessitated the utilization of various dependenc
 	 & CS & Styling the content\\ 
 	 \cline{2-3}
 	 & JS & Rendering web pages interactive and dynamic \\
-	 
 	 \hline
 	
 \end{tabular}
 \caption{Structuring the tools} 
 \label{tableStructuring}
 \end{table} 
-\section{Thinking in Machine Learning}
+\section{Description of the methodology and approach}
+Choosing a right methodology including approaches and methods to use, is an important task. However, the nature of environment defers and leads to challenging evaluation before determining the fit one. Thus, since this project investigates in Machine Learning project, the appealing methodology chosen for its achievement is inspired from MLOps(ML Operating systems).\\
 
+\subsection{\textbf{{\large  ML operating systems}}} 
+ML endeavors aim to deal with their projects from development till the production step. However, a large number of projects based on ML don't reach the final step according to their expectations. Actually, the paradigm of MLOps came to face this issue \cite{kreuzberger2023machine}. For that, it is a set of principles, best practices and concepts, and development culture that provide an end-to-end machine learning development process to design, build and manage reproducible, testable and evolvable ML-powered software. 
 
+Furthermore, MLops involves the union of many disciples, including Machine learning, software engineering (concerning DevOps too), data engineering as clarified in figure \ref{fig:mlopsdisciplines}.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\linewidth]{../../../Books/Report/MLopsDisciplines}
+	\caption{Intersection of disciplines in MLops}
+	\label{fig:mlopsdisciplines}
+\end{figure} 
 
+\textbf The {Machine learning part} is dealt by \textbf{data scientists} and have the principle role of building the models that address the business question or needs. While \textbf{Data Engineering} is conducted by data engineers making sure that data pipelines which are the core of the ML model life cycle, are in turn and clean. Next, the \textbf{Software engineering}, encompasses \textbf{software engineers} not highly concerned by the machine learning model building since they bring ML problem into a well-engineered product (into applications). 
+In the other hand, \textbf{DevOps} is directed by DevOps engineers who bridges the gap between development and operations, granting that updates are continuously integrated and the development is still pursued (referring to \textit{CI/CS}, Continuous Integration et Development ). \\
 
+All these disciplines work together to follow the ML life cycle, demonstrating that ML endeavors are on ongoing process within the same project for ensuring that it is more impacting in terms of results. As shown in the figure \ref{fig:mllifecyle} the ML life cycle follows several steps resumed in the following points :
+\begin{itemize}  
+	\item Definition of the object and specification 
+	\item Data Collection 
+	\item Preparation and exploratory Data Analysis
+	\item Model Training \& Evaluation
+	\item Model Deployment 
+	\item Model Monitoring 
+\end{itemize} 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\linewidth]{ml-engineeringInspiration}
+	\caption{Machine Learning Workflow}
+	\label{fig:mllifecyle}
+\end{figure}
+\subsection{Definition of the object and specification}
+The definition of the object and specification is start stage where details about the problem is given in the clear way for facilitating the ML development. This task is associated to Business stakeholders who define the goal pursued. 
 
+\subsection{Gathering data}
+At this step, raw data are collected from various data pipeline(sources) depending on interests of project and environment. Thus, data's source can be :  
+(a) Databases, including data structured in relational databases like SQL and NoSQL databases. Actually, databases is mostly preferable source since they give structured data well-suited for analysis;
 
+(b)  Files (CSV, Text Files). This mean is highly used. It requires important analysis of the content for being aware of how and what part to extract (as spreadsheets for Excel), separated values (as for CSV files).
+
+(c) APis. They are also the common use for structured data( in JSON, XML format) , leveraging web services for providing data to third parties or internal parties of the system \cite{dataScienceMLeric}.
+
+(d) Web Scrapping. This mean refers to techniques used for collecting data from web sites (sometimes illegally) and structure it into spreadsheets, CSV or others simple means \cite{sirisuriya2015comparative}. It's more appreciated when data are not available from the APIs. That being, some applications performs like 
+
+(e) Images and videos : Images, videos are generated from cameras, satellites and other imaging devices. Thus, they are useful in specific tasks of ML like classification of taxonomy videos \cite{reviewVideo2020}. 
+Many others means exist like surveys and questionnaires, audio data, however the guidance is problem to address. 
+\\
+Once the data are collected, it stored in \textbf{dataset} where they are subjected to manipulation and analysis.
+\subsection{Data preparation and wrangling}
+The preparation refers to two main tasks : The data pre-processing(wrangling) and data exploration . The data pre-prepocessing involves the learning of nature of the data, its characteristics, types format and quality, that consequently lead to better outcome. While, The data wrangling consist of cleaning necessary data. 
+
+On the other hand,\textbf{the exploratory data analysis} process aims to receive collected and cleaned data and facilitates the visualization that can be helpful in detection of outliers, identification of clusters and trends \cite{unwin2020data}.
+\subsection{Model building and selection}
 
 \newpage
  %\bibliographystyle{apacite} % or whatever citation style you choose

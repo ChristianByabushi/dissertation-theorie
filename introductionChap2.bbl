@@ -11,13 +11,6 @@ Iosif Androulidakis, Vasileios Vlachos, and Alexandros Papanikolaou.
 \newblock In {\em Proceedings of the 6th Balkan Conference in Informatics},
   pages 221--227, 2013.
 
-\bibitem{anwar2019machine}
-Khalid Anwar, Jamshed Siddiqui, and Shahab Saquib~Sohail.
-\newblock Machine learning techniques for book recommendation: an overview.
-\newblock In {\em Proceedings of International Conference on Sustainable
-  Computing in Science, Technology and Management (SUSCOM), Amity University
-  Rajasthan, Jaipur-India}, 2019.
-
 \bibitem{stateInternet2019}
 Paul Kimumwe Lillian Nalwoga Juliet Nanfuka Edrine Wanyama Wairagala Wakabi~PhD
   Ashnah~Kalemera, Victor~Kapiyo.
@@ -76,11 +69,6 @@ Prof.~Dantu’s CSE.
 \newblock In {\em ADV. REAL-WORLD NETWORKS}, volume 14-760. University of North
   Texas, 2018.
 
-\bibitem{mlwithpython}
-Julian David.
-\newblock Designing machine learning systems with python.
-\newblock {\em Community Experience Distilled}, pages 381--386, April 2016.
-
 \bibitem{monusco2015}
 MONUSCO DRC.
 \newblock Protect, stabilize, consolidate peace, monusco's report.
@@ -123,11 +111,6 @@ Marko Hassinen and Smile Markovski.
 \newblock Secure sms messaging using quasigroup encryption and java sms api.
 \newblock {\em SPLST}, 3:187, 2003.
 
-\bibitem{herbrich2017machine}
-Ralf Herbrich.
-\newblock Machine learning at amazon.
-\newblock {\em WSDM}, 535, 2017.
-
 \bibitem{jangir2016design}
 Sunil~Kumar Jangir, Manoj~Kumar Sharma, and Pawan~Kumar Gupta.
 \newblock Design and implementation of sms gateway api for mobile communication
@@ -147,6 +130,12 @@ Veena~K Katankar and VM~Thakare.
 \newblock Short message service using sms gateway.
 \newblock {\em International Journal on Computer Science and Engineering},
   2(04):1487--1491, 2010.
+
+\bibitem{kreuzberger2023machine}
+Dominik Kreuzberger, Niklas K{\"u}hl, and Sebastian Hirschl.
+\newblock Machine learning operations (mlops): Overview, definition, and
+  architecture.
+\newblock {\em IEEE Access}, 2023.
 
 \bibitem{lavanya2582sms}
 M~Lavanya and KR~Aruna.
@@ -173,6 +162,12 @@ Matti Lepp{\"a}niemi and Heikki Karjaluoto.
 Wes McKinney and PD~Team.
 \newblock Pandas-powerful python data analysis toolkit.
 \newblock {\em Pandas—Powerful Python Data Analysis Toolkit}, 1625, 2015.
+
+\bibitem{reviewVideo2020}
+Uttam Kumar Roy Jubayer AI~Mahmud Md~Shofiqul~Islam, Shanjida~Sultana.
+\newblock A review on video classification with methods, findings, performance,
+  challenges, limitatios and future work.
+\newblock 2020.
 
 \bibitem{medani2011review}
 A~Medani, Abdullah Gani, O~Zakaria, AA~Zaidan, and BB~Zaidan.
@@ -247,6 +242,11 @@ Ali~Hassan Sial, Syed Yahya~Shah Rashdi, and Abdul~Hafeez Khan.
   seaborn in python.
 \newblock {\em International Journal}, 10(1), 2021.
 
+\bibitem{sirisuriya2015comparative}
+De~S Sirisuriya et~al.
+\newblock A comparative study on web scraping.
+\newblock 2015.
+
 \bibitem{smola2010introduction}
 Alex Smola and S.V.N. Vishwanathan.
 \newblock {\em Introduction to Machine Learning}.
@@ -308,5 +308,11 @@ Pacifique Zikomangane.
 \newblock A free wireless network in the drc: An answer to internet shutdowns
   and exorbitant access costs.
 \newblock 2018.
+
+\bibitem{dataScienceMLeric}
+Michel~Lutz Éric Biernat.
+\newblock {\em Data science : fondamentaux et études de cas. Machine learning
+  avec Python et R}.
+\newblock Eyrolles, 61, bd Saint-Germain 75240 Paris Cedex 05., 2015.
 
 \end{thebibliography}

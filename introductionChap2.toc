@@ -31,5 +31,10 @@
 \contentsline {subsection}{\numberline {2.3.2}\large Machine Learning tools and frameworks}{24}{subsection.2.3.2}%
 \contentsline {subsubsection}{{\large Data manipulation with \textit {Numpy}, \textit {Pandas}}}{24}{section*.18}%
 \contentsline {subsubsection}{Data Visualization With \textit {Matplotlib} and \textit {Seaborn}}{30}{section*.20}%
-\contentsline {section}{\numberline {2.4}Summary concerning the tools and frameworks}{34}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Thinking in Machine Learning}{34}{section.2.5}%
+\contentsline {subsection}{\numberline {2.3.3}Summary concerning the tools and frameworks}{35}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Description of the methodology and approach}{35}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}\textbf {{\large ML operating systems}}}{35}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Definition of the object and specification}{37}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Gathering data}{37}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Data preparation and wrangling}{38}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Model building and selection}{38}{subsection.2.4.5}%
