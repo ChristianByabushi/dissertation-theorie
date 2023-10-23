@@ -81,6 +81,11 @@ Cori Faklaris and Sara~Anne Hook.
   snapchat, whatsapp, kik, and other mobile messaging apps.
 \newblock 2016.
 
+\bibitem{furche2016data}
+Tim Furche, Georg Gottlob, Leonid Libkin, Giorgio Orsi, and Norman~W Paton.
+\newblock Data wrangling for big data: Challenges and opportunities.
+\newblock In {\em EDBT}, volume~16, pages 473--478, 2016.
+
 \bibitem{ghezzi2015strategy}
 Antonio Ghezzi, Marcelo~Nogueira Cortimiglia, and Alejandro~Germ{\'a}n Frank.
 \newblock Strategy and business model design in dynamic telecommunications
@@ -290,6 +295,11 @@ Antony Unwin.
 Stefan Van Der~Walt, S~Chris Colbert, and Gael Varoquaux.
 \newblock The numpy array: a structure for efficient numerical computation.
 \newblock {\em Computing in science \& engineering}, 13(2):22--30, 2011.
+
+\bibitem{wang2016machine}
+H~Wang, ZeZXeZBePJ Lei, X~Zhang, B~Zhou, and J~Peng.
+\newblock Machine learning basics.
+\newblock {\em Deep learning}, pages 98--164, 2016.
 
 \bibitem{wohlgethan2018supportingweb}
 Eric Wohlgethan.

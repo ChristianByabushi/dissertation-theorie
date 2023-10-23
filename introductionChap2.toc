@@ -36,5 +36,6 @@
 \contentsline {subsection}{\numberline {2.4.1}\textbf {{\large ML operating systems}}}{35}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Definition of the object and specification}{37}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Gathering data}{37}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Data preparation and wrangling}{38}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Model building and selection}{38}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.4}Data preparation and exploratory}{38}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Model training and selection}{39}{subsection.2.4.5}%
+\contentsline {subsubsection}{(a) Supervised models}{39}{section*.30}%

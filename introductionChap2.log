@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.9.7)  22 OCT 2023 20:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.9.7)  23 OCT 2023 03:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1071,50 +1071,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 1062--1064
 
  []
 
-<ml-engineeringInspiration.jpg, id=956, 2742.245pt x 2055.68pt>
+[36]
+<ml-engineeringInspiration.jpg, id=961, 2742.245pt x 2055.68pt>
 File: ml-engineeringInspiration.jpg Graphic file (type jpg)
 <use ml-engineeringInspiration.jpg>
-Package pdftex.def Info: ml-engineeringInspiration.jpg  used on input line 1076
+Package pdftex.def Info: ml-engineeringInspiration.jpg  used on input line 1077
 .
 (pdftex.def)             Requested size: 455.24411pt x 341.2428pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36] [37 <../../../Books/Report/MLopsDisciplines.png>] [38 <./ml-engineeringIns
-piration.jpg>] (./introductionChap2.bbl [39
+[37 <../../../Books/Report/MLopsDisciplines.png>] [38 <./ml-engineeringInspirat
+ion.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1118
 
-] [40]
-Underfull \hbox (badness 1248) in paragraph at lines 234--238
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 1131--1133
+
+ []
+
+[40] (./introductionChap2.bbl [41
+
+] [42]
+Underfull \hbox (badness 1248) in paragraph at lines 239--243
 []\OT1/cmr/m/n/12 Houshmand Shirani-Mehr.  Sms spam de-tec-tion us-ing ma-chine
  learn-ing ap-
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 234--238
+Underfull \hbox (badness 3872) in paragraph at lines 239--243
 \OT1/cmr/m/n/12 proach.  \OT1/cmr/m/it/12 un-pub-lished) http://cs229. stan-for
 d. edu/proj2013/Shir ani-Meh r-
  []
 
-[41]) [42]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1116.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1116.
+[43]) [44]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1150.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1150.
  (./introductionChap2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1116.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1116.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1150.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1150.
 
 Package rerunfilecheck Info: File `introductionChap2.out' has not changed.
-(rerunfilecheck)             Checksum: 7FCC3A467B18FD38833AB193891044E2;2572.
+(rerunfilecheck)             Checksum: 5B938F51C7059767129687B71DC2E9A6;2574.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1116.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1150.
  ) 
 Here is how much of TeX's memory you used:
- 15445 strings out of 481239
- 247431 string characters out of 5920378
+ 15452 strings out of 481239
+ 247528 string characters out of 5920378
  938538 words of memory out of 5000000
- 29901 multiletter control sequences out of 15000+600000
+ 29903 multiletter control sequences out of 15000+600000
  544288 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,44p,1695b,2008s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1134,10 +1146,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1
 /public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
 m1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on introductionChap2.pdf (43 pages, 1611403 bytes).
+Output written on introductionChap2.pdf (45 pages, 1616138 bytes).
 PDF statistics:
- 1168 PDF objects out of 1200 (max. 8388607)
- 1069 compressed objects within 11 object streams
- 536 named destinations out of 1000 (max. 500000)
+ 1183 PDF objects out of 1200 (max. 8388607)
+ 1082 compressed objects within 11 object streams
+ 541 named destinations out of 1000 (max. 500000)
  343 words of extra memory for PDF output out of 10000 (max. 10000000)
 

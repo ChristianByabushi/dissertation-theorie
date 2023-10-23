@@ -30,5 +30,5 @@
 \BOOKMARK [2][-]{subsection.2.4.1}{ML operating systems}{section.2.4}% 30
 \BOOKMARK [2][-]{subsection.2.4.2}{Definition of the object and specification}{section.2.4}% 31
 \BOOKMARK [2][-]{subsection.2.4.3}{Gathering data}{section.2.4}% 32
-\BOOKMARK [2][-]{subsection.2.4.4}{Data preparation and wrangling}{section.2.4}% 33
-\BOOKMARK [2][-]{subsection.2.4.5}{Model building and selection}{section.2.4}% 34
+\BOOKMARK [2][-]{subsection.2.4.4}{Data preparation and exploratory}{section.2.4}% 33
+\BOOKMARK [2][-]{subsection.2.4.5}{Model training and selection}{section.2.4}% 34

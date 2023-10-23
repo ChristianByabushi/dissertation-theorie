@@ -1067,7 +1067,8 @@ All these disciplines work together to follow the ML life cycle, demonstrating t
 	\item Definition of the object and specification 
 	\item Data Collection 
 	\item Preparation and exploratory Data Analysis
-	\item Model Training \& Evaluation
+	\item Model training and selection 
+	\item Model evaluation
 	\item Model Deployment 
 	\item Model Monitoring 
 \end{itemize} 
@@ -1082,6 +1083,7 @@ The definition of the object and specification is start stage where details abou
 
 \subsection{Gathering data}
 At this step, raw data are collected from various data pipeline(sources) depending on interests of project and environment. Thus, data's source can be :  
+
 (a) Databases, including data structured in relational databases like SQL and NoSQL databases. Actually, databases is mostly preferable source since they give structured data well-suited for analysis;
 
 (b)  Files (CSV, Text Files). This mean is highly used. It requires important analysis of the content for being aware of how and what part to extract (as spreadsheets for Excel), separated values (as for CSV files).
@@ -1094,11 +1096,43 @@ At this step, raw data are collected from various data pipeline(sources) dependi
 Many others means exist like surveys and questionnaires, audio data, however the guidance is problem to address. 
 \\
 Once the data are collected, it stored in \textbf{dataset} where they are subjected to manipulation and analysis.
-\subsection{Data preparation and wrangling}
-The preparation refers to two main tasks : The data pre-processing(wrangling) and data exploration . The data pre-prepocessing involves the learning of nature of the data, its characteristics, types format and quality, that consequently lead to better outcome. While, The data wrangling consist of cleaning necessary data. 
+\subsection{Data preparation and exploratory}
+The preparation refers to two main tasks : The data pre-processing and data exploration . The data pre-prepocessing involves the learning of nature of the data and its characteristics, types format and quality. It can result to the cleaning of data if it noticed that they are unnecessary or tidy for the analysis.
 
-On the other hand,\textbf{the exploratory data analysis} process aims to receive collected and cleaned data and facilitates the visualization that can be helpful in detection of outliers, identification of clusters and trends \cite{unwin2020data}.
-\subsection{Model building and selection}
+In the other hand,\textbf{ the exploratory data analysis} process aims to receive collected and cleaned data and facilitates the visualization that can be helpful in detection of outliers, identification of clusters and trends \cite{unwin2020data}. 
+
+Furthermore, when this two processes of preparation steps are iterative involving transformation of data and its exploration, this process is called \textbf{data wrangling} \cite{furche2016data} . 
+\subsection{Model training and selection}
+When this stage is reached, it's obviously understood that the previous, ie. gathering, preparation, exploratory steps are already fulfilled. However, it is possible to go back there once again according to the analysis requirements.
+What's happen during the training and testing stages ?
+Since all clean data are found in a dataset containing features in columns and data values in rows, the class based on choices made for the comfortable algorithm can be subsequently used to generate a model. This model is able to learn relationships and patterns within the data, is what we call \textbf{'training'}. 
+Thus, the selection of suit ML algorithm is more competitive involving studies, testing. However it is more lead by the kind of problem we wish to solve, the number of features and its types, the kind of model that would suit the data more the best \cite{wang2016machine}. 
+
+So, according to those principles, here are the types of ML algorithms used:
+
+
+\subsubsection{(a) Supervised models}  
+The Supervise ML algorithms are one of algorithms often  used in intelligent systems. Their manner of functioning is this: They get as inputs the data related to the features, then they map them  with desired outputs (the output is input's entry). Thus, before moving on the training step for finally getting the model, all the data are found in a dataset where each entry represents \textbf{the feature vector} while the output defines \textbf{the target} or the answer gotten from the prediction. In addition, all the dataset entry values are considered as \textbf{feature matrix} and the columns are normally the \textbf{features}.
+
+So, the supervised algorithms are used for performing tasks based on those criteria. In the same way, each task can involve a new algorithm type to use. In the following, let's present the tasks performed :\\
+
+\textbf{- Classification tasks}: These tasks involve categorizing input data into predefined classes or labels. The model learns to assign the correct category to new data based on patterns learned during training. Thus, they can are used for: Spam detection for classifying whether a message is a spam or not; Sentiment analysis for determining the social media posts text which can be positive, negative or neutral; image classification for identifying objects or categories in images.
+
+\textbf{- Regression tasks}  : Regression tasks focus on prediction continuous numeric values based on input features. The algorithms based on this tasks are able to predict : The house prices, stock prices even the temperature forecasts.
+
+\textbf{- Object Detection and Recognition} :  The algorithms related to these tasks are used to develop which are able to locate and identify objects within images and videos. They are often used in autonomous vehicles and surveillance systems.
+
+\textbf{- Natural Language Processing (NLP)}  : This task involves the algorithms generating models which are wonderful in process of translating text form one language to another and identifying entities (e.g, names, locations) in text. 
+
+\textbf{- Time series Analysis} : The model developed here, predict future values based on historical time-order data, with applications in in finance, weather forecasting, and demand prediction.
+
+\textbf{- Speech Recognition} : Here, these task requires models able to convert spoken language into text, for enabling voice assistants and transcription services.
+
+\textbf{Deep learning} : The uniqueness of models designed for this task lies in their capacity to delve deeply into extensive and intricate data, including unstructured forms such as images, text, and audio. These models possess the remarkable ability to autonomously learn complex hierarchies, enabling them to perform a wide range of tasks.
+\\
+
+To gain deeper insight into the structure and impact of algorithms based on their tasks, the table provides a more meaningful overview.
+
 
 \newpage
  %\bibliographystyle{apacite} % or whatever citation style you choose
