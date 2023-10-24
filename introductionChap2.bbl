@@ -18,6 +18,12 @@ Paul Kimumwe Lillian Nalwoga Juliet Nanfuka Edrine Wanyama Wairagala Wakabi~PhD
 \newblock {\em Mapping Trends in Government Internet Controls, 1999-2019},
   2020.
 
+\bibitem{bai2020object}
+Qiang Bai, Shaobo Li, Jing Yang, Qisong Song, Zhiang Li, and Xingxing Zhang.
+\newblock Object detection recognition and robot grasping based on machine
+  learning: A survey.
+\newblock {\em IEEE access}, 8:181855--181879, 2020.
+
 \bibitem{bluman2017elementary}
 Allan Bluman.
 \newblock {\em Elementary statistics: A step by step approach}.
@@ -123,6 +129,25 @@ Sunil~Kumar Jangir, Manoj~Kumar Sharma, and Pawan~Kumar Gupta.
 \newblock {\em International Journal of Computer Applications}, 151(9):1--5,
   2016.
 
+\bibitem{janiesch2021machine}
+Christian Janiesch, Patrick Zschech, and Kai Heinrich.
+\newblock Machine learning and deep learning.
+\newblock {\em Electronic Markets}, 31(3):685--695, 2021.
+
+\bibitem{jayasankar2021survey}
+Uthayakumar Jayasankar, Vengattaraman Thirumal, and Dhavachelvan Ponnurangam.
+\newblock A survey on data compression techniques: From the perspective of data
+  quality, coding schemes, data type and applications.
+\newblock {\em Journal of King Saud University-Computer and Information
+  Sciences}, 33(2):119--140, 2021.
+
+\bibitem{jiao2021spoken}
+Fengming Jiao, Jiao Song, Xin Zhao, Ping Zhao, and Ru~Wang.
+\newblock A spoken english teaching system based on speech recognition and
+  machine learning.
+\newblock {\em International Journal of Emerging Technologies in Learning
+  (iJET)}, 16(14):68--82, 2021.
+
 \bibitem{karl1986model}
 Thomas~R Karl, Claude~N Williams~Jr, Pamela~J Young, and Wayne~M Wendland.
 \newblock A model to estimate the time of observation bias associated with
@@ -136,11 +161,24 @@ Veena~K Katankar and VM~Thakare.
 \newblock {\em International Journal on Computer Science and Engineering},
   2(04):1487--1491, 2010.
 
+\bibitem{khanum2015survey}
+Memoona Khanum, Tahira Mahboob, Warda Imtiaz, Humaraia~Abdul Ghafoor, and
+  Rabeea Sehar.
+\newblock A survey on unsupervised machine learning algorithms for automation,
+  classification and maintenance.
+\newblock {\em International Journal of Computer Applications}, 119(13), 2015.
+
 \bibitem{kreuzberger2023machine}
 Dominik Kreuzberger, Niklas K{\"u}hl, and Sebastian Hirschl.
 \newblock Machine learning operations (mlops): Overview, definition, and
   architecture.
 \newblock {\em IEEE Access}, 2023.
+
+\bibitem{langkvist2014review}
+Martin L{\"a}ngkvist, Lars Karlsson, and Amy Loutfi.
+\newblock A review of unsupervised feature learning and deep learning for
+  time-series modeling.
+\newblock {\em Pattern recognition letters}, 42:11--24, 2014.
 
 \bibitem{lavanya2582sms}
 M~Lavanya and KR~Aruna.
@@ -162,6 +200,19 @@ Matti Lepp{\"a}niemi and Heikki Karjaluoto.
 \newblock Mobile marketing: From marketing strategy to mobile marketing
   campaign implementation.
 \newblock {\em International Journal of Mobile Marketing}, 3(1), 2008.
+
+\bibitem{liu2000interactive}
+Qiong Liu, Stephen Levinson, Ying Wu, and Thomas Huang.
+\newblock Interactive and incremental learning via a mixture of supervised and
+  unsupervised learning strategies.
+\newblock In {\em Proceedings of the Fifth Joint Conference on Information
+  Sciences}, volume~1, pages 555--558, 2000.
+
+\bibitem{maulud2020review}
+Dastan Maulud and Adnan~M Abdulazeez.
+\newblock A review on linear regression comprehensive in machine learning.
+\newblock {\em Journal of Applied Science and Technology Trends},
+  1(4):140--147, 2020.
 
 \bibitem{mckinney2015pandas}
 Wes McKinney and PD~Team.
@@ -197,6 +248,14 @@ Pavas Navaney, Gaurav Dubey, and Ajay Rana.
 \newblock In {\em 2018 8th international conference on cloud computing, data
   science \& engineering (confluence)}, pages 43--48. IEEE, 2018.
 
+\bibitem{osisanwo2017supervised}
+FY~Osisanwo, JET Akinsola, O~Awodele, JO~Hinmikaiye, O~Olakanmi, J~Akinjobi,
+  et~al.
+\newblock Supervised machine learning algorithms: classification and
+  comparison.
+\newblock {\em International Journal of Computer Trends and Technology
+  (IJCTT)}, 48(3):128--138, 2017.
+
 \bibitem{Statista2020}
 Statista's own team~of researchers and analysts.
 \newblock {\em Number of mobile messages worldwide from 2019 to 2023 (in
@@ -223,11 +282,24 @@ Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel,
 \newblock Scikit-learn: Machine learning in python.
 \newblock {\em the Journal of machine Learning research}, 12:2825--2830, 2011.
 
+\bibitem{qiang2020short}
+Jipeng Qiang, Zhenyu Qian, Yun Li, Yunhao Yuan, and Xindong Wu.
+\newblock Short text topic modeling techniques, applications, and performance:
+  a survey.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  34(3):1427--1445, 2020.
+
 \bibitem{raschka2017python}
 Sebastian Raschka and Vahid Mirjalili.
 \newblock Python machine learning: Machine learning and deep learning with
   python.
 \newblock {\em Scikit-Learn, and TensorFlow. Second edition ed}, 3, 2017.
+
+\bibitem{razno2019machine}
+Maria Razno.
+\newblock Machine learning text classification model with nlp approach.
+\newblock {\em Computational Linguistics and Intelligent Systems}, 2:71--73,
+  2019.
 
 \bibitem{shafi2017review}
 Muhammad~Abdulhamid Shafi’I, Muhammad~Shafie Abd~Latiff, Haruna Chiroma,
@@ -256,6 +328,11 @@ De~S Sirisuriya et~al.
 Alex Smola and S.V.N. Vishwanathan.
 \newblock {\em Introduction to Machine Learning}.
 \newblock Cambridge University Press, Cambridge, UK, 2010.
+
+\bibitem{sorzano2014survey}
+Carlos Oscar~S{\'a}nchez Sorzano, Javier Vargas, and A~Pascual Montano.
+\newblock A survey of dimensionality reduction techniques.
+\newblock {\em arXiv preprint arXiv:1403.2877}, 2014.
 
 \bibitem{stark2010building}
 Jonathan Stark, Paco Nathan, John Papaconstantinou, Paco Lagerstrom, and Paco

@@ -39,3 +39,4 @@
 \contentsline {subsection}{\numberline {2.4.4}Data preparation and exploratory}{38}{subsection.2.4.4}%
 \contentsline {subsection}{\numberline {2.4.5}Model training and selection}{39}{subsection.2.4.5}%
 \contentsline {subsubsection}{(a) Supervised models}{39}{section*.30}%
+\contentsline {subsubsection}{\textbf {(b) Unsupervised Models}}{41}{section*.32}%

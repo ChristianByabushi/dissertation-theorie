@@ -4,11 +4,13 @@
 \usepackage{amsmath}
 \usepackage[english]{babel}
 \usepackage{geometry}
-\usepackage{hyperref}
+\usepackage{hyperref}  
+\usepackage{array}
+\usepackage{booktabs}
 \usepackage[utf8]{inputenc} 
 \usepackage{listings}  
 \usepackage{minted} 
-\usepackage[table]{xcolor}
+\usepackage[table]{xcolor} 
 \usepackage{colortbl}
 \usepackage{hyperref}  
 \usepackage{enumitem} 
@@ -1018,7 +1020,7 @@ The completion of this project necessitated the utilization of various dependenc
 \begin{table}
 \begin{tabular}{|p{4.1cm}|p{4cm}|p{6cm}|}
 	\cline{2-3} 
-    \multicolumn{1}{c|}{} & \textbf{Tools}   & \textbf{Roles}  \\
+    \multicolumn{1}{c|}{} &  \textbf{Tools}   &  \textbf{Roles}  \\
 	\hline
 \multirow{11}{4cm}{\textbf{Data analysis and Machine Learning libraries}}	& \textit{Numpy} & Scientific computing library   \\ 
 	\cline{2-3} 
@@ -1112,26 +1114,126 @@ So, according to those principles, here are the types of ML algorithms used:
 
 
 \subsubsection{(a) Supervised models}  
-The Supervise ML algorithms are one of algorithms often  used in intelligent systems. Their manner of functioning is this: They get as inputs the data related to the features, then they map them  with desired outputs (the output is input's entry). Thus, before moving on the training step for finally getting the model, all the data are found in a dataset where each entry represents \textbf{the feature vector} while the output defines \textbf{the target} or the answer gotten from the prediction. In addition, all the dataset entry values are considered as \textbf{feature matrix} and the columns are normally the \textbf{features}.
+The Supervise ML algorithms are one of algorithms often  used in intelligent systems. Their manner of functioning is this: They get as inputs the data related to the features, then they map them  with desired outputs (the output is input's entry). 
 
-So, the supervised algorithms are used for performing tasks based on those criteria. In the same way, each task can involve a new algorithm type to use. In the following, let's present the tasks performed :\\
+Thus, before moving on the training step for finally getting the model, all the data are placed in a dataset where each entry represents \textbf{the feature vector} while the output defines \textbf{the target} or the answer gotten from the prediction. In addition, all the dataset entry values are considered as \textbf{feature matrix} and the columns are normally the \textbf{features}. 
 
-\textbf{- Classification tasks}: These tasks involve categorizing input data into predefined classes or labels. The model learns to assign the correct category to new data based on patterns learned during training. Thus, they can are used for: Spam detection for classifying whether a message is a spam or not; Sentiment analysis for determining the social media posts text which can be positive, negative or neutral; image classification for identifying objects or categories in images.
+Therefore, for reaching a high score of precision, the prepared dataset can be split in tree parts : A part for training, used for the instructing the model, allowing it to learn patterns and relationships within the data; Second part for testing, used for testing if the model learns suitably the data provided to it, however data used for this stage are the than contained in a dataset; then for making sure that the model is able to learn from unseen data, another part is generated from the same dataset by strictly considering the data as unknown. 
 
-\textbf{- Regression tasks}  : Regression tasks focus on prediction continuous numeric values based on input features. The algorithms based on this tasks are able to predict : The house prices, stock prices even the temperature forecasts.
+A part from spiting the dataset, several tasks are used by the supervised ML models for solving problems, as follows:
 
-\textbf{- Object Detection and Recognition} :  The algorithms related to these tasks are used to develop which are able to locate and identify objects within images and videos. They are often used in autonomous vehicles and surveillance systems.
+\textbf{- Classification tasks}: These tasks involve categorizing input data into predefined classes or labels \cite{osisanwo2017supervised}. The model learns to assign the correct category to new data based on patterns learned during training. Thus, they can are used for: Spam detection for classifying whether a message is a spam or not; Sentiment analysis for determining the social media posts text which can be positive, negative or neutral; image classification for identifying objects or categories in images.
 
-\textbf{- Natural Language Processing (NLP)}  : This task involves the algorithms generating models which are wonderful in process of translating text form one language to another and identifying entities (e.g, names, locations) in text. 
+\textbf{- Regression tasks}  : Regression tasks focus on prediction continuous numeric values based on input features. Besides, they are used to establish relationship among those features \cite{maulud2020review}. The algorithms based on these tasks are able to predict : The house prices, stock prices even the temperature forecasts.
 
-\textbf{- Time series Analysis} : The model developed here, predict future values based on historical time-order data, with applications in in finance, weather forecasting, and demand prediction.
+\textbf{- Object Detection and Recognition} :  The algorithms related to these tasks are used to develop which are able to locate and identify objects within images and videos. They are often used in autonomous vehicles and surveillance systems and crops detection diseases \cite{bai2020object} .
 
-\textbf{- Speech Recognition} : Here, these task requires models able to convert spoken language into text, for enabling voice assistants and transcription services.
+\textbf{- Natural Language Processing (NLP)}  : This task involves the algorithms generating models which are wonderful in process of translating text form one language to another and identifying entities (e.g, names, locations) in text \cite{razno2019machine} . 
 
-\textbf{Deep learning} : The uniqueness of models designed for this task lies in their capacity to delve deeply into extensive and intricate data, including unstructured forms such as images, text, and audio. These models possess the remarkable ability to autonomously learn complex hierarchies, enabling them to perform a wide range of tasks.
+\textbf{- Time series Forecasting} : The model developed here, predict future values based on historical time-order data, with applications in in finance, weather forecasting (eg. prediction of wind speed \cite{langkvist2014review}), and demand prediction.
+
+\textbf{- Speech Recognition} : Here, the concerned models able to convert spoken language into text, for enabling voice assistants and transcription services \cite{jiao2021spoken}.
+
+\textbf{- Deep learning} : The uniqueness of models designed for this task lies in their capacity to delve deeply into extensive and intricate data, including unstructured forms such as images, text, and audio. These models possess the remarkable ability to autonomously learn complex hierarchies, enabling them to perform a wide range of tasks \cite{janiesch2021machine}.
 \\
 
-To gain deeper insight into the structure and impact of algorithms based on their tasks, the table provides a more meaningful overview.
+To gain deeper insight into the structure and impact of algorithms based on their tasks, the table \ref{whichTaskWhichModel} provides a more meaningful overview of some of it. 
+\renewcommand{\arraystretch}{1.2}
+\begin{table}[h]
+	\begin{tabular}{p{3cm}p{5.6cm}p{6cm}} 
+		
+		\toprule 
+		Tasks & Algorithms & Genre and problem solving examples    \\
+		\toprule
+		Classification & Naive Bayes, Logistic Regression, Support Vector Machine (SM), Random Forest, Decision Trees, etc. & Categorize input data into predefined classes or labels. 
+		
+		E.g: Sentiment Analysis. \\
+		
+		Regression & Linear Regression, Polynomial Regression, Lasso Regression, Ridge Regression, Suport Vector Regression (SVR), etc. & Predict continuous numerical output value.
+		
+		E.g: House prices forecasting.
+		\\
+		
+		Object Detection & Convolutional Neural Networks (CNNs), etc. & YOLO (You Only Look Once). 
+		
+		E.g: Self-driving cars\\
+		Natural Language Processing (NLP) & RNNS(Reccurrent Neural Networks), LSTMs, etc. & Undestand human language.
+		
+		E.g:  Language translation.\\
+		Time series Analysis & ARIMA(Autoregressive Integral Moving average), Exponential Smoothing methods, Seasonal Decomposition of Time Series (STL), etc. & Predict future values in a time series.
+		
+		E.g: Weather prediction.
+		\\
+		Deep Learning & RNNs, NLP, GANs(Generative Adversarial Networks), etc. & Learn hierarchical representations from data, for deep prediction 
+		
+		E.g: Image recognition.
+		\\
+		\bottomrule
+	\end{tabular} 
+\caption{Which task for which Supervised Machine learning algorithm} 
+\label{whichTaskWhichModel} 
+\end{table} 
+
+\subsubsection{\textbf{(b) Unsupervised Models}}
+Unlike supervised models which learns from the labels data, the unsupervised models are trained on unlabeled data. Their particularity lies in their ability to learn from complex and large amount of data. Their best goal is to find hidden patterns, structures or relationships within the data even though they are not proportional. Therefore, they are categorized as non-linear models  \cite{khanum2015survey}.
+
+However, for professionally dealing with complex dataset containing linear or non linear, supervised and unsupervised models can be combined. In this case, the unsupervised can be mostly used to reduce the dimensionality of data before applying and the supervised model for linear regression prediction for example. This approach let profit from all both method's advantages \cite{liu2000interactive}. 
+
+The common tasks concerned by this ML type include : clustering, dimensionality reduction, data compression, topic modeling and many others. \\
+
+\textbf{Clustering task}, is the fundamental task of this type. It is helps to group data into sensible grouping objects according to similarities and  characteristics. It obvious that all any class if pre-selected, or fore-grouped. Thus, the problem like : Grouping customers into clusters based on their purchasing behavior for market segmentation.
+
+Subsequently, \textbf{the dimensionality reduction tasks} involves  model's techniques simplifying  the dataset to train while preserving its essential characteristics, that can be helpful to improve the performance of the model. The challenge of this method when projecting data \cite{sorzano2014survey}, is to choose the right techniques, we mean parameters, features,...  The related solutions include : Data processing for machine learning tasks, visualization of high-dimensional data in fields like biology and natural language processing. 
+
+In addition, \textbf{the data compression} task, is inspired from the recent advancements in the field of information technology resulted to the generation of huge amount of data at each and every second \cite{jayasankar2021survey} . Therefore, the need of having a method able to eliminate data redundancy and irrelevancy is observed. This need becomes fulfilled by the unsupervised models allowing further analysis and pre-processing.
+
+Furthermore, the topic modeling, is due to the growth of texts in new environment like internet, where informations including news headlines, web pages, questions/answers are published \cite{qiang2020short}. Thus, analysis of text becomes essential. It is performed by unsupervised models focusing on language, frequent words, and many others parameters.
+
+The table provides a comprehensive overview of these tasks and the associated algorithms employed to achieve them.
+
+\renewcommand{\arraystretch}{1.2}
+\begin{table}[h]
+	\begin{tabular}{p{3cm}p{5.6cm}p{6cm}} 
+		
+		\toprule 
+		Tasks & Algorithms & Genre and problem solving examples    \\
+		\toprule
+		Clustering & K-Means Clustering, Hierarchical Clustering, DBSCAN, etc. & Group data points into clusters based on similarity, without prior knowledge of group labels
+		
+		E.g: Customer Segmentation . \\
+		
+		Dimension Reduction & PCA(Principal Component Analysis), t-Distributed Stochastic Neighbor Embedding, etc. & Reduce the number of features(dimensions) in a dataset and retain essential information.
+		
+		E.g: Image compression .\\
+		Topic Modeling & LDA(Latent Dirichlet Allocation), Non-Negative Matric Factorization(NMF), etc. & Discovering latent topics within a collection of documents
+		
+		E.g: Content Recommendation \\
+		
+		Data compression & PCA & Preprocess daat to make data more manageable.
+		
+		E.g : Data storage.\\
+						
+		\bottomrule
+	\end{tabular} 
+	\caption{Which task for which Unsupervised Machine learning algorithm} 
+	\label{whichTaskWhichModelUnsupervised} 
+\end{table} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \newpage

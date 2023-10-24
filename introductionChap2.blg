@@ -32,6 +32,10 @@ I was expecting a `{' or a `('---line 319 of file bibliofile.bib
  : @inproceedings{tang2022clues,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 677 of file bibliofile.bib
+ : @article{osisanwo2017supervised
+ :                                ,
+I'm skipping whatever remains of this entry
 Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
@@ -67,45 +71,45 @@ Warning--empty school in tulchak2016history
 Warning--empty journal in coursAnalyseDonne2
 Warning--there's a number but no volume in coursAnalyseDonne2
 Warning--empty journal in giswatch2018
-You've used 56 entries,
+You've used 68 entries,
             2118 wiz_defined-function locations,
-            803 strings with 13964 characters,
-and the built_in function-call counts, 18116 in all, are:
-= -- 1743
-> -- 929
-< -- 14
-+ -- 376
-- -- 312
-* -- 1212
-:= -- 3081
-add.period$ -- 173
-call.type$ -- 56
-change.case$ -- 309
+            873 strings with 16633 characters,
+and the built_in function-call counts, 22784 in all, are:
+= -- 2200
+> -- 1199
+< -- 16
++ -- 488
+- -- 406
+* -- 1595
+:= -- 3869
+add.period$ -- 209
+call.type$ -- 68
+change.case$ -- 391
 chr.to.int$ -- 0
-cite$ -- 67
-duplicate$ -- 714
-empty$ -- 1353
-format.name$ -- 312
-if$ -- 3737
+cite$ -- 79
+duplicate$ -- 856
+empty$ -- 1671
+format.name$ -- 406
+if$ -- 4669
 int.to.chr$ -- 0
-int.to.str$ -- 56
-missing$ -- 66
-newline$ -- 284
-num.names$ -- 112
-pop$ -- 356
+int.to.str$ -- 68
+missing$ -- 78
+newline$ -- 344
+num.names$ -- 136
+pop$ -- 420
 preamble$ -- 1
-purify$ -- 266
+purify$ -- 336
 quote$ -- 0
-skip$ -- 501
+skip$ -- 602
 stack$ -- 0
-substring$ -- 891
-swap$ -- 144
-text.length$ -- 14
+substring$ -- 1220
+swap$ -- 167
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 200
+type$ -- 248
 warning$ -- 11
-while$ -- 167
-width$ -- 58
-write$ -- 601
-(There were 18 error messages)
+while$ -- 212
+width$ -- 70
+write$ -- 733
+(There were 19 error messages)
