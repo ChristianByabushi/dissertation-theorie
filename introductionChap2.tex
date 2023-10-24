@@ -1050,7 +1050,7 @@ The completion of this project necessitated the utilization of various dependenc
 \section{Description of the methodology and approach}
 Choosing a right methodology including approaches and methods to use, is an important task. However, the nature of environment defers and leads to challenging evaluation before determining the fit one. Thus, since this project investigates in Machine Learning project, the appealing methodology chosen for its achievement is inspired from MLOps(ML Operating systems).\\
 
-\subsection{\textbf{{\large  ML operating systems}}} 
+\subsection{{\large  ML operating systems}} 
 ML endeavors aim to deal with their projects from development till the production step. However, a large number of projects based on ML don't reach the final step according to their expectations. Actually, the paradigm of MLOps came to face this issue \cite{kreuzberger2023machine}. For that, it is a set of principles, best practices and concepts, and development culture that provide an end-to-end machine learning development process to design, build and manage reproducible, testable and evolvable ML-powered software. 
 
 Furthermore, MLops involves the union of many disciples, including Machine learning, software engineering (concerning DevOps too), data engineering as clarified in figure \ref{fig:mlopsdisciplines}.
@@ -1174,7 +1174,7 @@ To gain deeper insight into the structure and impact of algorithms based on thei
 \label{whichTaskWhichModel} 
 \end{table} 
 
-\subsubsection{\textbf{(b) Unsupervised Models}}
+\subsubsection{\textbf{(b) Unsupervised Models}} 
 Unlike supervised models which learns from the labels data, the unsupervised models are trained on unlabeled data. Their particularity lies in their ability to learn from complex and large amount of data. Their best goal is to find hidden patterns, structures or relationships within the data even though they are not proportional. Therefore, they are categorized as non-linear models  \cite{khanum2015survey}.
 
 However, for professionally dealing with complex dataset containing linear or non linear, supervised and unsupervised models can be combined. In this case, the unsupervised can be mostly used to reduce the dimensionality of data before applying and the supervised model for linear regression prediction for example. This approach let profit from all both method's advantages \cite{liu2000interactive}. 
@@ -1187,7 +1187,7 @@ Subsequently, \textbf{the dimensionality reduction tasks} involves  model's tech
 
 In addition, \textbf{the data compression} task, is inspired from the recent advancements in the field of information technology resulted to the generation of huge amount of data at each and every second \cite{jayasankar2021survey} . Therefore, the need of having a method able to eliminate data redundancy and irrelevancy is observed. This need becomes fulfilled by the unsupervised models allowing further analysis and pre-processing.
 
-Furthermore, the topic modeling, is due to the growth of texts in new environment like internet, where informations including news headlines, web pages, questions/answers are published \cite{qiang2020short}. Thus, analysis of text becomes essential. It is performed by unsupervised models focusing on language, frequent words, and many others parameters.
+Furthermore, \textbf{the topic modeling}, is due to the growth of texts in new environment like internet, where informations including news headlines, web pages, questions/answers are published \cite{qiang2020short}. Thus, analysis of text becomes essential. It is performed by unsupervised models focusing on language, frequent words, and many others parameters.
 
 The table provides a comprehensive overview of these tasks and the associated algorithms employed to achieve them.
 
@@ -1217,8 +1217,35 @@ The table provides a comprehensive overview of these tasks and the associated al
 	\end{tabular} 
 	\caption{Which task for which Unsupervised Machine learning algorithm} 
 	\label{whichTaskWhichModelUnsupervised} 
-\end{table} 
+\end{table}  
 
+
+\subsection{Model Evaluation}
+The evaluation of machine learning models is a critical aspect of the model development process. Its helps to assess the model's performance, its ability to make accurate predictions, and its generalizations to unseen data \cite{raschka2018model}. 
+
+Therefore, various techniques are implemented to assess that the model is worthy to be used. However, it defers from problem or models types performing a certain tasks. Thus, two main techniques are used : \textbf{cross-validation and the measure of metrics}.
+
+The cross-validation is used to measure the performance of the model. For performing this, the methods such as: \textbf{\textit{K-Fold}} Cross-validation are used. This one; divides the dataset into \textbf{'k' subsets }of approximately equal size, then the model is trained and tested \textbf{'k' times} using each of the k subsets as the test set exactly once while the remaining \textbf{subsets are used for training}. The others cross-validation are : Stratified cross-validation and Leave-One-Out Cross-validation (LOOCV). 
+
+A part from cross-validation, we have the measure of metrics as one of highly technique used to estimate the model accuracy. However, the metrics depends on tasks performed by the model: 
+
+For classification metrics \cite{raschka2018model} there are:
+\begin{itemize}
+	\item Accuracy 
+	\item Precision
+	\item Recall 
+	\item F1-Score
+	\item ROC AUC
+\end{itemize}
+
+
+\begin{tabular}{|c|c|c|c|}
+	\cline{2-4}
+	&  &  & Observations   \\
+	\hline
+	Predictions&  &  &  \\
+	\hline
+\end{tabular}
 
 
 

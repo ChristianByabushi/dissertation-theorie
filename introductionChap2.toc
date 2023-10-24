@@ -33,10 +33,11 @@
 \contentsline {subsubsection}{Data Visualization With \textit {Matplotlib} and \textit {Seaborn}}{30}{section*.20}%
 \contentsline {subsection}{\numberline {2.3.3}Summary concerning the tools and frameworks}{35}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Description of the methodology and approach}{35}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}\textbf {{\large ML operating systems}}}{35}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}{\large ML operating systems}}{35}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Definition of the object and specification}{37}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Gathering data}{37}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}Data preparation and exploratory}{38}{subsection.2.4.4}%
 \contentsline {subsection}{\numberline {2.4.5}Model training and selection}{39}{subsection.2.4.5}%
 \contentsline {subsubsection}{(a) Supervised models}{39}{section*.30}%
 \contentsline {subsubsection}{\textbf {(b) Unsupervised Models}}{41}{section*.32}%
+\contentsline {subsection}{\numberline {2.4.6}Model Evaluation}{41}{subsection.2.4.6}%

@@ -289,6 +289,12 @@ Jipeng Qiang, Zhenyu Qian, Yun Li, Yunhao Yuan, and Xindong Wu.
 \newblock {\em IEEE Transactions on Knowledge and Data Engineering},
   34(3):1427--1445, 2020.
 
+\bibitem{raschka2018model}
+Sebastian Raschka.
+\newblock Model evaluation, model selection, and algorithm selection in machine
+  learning.
+\newblock {\em arXiv preprint arXiv:1811.12808}, 2018.
+
 \bibitem{raschka2017python}
 Sebastian Raschka and Vahid Mirjalili.
 \newblock Python machine learning: Machine learning and deep learning with
