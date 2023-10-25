@@ -41,3 +41,5 @@
 \contentsline {subsubsection}{(a) Supervised models}{39}{section*.30}%
 \contentsline {subsubsection}{\textbf {(b) Unsupervised Models}}{41}{section*.32}%
 \contentsline {subsection}{\numberline {2.4.6}Model Evaluation}{41}{subsection.2.4.6}%
+\contentsline {subsubsection}{Model Deployment and monitoring}{44}{section*.35}%
+\contentsline {section}{\numberline {2.5}Scikitlearn and Algorithms}{44}{section.2.5}%

@@ -32,7 +32,7 @@ I was expecting a `{' or a `('---line 319 of file bibliofile.bib
  : @inproceedings{tang2022clues,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 676 of file bibliofile.bib
+Repeated entry---line 685 of file bibliofile.bib
  : @article{osisanwo2017supervised
  :                                ,
 I'm skipping whatever remains of this entry
@@ -70,46 +70,48 @@ Warning--empty journal in sirisuriya2015comparative
 Warning--empty school in tulchak2016history
 Warning--empty journal in coursAnalyseDonne2
 Warning--there's a number but no volume in coursAnalyseDonne2
+Warning--empty journal in coursAnalyseDonne3
+Warning--there's a number but no volume in coursAnalyseDonne3
 Warning--empty journal in giswatch2018
-You've used 69 entries,
+You've used 73 entries,
             2118 wiz_defined-function locations,
-            877 strings with 16776 characters,
-and the built_in function-call counts, 22988 in all, are:
-= -- 2220
-> -- 1206
+            898 strings with 17406 characters,
+and the built_in function-call counts, 24139 in all, are:
+= -- 2341
+> -- 1246
 < -- 16
-+ -- 491
-- -- 408
-* -- 1603
-:= -- 3908
-add.period$ -- 212
-call.type$ -- 69
-change.case$ -- 395
++ -- 507
+- -- 420
+* -- 1684
+:= -- 4103
+add.period$ -- 224
+call.type$ -- 73
+change.case$ -- 413
 chr.to.int$ -- 0
-cite$ -- 80
-duplicate$ -- 866
-empty$ -- 1688
-format.name$ -- 408
-if$ -- 4710
+cite$ -- 86
+duplicate$ -- 909
+empty$ -- 1783
+format.name$ -- 420
+if$ -- 4941
 int.to.chr$ -- 0
-int.to.str$ -- 69
-missing$ -- 79
-newline$ -- 349
-num.names$ -- 138
-pop$ -- 424
+int.to.str$ -- 73
+missing$ -- 83
+newline$ -- 369
+num.names$ -- 146
+pop$ -- 439
 preamble$ -- 1
-purify$ -- 339
+purify$ -- 353
 quote$ -- 0
-skip$ -- 609
+skip$ -- 637
 stack$ -- 0
-substring$ -- 1225
-swap$ -- 168
+substring$ -- 1315
+swap$ -- 171
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 252
-warning$ -- 11
-while$ -- 214
-width$ -- 71
-write$ -- 743
+type$ -- 268
+warning$ -- 13
+while$ -- 229
+width$ -- 75
+write$ -- 785
 (There were 19 error messages)

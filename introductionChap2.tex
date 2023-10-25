@@ -3,9 +3,9 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage[english]{babel}
-\usepackage{geometry}
+\usepackage{geometry} 
 \usepackage{hyperref}  
-\usepackage{array}
+\usepackage{array} 
 \usepackage{booktabs}
 \usepackage[utf8]{inputenc} 
 \usepackage{listings}  
@@ -1227,47 +1227,91 @@ Therefore, various techniques are implemented to assess that the model is worthy
 
 The cross-validation is used to measure the performance of the model. For performing this, the methods such as: \textbf{\textit{K-Fold}} Cross-validation are used. This one; divides the dataset into \textbf{'k' subsets }of approximately equal size, then the model is trained and tested \textbf{'k' times} using each of the k subsets as the test set exactly once while the remaining \textbf{subsets are used for training}. The others cross-validation are : Stratified cross-validation and Leave-One-Out Cross-validation (LOOCV). 
 
-A part from cross-validation, we have the measure of metrics as one of highly technique used to estimate the model accuracy. However, the metrics depends on tasks performed by the model: 
+A part from cross-validation, we have the measure of metrics as one of highly techniques used to estimate the model accuracy. However, the metrics depends on tasks performed by the model: 
+\\
 
-For classification metrics \cite{raschka2018model} there are:
-\begin{itemize}
-	\item Accuracy 
-	\item Precision
-	\item Recall 
-	\item F1-Score
-	\item ROC AUC
-\end{itemize}
+For classification tasks, it used what we call the confusion matrices to evaluate errors in classification problems.
+As shown in table \ref{tab:confusionMatrixTable}, \cite{raschka2018model} , this method focuses on evaluating the ability of model to classify instances into different categories. Thus, there are \textbf{True Positives} (TP) which are instances that were correctly predicted as belonging to the positive class; \textbf{True Negatives} (TN), which are instances that were correctly predicted as belonging to the negative class. In the same way, \textbf{False Positives} (FP) are instances that were incorrectly predicted as belonging to the positive class. While the \textbf{False Negatives} (FN) are instances that were incorrectly predicted as belonging to the negative class \cite{maria2016performance}. 
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|p{3cm}|p{3.5cm}|p{3cm}|p{5cm}|} 
+		\cline{2-4}
+		\multicolumn{1}{c|}{}& \multicolumn{3}{c|}{\textbf{Observations}}   \\
+		\cline{1-4} 
+		\textbf{Predictions}	& \textbf{Actual Negative} & \textbf{Actual Positive} & \textbf{Total}\\
+		\hline
+		Predicted Negative & True Negatives (TN) & False Negatives (FN) & Total of Negatives predicted  (FN+TN)\\
+		\hline
+		Predicted Positive & False Positives (FP) & True Positives (TP) & Total of Positives predicted  (FP+TP)\\
+		\hline
+		Total & Total of Negatives observed & Total of Positives Observed & Size of all total data\\
+		\hline
+	\end{tabular} 
+	\caption{Confusion Matrix}
+	\label{tab:confusionMatrixTable}
+\end{table}
 
+Therefore, those parameters give sense to several metrics as following : 
 
-\begin{tabular}{|c|c|c|c|}
-	\cline{2-4}
-	&  &  & Observations   \\
-	\hline
-	Predictions&  &  &  \\
-	\hline
-\end{tabular}
+- \textbf{Accuracy}, which is the proportion of correct predictions over the total number of predictions (Eq.\ref{eq:accuracy}) : 
+¨
+\begin{equation} 
+\label{eq:accuracy}
+	ACC = \frac{TP+TN}{TP+TN+FP+FN} 
+¨\end{equation} 
+- \textbf{The Precision}, is the fraction of true positive predictions(TP) out of all positive predictions (Eq.\ref{eq:precision}). 
+\begin{equation}
+	\label{eq:precision} 
+	Precision = \frac{TP}{TP+FP}
+\end{equation}  
+- There's the \textbf{Recall} also called Sensitivity, True Positive Rate or TPR; measuring the fraction of true positive predictions out of all actual positive instances (Eq.\ref{eq:recall}). 
+\begin{equation}
+	\label{eq:recall}  
+	Recall = \frac{TP}{TP+FN}
+\end{equation} 
+- There's too, the \textbf{F1-Score}, which is the harmonic mean of precision and recall since it balances precision and recall (Eq. \ref{eq:fscore}). 
+\begin{equation}
+\label{eq:fscore}
+F1Score = \frac{2 \cdot (Precision \cdot Recall)}{Precision + Recall} = \frac{2VP}{2VP + FP + FN}
+\end{equation}
 
+For sure, all the metrics are convenient for a given situation or problem to solve and have to be high. Most of the time the percent of 80 \% is high, while in others 90\% with the possibility of taking care of false positives.  \\
 
+Besides, the \textbf{Regression Tasks} present too the a lot metrics among them there are \cite{coursAnalyseDonne3} : 
 
+- \textbf{Mean Absolute Error(MAE)}, it measures the average absolute difference between the predicted values and the actual values. 
 
+\begin{equation}
+	\text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|
+\end{equation}
 
+- \textbf{Mean Squared Error (MSE)}, it measures the average of the squared differences between predicted and actual values.
+ Every time a metric's value is lower, it indicates that the model's predictions are closer to the actual values. 
 
+\begin{equation}
+\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+\end{equation}
+- \textbf{R-squared (R²) or Coefficient of Determination}, it measures the proportion of the variance in the target variable that is explained by the model. 
+\begin{equation}
+	R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
+\end{equation}
 
+In terms of interpretation in a programming language , case of Python, these metrics are found in the packages : \textit{sklearn.metrics}.\\
 
+\subsubsection{Model Deployment and monitoring}
+Machine Learning Model Deployment refers to the process of taking a trained machine learning model and making it available for use in real-world applications. Therefore, several means are used: Primarily, we have to choose the environment. Is it going to be integrated in a cloud platforms, or applications, edge devices ? Actually, it depends on interests. Some developers can decide to create an \textit{API} that allows software components to interact with clean model built as Web Service \cite{singh2021deploy}. For instance in python the \textit{frameworks} like \textit{Flask, Django} since they offer the \textit{RestApi} services. 
 
+However, the model required to be integrated in a file for insuring the integration whether in the cloud or others services as emphasized above. Thus, the packages like : \textit{joblib} \footnote{joblib: \url{https://joblib.readthedocs.io/en/latest/index.html}} . Actually, \textit{Joblib} is used for serialization(saving and loading) Python objects. It's convenient for task like \textbf{parallel computing and disk caching of functions}  \cite{faouzi2020pyts}.
 
+In part from, the model should be integrated in a Continuous integration and Continuous Deployment (CI/CD) (task of DevOps developer) to facilitate \textbf{monitoring} and updating, even the easy deployment. 
 
+Furthermore, the security of a model is so important too. Hence, the model's container should be protected in a safe area. 
 
-
-
-
-
-
+\section{Scikitlearn and Algorithms} 
 \newpage
  %\bibliographystyle{apacite} % or whatever citation style you choose
 \bibliographystyle{plain}
 \bibliography{bibliofile.bib}
-	
 \newpage	
 	
 	

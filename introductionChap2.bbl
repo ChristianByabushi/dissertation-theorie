@@ -87,6 +87,12 @@ Cori Faklaris and Sara~Anne Hook.
   snapchat, whatsapp, kik, and other mobile messaging apps.
 \newblock 2016.
 
+\bibitem{faouzi2020pyts}
+Johann Faouzi and Hicham Janati.
+\newblock pyts: A python package for time series classification.
+\newblock {\em The Journal of Machine Learning Research}, 21(1):1720--1725,
+  2020.
+
 \bibitem{furche2016data}
 Tim Furche, Georg Gottlob, Leonid Libkin, Giorgio Orsi, and Norman~W Paton.
 \newblock Data wrangling for big data: Challenges and opportunities.
@@ -208,6 +214,13 @@ Qiong Liu, Stephen Levinson, Ying Wu, and Thomas Huang.
 \newblock In {\em Proceedings of the Fifth Joint Conference on Information
   Sciences}, volume~1, pages 555--558, 2000.
 
+\bibitem{maria2016performance}
+JR~Maria~Navin and R~Pankaja.
+\newblock Performance analysis of text classification algorithms using
+  confusion matrix.
+\newblock {\em International Journal of Engineering and Technical Research
+  (IJETR)}, 6(4):75--8, 2016.
+
 \bibitem{maulud2020review}
 Dastan Maulud and Adnan~M Abdulazeez.
 \newblock A review on linear regression comprehensive in machine learning.
@@ -325,6 +338,11 @@ Ali~Hassan Sial, Syed Yahya~Shah Rashdi, and Abdul~Hafeez Khan.
   seaborn in python.
 \newblock {\em International Journal}, 10(1), 2021.
 
+\bibitem{singh2021deploy}
+Pramod Singh.
+\newblock Deploy machine learning models to production.
+\newblock {\em Cham, Switzerland: Springer}, 2021.
+
 \bibitem{sirisuriya2015comparative}
 De~S Sirisuriya et~al.
 \newblock A comparative study on web scraping.
@@ -393,8 +411,15 @@ Eric Wohlgethan.
 
 \bibitem{coursAnalyseDonne2}
 Phd.~Elie Zihindula.
-\newblock Courses of multivariate statistical analysis.
+\newblock Courses of multivariate statistical analysis. part2. python et les
+  données : Numpy et pandas.
 \newblock (23):2--10, 2023.
+
+\bibitem{coursAnalyseDonne3}
+Phd.~Elie Zihindula.
+\newblock Courses of multivariate statistical analysis. part8. elements de
+  classification.
+\newblock (22):18--20, 2023.
 
 \bibitem{giswatch2018}
 Pacifique Zikomangane.
