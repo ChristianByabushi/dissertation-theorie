@@ -1399,8 +1399,12 @@ The regularization is technique used upon a model to enhance the generalization 
 \subsection*{Ensemble models}
 The ensemble methods combine the predictions of multiple individual models(base models) to produce a more accurate and robust prediction. Therefore, this technique raises new methods such as :
 \subsubsection{(a) Bagging (Boostrap Aggregating)} 
-Actually, bagging involves training multiple instances of the same base model different subsets of the training data. 
+Actually, bagging involves the process of training multiple instances of the same base model on different subsets of the training data. The case expaling this is \textit{how Random Forest} works as ensemble method and the \textit{Decision Trees} as its base models. The examples of the models's genre are : \textbf{AdaBoost} and \textbf{Gradient Boosting}.
+\subsubsection{ (b) Boosting} 
+The boosting process focuses on training multiple base models sequentially. Each model in the ensemble corrects the errors of the previous one, with more emphasis on misclassified data points.
 
+\subsubsection{(c) Voting} 
+Voting ensembles is more special, it combines the predictions of multiple base models by taking a majority vote(for classification) or averaging(for regression) to make the final prediction. 
 \subsection*{Dimensionality Reduction}
 
 \subsection*{Hyperparameter Tuning} 

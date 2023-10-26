@@ -58,5 +58,7 @@
 \contentsline {subsubsection}{\textit {KNeigboursRegressor}}{48}{section*.46}%
 \contentsline {section}{\numberline {2.6}Techniques used for optimizing the model}{48}{section.2.6}%
 \contentsline {subsubsection}{(a) Bagging (Boostrap Aggregating)}{48}{section*.49}%
+\contentsline {subsubsection}{ (b) Boosting}{49}{section*.50}%
+\contentsline {subsubsection}{(c) Voting}{49}{section*.51}%
 \contentsline {section}{\numberline {2.7}Summary}{49}{section.2.7}%
 \contentsline {chapter}{\numberline {3}Description of results}{50}{chapter.3}%
