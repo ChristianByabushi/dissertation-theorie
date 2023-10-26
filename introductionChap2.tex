@@ -1354,7 +1354,7 @@ To get started with it, with scickit-learn, we just use the class :
 \textbf{\textit{sklearn.linear\_model.LogisticRegression()}} 
 
 \subsubsection{\textit{Decision Trees}} 
-As all supervised learning algorithms presented above, Decision Trees(DTs) are a non-parametric method used for classification and regression. Its prediction's ability is based on the if-then-else learn's possibilities \footnote{sckit-learn: \url{https://scikit-learn.org/stable/modules/tree.html} }. Actually, the tree is composed by the nodes and branches. Each node represents features in a category to be classified and each subset defines a value that can be taken by the node \cite{charbuty2021classification}.  
+As all supervised learning algorithms presented above, \textit{Decision Trees(DTs)} are a non-parametric method used for classification and regression. Its prediction's ability is based on the if-then-else learn's possibilities \footnote{sckit-learn: \url{https://scikit-learn.org/stable/modules/tree.html} }. Actually, the tree is composed by the nodes and branches. Each node represents features in a category to be classified and each subset defines a value that can be taken by the node \cite{charbuty2021classification}.  
 
 \subsubsection{\textit{KNeighborsClassifier}}
 The \textbf{\textit{KNeighborsClassifier}} is ML algorithm based on \textit{k-Nearest Neighbors} (K-NN) principles. It classifies data points by finding the \textbf{\textit{k}} nearest from the training dataset and assigning a class label based on majority voting. For measuring similarity between data points, it utilizes the distance metric \cite{nayak2022study}. 
@@ -1373,13 +1373,48 @@ To get started with it, we can just use the simple variant's class : \newline \t
 
 \subsection{Predict quantitative feature} 
 This section includes algorithms with the objective of prediction numerous values, which can be either discrete or continuous. Therefore, we have :
-\subsubsection{ElasticNet}
+\subsubsection{\textit{ElasticNet}}
+Elastic Net is a crucial tool in building of robust and generalized models. It uses regularization techniques in the linear regression, allowing to address the limitations of L1(Lasso) and L2(Ridge) regularization methods. In terms of applications it can be used for forecasting cases of events like \cite{johnsen2020elastic}.
+To get started with it, we just use the class : \textit{\textbf{sklearn.linear\_model.ElasticNet()}}
+
+\subsubsection{\textit{Gradient Boosting Regressor (GBR)}}
+\textit{GBR} is an improved version of \textit{gradient descent}, making more accurate and good at minimizing a loss function, since it is an ensemble ML algorithms used for regression tasks. 
+The other particularities of this model is the configuration's parameters supporting in \textbf{\textit{boosting settings, model tuning}}. 
+To get started we wih \textit{GBR}, we just use the following class : \textit{\textbf{sklearn.ensemble.GradientBoostingRegressor()}}
+
+\subsubsection{\textit{Regression Lasso/Ridge}}
+ All both (\textit{Ridge/Lasso}) are updated version of \textit{Linear Regression} algorithm, however they are used for avoiding overfitting (regularization) of a model. Therefore, \textit{Lasso} uses \textit{L1} regularization penalty added to the \textbf{loss function}. 
+ In the other hand, the Ridge type uses \textit{L2} regularization integrating the loss function based on the square of the model's coefficients \cite{hazan2011optimal}. 
+ Actually the loss function is used during the model training stage for quantifying and minimizing the error between the model's predictions and the actual target values for a given data \cite{wang2020comprehensive}.  
+ 
+ \subsubsection{\textit{KNeigboursRegressor}}
+ The \textit{K-Nearest Neighbors Regressor} often abbreviated as \textit{KNeighborsRegressor} is a member of the \textit{K-Nearest Neighbors(KNN)} family, including classification and regression variants. KNeighborsRegressor is particularly well-suited for solving problems where the target variable is continuous and requires predicting a numeric value, for instance the prediction of crime using KNN Regressor \cite{alsayadi2022improving}.
+ 
+ In \textit{scikitlearn}, in order to deal with this model, it has to be instantiated from the following class : \newline \textit{\textbf{sklearn.neighbors.KNeighborsRegressor()}}. 
+ 
+\section{Techniques used for optimizing the model} 
+Several techniques are employed to ensure that the implemented model achieves a high level of accuracy. While we've touched upon these concepts indirectly in preceding discussions, it's worth highlighting them for more clarity. Thus, we have:
+\subsection*{Regularization} 
+The regularization is technique used upon a model to enhance the generalization ability of the models. The methods like \textit{Regression Ridge},\textit{Lasso}, \textit{Elastic} can be used for that concern.  For instance :\textit{ L1 regularization} called \textit{Lasso} can be used to drive all  owner's name values feature to exactly zero, since it's \textbf{might have any impact on price}, concerning the house price prediction project.
+\subsection*{Ensemble models}
+The ensemble methods combine the predictions of multiple individual models(base models) to produce a more accurate and robust prediction. Therefore, this technique raises new methods such as :
+\subsubsection{(a) Bagging (Boostrap Aggregating)} 
+Actually, bagging involves training multiple instances of the same base model different subsets of the training data. 
+
+\subsection*{Dimensionality Reduction}
+
+\subsection*{Hyperparameter Tuning} 
+
+\subsection*{Bagging and Boosting} 
 
 
+\subsection*{Normalization and standardization} 
 
 
+\section{Summary}
 
 
+\chapter{Description of results}
 \newpage
  %\bibliographystyle{apacite} % or whatever citation style you choose
 \bibliographystyle{plain}

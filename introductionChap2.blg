@@ -74,45 +74,45 @@ Warning--there's a number but no volume in coursAnalyseDonne2
 Warning--empty journal in coursAnalyseDonne3
 Warning--there's a number but no volume in coursAnalyseDonne3
 Warning--empty journal in giswatch2018
-You've used 80 entries,
+You've used 84 entries,
             2118 wiz_defined-function locations,
-            939 strings with 18817 characters,
-and the built_in function-call counts, 26912 in all, are:
-= -- 2620
-> -- 1386
-< -- 19
-+ -- 563
-- -- 468
-* -- 1898
-:= -- 4552
-add.period$ -- 246
-call.type$ -- 80
-change.case$ -- 458
+            959 strings with 19616 characters,
+and the built_in function-call counts, 28327 in all, are:
+= -- 2763
+> -- 1458
+< -- 21
++ -- 592
+- -- 492
+* -- 1991
+:= -- 4787
+add.period$ -- 259
+call.type$ -- 84
+change.case$ -- 481
 chr.to.int$ -- 0
-cite$ -- 94
-duplicate$ -- 1009
-empty$ -- 1980
-format.name$ -- 468
-if$ -- 5519
+cite$ -- 98
+duplicate$ -- 1065
+empty$ -- 2083
+format.name$ -- 492
+if$ -- 5819
 int.to.chr$ -- 0
-int.to.str$ -- 80
-missing$ -- 90
-newline$ -- 404
-num.names$ -- 160
-pop$ -- 476
+int.to.str$ -- 84
+missing$ -- 94
+newline$ -- 424
+num.names$ -- 168
+pop$ -- 500
 preamble$ -- 1
-purify$ -- 391
+purify$ -- 410
 quote$ -- 0
-skip$ -- 713
+skip$ -- 755
 stack$ -- 0
-substring$ -- 1505
-swap$ -- 201
-text.length$ -- 19
+substring$ -- 1577
+swap$ -- 216
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 296
+type$ -- 312
 warning$ -- 14
-while$ -- 256
-width$ -- 82
-write$ -- 864
+while$ -- 272
+width$ -- 86
+write$ -- 908
 (There were 19 error messages)

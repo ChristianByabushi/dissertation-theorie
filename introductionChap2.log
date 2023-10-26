@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.9.7)  26 OCT 2023 03:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.9.7)  26 OCT 2023 15:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -761,7 +761,7 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 \c@lstlisting=\count348
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<../../../../Latex Projects/ucb.jpeg, id=156, 225.84375pt x 225.84375pt>
+<../../../../Latex Projects/ucb.jpeg, id=164, 225.84375pt x 225.84375pt>
 File: ../../../../Latex Projects/ucb.jpeg Graphic file (type jpg)
 <use ../../../../Latex Projects/ucb.jpeg>
 Package pdftex.def Info: ../../../../Latex Projects/ucb.jpeg  used on input lin
@@ -846,7 +846,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--262
  []
 
 [12]
-<Images/mobileMarket.png, id=382, 761.84625pt x 450.68375pt>
+<Images/mobileMarket.png, id=392, 761.84625pt x 450.68375pt>
 File: Images/mobileMarket.png Graphic file (type png)
 <use Images/mobileMarket.png>
 Package pdftex.def Info: Images/mobileMarket.png  used on input line 270.
@@ -857,7 +857,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--276
  []
 
 [13 <./Images/mobileMarket.png>]
-<Images/SMSgateway.png, id=394, 826.08624pt x 441.65pt>
+<Images/SMSgateway.png, id=404, 826.08624pt x 441.65pt>
 File: Images/SMSgateway.png Graphic file (type png)
 <use Images/SMSgateway.png>
 Package pdftex.def Info: Images/SMSgateway.png  used on input line 292.
@@ -948,7 +948,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
-<pythonImage.png, id=448, 254.9525pt x 63.23625pt>
+<pythonImage.png, id=458, 254.9525pt x 63.23625pt>
 File: pythonImage.png Graphic file (type png)
 <use pythonImage.png>
 Package pdftex.def Info: pythonImage.png  used on input line 389.
@@ -963,7 +963,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
-<testPython.png, id=468, 635.37375pt x 92.345pt>
+<testPython.png, id=478, 635.37375pt x 92.345pt>
 File: testPython.png Graphic file (type png)
 <use testPython.png>
 Package pdftex.def Info: testPython.png  used on input line 410.
@@ -976,18 +976,18 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbackslash' on input line 418.
 
-<installDjango.png, id=471, 907.39pt x 59.22125pt>
+<installDjango.png, id=481, 907.39pt x 59.22125pt>
 File: installDjango.png Graphic file (type png)
 <use installDjango.png>
 Package pdftex.def Info: installDjango.png  used on input line 426.
 (pdftex.def)             Requested size: 455.24411pt x 29.71175pt.
-<visualStudio.png, id=473, 1367.1075pt x 597.23125pt>
+<visualStudio.png, id=483, 1367.1075pt x 597.23125pt>
 File: visualStudio.png Graphic file (type png)
 <use visualStudio.png>
 Package pdftex.def Info: visualStudio.png  used on input line 434.
 (pdftex.def)             Requested size: 455.24411pt x 198.87306pt.
 [20 <./testPython.png>]
-<appInstallName.png, id=491, 831.105pt x 178.6675pt>
+<appInstallName.png, id=501, 831.105pt x 178.6675pt>
 File: appInstallName.png Graphic file (type png)
 <use appInstallName.png>
 Package pdftex.def Info: appInstallName.png  used on input line 446.
@@ -1013,7 +1013,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 514--515
  []
 
 [24]
-<jupyterOpen.png, id=612, 1357.07pt x 323.2075pt>
+<jupyterOpen.png, id=622, 1357.07pt x 323.2075pt>
 File: jupyterOpen.png Graphic file (type png)
 <use jupyterOpen.png>
 Package pdftex.def Info: jupyterOpen.png  used on input line 568.
@@ -1033,7 +1033,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 675--676
 
  []
 
-<demoDataFrame.png, id=698, 1119.18124pt x 227.85126pt>
+<demoDataFrame.png, id=708, 1119.18124pt x 227.85126pt>
 File: demoDataFrame.png Graphic file (type png)
 <use demoDataFrame.png>
 Package pdftex.def Info: demoDataFrame.png  used on input line 677.
@@ -1055,12 +1055,12 @@ Overfull \hbox (6.55533pt too wide) in paragraph at lines 711--712
  []
 
 [29] [30] [31]
-<matplotLibExample.png, id=867, 1076.1003pt x 354.123pt>
+<matplotLibExample.png, id=877, 1076.1003pt x 354.123pt>
 File: matplotLibExample.png Graphic file (type png)
 <use matplotLibExample.png>
 Package pdftex.def Info: matplotLibExample.png  used on input line 869.
 (pdftex.def)             Requested size: 455.24411pt x 149.81133pt.
-<3Ddimension.png, id=869, 296.307pt x 285.4665pt>
+<3Ddimension.png, id=879, 296.307pt x 285.4665pt>
 File: 3Ddimension.png Graphic file (type png)
 <use 3Ddimension.png>
 Package pdftex.def Info: 3Ddimension.png  used on input line 899.
@@ -1075,7 +1075,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1051--1052
 
  []
 
-<../../../Books/Report/MLopsDisciplines.png, id=971, 557.08125pt x 431.6125pt>
+<../../../Books/Report/MLopsDisciplines.png, id=981, 557.08125pt x 431.6125pt>
 File: ../../../Books/Report/MLopsDisciplines.png Graphic file (type png)
 <use ../../../Books/Report/MLopsDisciplines.png>
 Package pdftex.def Info: ../../../Books/Report/MLopsDisciplines.png  used on in
@@ -1090,7 +1090,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1064--1066
 
  []
 
-<ml-engineeringInspiration.jpg, id=987, 2742.245pt x 2055.68pt>
+<ml-engineeringInspiration.jpg, id=997, 2742.245pt x 2055.68pt>
 File: ml-engineeringInspiration.jpg Graphic file (type jpg)
 <use ml-engineeringInspiration.jpg>
 Package pdftex.def Info: ml-engineeringInspiration.jpg  used on input line 1079
@@ -1278,40 +1278,50 @@ Overfull \hbox (11.89142pt too wide) in paragraph at lines 1313--1314
  which are : cat-e-gor-i-cal(qualitative)
  []
 
-[45] [46] [47] (./introductionChap2.bbl [48
+[45] [46] [47] [48] [49]
+Chapter 3.
+[50
 
-] [49] [50] [51]
-Underfull \hbox (badness 1248) in paragraph at lines 374--378
+] (./introductionChap2.bbl [51
+
+] [52] [53] [54]
+Underfull \hbox (badness 1248) in paragraph at lines 393--397
 []\OT1/cmr/m/n/12 Houshmand Shirani-Mehr.  Sms spam de-tec-tion us-ing ma-chine
  learn-ing ap-
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 374--378
+Underfull \hbox (badness 3872) in paragraph at lines 393--397
 \OT1/cmr/m/n/12 proach.  \OT1/cmr/m/it/12 un-pub-lished) http://cs229. stan-for
 d. edu/proj2013/Shir ani-Meh r-
  []
 
-[52]) [53]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1395.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1395.
+[55]) [56]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1430.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1430.
  (./introductionChap2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1395.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1395.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1430.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1430.
 
-Package rerunfilecheck Info: File `introductionChap2.out' has not changed.
-(rerunfilecheck)             Checksum: CF4399EFFAEAB1CCAF6049B3D940547C;2884.
 
+
+Package rerunfilecheck Warning: File `introductionChap2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `introductionChap2.out':
+(rerunfilecheck)             Before: A879D71E5333E579C0B1DF6CFAE0BFD7;3025
+(rerunfilecheck)             After:  1C677519EE6140D1B3F151017E8FBA55;3083.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1395.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1430.
  ) 
 Here is how much of TeX's memory you used:
- 15617 strings out of 481239
- 250136 string characters out of 5920378
+ 15643 strings out of 481239
+ 250504 string characters out of 5920378
  939285 words of memory out of 5000000
- 29996 multiletter control sequences out of 15000+600000
+ 30002 multiletter control sequences out of 15000+600000
  545250 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,44p,1695b,2008s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1336,10 +1346,10 @@ public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sftt1200.pfb>
-Output written on introductionChap2.pdf (54 pages, 1693998 bytes).
+Output written on introductionChap2.pdf (57 pages, 1700203 bytes).
 PDF statistics:
- 1368 PDF objects out of 1440 (max. 8388607)
- 1251 compressed objects within 13 object streams
- 606 named destinations out of 1000 (max. 500000)
- 375 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1415 PDF objects out of 1440 (max. 8388607)
+ 1295 compressed objects within 13 object streams
+ 626 named destinations out of 1000 (max. 500000)
+ 391 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -52,4 +52,11 @@
 \contentsline {subsubsection}{\textit {Random Forest}}{47}{section*.41}%
 \contentsline {subsubsection}{\textit {Neural Networks (ANN)}}{47}{section*.42}%
 \contentsline {subsection}{\numberline {2.5.2}Predict quantitative feature}{47}{subsection.2.5.2}%
-\contentsline {subsubsection}{ElasticNet}{47}{section*.43}%
+\contentsline {subsubsection}{\textit {ElasticNet}}{47}{section*.43}%
+\contentsline {subsubsection}{\textit {Gradient Boosting Regressor (GBR)}}{47}{section*.44}%
+\contentsline {subsubsection}{\textit {Regression Lasso/Ridge}}{48}{section*.45}%
+\contentsline {subsubsection}{\textit {KNeigboursRegressor}}{48}{section*.46}%
+\contentsline {section}{\numberline {2.6}Techniques used for optimizing the model}{48}{section.2.6}%
+\contentsline {subsubsection}{(a) Bagging (Boostrap Aggregating)}{48}{section*.49}%
+\contentsline {section}{\numberline {2.7}Summary}{49}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Description of results}{50}{chapter.3}%

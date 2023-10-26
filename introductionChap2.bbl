@@ -5,6 +5,13 @@ Marty Alchin.
 \newblock {\em Pro Django}.
 \newblock Apress, 2013.
 
+\bibitem{alsayadi2022improving}
+Hamzah~A Alsayadi, Nima Khodadadi, Sunil Kumar, et~al.
+\newblock Improving the regression of communities and crime using ensemble of
+  machine learning models.
+\newblock {\em Journal of Artificial Intelligence and Metaheuristics},
+  1(1):27--7, 2022.
+
 \bibitem{androulidakis2013fimess}
 Iosif Androulidakis, Vasileios Vlachos, and Alexandros Papanikolaou.
 \newblock Fimess: filtering mobile external sms spam.
@@ -141,6 +148,12 @@ Marko Hassinen and Smile Markovski.
 \newblock Secure sms messaging using quasigroup encryption and java sms api.
 \newblock {\em SPLST}, 3:187, 2003.
 
+\bibitem{hazan2011optimal}
+Elad Hazan and Tomer Koren.
+\newblock Optimal algorithms for ridge and lasso regression with partially
+  observed attributes.
+\newblock {\em arXiv preprint arXiv:1108.4559}, 2011.
+
 \bibitem{jangir2016design}
 Sunil~Kumar Jangir, Manoj~Kumar Sharma, and Pawan~Kumar Gupta.
 \newblock Design and implementation of sms gateway api for mobile communication
@@ -166,6 +179,12 @@ Fengming Jiao, Jiao Song, Xin Zhao, Ping Zhao, and Ru~Wang.
   machine learning.
 \newblock {\em International Journal of Emerging Technologies in Learning
   (iJET)}, 16(14):68--82, 2021.
+
+\bibitem{johnsen2020elastic}
+Tim~K Johnsen and Jerry~Z Gao.
+\newblock Elastic net to forecast covid-19 cases.
+\newblock In {\em 2020 International Conference on Innovation and Intelligence
+  for Informatics, Computing and Technologies (3ICT)}, pages 1--6. IEEE, 2020.
 
 \bibitem{karl1986model}
 Thomas~R Karl, Claude~N Williams~Jr, Pamela~J Young, and Wayne~M Wendland.
@@ -445,6 +464,11 @@ Stefan Van Der~Walt, S~Chris Colbert, and Gael Varoquaux.
 H~Wang, ZeZXeZBePJ Lei, X~Zhang, B~Zhou, and J~Peng.
 \newblock Machine learning basics.
 \newblock {\em Deep learning}, pages 98--164, 2016.
+
+\bibitem{wang2020comprehensive}
+Qi~Wang, Yue Ma, Kun Zhao, and Yingjie Tian.
+\newblock A comprehensive survey of loss functions in machine learning.
+\newblock {\em Annals of Data Science}, pages 1--26, 2020.
 
 \bibitem{wohlgethan2018supportingweb}
 Eric Wohlgethan.
