@@ -66,6 +66,7 @@ Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar R
 while executing---line 1090 of file plain.bst
 Warning--empty journal in reviewVideo2020
 Warning--empty journal in nader2023django
+Warning--can't use both volume and number fields in nayak2022study
 Warning--empty journal in sirisuriya2015comparative
 Warning--empty school in tulchak2016history
 Warning--empty journal in coursAnalyseDonne2
@@ -73,45 +74,45 @@ Warning--there's a number but no volume in coursAnalyseDonne2
 Warning--empty journal in coursAnalyseDonne3
 Warning--there's a number but no volume in coursAnalyseDonne3
 Warning--empty journal in giswatch2018
-You've used 73 entries,
+You've used 80 entries,
             2118 wiz_defined-function locations,
-            898 strings with 17406 characters,
-and the built_in function-call counts, 24139 in all, are:
-= -- 2341
-> -- 1246
-< -- 16
-+ -- 507
-- -- 420
-* -- 1684
-:= -- 4103
-add.period$ -- 224
-call.type$ -- 73
-change.case$ -- 413
+            939 strings with 18817 characters,
+and the built_in function-call counts, 26912 in all, are:
+= -- 2620
+> -- 1386
+< -- 19
++ -- 563
+- -- 468
+* -- 1898
+:= -- 4552
+add.period$ -- 246
+call.type$ -- 80
+change.case$ -- 458
 chr.to.int$ -- 0
-cite$ -- 86
-duplicate$ -- 909
-empty$ -- 1783
-format.name$ -- 420
-if$ -- 4941
+cite$ -- 94
+duplicate$ -- 1009
+empty$ -- 1980
+format.name$ -- 468
+if$ -- 5519
 int.to.chr$ -- 0
-int.to.str$ -- 73
-missing$ -- 83
-newline$ -- 369
-num.names$ -- 146
-pop$ -- 439
+int.to.str$ -- 80
+missing$ -- 90
+newline$ -- 404
+num.names$ -- 160
+pop$ -- 476
 preamble$ -- 1
-purify$ -- 353
+purify$ -- 391
 quote$ -- 0
-skip$ -- 637
+skip$ -- 713
 stack$ -- 0
-substring$ -- 1315
-swap$ -- 171
-text.length$ -- 16
+substring$ -- 1505
+swap$ -- 201
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 268
-warning$ -- 13
-while$ -- 229
-width$ -- 75
-write$ -- 785
+type$ -- 296
+warning$ -- 14
+while$ -- 256
+width$ -- 82
+write$ -- 864
 (There were 19 error messages)

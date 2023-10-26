@@ -978,7 +978,7 @@ Since Python programming language is establishing itself as one the most popular
 The techniques and properties used inside of it, allows it to predictive data analysis by performing the  classification, regression, clustering, preprocessing and more other tasks.\newline
 To get started with it as usually, the official page present all the steps for downloading all the packages or using \textit{IDE} like \textit{Anaconda} which encompasses it. 
 
-Before using its functions we have to initialize the by import the class which includes the methods and properties achieving a given task. For example, suppose that we are about to process data a class called \textit{StandardScaler} can be useful \textbf{when the dataset contains features with different scales} . Then, it standardizes the data, making it have a mean of 0 and standard deviation of 1, assuring that all features have the same scale.
+Before using its functions we have to initialize the by import the class which includes the methods and properties achieving a given task. For example, suppose that we are about to process data a class called \textit{StandardScaler} can be useful \textbf{when the dataset contains features with different scales} . Then, it standardizes the data, centering it around 0 and ensuring that it has a standard deviation close to 1.
 \begin{lstlisting}[style=stylepython]
 In[2]:  from sklearn.preprocessing import StandardScaler
 	import numpy as np
@@ -1307,7 +1307,79 @@ In part from, the model should be integrated in a Continuous integration and Con
 
 Furthermore, the security of a model is so important too. Hence, the model's container should be protected in a safe area. 
 
-\section{Scikitlearn and Algorithms} 
+\section{ML Algorithms and Scikit-learn}  
+ML Algorithms are numerous, however some of them are known to be utilized in several tasks as shown above, both unsupervised and supervised algorithms are supported in Python Scikit-learn package, whereas the logic behind its implementation is more important since it's allows the understanding and optimization of solutions. Thus, the following lines summarize the common algorithms and how they can be implemented in Scikit-learn.
+
+Since two main types of category are notable in analysis which are : categorical(qualitative) and quantitative, the presented algorithms are set in the same approach for more clarification.
+
+\subsection{Predict Qualitative feature} 
+The prediction's result for this kind of data, involves an output which is commonly from binary, text, orders classes. Thus, we have : 
+\subsubsection{\textit{Support vector machine} (\textit{SVM})} 
+\textit{SVMs} are a class of powerful machine learning algorithms used for classification and regression. They aim to find the optimal hyperplane that maximally separates data points of different classes while maximizing a margin. It's a favorite solution for high-dimensional data\cite{memoireUniversitySpam}. Its class look like this : \textbf{\textit{sklearn.svm.SVC()}}
+
+\subsubsection{\textit{Naive Bayes}} 
+The Naive Bayes is a classification algorithm based on Baye's theorem, which is a fundamental concept in probability theory \cite{maria2016performance}. 
+Actually, the Naive Bayes formula is given like this (Eq.\ref{naiveProbaEquation}) : 
+\begin{equation}
+	\label{naiveProbaEquation}
+	P(A|B) = \frac{P(B|A)  \cdot  P(A)}{P(B)}
+\end{equation}
+In this equation \ref{naiveProbaEquation}, the event A represents the existence of \textbf{class} A; while the event B intervenes when the \textbf{input} B is given. Thus, we read the probability of having the class A when the input B is given. 
+
+\noindent By assuming that we have more than one input, the formula will look like this : 
+\begin{equation} 
+	\label{probabilitieEqualNaive}
+	P(A | B_1, B_2, \ldots, B_n) = \frac{\textbf{P(A)} \cdot P(B_1 | A) \cdot P(B_2 | A) \cdot \ldots \cdot P(B_n | A)}{P(B_1, B_2, \ldots, B_n)}
+\end{equation}  
+\begin{equation}
+	P(A | B_1, B_2, \ldots, B_n) \propto P(A) \cdot P(B_1 | A) \cdot P(B_2 | A) \cdot \ldots \cdot P(B_n | A)
+\end{equation}
+Since in equation \ref{probabilitieEqualNaive}, the denominator is in the second member is independent from the class (A), we just substitute the comparison sign by : \textbf{proportional to} sign. Hence, the final formula used in the implementation is like this :
+\begin{equation}
+P(A | B_1, B_2, \ldots, B_n) \propto P(A) \prod_{i=1}^{n} P(B_i | A)
+\end{equation}
+
+Great,the \textit{Naive Baye} in sckit-learn will consequently look like this : \newline
+\textbf{\textit{sklearn.naive\_bayes.GaussianNB()}}. As it it is \textbf{\textit{GaussianNB}} type, it means that the features's values affected to the model are continuous instead of being discrete, normally distributed. The model can be \textbf{\textit{Multinomial}} too, when it is interested in discrete's values, it means the frequency of words .
+\subsubsection{\textit{Logistic Regression}} 
+Logistic Regression is a binary and multi-class classification algorithm that models the relationship between inputs features and the probability of a particular event occurring \cite{rymarczyk2019logistic}. For transforming a linear combination of features into probabilities between 0 and 1, it uses the \textit{sigmoid} function as follows :
+\begin{equation} 
+\label{sigmoidFunction}
+\sigma(z) = \frac{1}{1 + e^{-z}}
+\end{equation} 
+The \textbf{z} variable is the linear combination of input features and coefficients. 
+
+A part from that, \textit{LR} model uses techniques like regularization for preventing over-fitting, solver for optimizing problem, etc.
+To get started with it, with scickit-learn, we just use the class :
+\textbf{\textit{sklearn.linear\_model.LogisticRegression()}} 
+
+\subsubsection{\textit{Decision Trees}} 
+As all supervised learning algorithms presented above, Decision Trees(DTs) are a non-parametric method used for classification and regression. Its prediction's ability is based on the if-then-else learn's possibilities \footnote{sckit-learn: \url{https://scikit-learn.org/stable/modules/tree.html} }. Actually, the tree is composed by the nodes and branches. Each node represents features in a category to be classified and each subset defines a value that can be taken by the node \cite{charbuty2021classification}.  
+
+\subsubsection{\textit{KNeighborsClassifier}}
+The \textbf{\textit{KNeighborsClassifier}} is ML algorithm based on \textit{k-Nearest Neighbors} (K-NN) principles. It classifies data points by finding the \textbf{\textit{k}} nearest from the training dataset and assigning a class label based on majority voting. For measuring similarity between data points, it utilizes the distance metric \cite{nayak2022study}. 
+To get started with it, we need to use the class\textbf{ \textit{sklearn.neighbors.KNeighborsClassifier()}}. 
+
+\subsubsection{\textit{Random Forest}}
+Random Forest is an updated algorithm version of  decision trees. It combines trees to enhance predictive accuracy in classification and regression tasks. It employs \textit{bagging} \footnote{Bagging : Boostrap aggregating, improves the accuracy and robustness of models}  to create diverse subsets of the training data and random feature selection for each tree\cite{lin2017ensemble}. Consequently, the overfitting is reduced and generalization is enhanced. 
+
+A part from optimizing prediction's result, it is reputed for being scalable and applicable to both small and large datasets. 
+
+To get started with it in Python, scikit-learn library we just the following class : \textbf{\textit{klearn.ensemble.RandomForestClassifier()}}. 
+\subsubsection{\textit{Neural Networks (ANN)}}
+The Artificial Neural Networks (ANNs) are ML models inspired by the human brain. They consist of interconnected nodes(neurons) \cite{boateng2020basic} organized into layers: input, hidden, and output. They excel in learning complex patterns from data trough a process called \textbf{\textit{backpropagation} \cite{lillicrap2020backpropagation}}. 
+
+To get started with it, we can just use the simple variant's class : \newline \textit{\textbf{sklearn.neural\_network.MLPClassifier()}}.
+
+\subsection{Predict quantitative feature} 
+This section includes algorithms with the objective of prediction numerous values, which can be either discrete or continuous. Therefore, we have :
+\subsubsection{ElasticNet}
+
+
+
+
+
+
 \newpage
  %\bibliographystyle{apacite} % or whatever citation style you choose
 \bibliographystyle{plain}

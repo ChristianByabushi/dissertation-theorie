@@ -29,6 +29,13 @@ Allan Bluman.
 \newblock {\em Elementary statistics: A step by step approach}.
 \newblock McGraw-Hill Education, 2017.
 
+\bibitem{boateng2020basic}
+Ernest~Yeboah Boateng, Joseph Otoo, and Daniel~A Abaye.
+\newblock Basic tenets of classification algorithms k-nearest-neighbor, support
+  vector machine, random forest and neural network: a review.
+\newblock {\em Journal of Data Analysis and Information Processing},
+  8(4):341--357, 2020.
+
 \bibitem{bogdanchikov2013python}
 Andrey Bogdanchikov, Meirambek Zhaparov, and Rassim Suliyev.
 \newblock Python to learn programming.
@@ -44,6 +51,12 @@ Jeff Brown, Bill Shipman, and Ron Vetter.
 Erik Cambria and Bebo White.
 \newblock Jumping nlp curves: A review of natural language processing research.
 \newblock {\em IEEE Computational intelligence magazine}, 9(2):48--57, 2014.
+
+\bibitem{charbuty2021classification}
+Bahzad Charbuty and Adnan Abdulazeez.
+\newblock Classification based on decision tree algorithm for machine learning.
+\newblock {\em Journal of Applied Science and Technology Trends}, 2(01):20--28,
+  2021.
 
 \bibitem{chen2017survey}
 Guangquan Chen, Weijun Wang, and Xuan Zhou.
@@ -207,12 +220,30 @@ Matti Lepp{\"a}niemi and Heikki Karjaluoto.
   campaign implementation.
 \newblock {\em International Journal of Mobile Marketing}, 3(1), 2008.
 
+\bibitem{lillicrap2020backpropagation}
+Timothy~P Lillicrap, Adam Santoro, Luke Marris, Colin~J Akerman, and Geoffrey
+  Hinton.
+\newblock Backpropagation and the brain.
+\newblock {\em Nature Reviews Neuroscience}, 21(6):335--346, 2020.
+
+\bibitem{lin2017ensemble}
+Weiwei Lin, Ziming Wu, Longxin Lin, Angzhan Wen, and Jin Li.
+\newblock An ensemble random forest algorithm for insurance big data analysis.
+\newblock {\em Ieee access}, 5:16568--16575, 2017.
+
 \bibitem{liu2000interactive}
 Qiong Liu, Stephen Levinson, Ying Wu, and Thomas Huang.
 \newblock Interactive and incremental learning via a mixture of supervised and
   unsupervised learning strategies.
 \newblock In {\em Proceedings of the Fifth Joint Conference on Information
   Sciences}, volume~1, pages 555--558, 2000.
+
+\bibitem{memoireUniversitySpam}
+FATIMA~AIT MAHAMMED.
+\newblock Approches d'apprentissage automatique pour la dÉtection du spam web
+  : Exploration de diverses caractÉristiques.
+\newblock {\em Computational Linguistics and Intelligent Systems}, pages
+  85--90, 2018.
 
 \bibitem{maria2016performance}
 JR~Maria~Navin and R~Pankaja.
@@ -260,6 +291,13 @@ Pavas Navaney, Gaurav Dubey, and Ajay Rana.
 \newblock Sms spam filtering using supervised machine learning algorithms.
 \newblock In {\em 2018 8th international conference on cloud computing, data
   science \& engineering (confluence)}, pages 43--48. IEEE, 2018.
+
+\bibitem{nayak2022study}
+Swathi Nayak, Manisha Bhat, NV~Subba Reddy, and B~Ashwath Rao.
+\newblock Study of distance metrics on k-nearest neighbor algorithm for star
+  categorization.
+\newblock In {\em Journal of Physics: Conference Series}, volume 2161, page
+  012004. IOP Publishing, 2022.
 
 \bibitem{osisanwo2017supervised}
 FY~Osisanwo, JET Akinsola, O~Awodele, JO~Hinmikaiye, O~Olakanmi, J~Akinjobi,
@@ -319,6 +357,12 @@ Maria Razno.
 \newblock Machine learning text classification model with nlp approach.
 \newblock {\em Computational Linguistics and Intelligent Systems}, 2:71--73,
   2019.
+
+\bibitem{rymarczyk2019logistic}
+Tomasz Rymarczyk, Edward Koz{\l}owski, Grzegorz K{\l}osowski, and Konrad
+  Niderla.
+\newblock Logistic regression for machine learning in process tomography.
+\newblock {\em Sensors}, 19(15):3400, 2019.
 
 \bibitem{shafi2017review}
 Muhammad~Abdulhamid Shafi’I, Muhammad~Shafie Abd~Latiff, Haruna Chiroma,
