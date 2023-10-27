@@ -1409,33 +1409,33 @@ Dimension reduction techniques focus on reducing the number of features (dimensi
 
 The common models used for dimensionality reduction include techniques such as Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA).
 \subsection*{\textit{Hyperparameter Tuning}} 
-Hyperparamater tuning, often referred to as hyperparameter optimization, is the process of systematically searching for the best combination of hyperparameters for a machine learning model.
+Hyperparamater tuning, often referred to as hyperparameter optimization, is the process of systematically searching for the best combination of hyperparameters for a machine learning model  \cite{chauhan2020detection}.
 
-Actually, they are settings that are not learned from the data but are set prior to training and setting a model. Examples of hyperparameters include the learning rate in neural networks, the depth of a decision tree, the number of neighbors in k-nearest neighbors, or the regularization strength in linear models. In scikit learn \textit{\textbf{GridSearchCv}} can be used to test the convenient parameters. 
+Actually, they are settings that are not learned from the data but are set prior to training and setting a model. Examples of hyperparameters include the learning rate in neural networks, the depth of a decision tree, the number of neighbors in k-nearest neighbors, or the regularization strength in linear models. In scikit learn model called \textit{\textbf{GridSearchCv}} can be used to test the convenient parameters. 
 
 \subsection*{\textit{Normalization and standardization}} 
 Both normalization and standardization are preprocessing techniques commonly used in machine learning and statistics to transform data before feeding it into a model. They serve different purposes but aim to make data more suitable for modeling and analysis. 
 
-The normalization is the process of rescaling data to a common scale, typically between 0 and 1. It's useful when features we have different ranges, and we want to bring them to a uniform scale. Common methods for normalization include Min-Max scaling. 
+The normalization is the process of rescaling data to a common scale, typically between 0 and 1. It's useful when features we have different ranges, and we want to bring them to a uniform scale \cite{ali2014data}, \cite{elen2021standardized}. Common methods for normalization include Min-Max scaling. 
 
 The formula used for Min-Max scaling is : 
 \begin{equation}
-	X_normalized = (X-X_min)/(X_max - X_min)
+	X\_normalized = (X-X\_min)/(X\_max - X\_min)
 \end{equation} 
 Where \textit{X} is the original value, \textit{X\_min} is the minimum value in the dataset, and \textit{X\_max} is the maximum value.
 
-The standardization, on the other hand, transforms data into a standard normal distribution with a mean of 0 and a standard deviation of 1. It's particularly useful when the features follow a normal or near-normal distribution, and the absolute values and relationships between them are important. Practically, it involves subtracting the mean from each value and dividing by the standard deviation. 
+The standardization, on the other hand, transforms data into a standard normal distribution with a mean of 0 and a standard deviation of 1 \cite{ali2014data}. It's particularly useful when the features follow a normal or near-normal distribution, and the absolute values and relationships between them are important. Practically, it involves subtracting the mean from each value and dividing by the standard deviation. 
 \begin{equation}
 	XStardardized = (X - mean) / standardDeviation
 \end{equation}
 In scikit learn the model like \textit{PCA} can be used to compute this formula on a dataset.
 \section{Summary}
-In this chapter, the primary focus is on the theorical aspects of the current work. It starts by reviewing related works to identify potential enhacements offered by this work. Subsequently, it explores the tools employed for realizing the proposed solution and delved into the methodological approaches adopted.
+In this chapter, the primary focus is on the theorical aspects of the current work. It starts by reviewing related works to identify potential enhancements offered by this work. Subsequently, it explores the tools employed for realizing the proposed solution and delved into the methodological approaches adopted.
 
 Regarding tools and techniques, they classified into two main categories. The first category comprises the tools utilized for constructiong machine learning models, which include algorithms implemented in Python using various libraries.
-The second category involves application tools, such as web technoogies like HTML, CSS, Javascript, and the Django Framework. These applications tools are instrumental in creating user interfaces for consuming a web service.
+The second category involves application tools, such as web technologies like HTML, CSS, Javascript, and the Django Framework. These applications tools are instrumental in creating user interfaces for consuming a web service.
 
-Furthermore, this chapter delves deeply into the MLops(Machine Learning Operations) methodology employed to make a machine learning model consumable and adaptable to evolving needs. During this phase, it explores the various steps necessary to develop a robust model with high precision and accuracy.
+Furthermore, this chapter delves deeply into the \textit{MLops}(Machine Learning Operations) methodology employed to make a machine learning model consumable and adaptable to evolving needs. During this phase, it explores the various steps necessary to develop a robust model with high precision and accuracy.
 \chapter{Description of results} 
 \newpage
  %\bibliographystyle{apacite} % or whatever citation style you choose

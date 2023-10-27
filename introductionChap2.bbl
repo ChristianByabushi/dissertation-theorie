@@ -5,6 +5,12 @@ Marty Alchin.
 \newblock {\em Pro Django}.
 \newblock Apress, 2013.
 
+\bibitem{ali2014data}
+Peshawa Jamal~Muhammad Ali, Rezhna~Hassan Faraj, Erbil Koya, Peshawa J~Muhammad
+  Ali, and Rezhna~H Faraj.
+\newblock Data normalization and standardization: a technical report.
+\newblock {\em Mach Learn Tech Rep}, 1(1):1--6, 2014.
+
 \bibitem{alsayadi2022improving}
 Hamzah~A Alsayadi, Nima Khodadadi, Sunil Kumar, et~al.
 \newblock Improving the regression of communities and crime using ensemble of
@@ -65,6 +71,13 @@ Bahzad Charbuty and Adnan Abdulazeez.
 \newblock {\em Journal of Applied Science and Technology Trends}, 2(01):20--28,
   2021.
 
+\bibitem{chauhan2020detection}
+Anamika Chauhan et~al.
+\newblock Detection of lung cancer using machine learning techniques based on
+  routine blood indices.
+\newblock In {\em 2020 IEEE international conference for innovation in
+  technology (INOCON)}, pages 1--6. IEEE, 2020.
+
 \bibitem{chen2017survey}
 Guangquan Chen, Weijun Wang, and Xuan Zhou.
 \newblock A survey on sms spam filtering techniques.
@@ -111,6 +124,12 @@ MONUSCO DRC.
 \newblock Protect, stabilize, consolidate peace, monusco's report.
 \newblock {\em United Nations Organisation Stabilization Mission in the
   Democratic Republic of Congo}, pages 1--4, 2015.
+
+\bibitem{elen2021standardized}
+Abdullah Elen and Emre Avu{\c{c}}lu.
+\newblock Standardized variable distances: A distance-based machine learning
+  method.
+\newblock {\em Applied Soft Computing}, 98:106855, 2021.
 
 \bibitem{faklaris2016oh}
 Cori Faklaris and Sara~Anne Hook.
