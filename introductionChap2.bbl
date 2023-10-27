@@ -95,6 +95,17 @@ Prof.~Dantu’s CSE.
 \newblock In {\em ADV. REAL-WORLD NETWORKS}, volume 14-760. University of North
   Texas, 2018.
 
+\bibitem{cunningham2008dimension}
+P{\'a}draig Cunningham.
+\newblock Dimension reduction.
+\newblock In {\em Machine learning techniques for multimedia: Case studies on
+  organization and retrieval}, pages 91--112. Springer, 2008.
+
+\bibitem{mlwithpython}
+Julian David.
+\newblock Designing machine learning systems with python.
+\newblock {\em Community Experience Distilled}, pages 381--386, April 2016.
+
 \bibitem{monusco2015}
 MONUSCO DRC.
 \newblock Protect, stabilize, consolidate peace, monusco's report.
@@ -185,6 +196,13 @@ Tim~K Johnsen and Jerry~Z Gao.
 \newblock Elastic net to forecast covid-19 cases.
 \newblock In {\em 2020 International Conference on Innovation and Intelligence
   for Informatics, Computing and Technologies (3ICT)}, pages 1--6. IEEE, 2020.
+
+\bibitem{kabari2019comparison}
+Ledisi~G Kabari and Ugochukwu~C Onwuka.
+\newblock Comparison of bagging and voting ensemble machine learning algorithm
+  as a classifier.
+\newblock {\em International Journals of Advanced Research in Computer Science
+  and Software Engineering}, 9(3):19--23, 2019.
 
 \bibitem{karl1986model}
 Thomas~R Karl, Claude~N Williams~Jr, Pamela~J Young, and Wayne~M Wendland.
@@ -351,6 +369,13 @@ Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel,
   Weiss, Vincent Dubourg, et~al.
 \newblock Scikit-learn: Machine learning in python.
 \newblock {\em the Journal of machine Learning research}, 12:2825--2830, 2011.
+
+\bibitem{praveena2017literature}
+M~Praveena and V~Jaiganesh.
+\newblock A literature review on supervised machine learning algorithms and
+  boosting process.
+\newblock {\em International Journal of Computer Applications}, 169(8):32--35,
+  2017.
 
 \bibitem{qiang2020short}
 Jipeng Qiang, Zhenyu Qian, Yun Li, Yunhao Yuan, and Xindong Wu.

@@ -1314,10 +1314,7 @@ Since two main types of category are notable in analysis which are : categorical
 
 \subsection{Predict Qualitative feature} 
 The prediction's result for this kind of data, involves an output which is commonly from binary, text, orders classes. Thus, we have : 
-\subsubsection{\textit{Support vector machine} (\textit{SVM})} 
-\textit{SVMs} are a class of powerful machine learning algorithms used for classification and regression. They aim to find the optimal hyperplane that maximally separates data points of different classes while maximizing a margin. It's a favorite solution for high-dimensional data\cite{memoireUniversitySpam}. Its class look like this : \textbf{\textit{sklearn.svm.SVC()}}
-
-\subsubsection{\textit{Naive Bayes}} 
+\subsubsection{Naive Bayes} 
 The Naive Bayes is a classification algorithm based on Baye's theorem, which is a fundamental concept in probability theory \cite{maria2016performance}. 
 Actually, the Naive Bayes formula is given like this (Eq.\ref{naiveProbaEquation}) : 
 \begin{equation}
@@ -1340,8 +1337,8 @@ P(A | B_1, B_2, \ldots, B_n) \propto P(A) \prod_{i=1}^{n} P(B_i | A)
 \end{equation}
 
 Great,the \textit{Naive Baye} in sckit-learn will consequently look like this : \newline
-\textbf{\textit{sklearn.naive\_bayes.GaussianNB()}}. As it it is \textbf{\textit{GaussianNB}} type, it means that the features's values affected to the model are continuous instead of being discrete, normally distributed. The model can be \textbf{\textit{Multinomial}} too, when it is interested in discrete's values, it means the frequency of words .
-\subsubsection{\textit{Logistic Regression}} 
+\textbf{\textit{sklearn.naive\_bayes.GaussianNB()}}. As it it is \textbf{\textit{GaussianNB}} type, it means that the features's values affected to the model are continuous instead of being discrete, normally distributed. The model can be \textbf{\textit{Multinomial}} too, when it is interested in discrete's values, it means the frequency of words.
+\subsubsection{Logistic Regression} 
 Logistic Regression is a binary and multi-class classification algorithm that models the relationship between inputs features and the probability of a particular event occurring \cite{rymarczyk2019logistic}. For transforming a linear combination of features into probabilities between 0 and 1, it uses the \textit{sigmoid} function as follows :
 \begin{equation} 
 \label{sigmoidFunction}
@@ -1353,21 +1350,23 @@ A part from that, \textit{LR} model uses techniques like regularization for prev
 To get started with it, with scickit-learn, we just use the class :
 \textbf{\textit{sklearn.linear\_model.LogisticRegression()}} 
 
-\subsubsection{\textit{Decision Trees}} 
-As all supervised learning algorithms presented above, \textit{Decision Trees(DTs)} are a non-parametric method used for classification and regression. Its prediction's ability is based on the if-then-else learn's possibilities \footnote{sckit-learn: \url{https://scikit-learn.org/stable/modules/tree.html} }. Actually, the tree is composed by the nodes and branches. Each node represents features in a category to be classified and each subset defines a value that can be taken by the node \cite{charbuty2021classification}.  
+\subsubsection{Decision Trees} 
+As all supervised learning algorithms presented above, Decision Trees(DTs) are a non-parametric method used for classification and regression. Its prediction's ability is based on the if-then-else learn's possibilities \footnote{sckit-learn: \url{https://scikit-learn.org/stable/modules/tree.html} }. Actually, the tree is composed by the nodes and branches. Each node represents features in a category to be classified and each subset defines a value that can be taken by the node \cite{charbuty2021classification}.  
+\subsubsection{Support vector machine (SVM)} 
+SVMs are a class of powerful machine learning algorithms used for classification and regression. They aim to find the optimal hyperplane that maximally separates data points of different classes while maximizing a margin. It's a favorite solution for high-dimensional data\cite{memoireUniversitySpam}. Its class look like this : \textbf{\textit{sklearn.svm.SVC()}}
 
 \subsubsection{\textit{KNeighborsClassifier}}
 The \textbf{\textit{KNeighborsClassifier}} is ML algorithm based on \textit{k-Nearest Neighbors} (K-NN) principles. It classifies data points by finding the \textbf{\textit{k}} nearest from the training dataset and assigning a class label based on majority voting. For measuring similarity between data points, it utilizes the distance metric \cite{nayak2022study}. 
 To get started with it, we need to use the class\textbf{ \textit{sklearn.neighbors.KNeighborsClassifier()}}. 
 
-\subsubsection{\textit{Random Forest}}
+\subsubsection{Random Forest}
 Random Forest is an updated algorithm version of  decision trees. It combines trees to enhance predictive accuracy in classification and regression tasks. It employs \textit{bagging} \footnote{Bagging : Boostrap aggregating, improves the accuracy and robustness of models}  to create diverse subsets of the training data and random feature selection for each tree\cite{lin2017ensemble}. Consequently, the overfitting is reduced and generalization is enhanced. 
 
 A part from optimizing prediction's result, it is reputed for being scalable and applicable to both small and large datasets. 
 
 To get started with it in Python, scikit-learn library we just the following class : \textbf{\textit{klearn.ensemble.RandomForestClassifier()}}. 
-\subsubsection{\textit{Neural Networks (ANN)}}
-The Artificial Neural Networks (ANNs) are ML models inspired by the human brain. They consist of interconnected nodes(neurons) \cite{boateng2020basic} organized into layers: input, hidden, and output. They excel in learning complex patterns from data trough a process called \textbf{\textit{backpropagation} \cite{lillicrap2020backpropagation}}. 
+\subsubsection{Neural Networks (ANN)}
+The Artificial Neural Networks (ANNs) are ML models inspired by the human brain. They consist of interconnected nodes(neurons) \cite{boateng2020basic} organized into layers: input, hidden, and output. They excel in learning complex patterns from data through a process called \textbf{\textit{backpropagation} \cite{lillicrap2020backpropagation}}. 
 
 To get started with it, we can just use the simple variant's class : \newline \textit{\textbf{sklearn.neural\_network.MLPClassifier()}}.
 
@@ -1395,30 +1394,49 @@ To get started we wih \textit{GBR}, we just use the following class : \textit{\t
 \section{Techniques used for optimizing the model} 
 Several techniques are employed to ensure that the implemented model achieves a high level of accuracy. While we've touched upon these concepts indirectly in preceding discussions, it's worth highlighting them for more clarity. Thus, we have:
 \subsection*{Regularization} 
-The regularization is technique used upon a model to enhance the generalization ability of the models. The methods like \textit{Regression Ridge},\textit{Lasso}, \textit{Elastic} can be used for that concern.  For instance :\textit{ L1 regularization} called \textit{Lasso} can be used to drive all  owner's name values feature to exactly zero, since it's \textbf{might have any impact on price}, concerning the house price prediction project.
+The regularization is technique used upon a model to enhance the generalization ability of the models. The methods like Regression \textit{Ridge}, \textit{Lasso},  \textit{Elastic} can be used for that concern \cite{mlwithpython}.  For instance : \textit{L1} regularization called \textit{Lasso} can be used to drive all  owner's name values feature to exactly zero, since it's \textbf{might have any impact on price}, concerning the house price prediction project.
 \subsection*{Ensemble models}
-The ensemble methods combine the predictions of multiple individual models(base models) to produce a more accurate and robust prediction. Therefore, this technique raises new methods such as :
-\subsubsection{(a) Bagging (Boostrap Aggregating)} 
-Actually, bagging involves the process of training multiple instances of the same base model on different subsets of the training data. The case expaling this is \textit{how Random Forest} works as ensemble method and the \textit{Decision Trees} as its base models. The examples of the models's genre are : \textbf{AdaBoost} and \textbf{Gradient Boosting}.
-\subsubsection{ (b) Boosting} 
-The boosting process focuses on training multiple base models sequentially. Each model in the ensemble corrects the errors of the previous one, with more emphasis on misclassified data points.
+The ensemble methods combine the predictions of multiple individual models(base models) to produce a more accurate and robust prediction \cite{kabari2019comparison}. Therefore, it raises new methods such as :
+\subsubsection{(a) \textit{Bagging} (Boostrap Aggregating)} 
+Actually, Bagging involves the process of training multiple instances of the same base model on different subsets of the training data and finally takes the mean of all the predictions. The case explaining this is how Random Forest works as ensemble method and the Decision Trees as its base models. The examples of the models's genre are : \textbf{\textit{AdaBoost}} and \textbf{\textit{Gradient Boosting}}.
+\subsubsection{(b) \textit{Boosting}} 
+The boosting process focuses on training multiple base models sequentially. Each model in the ensemble corrects the errors of the previous one, with more emphasis on misclassified data points. Actually, the correction's goal is the achievement of accurate prediction rule \cite{praveena2017literature}.
 
-\subsubsection{(c) Voting} 
-Voting ensembles is more special, it combines the predictions of multiple base models by taking a majority vote(for classification) or averaging(for regression) to make the final prediction. 
-\subsection*{Dimensionality Reduction}
+\subsubsection{(c) \textit{Voting}} 
+Voting ensembles is more special. It combines the predictions of multiple \textbf{base models by taking a majority vote}(for classification) or averaging(for regression) to make the final prediction \cite{kabari2019comparison}. However, if the model is not optimized, it is might be biased. The model like \textit{VotingClassifier, VotingRegressor} are commonly used. 
+\subsection*{\textit{Dimensionality Reduction}}
+Dimension reduction techniques focus on reducing the number of features (dimensions) in a dataset while preserving or maximizing the relevant information. They are also used to address issues associated with high-dimensional data, such as the curse of dimensionality, overfitting, and computational complexity. Thus, we discuss \textbf{feature selection} when we aim to retain the relevant and informative features and \textbf{feature extraction} when data is projected into a lower-dimensional space \cite{cunningham2008dimension}. In practice, the original data is first transformed and then technically selected to create a new representative dataset. 
 
-\subsection*{Hyperparameter Tuning} 
+The common models used for dimensionality reduction include techniques such as Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA).
+\subsection*{\textit{Hyperparameter Tuning}} 
+Hyperparamater tuning, often referred to as hyperparameter optimization, is the process of systematically searching for the best combination of hyperparameters for a machine learning model.
 
-\subsection*{Bagging and Boosting} 
+Actually, they are settings that are not learned from the data but are set prior to training and setting a model. Examples of hyperparameters include the learning rate in neural networks, the depth of a decision tree, the number of neighbors in k-nearest neighbors, or the regularization strength in linear models. In scikit learn \textit{\textbf{GridSearchCv}} can be used to test the convenient parameters. 
 
+\subsection*{\textit{Normalization and standardization}} 
+Both normalization and standardization are preprocessing techniques commonly used in machine learning and statistics to transform data before feeding it into a model. They serve different purposes but aim to make data more suitable for modeling and analysis. 
 
-\subsection*{Normalization and standardization} 
+The normalization is the process of rescaling data to a common scale, typically between 0 and 1. It's useful when features we have different ranges, and we want to bring them to a uniform scale. Common methods for normalization include Min-Max scaling. 
 
+The formula used for Min-Max scaling is : 
+\begin{equation}
+	X_normalized = (X-X_min)/(X_max - X_min)
+\end{equation} 
+Where \textit{X} is the original value, \textit{X\_min} is the minimum value in the dataset, and \textit{X\_max} is the maximum value.
 
+The standardization, on the other hand, transforms data into a standard normal distribution with a mean of 0 and a standard deviation of 1. It's particularly useful when the features follow a normal or near-normal distribution, and the absolute values and relationships between them are important. Practically, it involves subtracting the mean from each value and dividing by the standard deviation. 
+\begin{equation}
+	XStardardized = (X - mean) / standardDeviation
+\end{equation}
+In scikit learn the model like \textit{PCA} can be used to compute this formula on a dataset.
 \section{Summary}
+In this chapter, the primary focus is on the theorical aspects of the current work. It starts by reviewing related works to identify potential enhacements offered by this work. Subsequently, it explores the tools employed for realizing the proposed solution and delved into the methodological approaches adopted.
 
+Regarding tools and techniques, they classified into two main categories. The first category comprises the tools utilized for constructiong machine learning models, which include algorithms implemented in Python using various libraries.
+The second category involves application tools, such as web technoogies like HTML, CSS, Javascript, and the Django Framework. These applications tools are instrumental in creating user interfaces for consuming a web service.
 
-\chapter{Description of results}
+Furthermore, this chapter delves deeply into the MLops(Machine Learning Operations) methodology employed to make a machine learning model consumable and adaptable to evolving needs. During this phase, it explores the various steps necessary to develop a robust model with high precision and accuracy.
+\chapter{Description of results} 
 \newpage
  %\bibliographystyle{apacite} % or whatever citation style you choose
 \bibliographystyle{plain}

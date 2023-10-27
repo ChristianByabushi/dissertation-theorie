@@ -3,36 +3,36 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: introductionChap2.aux
 The style file: plain.bst
 Database file #1: bibliofile.bib
-I was expecting a `,' or a `}'---line 57 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 83 of file bibliofile.bib
  :  
  :  publisher ={Cambridge, MA: MIT Press.}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 65 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 91 of file bibliofile.bib
  : 
  : pages={34-39},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 197 of file bibliofile.bib
+Repeated entry---line 223 of file bibliofile.bib
  : @book{le2005mobile
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 276 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 302 of file bibliofile.bib
  :  
  :  adress={12, Avenue des Aviateurs-Gombe, Kinshasa-BP 8111}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 296 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 322 of file bibliofile.bib
  :  
  :  pages={1--19}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `{' or a `('---line 319 of file bibliofile.bib
+I was expecting a `{' or a `('---line 345 of file bibliofile.bib
  : 
  : @inproceedings{tang2022clues,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 685 of file bibliofile.bib
+Repeated entry---line 711 of file bibliofile.bib
  : @article{osisanwo2017supervised
  :                                ,
 I'm skipping whatever remains of this entry
@@ -74,45 +74,45 @@ Warning--there's a number but no volume in coursAnalyseDonne2
 Warning--empty journal in coursAnalyseDonne3
 Warning--there's a number but no volume in coursAnalyseDonne3
 Warning--empty journal in giswatch2018
-You've used 84 entries,
+You've used 88 entries,
             2118 wiz_defined-function locations,
-            959 strings with 19616 characters,
-and the built_in function-call counts, 28327 in all, are:
-= -- 2763
-> -- 1458
-< -- 21
-+ -- 592
-- -- 492
-* -- 1991
-:= -- 4787
-add.period$ -- 259
-call.type$ -- 84
-change.case$ -- 481
+            980 strings with 20272 characters,
+and the built_in function-call counts, 29748 in all, are:
+= -- 2918
+> -- 1498
+< -- 23
++ -- 609
+- -- 504
+* -- 2078
+:= -- 5005
+add.period$ -- 272
+call.type$ -- 88
+change.case$ -- 499
 chr.to.int$ -- 0
-cite$ -- 98
-duplicate$ -- 1065
-empty$ -- 2083
-format.name$ -- 492
-if$ -- 5819
+cite$ -- 102
+duplicate$ -- 1129
+empty$ -- 2204
+format.name$ -- 504
+if$ -- 6133
 int.to.chr$ -- 0
-int.to.str$ -- 84
-missing$ -- 94
-newline$ -- 424
-num.names$ -- 168
-pop$ -- 500
+int.to.str$ -- 88
+missing$ -- 98
+newline$ -- 444
+num.names$ -- 176
+pop$ -- 517
 preamble$ -- 1
-purify$ -- 410
+purify$ -- 424
 quote$ -- 0
-skip$ -- 755
+skip$ -- 805
 stack$ -- 0
-substring$ -- 1577
-swap$ -- 216
-text.length$ -- 21
+substring$ -- 1695
+swap$ -- 236
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 312
+type$ -- 328
 warning$ -- 14
-while$ -- 272
-width$ -- 86
-write$ -- 908
+while$ -- 290
+width$ -- 90
+write$ -- 953
 (There were 19 error messages)
