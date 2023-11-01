@@ -1,43 +1,38 @@
 This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: introductionChap2.aux
+The top-level auxiliary file: draft.aux
 The style file: plain.bst
 Database file #1: bibliofile.bib
-I was expecting a `,' or a `}'---line 109 of file bibliofile.bib
- :  
- :  publisher ={Cambridge, MA: MIT Press.}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 117 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 129 of file bibliofile.bib
  : 
  : pages={34-39},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 249 of file bibliofile.bib
+Repeated entry---line 261 of file bibliofile.bib
  : @book{le2005mobile
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 328 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 340 of file bibliofile.bib
  :  
  :  adress={12, Avenue des Aviateurs-Gombe, Kinshasa-BP 8111}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 348 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 360 of file bibliofile.bib
  :  
  :  pages={1--19}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `{' or a `('---line 371 of file bibliofile.bib
+I was expecting a `{' or a `('---line 383 of file bibliofile.bib
  : 
  : @inproceedings{tang2022clues,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 539 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 551 of file bibliofile.bib
  :  
  :  publisher={Apress}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 739 of file bibliofile.bib
+Repeated entry---line 751 of file bibliofile.bib
  : @article{osisanwo2017supervised
  :                                ,
 I'm skipping whatever remains of this entry
@@ -80,45 +75,45 @@ Warning--there's a number but no volume in coursAnalyseDonne2
 Warning--empty journal in coursAnalyseDonne3
 Warning--there's a number but no volume in coursAnalyseDonne3
 Warning--empty journal in giswatch2018
-You've used 91 entries,
+You've used 92 entries,
             2118 wiz_defined-function locations,
-            994 strings with 20841 characters,
-and the built_in function-call counts, 30831 in all, are:
-= -- 3026
-> -- 1552
+            995 strings with 20834 characters,
+and the built_in function-call counts, 31146 in all, are:
+= -- 3059
+> -- 1565
 < -- 24
-+ -- 630
-- -- 522
-* -- 2156
-:= -- 5184
-add.period$ -- 282
-call.type$ -- 91
-change.case$ -- 516
++ -- 635
+- -- 526
+* -- 2180
+:= -- 5237
+add.period$ -- 285
+call.type$ -- 92
+change.case$ -- 521
 chr.to.int$ -- 0
-cite$ -- 106
-duplicate$ -- 1170
-empty$ -- 2287
-format.name$ -- 522
-if$ -- 6361
+cite$ -- 107
+duplicate$ -- 1181
+empty$ -- 2312
+format.name$ -- 526
+if$ -- 6425
 int.to.chr$ -- 0
-int.to.str$ -- 91
-missing$ -- 101
-newline$ -- 459
-num.names$ -- 182
-pop$ -- 534
+int.to.str$ -- 92
+missing$ -- 102
+newline$ -- 464
+num.names$ -- 184
+pop$ -- 537
 preamble$ -- 1
-purify$ -- 438
+purify$ -- 442
 quote$ -- 0
-skip$ -- 834
+skip$ -- 842
 stack$ -- 0
-substring$ -- 1757
-swap$ -- 245
+substring$ -- 1781
+swap$ -- 246
 text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 340
+type$ -- 344
 warning$ -- 15
-while$ -- 302
-width$ -- 93
-write$ -- 986
-(There were 20 error messages)
+while$ -- 306
+width$ -- 94
+write$ -- 997
+(There were 19 error messages)

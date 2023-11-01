@@ -10,9 +10,9 @@
 \usepackage{longtable}
 \usepackage{array,tabularx}
 \usepackage{graphicx}
-\usepackage{apacite}
+%\usepackage{apacite} 
 \usepackage{geometry}
-\usepackage[round, sort]{natbib}
+%\usepackage[round, sort]{natbib}
 \usepackage{latexsym}
 \usepackage[xindy]{glossaries}
 \usepackage{multirow}
@@ -43,7 +43,8 @@
 \usepackage{setspace}
 \parindent=0cm
 \usepackage{colortbl}
-\usepackage{setspace}
+\usepackage{setspace} 
+\usepackage{subcaption}
 \hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue}
 \geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
 \parindent=0cm
@@ -96,6 +97,46 @@
 	frame=single, % Add a frame around the code
 } 
 
+\definecolor{codebackground}{RGB}{240, 240, 240}
+\definecolor{codecomments}{RGB}{0, 128, 0}
+
+\lstdefinestyle{stylejupyter}{
+	language=Python,
+	backgroundcolor=\color{codebackground},
+	commentstyle=\color{codecomments},
+	basicstyle=\small\ttfamily,
+	frame=single,
+	rulecolor=\color{codebackground},
+	keywordstyle=\color{blue},
+	numbers=left,
+	numberstyle=\tiny\color{gray},
+	stringstyle=\color{magenta},
+	breaklines=true,
+	showstringspaces=false,
+	escapeinside={(*@}{@*)},  % Escape to LaTeX inside code comments
+	morekeywords={as, np, pd, plt},  % Add custom keywords here
+}
+
+\definecolor{codebackground}{RGB}{240, 240, 240}
+\definecolor{codecomments}{RGB}{0, 128, 0}
+
+\lstdefinestyle{htmlcssjsstyle}{
+	backgroundcolor=\color{codebackground},
+	basicstyle=\small\ttfamily,
+	frame=single,
+	rulecolor=\color{codebackground},
+	keywordstyle=\color{blue},
+	commentstyle=\color{codecomments},
+	numbers=left,
+	numberstyle=\tiny\color{gray},
+	stringstyle=\color{magenta},
+	breaklines=true,
+	showstringspaces=false,
+	escapeinside={(*@}{@*)},  % Escape to LaTeX inside code comments
+	morekeywords={div, span, h1, h2, p, a, class, id, var, function, let, const},  % Add custom keywords here
+}
+
+
 \geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm} 
 
 \begin{document} 
@@ -117,7 +158,7 @@
 		\vspace*{\stretch{1}}
 		\hrulefill
 		\begin{center}\bfseries\Large
-			\textcolor{blue}{Development of a messaging application for communication and detection of spam on a mobile operator: Case study of Airtel, Vodacom and Orange.}\normalsize
+			\textcolor{blue}{Development of an interface application for detection of spam on a mobile operator: Case study of Airtel, Vodacom and Orange.}\normalsize
 		\end{center}
 		\hrulefill \\
 		
@@ -161,13 +202,9 @@
 	\chapter{Dedicated} 
 	
 	
-	\chapter{Remerciements} 
+	\chapter{Acknowledgments} 
 	
 	
-	
-	
-	\chapter{Résumé exécutif}
- 
  
 	\tableofcontents
 	\listoffigures
@@ -182,68 +219,73 @@
 	\section{Context and generalities} 
 	With the increasing of use of mobile devices in mobile telecommunication, the number of text messages sent every day has grown exponentially. According to \textit{Statista}, a company that provides market and consumer data on a wide range of topics, including digital media and technology; the number of mobile messages sent worldwide in 2020 reached 3.5 trillion \cite{Statista2020}. \\
 	
-	In the same case, with the raise of web pages and social media messaging applications like Whatshap, Teelgra, Snapchat Facebook, Instagram and many others, phone users can now send messages  that are only based on text as in former time but also on video, audios which are more chestful comparatively \cite{faklaris2016oh}. \\
+	In the same case, with the raise of web pages and social media messaging applications like Whatshap, Telgram, Snapchat Facebook, Instagram and many others, phone users can now send messages  that are only based on text as in former time but also on video, audios which are more chestful comparatively \cite{faklaris2016oh}. \\
 	
-	For sure, for interacting with his partner more professionally, email message is the most mean used, but not in all cases since in some countries a given SIM Card of a telecommunication provider is used as a bank more than being an communication mean, so the importance to secure the communication lines of a mobile users in these countries.
-	Along with the functions and interests that the mobiles messages encompasses in terms of conversing, money sending and receiving, there has been an increase in the number of spam messages that aim to deceive people into providing personal information, sending unwillingly money, menacing to death or taking other actions that benefit the scammer.\\
+	For sure, for interacting with his partner more professionally, email message is the most mean used, but not in all cases, since in some countries a  people commonly use \textit{Sim card} delivered by a telecommunication provider to launch mobile bank services. Hence, it appears more valuable than only being a communication technology.\\
+	
+	Along with various services and interests that mobiles messages encompasses, from mobile baking to social media communications, games entertainment, localization platforms and many others the number of messages sent have been increase. However these includes the genre that aim to deceive people into providing personal information, fakes news, sending unwillingly money, menacing to death or taking other actions that benefit the scammer.\\
 		
-	To address this problem, the development of a messaging application with advanced spam detection capabilities is crucial to set, filter messages and prevent the users. This dissertation focuses specifically on the development of such application for phone users and in general for mobile networks telecommunications technologies.  
-	
+	To address this problem, the development of an interface application with spam detection capabilities appears crucial, since it allows on a side:The setting and filtering of messages in applications, and the delivering to the phone user an assistance helping him to take better decisions. On the other side, providing to networks operators a further solution worthy to be encompassed into the messages transmitters systems for more transactions monitoring.
 	%such as : Airtel, Vodacom and Orange. \\
 	% Indeed, Airtel, Vodacom, and Orange are major telecommunications operators which mostly function in Democratic Republic of Congo, with a significant market share and importance in online services, including messaging. 
 	 
 	\section{Problematic} 
-	In telecommunication domain, we use mobile devices or phones for sharing \textit{SMS}, Email, chats by using some specific apps. Among all we use specifically \textit{SMS} for personal and professional information sharing \cite{lavanya2582sms}. The SMS stands for Short Message Service, which is a text messaging service for mobile phones and other mobile devices. It allows users to send and receive short messages of up to 160 characters \cite{le2005mobile}. It is also possible to send or receive automatic SMS which are not sent by human, whereas by using web interface or API \cite{jangir2016design}.\\
+	In telecommunication area, it is used mobile devices or phones for sharing either texts or emails and chats by using targeted applications. Among all, it is used specifically \textit{SMS} for sharing personal and professional information  \cite{lavanya2582sms}. The \textit{SMS} stands for Short Message Service, which is a text messaging service for mobile phones. At the beginning it was allowing users to send messages  least than 16O characters \cite{le2005mobile}. However in today world, it is possible to send more than that even multimedia types. Their sources can be either human or other phones users, online applications or networks operators \cite{jangir2016design}.\\
 		
-	Time to time, more persons are receiving messages such as : "You won x amount of money send another amount to withdraw it", "Join me at x area to take your money but pay me the transport ...", "I'm \textit{Sirene} Madam I have money for you", "I have a job for you" and many others fake messages. More of them are reported in this  \href{ https://blog.textedly.com/spam-text-message-examples}{spams examples link}.  \\
+	From time to time, a certain group of people benefit from this accessibility, liberality and send messages which are insane or completely unwilling by receivers. Their genre looks like this: "You won x amount of money send another amount to withdraw it", "Join me at x area to take your money but pay me the transport ...", "I'm \textit{Sirene} Madam I have money for you", "I have a job for you" and many others fake messages. More of them are reported in this  \href{ https://blog.textedly.com/spam-text-message-examples}{spams examples link}.  \\
 		
-	Furthermore, scammers go the point where they can introduce vulnerabilities in messages which exploit a weakness in the SMS messaging system to remotely install spyware on mobile devices commonly called \textit{Simjacker}  \cite{cimpanu2019simjacker}. However, in marketing  almost similar messages are used to sensitize people to by products and services which confuse users wether it is or not a spam message by leading users to ignore important messages or being more hesitant to engage with mobile marketing campaigns \cite{chen2017survey},\cite{leppaniemi2008mobile}.\\
-		
-	Considering all above issues caused by spam, what are key technical challenges that could be addressed in messaging system which can effectively facilitate the communication as well as detecting and filtering spam messages ? 
+	Furthermore, other kinds of scammers even arrive at stage where they utilize the vulnerabilities which are present in messaging system, and inject, or even install mobile spyware users systems. For instance we have the \textit{SimJacker} referenced by \cite{cimpanu2019simjacker}. This shows that the threats can even come not only from messages content but from even its system. \\
 	
+	Speaking about unwilling messages involves to investigate too, in the common organizations systems which afford their market plan or advertisement by paying networks operators. Therefore, scammers use that mean to appears too as authorized organization providing to users different services. Hence, tacking an official and nonofficial becomes challenging\cite{chen2017survey},\cite{leppaniemi2008mobile}.\\
+		
+	Considering all issues and challenges mentioned above in which spams messages are implicated, it becomes urgent to find solution(s) helping or supporting all victims. But, how can these challenges including false market advertising messages to threats and unwilling messages, be tackled for facilitating a proper messaging communication ?	
 	\section{Hypotheses}  
-	 According to the Oxford dictionary, hypotheses stands for a statement of the expected relationship between things being studied, which is intended to explain certain facts or observations \cite{park2012dictionary}. An idea to be tested.
-	 Hence, using the content-based filtering techniques, which involves analyzing the content of messages and determining wether it is a spam or not would be considered as solution. \\
-	 	
-	 Firstly this would be done by utilizing the Machine learning algorithms which are : \textbf{Naive Bayes, Logistic Regression, and Supper vector Machines}. All these would be combined by the ensemble methods for making a more predictive model \cite{raschka2017python} including the preparation and classification techniques which avoid biased model \cite{karl1986model}. \\
+	 According to the \textit{Oxford} dictionary, hypotheses stands for a statement of the expected relationship between things being studied, which is intended to explain certain facts or observations \cite{park2012dictionary}. An idea to be tested.
+	 Hence, using the content-based filtering techniques, which involves analyzing the content of messages and determining whether it is a spam or not would be considered as solution. \\
+	 
+	 Actually, the solution at the mentioned issue involves the entire participation of victims and the systems, in other words human and human participation. Hence, it seems effective to use new technologies that can give capacity to systems to detect by themselves the threats and warns the users. This is possible by the modern techniques called : Machine learning algorithms.\\
+ 
+	 For the benefit of this work, it is utilized several types of those new technologies encompassing algorithms which are: \textbf{Naive Bayes, Logistic Regression, and Supper vector Machines} helping to assistant the users. Since they have different performances, this work combines their capacities the other techniques called : Ensemble models allowing to get one result which can help the phone to interact with the user \cite{raschka2017python}. In their logic, they include functions allowing them to classify after being prepared and trained whether a message is legitimate or not \cite{karl1986model}. \\
 	 	 
-	 Secondly, during the production steps, we should integrate the model inside of the system able to add technically in a blacklist or whitelist suspect users based on the specific probability of being a potential attack.\\
-	  
-	 Overall, we will jump from Machine Learning as model (\textit{MLaaM}) which is the output of writing ML algorithms run on data and represent what was learned by the algorithm on training data; to ML Model Software Deployment which encompasses all the activities that make a software system worthy to be used \cite{hadullo2021machine}.
+	 Furthermore, the solution involves other techniques means helping the phone system to interact with the others online services providing to it a support internally so that it may know how to filter its inputs, whether they contain the threats or not. The third party contacted gives details about the message content and the \textbf{probability} to trust it.\\
+	 	 
+	 Overall, tackling those issues leads to build a smart system which assists and provides the user with informations that can increase his capacity of judging the. That should start from the development of models which feeds data to its deployment in softwares ares allowing him to consume the model's services \cite{hadullo2021machine}.
 	 	 
 	\section{Delimitation and objectives}  
 	\subsection{Delimitation}
 	The present work aims to develop a messaging application for communication and detection of spam on a mobile network.
+	\\
 	
-	Geographically it focuses on all provinces of Democratic Republic Of Congo(DRC) where mobile phones are used and require techniques for implementation. 
-	
-	Besides, it does not function effectively across all languages unless the solution model has been specifically trained on those languages. As a result, it is challenging to claim its effectiveness in languages such as Swahili, Lingala, French, or even English. Moreover, achieving optimal performance often necessitates the involvement of a large population.
-	
+	Geographically it focuses on all provinces of Democratic Republic Of Congo(DRC) where mobile phones are used and require techniques for implementation. \\
+		
+	The solution provided is limited in terms of landscapes where it can be utilized since it's smartly function only on topics(data) on which it is concerned. As a result, it is challenging to claim its effectiveness only in languages like Swahili, French, and English. \\
+		
 	Indeed, the current work in terms of planning and execution has spanned a duration of nine months : From January to November 2023. 
 	\subsection{Objectives}
-	This system present 2 types of objectives such as: functional and non functional.
-	
-	As functional objectives, this system consist of developing a messaging application that can facilitate efficient communication between users; implementing the machine learning models which has the capacity of classifying the messages and preventing spam messages under a certain probability; designing and integrating a user-friendly interface for messaging application.\\
-			
-	For non-functional objectives, it allows the user whose messaging application complies with relevant privacy laws and regulation to protect data information, reducing the attacks and frauds; Increasing the trustfulness of users and mobile services compagnie provider, optimizing the power resources of the user against threats posed by scammers. 
+	The current work compromises 2 types of objectives which are: functional and non-functional.\\
+		
+	As functional objectives, it yields a interface application system that can interact with messaging applications and facilitates efficient communication between users; by implementing the machine learning models which having the capacity of classifying messages and preventing unwilling messages under a certain probability.\\
+				
+	Concerning non-functional objectives, the current work allows users whose messaging applications complies with relevant privacy laws and regulation, to protect data information, reducing the attacks and frauds; increasing the trustfulness of other users. Consequently, it increases the credibility in networks operators companies services that gain another tool helpful in surveillance and monitoring. 
 	
 	\section{Interest} 
-	Personally, this paper has allowed the author to gain knowledge and more experience in the field of mobile networks and messaging applications. \\
+	Personally, the current work has allowed the authors to gain knowledge and more experience in the field of mobile networks and messaging applications trough the research investigated in. \\
 	
-	Socially, the developed system contributes to facilitating communication and reducing the impact  of spam messages, which can be annoying and stressful for citizens.\\
+	In the society, it is worthy to contribute to facilitating communication and reducing the impact  of spam messages, which are somehow annoying and stressful for citizens.\\
 		
-	Economically, this system of detection helps to save business server time and resources by filtering out spam messages allowing for more targeted marketing efforts. \\
-		
-	Scientifically, the research achieved contributes to the advancement of the science in the domain of Mobile Networks, SMS messaging, and Machine Learning data processing and classification.
+	Economically, it is appears as time saver in business employees by decreasing concerns based on threats and unwilling messages due to its capacity of providing filtering functions.
+			
+	For scientists, this work is a reference for those whose to delve in and gaining skills and techniques in mobile networks environment in machine learning operations systems.
 	
 	\section{Research Methodology}
-	Throughout this paper, the research methodology will be used to guide the study towards achieving its objectives. The research will adopt a descriptive research design to describe the development of a messaging application for communication and detection of spam on a mobile network. The study will focus on both qualitative and quantitative research methods \cite{creswell2014research}. The qualitative method will involve a literature review, interviews and analysis of collected messages. while quantitative method will focus on the development and testing of the messaging application.\\
+	Throughout this paper, the research methodology is used to guide the study towards achieving its objectives. It adopts a descriptive research design to describe the development of a interface application for better communication and detection of spam on a mobile network. The study will focus on both qualitative and quantitative research methods \cite{creswell2014research}. The qualitative method  involves a focus on literature review, interviews and analysis of collected messages, while the quantitative method focuses on development and testing of the interface messaging application.\\
 		
-	The research will be conducted in two phases. The first phase will involve data collection through a survey questionnaire that can be completed on website, or can be directly provided to the web interface (API) by the mobile phone users for collecting their experience with messages and especially spams. Thus, the data collected will be analyzed using descriptive statistics \cite{bluman2017elementary} to identify the common types of spam messages and the frequency of occurrence, languages inside, and other attributes.  \\
+	The current research has been conducted in two phases. The first one involves data collection through a survey questionnaire form that is completed on website. The others involves the downloading of data from online working community. Once collected, they are analyzed using descriptive statistics \cite{bluman2017elementary} including the techniques of identifying the common types of messages and the frequency of occurrence and languages within it, etc.  \\
 	
-	The second phase will involve the development of the messaging application using the data collected from the survey and the analysis of existing messaging applications. The development of the application will be guided by the principles of agile software development by using Python (Django framework) for \textit{Back-end} and HTML,CSS and JavaScript for \textit{front-end}. Then,the application will  integrate the use of machine learning models based on selection's research of each other.\\
+	The second phase involves the development of the pursuing of steps offered by the machine learning operating systems (MLOps) encompassing data prepocessing, wrangling, feature engineering, splitting for model training till it deployment for being integrated in a system. 
+	By following the workflows stages delivered by the MlOps for production models, it covers the architecture of consumming machine learning services trough a software system compromises the programming technologies like Python with its framework Django and HTML, Css, and JavaScript for interaction with it.
 	
-	The evaluation of the messaging application interface will be conducted using both quantitative and qualitative methods. The qualitative evaluation will involve the measurement of the application's accuracy and efficiency in detecting and filtering spam messages, on the other hand the qualitative evaluation will involve a user study to determine the usability and user experience of the application.\\
+	The evaluation of the messaging application interface is conducted using both quantitative and qualitative methods. In fact, the qualitative evaluation involves the measurement of the application's accuracy and efficiency for detection and filtering messages while the qualitative evaluates user stability and application's experience.
 	
 	\section{Work Plan (or Work Subdivision)}
 	The work plan of this dissertation is divided into four parts. The first is the introduction, which provides a background information on the research problem.The second part consist of a situation analysis and assessment while the third part focuses on literature review and explanations on the methodology. Then the fourth part presents the practical result of this work. Finally the conclusion part summarizes the key findings and contributions of the study and presents limitations and provide recommendations for future research. \\
@@ -326,16 +368,14 @@ Moreover, the services that citizen's subscribers benefit from are as follows :
 
 Firstly, the Internet Access: The Internet services are used to connect people from different nodes. In fact, In accordance with the \textit{WorldBank} \footnote{WorldBank : International Telecommunication Union ( ITU ) World Telecommunication/ICT Indicators Database \url{https://data.worldbank.org/indicator}}  been used by 23\% of the DRC's population in 2020. Nonetheless, it requires payment which proportionally gives mobile data usually expressed in Megabytes. \\
 
-Secondly, the Text Messaging (SMS): Even though the internet is the most used for texting, the SMS remains a widely used form of communication, especially in regions with \textbf{limited internet connectivity or among users who prefer simple text messaging or do not have the internet connection}.\\
-
-Furthermore, with the architecture of GSM(Global System for Mobile Communications) invented in the second generation, sending messages became possible. Nowadays, the web environment has developed application interfaces (API) that connect external systems to operators for sending messages \cite{hassinen2003secure}. One of the platforms that offer these services connects its SMS gateway to the GSM operator, as seen in the case of \textit{Octopush} \footnote{Octopush : SMS platform for businesses connected with their audience} architecture shown in Figure \ref{fig:smsgateway}  
-
-\begin{figure}
+Secondly, the Text Messaging (SMS): Even though the internet is the most used for texting, the SMS remains a widely used form of communication, especially in regions with \textbf{limited internet connectivity or among users who prefer simple text messaging or do not have the internet connection}.Furthermore, with the architecture of GSM(Global System for Mobile Communications) invented in the second generation, sending messages became possible. Nowadays, the web environment has developed application interfaces (API) that connect external systems to operators for sending messages \cite{hassinen2003secure}. One of the platforms that offer these services connects its SMS gateway to the GSM operator, as seen in the case of \textit{Octopush} \footnote{Octopush : SMS platform for businesses connected with their audience} architecture shown in Figure \ref{fig:smsgateway}  
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{Images/SMSgateway}
 	\caption{SMS Gateway Provider Architecture}
 	\label{fig:smsgateway} 
 \end{figure}
+ \\
  
 Thirdly, the Mobile Banking and Payments : With this services subscriber can make \textbf{financial transactions}; paying bills, transferring money conveniently. \\
 
@@ -445,11 +485,11 @@ In DRC, especially in the eastern party, users face similar issues. This chapter
 	Actually, Django's ORM abstracts many \textit{SQL} complexities, enabling developers to interact with the database using \textit{Python} code, without needing to write raw \textit{SQL} queries. This higher-level interaction simplifies database access and makes the development process more efficient. So, while \textit{SQL} is at core of database interaction, Django's \textit{ORM} providers a user-interface for developers, streamlining the development of data-driven web applications.\\ 
 	
 	Suppose we want to retrieve all the employees in a database with salaries greater than \$4000 using raw SQL. Here's what the SQL query would look like : 	
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=htmlcssjsstyle]
  SELECT * FROM employees WHERE salary > 4000
 \end{lstlisting}
   While Django accomplishes the same task using the following code:
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 from myapp.models import Employee
   employees = Employee.objects.filters(salary__gt = 4000)
 \end{lstlisting}
@@ -490,7 +530,7 @@ from myapp.models import Employee
  \\
  
   However, the configuration about the app created, ought to be made lest it should raise the error. Thus, in settings file, present in the project folder the properties called \textit{INSTALLED\_APPS}, as in the figure \ref{fig:appinstallname}.\newline After, this we can just enter the commands : 
- \begin{lstlisting}[style=stylepython]
+ \begin{lstlisting}[style=stylejupyter]
  python manage.py makemigrations
  python manage.py migrate
 \end{lstlisting}
@@ -506,7 +546,7 @@ For sure, the first command line says to Django the new changes, and the second 
 Django deals with databases through \textit{ORM} as mentioned above. Its management involves to follow different steps such as:
 
 \textbf{Database Configuration } : in the Django project's settings (usually in the \textit{settings.py}, we have to specify the database we want to use. Django supports various databases types, including \textit{PostgreSQL, Mysql, SQLite and Oracle} \footnote{Setting Databases in Django : \url{https://docs.djangoproject.com/fr/4.2/ref/databases/\#mysql-notes}}  . We have only define the database backend, connection details, and other options in the \textit{DATABASES} setting. For instance the configuration of \textit{MYSQL} will be like this : 
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 DATABASES = {
   'default': {
   'ENGINE': 'django.db.backends.mysql',
@@ -520,14 +560,14 @@ DATABASES = {
 \end{lstlisting} 
 
 \textbf{Model Definitions} : \textit{Django} models are Python classes that define the structure of the database. Models are defined in the the \textbf{\textit{models.py}} file. Each model class represents a database table, and each model field represents a table column. The syntax used for creating a database is as follows: 
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 from django.db import models
 class Employee(models.Model):
      name = models.CharField(max_length=100)
 	     salary = models.DecimalField(max_digits=10, decimal_places=2)
 \end{lstlisting} 
 The corresponding \textit{SQL} code is this:  
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=htmlcssjsstyle]
 	CREATE TABLE Employee (
 	 id INTEGER PRIMARY KEY,
 	 name VARCHAR(100),
@@ -539,12 +579,12 @@ The corresponding \textit{SQL} code is this:
  
 \textbf{Database abstraction} : With this technique, we do'nt no longer need to write \textit{SQL} code, since by \textit{Python} it is possible to interact with the database, and making a \textit{queryset} request(\textit{crud}  \footnote{CRUD: Create Read Update Delete item}).Let's see how it works once again: 
 
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 new_employee = Employee(name ="Eistein", salary=45OOOO) 
 new_employee.save()
 \end{lstlisting} 
 instead of doing this in SQL : 
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=htmlcssjsstyle]
 INSERT INTO employees (name, salary) VALUES ('Einstein', 45000);
 \end{lstlisting}  
 
@@ -558,7 +598,7 @@ Furthermore, the use of abstraction techniques to interact with database, enhanc
 The Front-end development is a crucial aspect of web development that focuses on creating the user interface and user experience of a website or web application. It involves using a combination of HTML,CSS, and Javascript to build the visible and interactive elements of a website. \\
 
 The HTML (Hypertext Markup Language) is used as a maker of web pages by providing its structure and content. It uses a markup language with various tags to define headings, paragraphs, links, images, forms, and more \cite{stark2010building}. For example a page with a heading and a paragraph should look like this in the content :
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=htmlcssjsstyle]
  <div>
      <h1>Page Dev</h1>
      <p>this is our page</p>
@@ -566,7 +606,7 @@ The HTML (Hypertext Markup Language) is used as a maker of web pages by providin
 \end{lstlisting}
 
 Furthermore, the \textit{CSS (Cascading Style Sheets)} is used for styling and layout. Thus, it controls the visual presentation of HTML elements. For example for our above code : \newline
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=htmlcssjsstyle]
 h1{
    color : blue; /* set the color to the element*/
    font-size: 24px; /* sets the font size */
@@ -574,8 +614,8 @@ h1{
 }
 \end{lstlisting} 
 
-Apart from that, the other powerful tool used in web development is \textit{JS(JavaScript)}. It adds interactivity and dynamic behavior to web pages. It also leveraged for creating features like images sliders, form validation, animations and real-time updates without having to \textbf{reload the page}. The common frameworks used to extend its productivity are : React, Angular and Vue-js \cite{wohlgethan2018supportingweb}. By updating the above \textit{HTML} code, we can see the interactity created by JS: 
-\begin{lstlisting}[style=stylepython, label=lst:jsCode]
+Apart from that, the other powerful tool used in web development is \textit{JS(JavaScript)}. It adds interactivity and dynamic behavior to web pages. It also leveraged for creating features like images sliders, form validation, animations and real-time updates without having to \textbf{reload the page}. The common frameworks used to extend its productivity are : React, Angular and Vue-js \cite{wohlgethan2018supportingweb}. By updating the above \textit{HTML} code, we can see the interactivity created by JS: 
+\begin{lstlisting}[style=htmlcssjsstyle, label=lst:jsCode]
 <!DOCTYPE html>
 <html>
 <head>
@@ -631,7 +671,7 @@ To start a new project we just execute in the terminal, the command :  \texttt{j
    
  Actually, the reason of thinking about a new tool of computing in Python is because, all  data structures it provides: lists for enumerating a collection of objects, dictionaries to build hast tables, are not ideally suited to high-performance numerical computation \cite{van2011numpy}.\newline 
  Basically, the usage of numpy asks for importing its modules like this :  
- \begin{lstlisting}[style=stylepython]
+ \begin{lstlisting}[style=stylejupyter]
  import numpy as np  #np is a common alias used  
  In [4]: np.__version__
  Out [4] : '1.24.3'
@@ -639,7 +679,7 @@ To start a new project we just execute in the terminal, the command :  \texttt{j
  %% We assume that the np alias created will be used for other demonstration.\newline
  \textbf{The structure and creation of a \textit{NumPy} array}. The fundamental data structure provided by the Numpy library for representing arrays is \textbf{ndarray} it refers to the array which is n-dimensional or multi-dimensional \cite{coursAnalyseDonne2}. Thus, several means can be used to create an array as follows  : \newline
  - With 1D(dimension):
- \begin{lstlisting}[style=stylepython]
+ \begin{lstlisting}[style=stylejupyter]
 In[8] : np.array([1, 2, 3, 4, 5])
 #Creates a NumPy array from a given list or iterable.
 Out[8] : array([1, 2, 3, 4, 5]) 
@@ -650,7 +690,7 @@ In[12] : np.array([[1, 2, 3], [4, 5, 6]])
 In[12]: array([[1, 2, 3],
 		[4, 5, 6]])
  \end{lstlisting}
- \begin{lstlisting}[style=stylepython]
+ \begin{lstlisting}[style=stylejupyter]
 In[10] : np.arange(1, 10, 2)  
 # Creates a 1D array from 1 to 9 with a step of 2
 Out[10] : array([1, 3, 5, 7, 9]) 
@@ -659,7 +699,7 @@ Out[10] : array([1, 3, 5, 7, 9])
   Many other functions can be used for creating arrays, like : empty, zeros, ones, eye, etc. \\
   
  \noindent\textbf{Manipulation of arrays}. The manipulation operation includes : The splitting, slicing, indexing,reshaping, arithmetical operations, concatenations, comparisons and many others. Let's dive into some of that operations as follows:
- \begin{lstlisting}[style=stylepython] 
+ \begin{lstlisting}[style=stylejupyter] 
  #We generate the integers from zero to twelve and
  # re pack them into a 4x3 array
  In [21] : np.arange(12).reshape((4,3))  
@@ -682,13 +722,13 @@ Out[10] : array([1, 3, 5, 7, 9])
  
  \end{lstlisting} 
  Let's mention that ndarray object is homogeneous since all elements within must have the same data type. The types allowed are : Float, int, bytes, str, number and complex (for decimal complex numbers). To define, the type on the array on creation is made by \textbf{dtype} property like this: 
-\begin{lstlisting}[style=stylepython] 
+\begin{lstlisting}[style=stylejupyter] 
  In [55] : np.array([1, 2, 3, 4, 5], dtype='float') 
  Out [55] : array([1., 2., 3., 4., 5.]) 
 \end{lstlisting} 
 
 Besides, dealing with slicing and splitting still depends on the dimension. Lets break in the code to see that : 
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 In [56] : arr = np.array([[1, 2, 3],
 [4, 5, 6],
 [7, 8, 9]]) 
@@ -708,7 +748,7 @@ Out [60] : array([[5, 6],
 \subsubsection*{{\large  Pandas library :}} 
 \textit{Pandas \footnote{https://pandas.pydata.org/} } is an essential open-source Python library used for data manipulation and analysis. It provides functions for reading and writing data structures in various formats, including \textit{CSV} and text files, Microsoft Excel, SQL databases, and the fast \textit{HDF5} \footnote{HDFR (Hierchical Data Format version 5) : It is a versatile and high-performance data storage format commonly used in scientific and data analysis fields.} format. Additionally, Pandas can \textbf{align data, handle missing data, allow reshaping and pivoting, perform data aggregation and transformation, and merge and join data sets} \cite{mckinney2015pandas}. \newline It offers many other capabilities for efficient data processing. 
 To start with \textit{pandas}, we have to create the pandas  object like this: 
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 import pandas as pd # pd is an alias name
 \end{lstlisting}
 
@@ -716,7 +756,7 @@ import pandas as pd # pd is an alias name
 Pandas has two main structures: Series and DataFrame. The first is one-dimensional array, while the second is a two-dimensional table that is similar to a spreadsheet or SQL. Let's break into an example: 
 
 - Series:
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 # Creating a Series from a list
 In [46] : data = [1, 2, 3, 4, 5]
 Out [46] : pd.Series(data) 
@@ -734,7 +774,7 @@ dtype: int64
 
 \textbf{Reading and Writing data.} Pandas offers versatile functionality which deal with various sources and formats. The common sources include : \newline
 \textbf{- CSV files}: They are read and written like this : 
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
  #Reading from CSV
  data = pd.read_csv('dafileName.csv') 
  #Writing to CSV
@@ -742,7 +782,7 @@ dtype: int64
 \end{lstlisting} 
 
 \noindent \textbf{- Excel files} : 
- \begin{lstlisting}[style=stylepython]
+ \begin{lstlisting}[style=stylejupyter]
 # Reading from Excel
  data = pd.read_excel('dafileName.xlsx', sheet_name='Sheet1')
 
@@ -751,7 +791,7 @@ dtype: int64
  \end{lstlisting} 
  
  \textbf{- SQL Databases} :
-  \begin{lstlisting}[style=stylepython]
+  \begin{lstlisting}[style=stylejupyter]
 # Reading from SQL database sqlite
 connection = sqlite3.connect('my_database.db')
 query = 'SELECT * FROM my_table'
@@ -764,7 +804,7 @@ data.to_sql('new_table', connection, if_exists='replace', index=False)
 In the same way, functions \textbf{read\_json, read\_html}  are also respectively used for dealing with the JSON and HTML data.\\
 
 \textbf{- Data Cleaning.} Pandas uses several functions, among them we have drop\_duplicates(), fillna(). Which are used like this:
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 # Removing duplicates
 df = df.drop_duplicates()
 
@@ -773,7 +813,7 @@ df = df.fillna(0)
 \end{lstlisting} 
 
 \textbf{- Data Exploration}. Pandas provides methods for exploring the dataset, such as \textbf{head(), tail(), describe(), and info()}. Thus, the application will look like :
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 data = {'A': [1, 2, 3, 4, 5],
 'B': ['X', 'Y', 'Z', 'X', 'Y']}
 df = pd.DataFrame(data)
@@ -795,7 +835,7 @@ max    5.000000
 Additionally it allows indexing, slicing, filtering, modifying data. Let's break into the demonstration:
 \newline
 \textbf{- Pivot table }:
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 In [72] : df.pivot_table(index='B', values='A', aggfunc='mean')
 print(pivot) 
      A
@@ -808,7 +848,7 @@ Z  3.0
 \end{lstlisting} 
 
 \textbf{- Merging} :
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
  #Create two DataFrames
  data1 = {'Key': [1, 2, 3, 4, 5],
 'Value1': ['A', 'B', 'C', 'D', 'E']}
@@ -830,7 +870,7 @@ Key Value1 Value2
 \end{lstlisting} 
 
 \textbf{- Slicing}:
-\begin{lstlisting}[style=stylepython] 
+\begin{lstlisting}[style=stylejupyter] 
 #Consider the example on the top about 
 #name, age, city
 # Slice specific rows and columns
@@ -844,7 +884,7 @@ Name  Age
 2  Charlie   35
 \end{lstlisting} 
 Assume that we want to apply some characteristic on a column :
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 # Create a new column based on an existing column
 df['days'] = df['Age'].apply(lambda x: x * 360)
 print(df)
@@ -856,7 +896,7 @@ print(df)
 \end{lstlisting}
 
 \textbf{- Modifying Data} : 
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 df.loc[2, 'Name'] = "Jonathan"
 print(df)
 #The df becomes like this : 
@@ -875,11 +915,11 @@ When working with data visualization, the type of plot to choose should depend o
 
 \noindent The usage of \textit{matplotlib} properties require a good manipulation of data, often done by the \textit{numpy} and \textit{pandas}. Let's break into examples of its usage: \newline
 First all, the import of \textit{matplotlib} is required for any manipulation. It is done like this :
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 import matplotlib.pyplot as plt #plt is also an alias
 \end{lstlisting} 
  
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -927,7 +967,7 @@ plt.show()
 \end{figure} 
 
 Additionally, \textit{matplotlib} is used for creating 3D as follows : 
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 	from mpl_toolkits.mplot3d import Axes3D
 	import matplotlib.pyplot as plt
 	import numpy as np
@@ -1006,7 +1046,7 @@ Example : Analyzing the distribution of ages in a population\\
 \textit{Seaborn} is another Python library for statistical data visualization, built on \textit{matplotlib}. It just provides properties able to create more informative an visually appealing graphics \cite{sial2021comparative}. To get started with it, we just visit the official page \footnote{Seaborn: \url{https://seaborn.pydata.org/}} which presents all steps required for installing. Alternatively, we can use an  the integrated development environment \textit{IDE} like \textit{Anaconda} once again, which already includes it. 
 
 The following example shows how to combine both \textit{matplotlib} and \textit{seaborn}:  
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 import matplotlib.pyplot as plt 
 import seaborn as sns # Its how to start the 
 
@@ -1034,7 +1074,7 @@ The techniques and properties used inside of it, allows it to predictive data an
 
 To get started with it as usually, the official page present all the steps for downloading all the packages or using \textit{IDE} like \textit{Anaconda} which encompasses it. \newline
 Before using its functions we have to initialize the by import the class which includes the methods and properties achieving a given task. For example, suppose that we are about to process data a class called \textit{StandardScaler} can be useful \textbf{when the dataset contains features with different scales} . Then, it standardizes the data, centering it around 0 and ensuring that it has a standard deviation close to 1.
-\begin{lstlisting}[style=stylepython]
+\begin{lstlisting}[style=stylejupyter]
 In[2]:  from sklearn.preprocessing import StandardScaler
 	import numpy as np
 	
@@ -1500,15 +1540,15 @@ The present project witnessed a dynamic partnership between the authors and an e
 
 \section{Data collection strategy } 
 Recognizing the pivotal role of data at the heart of our solution, an extensive investigation into data collection became imperative. Our fist approach to streamline this process was by harnessing the power of the online realm. Trough a dedicated website, we deployed a user-friendly survey form; which individuals could readily complete and submit. Visualize this in figure \ref{fig:spamform} in the annexes.
-Therefore, all the data collected have been stored in a database. To really collect it for further investigations, it is just question of clicking on a download button in the website as shown in figure\ref{fig:collectdata} in the annexes.
+Therefore, all the data collected have been stored in a database. To really collect it for further investigations, it was just question of clicking on a download button in the website as shown in figure\ref{fig:collectdata} in the annexes.
 
 Furthermore, in keeping with the common practice among data scientists, who often employ online datasets for their experiments and analysis, this work also delved into \textbf{a dataset readily available on} \textit{Kaggle}, which allows this work to tackle broad languages even though they are not highly spoken in case study area. \footnote{https://www.kaggle.com/ : Actually, \textit{Kaggle} is an advanced online community for networking works and storing data mostly used for analysis project.} 
 
-\section{Application of the methodology}
+\section{Application of the methodology} 
 Pursuing the ML operating systems methodology: From the gathering step to model deployment, this section presents all the steps which lead to the model worthy to make predictions. 
 \subsection{Gathering data} 
 Collecting technically data required to know and its sources. Thus, pursuing that in \textit{jupyter} notebook, we firstly import the essential dependencies like this :
-\begin{lstlisting}[style=stylePython]
+\begin{lstlisting}[style=stylejupyter]
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression 
@@ -1530,18 +1570,628 @@ import pandas as pd
 import detectlanguage  
 from sklearn.feature_extraction.text import TfidfVectorizer
 \end{lstlisting}
-Hence, the pandas alias created allows to gather data, both based on two languages category, one highly concerns strange languages (French, English), and the other local (Swahili). Therefore, we have :
+Hence, the pandas alias created allows to gather data, both based on two languages category, one highly concerns strange languages (French, English), and the other local (Swahili). Therefore, we used the following code : \\
+
+\begin{lstlisting}[style=stylejupyter]
+# Multilinguages data
+messageInMultiLang = pd.read_csv('data-en-hi-de-fr.csv') 
+
+#local data
+messageInSwahili = pd.read_csv('swahiliDataset.csv')
+\end{lstlisting}
+
+\subsection{Data preparation and exploratory} 
+During this step, we dropped null values, duplicates, reformatted data types and finally we created plot for visualizing data following the present steps and techniques:\\
+
+- Check the columns inside of the data:
+\begin{lstlisting}[style=stylejupyter]
+In [43]:# columns in multilingual dataset 
+	print(messageInMultiLang.columns) 
+	print(messageInSwahili.columns) 
+	
+	Index(['labels', 'text', 'text_hi', 'text_de', 'text_fr'], dtype='object')
+	Index(['labels', 'message'], dtype='object')
+\end{lstlisting}
+- Extract the valuable features:
+\begin{lstlisting}[style=stylejupyter]
+	#extract english messages
+	messageInEnglish = messageInMultiLang[['labels','text']] 
+	
+	#extract french messages
+	messageInFrench = messageInMultiLang[['labels','text_fr']]
+\end{lstlisting}
+
+- Visualize the sample data :
+
+(a) English language data:
+
+\includegraphics[height=4cm,width=1\linewidth]{CollectImages/headViewsEnglish}\\
+
+(b) French language data:
+
+\includegraphics[height=4cm,width=1\linewidth]{CollectImages/headViewsFrench}
+
+(c) Swahili Language data: 
+ 
+\includegraphics[height=4cm,width=1\linewidth]{CollectImages/headViewsSwahili} 
+\\
+
+- Counting data:\\
+(a) English Language data :
+
+\begin{lstlisting}[style=stylejupyter]
+pd.crosstab(index=messageInSwahili['labels'], columns='count') 
+pd.crosstab(index=messageInFrench['labels'], columns='count')
+pd.crosstab(index=messageInEnglish['labels'], columns='count')
+\end{lstlisting}
+
+The above code gives us results concerning raw data in our   all these pictures and using, all both datasets contained the data as follows in the table \ref{tab:rawdatacollected} : \\
+\begin{table}[h]
+	\centering
+\begin{tabular}{|p{3cm}|p{3.5cm}|p{3cm}|p{4cm}|} 
+	\hline
+	Languages & Ham  & Spam & Total\\
+	\hline
+	English & 4825 & 747  & 5572  \\
+	\hline
+	French&  4825 & 747 & 5572  \\ 
+	\hline
+	Swahili & 117 & 15 & 132\\
+	\hline 
+\end{tabular}
+\caption{Raw data counted before any wrangling} 
+\label{tab:rawdatacollected}
+\end{table}
+
+- Checking null values :
+\begin{lstlisting}[style=stylejupyter]
+print(messageInEnglish.isna().sum()) 
+print(messageInFrench.isna().sum()) 
+print(messageInSwahili.isna().sum()) 
+\end{lstlisting}  
+This snippet code prints that any entry is empty.\\
+
+- Dropping duplicated values :
+\begin{lstlisting}[style=stylejupyter]
+messageInSwahili=messageInSwahili.drop_duplicates() 
+messageInFrench = messageInFrench.drop_duplicates() 
+messageInEnglish=messageInEnglish.drop_duplicates()  
+\end{lstlisting}
+After dropping duplicated values, it is noticed that respectively 19, 438 and 415  Swahili, French and English entries were dropped. Thus, the illustration of clean data is in the table \ref{cleandatacollected}, also visualized in figure \ref{cleanEnglishEntrie},  \ref{cleanFrenchEntrie}, \ref{cleanSwahiliEntrie}.
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|p{3cm}|p{3.5cm}|p{3cm}|p{4cm}|} 
+		\hline
+		Languages & Ham  & Spam & Total\\
+		\hline
+		English & 4516 & 641  & 5135  \\
+		\hline
+		French&  4494 & 640 & 5134\\ 
+		\hline
+		Swahili & 99 & 14 & 113 \\
+		\hline 
+	\end{tabular}
+		\caption{Clean data counted after preprocessing} 
+	\label{cleandatacollected}
+\end{table}
+ 
+\begin{lstlisting}[style=stylejupyter]
+custom_colours = ['#ff7675', '#74b9ff']
+labels = ['ham', 'spam']
+
+def visualisationMsg(data, text):
+sizes = data['labels'].value_counts().tolist()
+
+plt.figure(figsize=(20, 8), dpi=227)
+
+# Plot 1 - Pie Chart
+plt.subplot(1, 2, 1)
+plt.pie(sizes, labels=labels, textprops={'fontsize': 15}, startangle=140, 
+autopct='%1.0f%%', colors=custom_colours, explode=[0, 0.05])
+plt.title('Distribution of '+text)
+
+# Plot 2 - Bar Plot
+plt.subplot(1, 2, 2)
+sns.barplot(x=data['labels'].unique(), y=data['labels'].value_counts(), palette='viridis')
+plt.title('Bar Plot of Messages'+text)
+
+plt.show() 
+\end{lstlisting} 
+\begin{lstlisting}[style=stylejupyter]
+visualisationMsg(messageInSwahili, " Swahili messages") 
+visualisationMsg(messageInFrench, ' French messages')  
+visualisationMsg(messageInEnglish, ' English messages')
+\end{lstlisting}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=01\linewidth]{CollectImages/EnglishPlot} 
+	\caption{Clean English entries }
+	\label{cleanEnglishEntrie}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=01\linewidth]{CollectImages/frenchPlot} 
+	\caption{Clean French entries }
+	\label{cleanFrenchEntrie}
+\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=01\linewidth]{CollectImages/frenchPlot} 
+	\caption{Clean Swahili entries }
+	\label{cleanSwahiliEntrie}
+\end{figure}
+
+- Feature engineering:
+
+  During this process, we select the target feature, and transform it in the boolean format in which it can be more understood by the model. For that, we \textit{labelEncoder() model} as follows :
+  \begin{lstlisting}[style=stylejupyter]
+  	#Create the instance
+  	modelLabelEncoder = LabelEncoder() 
+  	
+  	#Create a helpul function
+  	def encondModel(dataMessage):
+  	#encod the target feature
+  	  return modelLabelEncoder.fit_transform(dataMessage['labels'])  
+  	
+  	#we create the y feature for each language
+  	y_en = encondModel(messageInEnglish) 
+  	y_fr = encondModel(messageInFrench) 
+  	y_sw = encondModel(messageInSwahili)
+  \end{lstlisting}
+
+\subsection{Model selection and prediction}
+The division of data in slices: Ones used for training and other for testing :
+\begin{lstlisting}[style=stylejupyter]
+#English dataset
+x_train_en, x_test_en, y_train_en,y_test_en = train_test_split(messageInEnglish['text'],\
+y_en, test_size=0.2, stratify=messageInEnglish["labels"])
+
+#French dataset
+x_train_fr, x_test_fr, y_train_fr,y_test_fr = train_test_split(messageInFrench['text_fr'],\
+y_fr, test_size=0.2, stratify=messageInFrench["labels"])
+#Swahili dataset
+x_train_sw, x_test_sw, y_train_sw,y_test_sw = train_test_split(messageInSwahili['message'],\
+y_sw, test_size=0.2, stratify=messageInSwahili["labels"])
+\end{lstlisting}
+
+The words : \textit{text, text\_ft, message} are names of messages values. Besides, \textit{stratify} parameter is optional, however used for ensuring that the distribution made remains consistent.
+ 
+- Feature extraction:
+ The current extraction involved a use of model which is able to convert text into numeric values understandable by the model. Thus, \textit{TfidfVectorizer} performed that tasks by even providing techniques that counts the frequency of word in a message. Hence, this model plays a pivotal role for each dataset:
+
+\begin{lstlisting}[style=stylejupyter]
+#function to automate the function Tfidf 
+def featureExtractionModel(language):
+return TfidfVectorizer(min_df=1, stop_words=language, lowercase =True)   
+ 	
+#Convertion for englishs part
+featureExtractionEn = featureExtractionModel('english')
+ 	
+#Prevent stops and configure it for french
+from spacy.lang.fr.stop_words import STOP_WORDS
+featureExtractionFr = featureExtractionModel(list(STOP_WORDS))  
+ 	
+#For swahili
+featureExtractionSw = featureExtractionModel(None) 
+ \end{lstlisting}
+ After created the features extractions model for each language, now the transformation of test values were worthy to be done, as follows :
+ \begin{lstlisting}[style=stylejupyter]
+x_test_features_en = featureExtractionEn.transform(x_test_en)
+x_test_features_fr = featureExtractionFr.transform(x_test_fr)
+x_test_features_sw = featureExtractionSw.transform(x_test_sw)
+ \end{lstlisting}  
+ 
+ - Initialize models: These are certain models used classify:
+ \begin{lstlisting}[style=stylejupyter]
+ #Naive Bayes models
+ BayesModelEn=MultinomialNB()  
+ BayesModelFr=MultinomialNB() 
+ BayesModelSw=MultinomialNB() 
+ 
+ #SVM models
+ SvmModelEn = SVC(probability=True)
+ SvmModelFr = SVC(probability=True)
+ SvmModelSw = SVC(probability=True)
+ 
+ #Logistic regression models
+ LogRegModelEn= LogisticRegression() 
+ LogRegModelFr= LogisticRegression() 
+ LogRegModelSw= LogisticRegression() 
+ 
+ #DecisionTree models
+ DecisionTreeEn = DecisionTreeClassifier()
+ DecisionTreeFr = DecisionTreeClassifier()
+ DecisionTreeSw = DecisionTreeClassifier()
+ \end{lstlisting}
+
+- Predictions based on each language model: 
+\begin{lstlisting}[style=stylejupyter]
+#Function to fit all the models
+def modelReceiveFitting(model,x_train_features, y_train):
+ fitmodel = model.fit(x_train_features, y_train)
+ return fitmodel
+\end{lstlisting}
+Fitting each models as follows :
+ 
+\begin{lstlisting}[style=stylejupyter]
+#For english languages
+BayesModelEn=modelReceiveFitting(BayesModelEn,x_train_features_en,y_train_en) 
+SvmModelEn=modelReceiveFitting(SvmModelEn,x_train_features_en,y_train_en) 
+LogRegModelEn=modelReceiveFitting(LogRegModelEn,x_train_features_en,y_train_en) 
+DecisionTreeEn=modelReceiveFitting(DecisionTreeEn,x_train_features_en,y_train_en) 
+
+#For french languages
+BayesModelFr=modelReceiveFitting(BayesModelFr,x_train_features_fr,y_train_fr)
+SvmModelFr=modelReceiveFitting(SvmModelFr,x_train_features_fr,y_train_fr) 
+LogRegModelFr=modelReceiveFitting(LogRegModelFr,x_train_features_fr,y_train_fr) 
+DecisionTreeFr=modelReceiveFitting(DecisionTreeFr,x_train_features_fr,y_train_fr) 
+
+#For swhahili languages
+BayesModelSw=modelReceiveFitting(BayesModelSw,x_train_features_sw,y_train_sw)
+SvmModelSw=modelReceiveFitting(SvmModelSw,x_train_features_sw,y_train_sw) 
+LogRegModelSw=modelReceiveFitting(LogRegModelSw,x_train_features_sw,y_train_sw) 
+DecisionTreSw=modelReceiveFitting(DecisionTreeSw,x_train_features_sw,y_train_sw)
+\end{lstlisting}
+\subsection{Model Evaluation}
+
+Once the model was fitted, it was time for evaluating the precision those models by two indicators which are : accuracy and ROC metrics. Therefore, this function performs that task for every model leveraged, and it was technically made as follows: 
+\begin{lstlisting}[style=stylejupyter]
+def makeRocVisualize(bayes, svm, lg,decision,x_feature, y_test,language):
+	models = [
+	(bayes, "Bayes Model"),
+	(svm, "SVM Model"),
+	(lg, "Logistic Regression Model"),
+	(decision, "Decision Tree Model"),
+	]
+	
+	plt.figure(figsize=(8, 6))
+	
+	for model, model_name in models:
+	y_scores = model.predict_proba(x_feature)[:, 1]  
+	# Probability estimates for the positive class
+	fpr, tpr, _ = roc_curve(y_test, y_scores)
+	auc = roc_auc_score(y_test, y_scores)
+	
+	print(model_name + " Accuracy score is :", accuracy_score(y_test, model.predict(x_feature)))
+    print(model_name + " Area under the curve for ROC is :", auc) 
+
+	
+	plt.plot(fpr, tpr, label=f'{model_name} (AUC = {auc:.3f})')
+	
+	plt.plot([0, 1], [0, 1], 'k--', linewidth=2)  # Random classifier line
+	plt.xlim([0.0, 1.0])
+	plt.ylim([0.0, 1.05])
+	plt.xlabel('False Positive Rate')
+	plt.ylabel('True Positive Rate')
+	plt.title('ROC Metrics'+language)
+	plt.legend(loc='lower right')
+	plt.show()
+	}
+\end{lstlisting}
+Using the function for each dataset chosen we got the following result :
+
+(a) English model's score: 
+\begin{lstlisting}[style=stylejupyter]
+In [343]: makeRocVisualize(BayesModelEn,SvmModelEn,LogRegModelEn,DecisionTreeEn,x_test_features_en,y_test_en, "(English Data)")
+
+#results 
+Bayes Model Accuracy score is : 0.9641472868217055
+Bayes Model Area under the curve for ROC is : 0.9893010232300885
+SVM Model Accuracy score is : 0.9728682170542635
+SVM Model Area under the curve for ROC is : 0.9972863661504424
+Logistic Regression Model Accuracy score is : 0.9573643410852714
+Logistic Regression Model Area under the curve for ROC is : 0.9949875553097345
+Decision Tree Model Accuracy score is : 0.9602713178294574
+Decision Tree Model Area under the curve for ROC is : 0.8901410398230089
+\end{lstlisting} 
+Actually, SVM realizes the best score for accuracy metric (97.2\%) and Bayes (98.9\%). Thus, the positives are well-learned as ROC graphic shows it in figure\ref{fig:rocenglish}.
+ \begin{figure}
+ 	\centering
+ 	\includegraphics[width=0.9\linewidth]{CollectImages/rocEnglish}
+ 	\caption{Comparing models's AUC score based on English messages}
+ 	\label{fig:rocenglish}
+ \end{figure}
+\\
+
+(b) Swahili model's score:
+
+\begin{lstlisting}[style=stylejupyter]
+In [345]: makeRocVisualize(BayesModelSw,SvmModelSw,LogRegModelSw,DecisionTreeSw,x_test_features_sw,y_test_sw,"(Swahili Data)")
+
+#results 
+Bayes Model Accuracy score is : 0.8695652173913043
+Bayes Model Area under the curve for ROC is : 0.8999999999999999
+SVM Model Accuracy score is : 0.8695652173913043
+SVM Model Area under the curve for ROC is : 0.8666666666666667
+Logistic Regression Model Accuracy score is : 0.8695652173913043
+Logistic Regression Model Area under the curve for ROC is : 0.85
+Decision Tree Model Accuracy score is : 0.9130434782608695
+Decision Tree Model Area under the curve for ROC is : 0.6666666666666666
+\end{lstlisting}  
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{CollectImages/rocSwahili}
+	\caption{Comparing models's AUC score based on Swahili messages}
+	\label{fig:rocswahili}
+\end{figure}
+
+For the case of Swahili messages, Decision Tree is the learning model with high score for accuracy (91.3\%) and Bayes for AUC (90\%)  (as even shown in the figure \ref{fig:rocswahili}).
+\\
+
+(c) French model's score :
+
+ \begin{lstlisting}[style=stylejupyter]
+In [355]: makeRocVisualize(BayesModelFr,SvmModelFr,LogRegModelFr,DecisionTreeFr,x_test_features_fr,y_test_fr,"(French Data)")
+
+#results 
+Bayes Model Accuracy score is : 0.9629990262901655
+Bayes Model Area under the curve for ROC is : 0.9922135706340378
+SVM Model Accuracy score is : 0.9776046738072055
+SVM Model Area under the curve for ROC is : 0.994794563403782
+Logistic Regression Model Accuracy score is : 0.9659201557935735
+Logistic Regression Model Area under the curve for ROC is : 0.9910056312569522
+Decision Tree Model Accuracy score is : 0.9591041869522883
+Decision Tree Model Area under the curve for ROC is : 0.9096391824249166
+\end{lstlisting}  
+Models evaluated on French messages show that SVM is best predictor based on accuracy metric (97.2\%). In terms of AUC all represented models give 99\% except the Decision Tree Model as shown in ROC (fig. \ref{fig:rocfrench}) graphic. 
+\\
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{CollectImages/rocFrench}
+	\caption{Comparing model's AUC score based on French messages}
+	\label{fig:rocfrench}
+\end{figure}
+\\
+The all results models being combined show the better one according to the language data. The prompt view is shown in the table and in the figure \ref{modelclassificationscore}
+\begin{table}[h]
+\centering
+\begin{tabular}{cccccc}
+	\hline 
+	\hline
+	Languages& Metrics  & Naive & SVM  & LR & DT   \\
+	\hline
+	\hline
+	Swahili  &	Accuracy &	86.96\% &	86.96\% &	86.96\% &	91.30\%\\
+	
+	& AUC	&90.00\%	& 86.67\%	& 85.00\%	&66.67\% \\
+			
+	French	& Accuracy& 	96.30\% & 	97.76\% & 	96.59\% & 	90.96\% \\
+			 & 	AUC & 	99.22\% & 	99.48\%	& 99.10\%& 	90.96\% \\
+	English &	Accuracy&	96.41\%&	97.29\%	&95.74\%	&96.03\% \\
+	
+	& AUC	& 98.93\% &	99.73\%	& 99.50\% &	89.01\%	\\	
+	\hline		
+	\hline
+\end{tabular}
+\caption{Models score (Accuracy vs AUC)}
+
+\end{table}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{CollectImages/modelClassificationScore}
+	\caption{Models classification's scores}
+	\label{fig:modelclassificationscore}
+\end{figure} 
+\subsection{Optimization with Ensemble models}
+Actually, the graphic results (fig.\ref{fig:modelclassificationscore}) shows that the every models have its characteristics allowing to be convenient to certain data, thus combining all for more optimization can be appealing by taking care of over-fitting. Therefore, two means are used :\\
+
+(a) \textit{VotingClassifier} : \\
+
+- English messages :
+\begin{lstlisting}[style=stylejupyter]
+In [118]: EnsembleModelVotingEn= 			 VotingClassifier(estimators=[('Bayes', BayesModelSw), ('SVM', SvmModelSw), ('LR', LogRegModelSw),('DecisionTreSw',DecisionTreSw)], voting='soft') 
+
+In [119]:EnsembleModelVotingEn.fit(x_train_features_en, y_train_en) 
+In [124]:print(accuracy_score(y_test_en, EnsembleModelVotingEn.predict(x_test_features_en)))
+#Output:
+0.9796511627906976
+\end{lstlisting} 
+
+- French messages :
+\begin{lstlisting}[style=stylejupyter]
+In [121]: EnsembleModelVotingFr = VotingClassifier(estimators=[('Bayes', BayesModelFr), ('SVM', SvmModelFr), ('LR', LogRegModelFr),('DecisionTreSw',DecisionTreeFr)], voting='soft')
+
+In [122]:EnsembleModelVotingFr.fit(x_train_features_fr, y_train_fr)
+In [124]:print(accuracy_score(y_test_fr, EnsembleModelVotingFr.predict(x_test_features_fr)))
+#Output:
+0.9805258033106135
+\end{lstlisting}  
+
+- Swahili messages : 
+\begin{lstlisting}[style=stylejupyter]
+In [124]: EnsembleModelVotingSw = VotingClassifier(estimators=[('Bayes', BayesModelSw), ('SVM', SvmModelSw), ('LR', LogRegModelSw),('DecisionTreSw',DecisionTreeSw)], voting='soft')
+In [125]:EnsembleModelVotingSw.fit(x_train_features_sw, y_train_sw)
+In [126]:print(accuracy_score(y_test_sw, EnsembleModelVotingSw.predict(x_test_features_sw)))
+#Output:
+0.8695652173913043
+\end{lstlisting}  
+
+(b) Using boost Method (GridSearch) 
+Actually, by summarizing the scores metrics achieved are equals in terms of application, much more for the Swahili messages which lead to lower result than others. The main reason of that, is the a few number of messages comparing to others. Thus, by \textit{gridsearch}, we tested if the accuracy can not once more increases.
+\begin{lstlisting}[style=stylejupyter]
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.model_selection import GridSearchCV 
+	
+gb_classifier = GradientBoostingClassifier() 
+	
+param_grid = {
+	'n_estimators': [10, 50, 100],  # Number of boosting stages to be used
+	'learning_rate': [0.01, 0.1, 0.2],  # Step size shrinking to prevent overfitting
+	'max_depth': [3, 4, 5]  # Maximum depth of individual trees
+	}
+	
+grid_search = GridSearchCV(gb_classifier, param_grid, cv=5, scoring='accuracy')
+\end{lstlisting}
+
+\begin{lstlisting}[style=stylejupyter]
+In [131]: grid_search.fit(x_train_features_sw, y_train_sw) 
+
+#get the best parameters 
+In [132]: best_gb_classifier = grid_search.best_estimator_ 
+best_gb_classifier
+Out [132]: 
+	GradientBoostingClassifier(learning_rate=0.01) 
+	
+##best gb model:
+In [380]: best_gb_classifier = grid_search.best_estimator_ 
+     y_test_en_pred = best_gb_classifier.predict(x_test_features_sw)
+\end{lstlisting} 
+
+\begin{lstlisting}[style=stylejupyter]
+	y_test_en_pred = best_gb_classifier.predict(x_test_features_sw)
+	
+	accuracy = accuracy_score(y_test_sw, y_test_en_pred)
+	print("Accuracy:", accuracy) 
+	
+	#output : 
+	Accuracy: 0.8695652173913043
+\end{lstlisting}
+Great! The score is the same like the one yielded by the \textit{votingClassifier}  
+
+\subsection{Model Deployment}
+Concerning the current work, at this stage we converted the models into a files usable in production area. We considered all voting models are for each language because the scores they yielded, and dumped them in files.
+\subsubsection{Production With Joblib}
+\begin{lstlisting}[style=stylejupyter]
+import joblib
+#Models for preprocessing
+joblib.dump(featureExtractionEn, 'EnglishFeatureModel.pkl')
+joblib.dump(featureExtractionFr, 'FrenchFeatureModel.pkl')
+joblib.dump(featureExtractionSw, 'SwahiliFeatureModel.pkl') 
+
+#Models predictions
+joblib.dump(EnsembleModelVotingEn, 'EnglishModelPrediction.pkl')
+joblib.dump(EnsembleModelVotingFr, 'FrenchModelPrediction.pkl')
+joblib.dump(EnsembleModelVotingSw, 'SwahiliModelPrediction.pkl')
+\end{lstlisting} 
+We have to convert any input into numeric by The \textit{featureExtraction} model from \textit{TdifVectorizer} and then 
 
 
+\section{Presentation and Discussion of Results} 
+For sure, this step is the next party of the previous, we just show how the model generated during the deployment stage is integrated in a software for really performing it tasks. As basics, the following step delves into precepts of interaction. 
+\subsection{Predicting system }
+Performing predictions which taking account of languages, required this project to use a Python detect\_langs library. Hence, the following function allows us to judge if the input message should be considered as a French, English or Swahili text every time it doesn't match one those languages, it automatically considered as an Swahili text.
+\begin{lstlisting}[style=stylejupyter]
+from langdetect import detect_langs 
+def detectLanguage(text) :
+	result = detect_langs(text)
+	for language in result:
+	if language.lang == 'fr':
+	return 'fr'
+	elif language.lang == 'en':
+	return 'en'
+	else:
+	return 'sw'
+\end{lstlisting} 
 
+Next, the following function named \textit{predictMessageState} performs the prediction task and returns the appealing answer including the numeric  value and the probability behind that prediction. Indeed, for the numeric value understood as a boolean, every time it is 0, it means that the message is ham, when it is 1 it stands for that the message is a spam. 
+\begin{lstlisting}[style=stylejupyter]
+def predictMessageState(input_text):
+	if detectLanguage(input_text)=='en':
+	input_vector = featureExtractionEn.transform([input_text])
+	prediction = EnsembleModelVotingEn.predict(input_vector)[0]
+	predict_proba = EnsembleModelVotingEn.predict_proba(input_vector)[0]
+	if detectLanguage(input_text)=='fr':
+	input_vector = featureExtractionFr.transform([input_text])
+	prediction = EnsembleModelVotingFr.predict(input_vector)[0]
+	predict_proba = EnsembleModelVotingFr.predict_proba(input_vector)[0]
+	else:
+	input_vector = featureExtractionSw.transform([input_text])
+	prediction = best_gb_classifier.predict(input_vector)[0]
+	predict_proba = best_gb_classifier.predict_proba(input_vector)[0] 
+	
+	return prediction, predict_proba
+\end{lstlisting}  
 
- %\bibliographystyle{apacite} % or whatever citation style you choose
+Then, the present snipped code, is the main or starter of the operations: 
+\begin{lstlisting}[style=stylejupyter]
+input_text = input("Enter your mail here: ") 
+predictMessageState(input_text) 
+##results
+Enter your mail here: jambo kaka
+(0, array([0.62955115, 0.37044885]))
+\end{lstlisting}
+
+\subsection{Model interaction in a Platform for detection}
+Just as the user was completing the form for submitting messages that look like or are spams, at  this stage. When he receives an message in his phones transmitted by a mobile network operator, he has to check its legitimacy by copping it and submitting through the following steps :
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{3.5cm}
+		\centering
+		\includegraphics[width=1\linewidth]{CollectImages/mobileSpamTest.png}
+		\caption{}
+		\label{fig:formCompleted}
+	\end{subfigure}
+	\begin{subfigure}{3.5cm}
+		\centering
+		\includegraphics[width=1\linewidth]{CollectImages/formCompleted.png}
+		\caption{}
+		\label{fig:mobilespamtest}
+	\end{subfigure} 
+	\begin{subfigure}{3.5cm}
+		\centering
+		\includegraphics[width=1\linewidth]{CollectImages/mobilePoneTestAnswer}
+		\caption{}
+		\label{fig:mobileponetestanswer}
+	\end{subfigure}  
+\end{figure}
+
+At the first stage (a), the user has to click on the test link, then completing the form and sending it  at (b), finally waiting for the response of the server.
+
+\subsection{Model's system with APIs}
+For network operators or other software developers  who would like to integrate the model functionalities or networks operators,  they have to follow the link delivered end-point end-point. The can consume the services as insomnia can do while testing:
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=15.8cm, height=2.9cm]{CollectImages/insomniaTest}
+	\caption{Testing the end-point for api Services}
+	\label{fig:insomniatest}
+\end{figure} 
+As the image shows, the answer is 1 meaning that the message is spam based on the probability of 58\%
+
+\section{Theoretical and Practical Contributions}
+Creating a model capable of handling situations involving panic, disturbance, and financial loss can be a formidable challenge. This work serves as an assistant for mobile phone users, helping them assess the legitimacy of received messages and make informed decisions. Consequently, individuals who have experienced significant losses through various means now have a valuable resource.\\
+
+Moreover, network operators who record uncontrolled financial losses and customer defections can enhance their support systems by incorporating a feature that provides information on numbers involved in such activities. Alongside their existing techniques, this model can be integrated into their message transmission systems to filter processed messages for further investigation and enhance overall security.\\
+
+Additionally, this solution offers a valuable addition for other developers utilizing the messaging system. By obtaining the necessary credentials, they can integrate this solution into their services, aiming to provide modern and high-quality service delivery.
+\section{Study Limitations and Future research paths} 
+Although this work comes with several advantages, it also has its limitations. The solution it offers isn't universal, as it's primarily tailored to a specific region, especially the eastern part of the Democratic Republic of Congo.\\
+
+Furthermore, a portion data, which is a fundamental component of any machine learning algorithms, was collected from an unofficial source, namely \textit{Kaggle}. This data doesn't consider the local interests and language cultures, as it predominantly consists of content in French and English. Additionally, the other data sources were limited in quantity, making it challenging to provide accurate estimations that represent the entire population.\\
+
+Moreover, the solution is designed to work with only three languages. This means that messages containing a mixture of languages might pose challenges for the model in terms of accurate classification. There is a need for a more advanced multilingual model classifier to address this issue for instance by utilizing advanced techniques in artificial intelligence.
+ 
+\section{Summary}
+This chapter provides practical insights into the methodology. It focuses on the practical applications of this methodology within machine learning systems. It outlines the process of data collection, including the sources of data, the providers, and the methods used to acquire the data necessary to initiate the machine learning model.\\
+
+Additionally, it offers various techniques and code snippets to aid in data analysis, ultimately leading to the development of a functional model that can be deployed effectively.\\
+
+Furthermore, this chapter explores the potential impact of the project on individuals, software developers, and network operators, offering practical insights into how it can be integrated into their daily work and life.\\
+
+In conclusion, it highlights the project's strengths and limitations and invites other researchers to further investigate and develop highly accurate spam prediction models.\\
+
+\chapter*{General Conclusion} 
+This study primarily focused on the detection of spam messages within network operator environments. Throughout its course, it highlighted the numerous issues that mobile phones users encounter. Thus, they are occasionally vulnerable to threats, disturbances, and monetary losses, usually caused by scammers exploiting the messaging system or mobile devices themselves.\\
+
+To address these problems, this project proposes potential solutions. It not only educates users on how to assess and identify malicious messages independently but also introduces a predictive model capable of assisting users in the fight against illegitimate messages. Obviously, this work emphasizes that users also have a crucial role to play in this endeavor.\\
+
+Implementing these solutions requires the use of specific techniques and methods that align with professional standards. This involves using programming languages such as HTML, CSS, and JavaScript to develop user-friendly interfaces. For the development and management of machine learning models and message processing, Python and its libraries (including Pandas, NumPy, Matplotlib, and Scikit-Learn) were employed.\\
+
+Data, often considered the heart of the model, received special attention. They underwent thorough static analysis, preparation, and visualization to ensure a clear understanding and prevent biased results. Once the data were ready, they were used to train machine learning models, employing various algorithms such as Naive Bayes, Logistic Regression, Support Vector Machine, Decision Trees, and ensemble models. These models were trained on datasets in Swahili, French, and English. After training, the models were integrated into a production environment following their deployment.\\
+
+In terms of practical solution, the current work introduces a system that offers a server interaction system with APIs for software developers who wish to incorporate the model's capabilities into their applications. It also addresses the needs of network operators by enhancing monitoring and surveillance tasks.\\
+
+However, the project has its limitations. The quantity of Swahili messages was limited, which could potentially lead to a biased model. Additionally, gaining access to network operator messages can be a challenging process due to legal procedures. Furthermore, the model only supports three languages, while the real-world scenario involves more diversity in language use. Messages often contain mixed languages, and some threats target system architecture rather than message content. These concerns, along with others, provide ample opportunities for future research.
+ 
+ 
 
 \bibliographystyle{plain}
-\bibliography{bibliofile} 
+\bibliography{bibliofile.bib}
 
 \backmatter
 \appendix
+
+
 \chapter*{Annexes}
 \addcontentsline{toc}{chapter}{Annexes}
 
@@ -1557,12 +2207,197 @@ In the website running , using the current link \footnote{Spam Collect app : \ur
 	\centering
 	\includegraphics[width=1\linewidth]{CollectImages/collectData}
 	\caption{Download collected data}
-	\label{fig:collectdata}
+	\label{fig:collectdata} 	
 \end{figure}
+\\
+
+\section{Code for the api interaction}
+\begin{lstlisting}[style=stylejupyter]
+from django.shortcuts import render
+from django.http import HttpResponse
+from django.http import JsonResponse
+from django.contrib.auth import authenticate, login
+from django.shortcuts import render, redirect
+from django.core.paginator import Paginator
+import csv
+from django.contrib.auth import logout
+from .forms import SpamMessageForm, contactForm, TestMessageForm
+from .models import spamsMessage 
+from django.shortcuts import render
+from django.core.paginator import Paginator
+from django.http import JsonResponse
+import json
+from django.conf import settings
+from langdetect import detect_langs 
+import joblib 
+import numpy as np
+
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework import status
+from .models import TestMessage  # Replace with your actual model
+from .serializers import TestMessageSerializer  # Create a serializer for your model
+
+from  django.core.mail import EmailMessage, send_mail, get_connection
+
+EnsembleModelVotingEn = joblib.load("/home/christianresearcher/Documents/Courses/L2/Dissertation/spamDetectionApp/project/static/models/EnglishModelPrediction.pkl")
+EnsembleModelVotingFr = joblib.load('/home/christianresearcher/Documents/Courses/L2/Dissertation/spamDetectionApp/project/static/models/FrenchModelPrediction.pkl')
+EnsembleModelVotingSw = joblib.load('/home/christianresearcher/Documents/Courses/L2/Dissertation/spamDetectionApp/project/static/models/SwahiliModelPrediction.pkl')
+
+featureExtractionEn = joblib.load("/home/christianresearcher/Documents/Courses/L2/Dissertation/spamDetectionApp/project/static/models/EnglishFeatureModel.pkl") 
+featureExtractionFr = joblib.load("/home/christianresearcher/Documents/Courses/L2/Dissertation/spamDetectionApp/project/static/models/FrenchFeatureModel.pkl")
+featureExtractionSw = joblib.load("/home/christianresearcher/Documents/Courses/L2/Dissertation/spamDetectionApp/project/static/models/SwahiliFeatureModel.pkl")
+
+
+def index_view(request):
+	return render(request, "indexu.html")
+
+
+def download_csv(request):
+	response = HttpResponse(content_type="text/csv")
+	response["Content-Disposition"] = 'attachment; filename="messages.csv"'
+	
+	writer = csv.writer(response)
+	writer.writerow(["id", "Contact", "Message"])
+	messages = spamsMessage.objects.all().order_by("createat")
+	
+	for message in messages:
+	writer.writerow(
+	[
+	message.createat,
+	message.contact,
+	message.message,
+	]
+	)
+	return response
+
+def statistic_views(request):
+	query_set = spamsMessage.objects.all()
+	content_query = request.GET.get("message")
+	contact_query = request.GET.get("contact")
+	if contact_query:
+	query_set = query_set.filter(contact__icontains=content_query)
+	if content_query:
+	query_set = query_set.filter(message__icontains=content_query)
+	paginator = Paginator(query_set, 5)  # paginate by 10 messages per page
+	page_number = request.GET.get("page")
+	page_obj = paginator.get_page(page_number)
+	context = {
+	"messages": page_obj,
+	"contact": contact_query,
+	"message": content_query,
+	}
+	return render(request, "statistics.html", context)
+
+
+def login_view(request):
+	if request.method == "POST":
+	username = request.POST.get("username")
+	password = request.POST.get("password")
+	if username is not None and password is not None:
+	user = authenticate(request, username=username, password=password)
+	if user is not None:
+	login(request, user)
+	return redirect("/")
+	error = "Invalid username or password."
+	return render(request, "loginu.html", {"error": error})
+	else:
+	return render(request, "loginu.html")
+
+def logout_view(request):
+	logout(request)
+	return redirect("login")
+
+
+@api_view(['POST'])
+def api_test_message_view(request):
+	if request.method == "POST":
+	serializer = TestMessageSerializer(data=request.data)
+	if serializer.is_valid():
+	serializer.save()
+	message = request.data.get('message')
+	response, proba = predictMessageState(message)
+	answer = {
+	'message': message,
+	'label': int(response),
+	'probability': proba.tolist()
+	}
+	return Response(answer, status=status.HTTP_200_OK)
+	else:
+	return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+	else:
+	return Response({'error': 'Only POST requests are allowed.'}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
 
 
 
+def testMessageViewCollect(request):
+	if request.method == "POST":
+	form = TestMessageForm(request.POST)
+	if form.is_valid():
+	form.save()
+	message =  request.POST.get('message')
+	response, proba  = predictMessageState(message) 
+	answer={} 
+	answer['message']= message
+	answer['label']= int(response)
+	answer['probability']= proba.tolist()  
+	
+	return JsonResponse({"message": answer})
+	else:
+	return JsonResponse({"message": "error"})
+	else:
+	return JsonResponse({"error": "Only POST requests are allowed."})
 
+def testMessageView(request):
+	return render(request, "test.html")
+
+def predictMessageState(input_text):
+	if detectLanguage(input_text)=='en':
+	input_vector = featureExtractionEn.transform([input_text])
+	prediction = EnsembleModelVotingEn.predict(input_vector)[0]
+	predict_proba = EnsembleModelVotingEn.predict_proba(input_vector)[0]
+	if detectLanguage(input_text)=='fr':
+	input_vector = featureExtractionFr.transform([input_text])
+	prediction = EnsembleModelVotingFr.predict(input_vector)[0]
+	predict_proba = EnsembleModelVotingFr.predict_proba(input_vector)[0]
+	else:
+	input_vector = featureExtractionSw.transform([input_text])
+	prediction = EnsembleModelVotingSw.predict(input_vector)[0]
+	predict_proba = EnsembleModelVotingSw.predict_proba(input_vector)[0] 
+	
+	return prediction, predict_proba
+
+def detectLanguage(text) :
+	result = detect_langs(text)
+	for language in result:
+	if language.lang == 'fr':
+	return 'fr'
+	elif language.lang == 'en':
+	return 'en'
+	else:
+	return 'sw'
+\end{lstlisting}
+The serializers
+\begin{lstlisting}[style=stylejupyter]
+from rest_framework import serializers
+from .models import TestMessage
+
+class TestMessageSerializer(serializers.ModelSerializer):
+class Meta:
+model = TestMessage
+fields = ('message', 'createat')  
+\end{lstlisting}
+Models
+\begin{lstlisting}[style=stylejupyter] 
+from django.db import models
+from django.core.files import File
+from io import BytesIO
+
+class TestMessage(models.Model):
+message = models.TextField(null=False)
+createat = models.DateField(auto_now_add=True)
+
+\end{lstlisting}
 \backmatter
 \appendix	
 	

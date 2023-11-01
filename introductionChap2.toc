@@ -1,64 +1,78 @@
 \babel@toc {english}{}
-\contentsline {chapter}{Introduction}{5}{chapter*.4}%
-\contentsline {section}{\numberline {0.1}Context and generalities}{5}{section.0.1}%
-\contentsline {section}{\numberline {0.2}Problematic}{5}{section.0.2}%
-\contentsline {section}{\numberline {0.3}Hypotheses}{6}{section.0.3}%
-\contentsline {section}{\numberline {0.4}Delimitation and objectives}{6}{section.0.4}%
-\contentsline {subsection}{\numberline {0.4.1}Delimitation}{6}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {0.4.2}Objectives}{7}{subsection.0.4.2}%
-\contentsline {section}{\numberline {0.5}Interest}{7}{section.0.5}%
-\contentsline {section}{\numberline {0.6}Research Methodology}{7}{section.0.6}%
-\contentsline {section}{\numberline {0.7}Work Plan (or Work Subdivision)}{8}{section.0.7}%
-\contentsline {chapter}{\numberline {1}Situation analysis and assessment on mobile phones}{9}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introduction}{9}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Presentation of the working framework and definition of key concepts}{9}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Definition of key concepts}{9}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Presentation of the working framework}{10}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Network coverage and infrastructure}{11}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Mobile Phone Models}{13}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.2.5}Mobile usage and prevalence}{14}{subsection.1.2.5}%
-\contentsline {section}{\numberline {1.3}Purposes of spammers in mobile messages}{15}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Solutions}{15}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Summary}{15}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Review of the Literature and description of the approach}{16}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{16}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Revue of the Literature}{16}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Tools and Techniques}{19}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Messaging application development tools}{19}{subsection.2.3.1}%
-\contentsline {subsubsection}{Back-end Development with \textit {Python} (\textit {Django}) and \textit {SQL} :}{19}{section*.8}%
-\contentsline {subsubsection}{How does Django do for interacting with APIs ?}{23}{section*.15}%
-\contentsline {subsubsection}{\large \textit {Front-end} Development with \textit {HTML}, \textit {CSS} and \textit {Js} :}{23}{section*.16}%
-\contentsline {subsection}{\numberline {2.3.2}\large Machine Learning tools and frameworks}{25}{subsection.2.3.2}%
-\contentsline {subsubsection}{{\large Data manipulation with \textit {Numpy}, \textit {Pandas}}}{25}{section*.18}%
-\contentsline {subsubsection}{Data Visualization With \textit {Matplotlib} and \textit {Seaborn}}{31}{section*.20}%
-\contentsline {subsection}{\numberline {2.3.3}Summary concerning the tools and frameworks}{36}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Description of the methodology and approach}{36}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}{\large ML operating systems}}{36}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Definition of the object and specification}{38}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Gathering data}{38}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Data preparation and exploratory}{39}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Model training and selection}{40}{subsection.2.4.5}%
-\contentsline {subsubsection}{(a) Supervised models}{40}{section*.30}%
-\contentsline {subsubsection}{\textbf {(b) Unsupervised Models}}{41}{section*.32}%
-\contentsline {subsection}{\numberline {2.4.6}Model Evaluation}{42}{subsection.2.4.6}%
-\contentsline {subsubsection}{Model Deployment and monitoring}{45}{section*.35}%
-\contentsline {section}{\numberline {2.5}ML Algorithms and Scikit-learn}{45}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Predict Qualitative feature}{45}{subsection.2.5.1}%
-\contentsline {subsubsection}{Naive Bayes}{45}{section*.36}%
-\contentsline {subsubsection}{Logistic Regression}{46}{section*.37}%
-\contentsline {subsubsection}{Decision Trees}{46}{section*.38}%
-\contentsline {subsubsection}{Support vector machine (SVM)}{46}{section*.39}%
-\contentsline {subsubsection}{\textit {KNeighborsClassifier}}{47}{section*.40}%
-\contentsline {subsubsection}{Random Forest}{47}{section*.41}%
-\contentsline {subsubsection}{Neural Networks (ANN)}{47}{section*.42}%
-\contentsline {subsection}{\numberline {2.5.2}Predict quantitative feature}{47}{subsection.2.5.2}%
-\contentsline {subsubsection}{\textit {ElasticNet}}{47}{section*.43}%
-\contentsline {subsubsection}{\textit {Gradient Boosting Regressor (GBR)}}{47}{section*.44}%
-\contentsline {subsubsection}{\textit {Regression Lasso/Ridge}}{48}{section*.45}%
-\contentsline {subsubsection}{\textit {KNeigboursRegressor}}{48}{section*.46}%
-\contentsline {section}{\numberline {2.6}Techniques used for optimizing the model}{48}{section.2.6}%
-\contentsline {subsubsection}{(a) \textit {Bagging} (Boostrap Aggregating)}{48}{section*.49}%
-\contentsline {subsubsection}{(b) \textit {Boosting}}{49}{section*.50}%
-\contentsline {subsubsection}{(c) \textit {Voting}}{49}{section*.51}%
-\contentsline {section}{\numberline {2.7}Summary}{50}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Description of results}{51}{chapter.3}%
+\contentsline {chapter}{Epigraph}{i}{chapter*.2}%
+\contentsline {chapter}{In memoriam}{ii}{chapter*.3}%
+\contentsline {chapter}{Dedicated}{iii}{chapter*.4}%
+\contentsline {chapter}{Remerciements}{iv}{chapter*.5}%
+\contentsline {chapter}{Résumé exécutif}{v}{chapter*.6}%
+\contentsline {chapter}{Introduction}{1}{chapter*.10}%
+\contentsline {section}{\numberline {0.1}Context and generalities}{1}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Problematic}{1}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Hypotheses}{2}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Delimitation and objectives}{2}{section.0.4}%
+\contentsline {subsection}{\numberline {0.4.1}Delimitation}{2}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {0.4.2}Objectives}{3}{subsection.0.4.2}%
+\contentsline {section}{\numberline {0.5}Interest}{3}{section.0.5}%
+\contentsline {section}{\numberline {0.6}Research Methodology}{3}{section.0.6}%
+\contentsline {section}{\numberline {0.7}Work Plan (or Work Subdivision)}{4}{section.0.7}%
+\contentsline {chapter}{\numberline {1}Situation analysis and assessment on mobile phones}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Presentation of the working framework and definition of key concepts}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Definition of key concepts}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Presentation of the working framework}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Network coverage and infrastructure}{7}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Mobile Phone Models}{9}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Mobile usage and prevalence}{10}{subsection.1.2.5}%
+\contentsline {section}{\numberline {1.3}Purposes of spammers in mobile messages}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Solutions}{11}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Summary}{12}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Review of the Literature and description of the approach}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Revue of the Literature}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Tools and Techniques}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Messaging application development tools}{16}{subsection.2.3.1}%
+\contentsline {subsubsection}{Back-end Development with \textit {Python} (\textit {Django}) and \textit {SQL} :}{17}{section*.13}%
+\contentsline {subsubsection}{How does Django do for interacting with APIs ?}{21}{section*.20}%
+\contentsline {subsubsection}{\large \textit {Front-end} Development with \textit {HTML}, \textit {CSS} and \textit {Js} :}{21}{section*.21}%
+\contentsline {subsection}{\numberline {2.3.2}\large Machine Learning tools and frameworks}{22}{subsection.2.3.2}%
+\contentsline {subsubsection}{{\large Data manipulation with \textit {Numpy}, \textit {Pandas}}}{23}{section*.23}%
+\contentsline {subsubsection}{Data Visualization With \textit {Matplotlib} and \textit {Seaborn}}{28}{section*.25}%
+\contentsline {subsection}{\numberline {2.3.3}Summary concerning the tools and frameworks}{34}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Description of the methodology and approach}{35}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}\large ML operating systems}{35}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Definition of the object and specification}{36}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Gathering data}{36}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Data preparation and exploratory}{37}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Model training and selection}{38}{subsection.2.4.5}%
+\contentsline {subsubsection}{(a) Supervised models}{38}{section*.35}%
+\contentsline {subsubsection}{\textbf {(b) Unsupervised Models}}{40}{section*.37}%
+\contentsline {subsection}{\numberline {2.4.6}Model Evaluation}{40}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Model Deployment and monitoring}{43}{subsection.2.4.7}%
+\contentsline {section}{\numberline {2.5}ML Algorithms and Scikit-learn}{43}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Predict Qualitative feature}{43}{subsection.2.5.1}%
+\contentsline {subsubsection}{Naive Bayes}{44}{section*.40}%
+\contentsline {subsubsection}{Logistic Regression}{44}{section*.41}%
+\contentsline {subsubsection}{Decision Trees}{44}{section*.42}%
+\contentsline {subsubsection}{Support vector machine (SVM)}{45}{section*.43}%
+\contentsline {subsubsection}{\textit {KNeighborsClassifier}}{45}{section*.44}%
+\contentsline {subsubsection}{Random Forest}{45}{section*.45}%
+\contentsline {subsubsection}{Neural Networks (ANN)}{45}{section*.46}%
+\contentsline {subsection}{\numberline {2.5.2}Predict quantitative feature}{45}{subsection.2.5.2}%
+\contentsline {subsubsection}{\textit {ElasticNet}}{45}{section*.47}%
+\contentsline {subsubsection}{\textit {Gradient Boosting Regressor (GBR)}}{46}{section*.48}%
+\contentsline {subsubsection}{\textit {Regression Lasso/Ridge}}{46}{section*.49}%
+\contentsline {subsubsection}{\textit {KNeigboursRegressor}}{46}{section*.50}%
+\contentsline {section}{\numberline {2.6}Techniques used for optimizing the model}{46}{section.2.6}%
+\contentsline {subsubsection}{(a) \textit {Bagging} (Boostrap Aggregating)}{47}{section*.53}%
+\contentsline {subsubsection}{(b) \textit {Boosting}}{47}{section*.54}%
+\contentsline {subsubsection}{(c) \textit {Voting}}{47}{section*.55}%
+\contentsline {section}{\numberline {2.7}Summary}{48}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Application of the methodology and results with analysis}{49}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{49}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Participants}{49}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Survey participants}{49}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Team work structure}{49}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Data collection strategy }{49}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Application of the methodology}{50}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Gathering data}{50}{subsection.3.4.1}%
+\contentsline {chapter}{Annexes}{58}{appendix*.60}%
+\contentsline {section}{\numberline {.1}Collect message spams}{58}{section.Alph0.1}%

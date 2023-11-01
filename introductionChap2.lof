@@ -1,15 +1,22 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Market share of mobile device vendors in the Democratic Republic of the Congo from January 2018 to March 2022\relax }}{13}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces SMS Gateway Provider Architecture\relax }}{14}{figure.caption.7}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Testing if python is running on the OS (LINUX)\relax }}{20}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces How to install django ? Here, the name of \textit {VE} is SpamAppEnv\relax }}{21}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces After the project and app are already created\relax }}{21}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Adding the appname in \textit {INSTALLED\_APPS} dependencies \relax }}{22}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Start jupyter in conda kernel\relax }}{25}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces How to use \textit {matplotlib} for visualization\relax }}{32}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces 3D plot with Matplotlib\relax }}{33}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Intersection of disciplines in MLops\relax }}{38}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Machine Learning Workflow\relax }}{39}{figure.caption.29}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Market share of mobile device vendors in the Democratic Republic of the Congo from January 2018 to March 2022\relax }}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces SMS Gateway Provider Architecture\relax }}{11}{figure.caption.12}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Testing if python is running on the OS (LINUX)\relax }}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces How to install django ? Here, the name of \textit {VE} is SpamAppEnv\relax }}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces After the project and app are already created\relax }}{19}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Adding the appname in \textit {INSTALLED\_APPS} dependencies \relax }}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Start jupyter in conda kernel\relax }}{23}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces How to use \textit {matplotlib} for visualization\relax }}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces 3D plot with Matplotlib\relax }}{32}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Intersection of disciplines in MLops\relax }}{35}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Machine Learning Workflow\relax }}{37}{figure.caption.34}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces Collect data by the website's form\relax }}{58}{figure.caption.61}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Download collected data\relax }}{59}{figure.caption.62}%
