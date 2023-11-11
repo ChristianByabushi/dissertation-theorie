@@ -1,47 +1,39 @@
 \documentclass[12pt,a4paper, oneside]{book} 
-\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc} 
 \usepackage[english]{babel} 
 \usepackage{amsmath} 
 \usepackage{amsfonts}
 \usepackage{lscape} 
 \usepackage{amssymb}
-\usepackage{tikz}
+\usepackage{tikz} 
 \usepackage{longtable}
-\usepackage{array,tabularx}
-\usepackage{graphicx}
-%\usepackage{apacite} 
+\usepackage{array,tabularx} 
+\usepackage{graphicx} 
+\usepackage{apacite}
 \usepackage{geometry}
 %\usepackage[round, sort]{natbib}
-\usepackage{latexsym}
-\usepackage[xindy]{glossaries}
+\usepackage{latexsym} 
+\usepackage{multicol}
+\usepackage{color} 
+\usepackage[xindy]{glossaries} 
 \usepackage{multirow}
 \usepackage{soul}
-\usepackage{listings}
+\usepackage{listings} 
 \usepackage{pdfpages}
 \usepackage{makeidx}
 \usepackage{graphics} 
 \usepackage{array} 
 \usepackage{booktabs}
 \usepackage{listings}  
-\usepackage{minted} 
+%\usepackage{minted} 
 %%\usepackage[table]{xcolor} 
 \usepackage{hyperref}  
 \usepackage{enumitem} 
-\usepackage{csquotes} 
+%\usepackage{csquotes} 
 \usepackage[labelfont=bf]{caption} 
-\usepackage{xcolor} 
-\usepackage{multirow} 
-\usepackage{multicol}
-\usepackage{color}
-\usepackage[xindy]{glossaries}
-\usepackage{multirow}
-\usepackage{soul}
-\usepackage{pdfpages}
+%\setcitestyle{numbers}
 \usepackage{makeidx}
-\usepackage{colortbl}
-\usepackage{setspace}
-\parindent=0cm
 \usepackage{colortbl}
 \usepackage{setspace} 
 \usepackage{subcaption}
@@ -82,7 +74,7 @@
 
 
 %\renewcommand{\thepart}{\roman{part}}
-\usemintedstyle{default}
+%\usemintedstyle{default}
 % Define a style for Python code
 \lstset{
 	language=Python,
@@ -138,7 +130,61 @@
 
 
 \geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm} 
+\parindent=0cm
 
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsfonts}
+\usepackage{lscape}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{array,tabularx}
+\usepackage{graphicx}
+\usepackage{apacite}
+\usepackage{geometry}
+\usepackage[round, sort]{natbib}
+\usepackage{hyperref}
+\usepackage{latexsym}
+\usepackage{color}
+\usepackage[xindy]{glossaries}
+\usepackage{multirow}
+\usepackage{soul}
+\usepackage{listings}
+\usepackage{pdfpages}
+\usepackage{makeidx}
+\lstset{%
+	backgroundcolor=\color{white},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,
+	breaklines=true,
+	captionpos=b,
+	commentstyle=\color{dkgreen},
+	deletekeywords={...},
+	escapeinside={\%*}{*)},
+	extendedchars=true,
+	frame=single,
+	keepspaces=true,
+	keywordstyle=\color{blue},
+	language=SQL,
+	morekeywords={*,modify,MODIFY,...},
+	numbers=left,
+	numbersep=15pt,
+	numberstyle=\tiny,
+	rulecolor=\color{ltgray},
+	showspaces=false,
+	showstringspaces=false, 
+	showtabs=false,
+	stepnumber=1,
+	tabsize=4,
+	title=\lstname
+}
+\usepackage{colortbl}
+\usepackage{setspace}
+\hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue}
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\parindent=0cm
 \begin{document} 
 	
 	\begin{titlepage}
@@ -166,8 +212,7 @@
 		\normalsize 
 			\begin {minipage}{0.5 \textwidth }	
 		\begin{flushright}
-			{
-				\vspace {0.1cm} 
+			{	\vspace {0.1cm} 
 				\begin{tabbing}					
 					\hspace*{3.4cm}Presented by : \normalsize{MURHULA BYABUSHI Christian}  \\
 					\\
@@ -178,8 +223,8 @@
 						cm}Option: Network and Telecommunications\\					
 					\hspace*{3.4cm}Degree: Final year of Bachelor\\ 
 					\\
-					\hspace*{3.4cm}Supervised by: Hw. MUGISHO MUSHEGERHA Youen \\
-					\hspace*{3.4cm}Directed by : PhD. Elie ZIHINDULA
+					\hspace*{3.4cm}Supervised by: MUGISHO MUSHEGERHA Youen (Lecturer) \\
+					\hspace*{3.4cm}Directed by :  Elie ZIHINDULAn (Phd)
 						
 				\end{tabbing} 
 			
@@ -193,97 +238,166 @@
 			\LARGE\textbf{Academic year: 2022-2023}
 		\end{center}   
 	\end{titlepage}   
-\frontmatter
-   \chapter{Epigraph}
-	
-	\chapter{In memoriam} 
-	
-	
-	\chapter{Dedicated} 
-	
-	
-	\chapter{Acknowledgments} 
-	
-	
- 
+\frontmatter 
 	\tableofcontents
-	\listoffigures
+   \chapter{Epigraph}
+	\textit{He who acquires good sense loves himself;
+		\textbf{he who keeps intelligence finds happiness.}}
+	\begin{center}
+		 Proverbs 19:8
+	\end{center}
 
-	\listoftables
+	
+	\chapter{Dedication} 
+		\textit{To my family, for their love and unwavering support.}
+		
+		\vspace{0.5cm}
+		
+		\textit{Dedicated to my mentor, who guided me through the creation of this piece.}
+		
+		\vspace{0.5cm}
+		
+		\textit{This project is dedicated to the collaborative spirit of the team and the contributors who brought their skills and passion to make it happen.}
+		
+		\vspace{0.5cm}
+		
+		\textit{With heartfelt thanks to all attendees and sponsors who made this event a success.}
+		
+		
+		\vspace{12cm} \begin{flushright}
+			Murhula Byabushi Christian
+		\end{flushright}
+		
 
+\chapter{Acknowledgments} 
+\begin{center}
+	\textit{Our sincere thanks go to:
+	\vspace{0.3cm}
+	Lord Jesus Christ for everything;\\
+	\vspace{0.3cm}	}
+		
+\textit{	Friends, brothers, comrades, and acquaintances making sure our world is not lonely.\\
+	\vspace{0.3cm}	
+		}
+\textit{	To my courageous Mother, Mama Gilberte Nabintu, and to the entire Byabushi family.\\
+		\vspace{0.3cm}	
+		}
+\textit{	To the Vodacom Foundation DRC, for its noble support.\\
+		\vspace{0.3cm}}	
+		
+\textit{	To the staff of the Catholic University of Bukavu, for their hospitality and teaching.\\}
+	
+	\vspace{12cm} \begin{flushright}
+	Murhula Byabushi Christian
+	\end{flushright}
+\end{center}
+
+\chapter{Acronyms and Abbreviations}  
+\begin{table}[h]
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{p{1cm}p{1cm}p{9cm}}
+ABC &:&	Abstract Base Classes\\
+API &:&Application Programming Interface\\
+BTS&:&	GPRS Support Node\\
+DRC & :  &	Democratic Republic of Congo\\
+EPC	&: &Evolved Packet Core\\
+GSM &:	&Global System for Mobile\\
+HTC	&:& High Tech Computer Corporation\\
+IEEE &:&	Institute of Electrical and Electronics Engineers\\
+LTE	&:& Long-Term Evolution\\
+ORM &: &Object-Relational Mapping\\
+OTA	&: & Over-The-Air\\
+SMPP &:&	Simple Messaging Peer to Peer\\
+SMSC &:&	Short Message Service Center\\
+SQL	&:& Structured query language\\
+URL&: & Uniform Resource Locator\\
+XML	&:& Extensible Markup Language\\
+\end{tabular}
+\end{table}
+\listoffigures
+
+\listoftables 
+	
+	\chapter{Abstract \& Key words} 
+	This study focuses on spam detection within Airtel, Vodacom, and Orange networks, emphasizing challenges faced by users, including threats and financial losses. Solutions proposed involve user education, a predictive model, and user-friendly interfaces using HTML, CSS, and JavaScript. Python and libraries (Pandas, NumPy, etc.) handle machine learning models trained on Swahili, French, and English datasets with and endpoint(application interface). The study introduces a server interaction system for developers and enhances monitoring for network operators. The outcomes include a reduction in spam-related issues, improved network efficiency, and increased customer satisfaction.\\
+		
+	\textbf{Keywords:}
+	Spam Detection, Network Operators,Machine Learning Model, application interface, Programming Languages, Data Analysis, Server Interaction System.
+	
 	\mainmatter
 
 	\chapter*{Introduction}  
 	\pagestyle{plain}
 	\addcontentsline{toc}{chapter}{Introduction}
 	\section{Context and generalities} 
-	With the increasing of use of mobile devices in mobile telecommunication, the number of text messages sent every day has grown exponentially. According to \textit{Statista}, a company that provides market and consumer data on a wide range of topics, including digital media and technology; the number of mobile messages sent worldwide in 2020 reached 3.5 trillion \cite{Statista2020}. \\
+	With the increasing of use of mobile devices in mobile telecommunication, the number of text messages sent every day has grown exponentially. According to \textit{Statista}, a company that provides market and consumer data on a wide range of topics, including digital media and technology; the number of mobile messages sent worldwide in 2020 reached 3.5 trillion \citep{Statista2020}. \\
 	
-	In the same case, with the raise of web pages and social media messaging applications like Whatshap, Telgram, Snapchat Facebook, Instagram and many others, phone users can now send messages  that are only based on text as in former time but also on video, audios which are more chestful comparatively \cite{faklaris2016oh}. \\
+	In the same case, with the raise of web pages and social media messaging applications like Whatshap, Telgram, Snapchat Facebook, Instagram and many others, phone users can now send messages  that are only based on text as in former time but also on video, audios which are more chestful comparatively \citep{faklaris2016oh}. \\
 	
-	For sure, for interacting with his partner more professionally, email message is the most mean used, but not in all cases, since in some countries a  people commonly use \textit{Sim card} delivered by a telecommunication provider to launch mobile bank services. Hence, it appears more valuable than only being a communication technology.\\
+	For sure, interacting with his partner more professionally, the email messages are generally used, but not in all cases, since in some countries a  people commonly use \textit{Sim card} delivered by a telecommunication provider to launch mobile messages services.\\
 	
-	Along with various services and interests that mobiles messages encompasses, from mobile baking to social media communications, games entertainment, localization platforms and many others the number of messages sent have been increase. However these includes the genre that aim to deceive people into providing personal information, fakes news, sending unwillingly money, menacing to death or taking other actions that benefit the scammer.\\
+	Along with various services and interests that mobiles messages encompasses, from mobile baking to social media communications, games entertainment, localization platforms and many others the number of messages sent have been increased. However these includes the genre that aim to deceive people into providing personal informations, fakes news, sending unwillingly money, menacing to death, or taking other actions that benefit the scammer.\\
 		
 	To address this problem, the development of an interface application with spam detection capabilities appears crucial, since it allows on a side:The setting and filtering of messages in applications, and the delivering to the phone user an assistance helping him to take better decisions. On the other side, providing to networks operators a further solution worthy to be encompassed into the messages transmitters systems for more transactions monitoring.
 	%such as : Airtel, Vodacom and Orange. \\
 	% Indeed, Airtel, Vodacom, and Orange are major telecommunications operators which mostly function in Democratic Republic of Congo, with a significant market share and importance in online services, including messaging. 
 	 
 	\section{Problematic} 
-	In telecommunication area, it is used mobile devices or phones for sharing either texts or emails and chats by using targeted applications. Among all, it is used specifically \textit{SMS} for sharing personal and professional information  \cite{lavanya2582sms}. The \textit{SMS} stands for Short Message Service, which is a text messaging service for mobile phones. At the beginning it was allowing users to send messages  least than 16O characters \cite{le2005mobile}. However in today world, it is possible to send more than that even multimedia types. Their sources can be either human or other phones users, online applications or networks operators \cite{jangir2016design}.\\
+	In telecommunication area, it is used mobile devices or phones for sharing either texts or emails and chats by using targeted applications. Among all, it is used specifically \textit{SMS} for sharing personal and professional information  \citep{lavanya2582sms}. The \textit{SMS} stands for Short Message Service, which is a text messaging service for mobile phones. At the beginning it was allowing users to send messages  less than 16O characters \citep{le2005mobile}. However in today world, it is possible to send more than that even multimedia types. Their sources can be either human or other phones users, online applications or networks operators \citep{jangir2016design}.\\
 		
-	From time to time, a certain group of people benefit from this accessibility, liberality and send messages which are insane or completely unwilling by receivers. Their genre looks like this: "You won x amount of money send another amount to withdraw it", "Join me at x area to take your money but pay me the transport ...", "I'm \textit{Sirene} Madam I have money for you", "I have a job for you" and many others fake messages. More of them are reported in this  \href{ https://blog.textedly.com/spam-text-message-examples}{spams examples link}.  \\
+	From time to time, a certain group of people benefit from this accessibility, liberality and send messages which are insane or completely unwilling by receivers. Their genre looks like this: "You won x amount of money send another amount to withdraw it", "Join me at x area to take your money but pay me the transport ...", "I'm \textit{Sirene} Madam I have money for you", "I have a job for you" and many other fake messages. More of them are reported in this link  \href{ https://blog.textedly.com/spam-text-message-examples}{spams examples}.  \\
 		
-	Furthermore, other kinds of scammers even arrive at stage where they utilize the vulnerabilities which are present in messaging system, and inject, or even install mobile spyware users systems. For instance we have the \textit{SimJacker} referenced by \cite{cimpanu2019simjacker}. This shows that the threats can even come not only from messages content but from even its system. \\
+	Furthermore, other kinds of scammers even arrive at stage where they utilize the vulnerabilities which are present in messaging system, and inject, or even install mobile spyware users systems. For instance we have the \textit{SimJacker} referenced by \citet{cimpanu2019simjacker}. This shows that the threats can even come not only from messages content but from even its system. \\
 	
-	Speaking about unwilling messages involves to investigate too, in the common organizations systems which afford their market plan or advertisement by paying networks operators. Therefore, scammers use that mean to appears too as authorized organization providing to users different services. Hence, tacking an official and nonofficial becomes challenging\cite{chen2017survey},\cite{leppaniemi2008mobile}.\\
+	Speaking about unwilling messages involves to investigate too, in the common organizations systems which afford their market plan or advertisement by paying networks operators. Therefore, scammers use that mean to appear too as authorized organization providing to users different services. Hence, handling an official and nonofficial message becomes challenging \citep{chen2017survey}, \citep{leppaniemi2008mobile}.\\
 		
-	Considering all issues and challenges mentioned above in which spams messages are implicated, it becomes urgent to find solution(s) helping or supporting all victims. But, how can these challenges including false market advertising messages to threats and unwilling messages, be tackled for facilitating a proper messaging communication ?	
+	Considering all issues and challenges mentioned above in which spams messages are implicated, it becomes urgent to find solution(s) helping or supporting all victims. But, how can these challenges including false market advertising, threats and unwilling messages, can be tackled for facilitating a proper messaging communication ?	
 	\section{Hypotheses}  
-	 According to the \textit{Oxford} dictionary, hypotheses stands for a statement of the expected relationship between things being studied, which is intended to explain certain facts or observations \cite{park2012dictionary}. An idea to be tested.
+	 According to the \textit{Oxford} dictionary, hypotheses stands for a statement of the expected relationship between things being studied, which is intended to explain certain facts or observations \citep{park2012dictionary}. An idea to be tested.
 	 Hence, using the content-based filtering techniques, which involves analyzing the content of messages and determining whether it is a spam or not would be considered as solution. \\
 	 
 	 Actually, the solution at the mentioned issue involves the entire participation of victims and the systems, in other words human and human participation. Hence, it seems effective to use new technologies that can give capacity to systems to detect by themselves the threats and warns the users. This is possible by the modern techniques called : Machine learning algorithms.\\
  
-	 For the benefit of this work, it is utilized several types of those new technologies encompassing algorithms which are: \textbf{Naive Bayes, Logistic Regression, and Supper vector Machines} helping to assistant the users. Since they have different performances, this work combines their capacities the other techniques called : Ensemble models allowing to get one result which can help the phone to interact with the user \cite{raschka2017python}. In their logic, they include functions allowing them to classify after being prepared and trained whether a message is legitimate or not \cite{karl1986model}. \\
+	 For the benefit of this work, it is utilized several types of those new technologies encompassing algorithms which are: \textbf{Naive Bayes, Logistic Regression, and Support Vector Machines} helping to assist the users. Since they have different performances, this work combines their capacities by using an Ensemble models allowing to get one high result interacting with the phone device \citep{raschka2017python}. Actually, this Ensemble model generated includes capabilities after being prepared, analyzed, trained and deployed for judging whether a message is legitimate or not \citep{karl1986model}. \\
 	 	 
-	 Furthermore, the solution involves other techniques means helping the phone system to interact with the others online services providing to it a support internally so that it may know how to filter its inputs, whether they contain the threats or not. The third party contacted gives details about the message content and the \textbf{probability} to trust it.\\
-	 	 
-	 Overall, tackling those issues leads to build a smart system which assists and provides the user with informations that can increase his capacity of judging the. That should start from the development of models which feeds data to its deployment in softwares ares allowing him to consume the model's services \cite{hadullo2021machine}.
+	 Furthermore, the solution involves other techniques means helping the phone system to interact with the other online services (third parties), providing to them a support making available and endpoint which can be requested and responds by mentioning the \textbf{probability} of the request to be a spam or formal message. \\
+	 	 	 
+	 Overall, tackling those issues leads to build a smart system which assists and provides the user with informations that can increase his capacity of judging the state of the message. That should start from the development of models which trained by data and subsequently deployed whether in software or as API endpoint
+	 \citep{hadullo2021machine}.
 	 	 
 	\section{Delimitation and objectives}  
 	\subsection{Delimitation}
 	The present work aims to develop a messaging application for communication and detection of spam on a mobile network.
 	\\
-	
-	Geographically it focuses on all provinces of Democratic Republic Of Congo(DRC) where mobile phones are used and require techniques for implementation. \\
+	Geographically it focuses on eastern party of Democratic Republic Of Congo(DRC) including South-Kivu, North-Kivu. \\
 		
-	The solution provided is limited in terms of landscapes where it can be utilized since it's smartly function only on topics(data) on which it is concerned. As a result, it is challenging to claim its effectiveness only in languages like Swahili, French, and English. \\
-		
+	Since the provided solution is limited in terms of landscapes, the languages concerned by the present work include Swahili, French as well as English. 
+			
 	Indeed, the current work in terms of planning and execution has spanned a duration of nine months : From January to November 2023. 
 	\subsection{Objectives}
-	The current work compromises 2 types of objectives which are: functional and non-functional.\\
-		
-	As functional objectives, it yields a interface application system that can interact with messaging applications and facilitates efficient communication between users; by implementing the machine learning models which having the capacity of classifying messages and preventing unwilling messages under a certain probability.\\
-				
-	Concerning non-functional objectives, the current work allows users whose messaging applications complies with relevant privacy laws and regulation, to protect data information, reducing the attacks and frauds; increasing the trustfulness of other users. Consequently, it increases the credibility in networks operators companies services that gain another tool helpful in surveillance and monitoring. 
 	
+	The primary focus of this work is to thoroughly investigate and analyze the subject matter, incorporating existing data and literature to identify essential patterns and trends. The development and implementation phase aim to create a solution addressing specific challenges, such multilingual classification of messages, with a user-friendly interface accessible to individuals as an assistant allowing them to take decisions.\\
+	
+	Additionally, the work aims to contribute new insights to the field and expand existing knowledge concerning spam messages detection.
+	\\
+	
+	 Furthermore, the work strives to identify potential areas of future research, providing a foundation for ongoing exploration in related fields or topics.
 	\section{Interest} 
 	Personally, the current work has allowed the authors to gain knowledge and more experience in the field of mobile networks and messaging applications trough the research investigated in. \\
 	
 	In the society, it is worthy to contribute to facilitating communication and reducing the impact  of spam messages, which are somehow annoying and stressful for citizens.\\
 		
-	Economically, it is appears as time saver in business employees by decreasing concerns based on threats and unwilling messages due to its capacity of providing filtering functions.
-			
+	Economically, it is appears as time saver in business employees by decreasing concerns based on threats and unwilling messages due to its capacity of providing filtering functions.\\
+				
 	For scientists, this work is a reference for those whose to delve in and gaining skills and techniques in mobile networks environment in machine learning operations systems.
 	
 	\section{Research Methodology}
-	Throughout this paper, the research methodology is used to guide the study towards achieving its objectives. It adopts a descriptive research design to describe the development of a interface application for better communication and detection of spam on a mobile network. The study will focus on both qualitative and quantitative research methods \cite{creswell2014research}. The qualitative method  involves a focus on literature review, interviews and analysis of collected messages, while the quantitative method focuses on development and testing of the interface messaging application.\\
+	Throughout this paper, the research methodology is used to guide the study towards achieving its objectives. It adopts a descriptive research design to describe the development of a interface application for better communication and detection of spam on a mobile network. The study will focus on both qualitative and quantitative research methods \citep{creswell2014research}. The qualitative method  involves a focus on literature review, interviews and analysis of collected messages, while the quantitative method focuses on development and testing of the interface messaging application.\\
 		
-	The current research has been conducted in two phases. The first one involves data collection through a survey questionnaire form that is completed on website. The others involves the downloading of data from online working community. Once collected, they are analyzed using descriptive statistics \cite{bluman2017elementary} including the techniques of identifying the common types of messages and the frequency of occurrence and languages within it, etc.  \\
+	The current research has been conducted in two phases. The first one involves data collection through a survey questionnaire form that is completed on website. The others involves the downloading of data from online working community. Once collected, they are analyzed using descriptive statistics \citep{bluman2017elementary} including the techniques of identifying the common types of messages and the frequency of occurrence and languages within it, etc.  \\
 	
-	The second phase involves the development of the pursuing of steps offered by the machine learning operating systems (MLOps) encompassing data prepocessing, wrangling, feature engineering, splitting for model training till it deployment for being integrated in a system. 
-	By following the workflows stages delivered by the MlOps for production models, it covers the architecture of consumming machine learning services trough a software system compromises the programming technologies like Python with its framework Django and HTML, Css, and JavaScript for interaction with it.
+	The second phase involves the development and the pursuing of steps offered by the machine learning operating systems (MLOps) encompassing data prepocessing, wrangling, feature engineering, splitting for model training till it deployment for being integrated in a system. 
+	By following the workflows stages delivered by the MlOps for production models added to UML diagrams, this work covers the architecture of consuming machine learning services trough a software system compromises the programming technologies like Python with its framework Django and HTML, Css, and JavaScript for interaction with it.\\
 	
 	The evaluation of the messaging application interface is conducted using both quantitative and qualitative methods. In fact, the qualitative evaluation involves the measurement of the application's accuracy and efficiency for detection and filtering messages while the qualitative evaluates user stability and application's experience.
 	
@@ -297,31 +411,33 @@
 	\subsection{Definition of key concepts}
 	\begin{enumerate}[label=\alph*)]
 		\item SMS(Short Message Service) :\\
-		The Short Message Service is a basic service allowing the exchange of short text messages between subscribers \cite{mobilemessaging}. For supporting virtually all mobile devices, SMS is considered as a universal means of communication that enables users to communicate and function even though all users are not active simultaneously (asynchronous communication).
+		The Short Message Service is a basic service allowing the exchange of short text messages between subscribers \citep{mobilemessaging}. For supporting virtually all mobile devices, SMS is considered as a universal means of communication that enables users to communicate and function even though all users are not active simultaneously (asynchronous communication).
 		\item Enhanced Messaging Service (EMS) : \\
-		EMS has been created to allow the transmission of richer and more advanced messages. Unlike traditional SMS, EMS accepts not only text messages but also audios, melodies, and animations \cite{le2005mobile}.
+		EMS has been created to allow the transmission of richer and more advanced messages. Unlike traditional SMS, EMS accepts not only text messages but also audios, melodies, and animations \citep{le2005mobile}.
 	    
 	    \item MMS (Multimedia Messaging Service):\\
-	    MSS has been developed to facilitate the transmission of rich multimedia content in mobile messaging. Unlike SMS and EMS, MMS enables users to send not only text messages but also various types of multimedia files such as images, videos, audio recordings and even slideshows \cite{le2005mobile}.
+	    MSS has been developed to facilitate the transmission of rich multimedia content in mobile messaging. Unlike SMS and EMS, MMS enables users to send not only text messages but also various types of multimedia files such as images, videos, audio recordings and even slideshows \citep{le2005mobile}.
 	    \newpage
 		\item Spam message: \\
-		A spam message is understood as an unsolicited or undesired messages received on mobile phones which constitutes veritable nuisance to the mobile subscribers \cite{shafi2017review}. Clearly, this message can be sent with the intention of gaining financial benefits, collecting personal or organizational information such as security numbers, credit card details, or login credentials, and soliciting money by making false promises of future benefits or rewards that do not materialize. 
+		A spam message is understood as an unsolicited or undesired messages received on mobile phones which constitutes veritable nuisance to the mobile subscribers \citep{shafi2017review}. Clearly, this message can be sent with the intention of gaining financial benefits, collecting personal or organizational information such as security numbers, credit card details, or login credentials, and soliciting money by making false promises of future benefits or rewards that do not materialize. 
 		
 		\item Networks operators:
-		The  networks operators refers to companies or organizations that provide and manage telecommunication networks. These operators own and operate the infrastructure, such as mobile networks, fixed-line networks, or internet service provider (ISP) networks, that enable the transmission of user's information to another user of the network \cite{ghezzi2015strategy} 
+		The  networks operators refers to companies or organizations that provide and manage telecommunication networks. These operators own and operate the infrastructure, such as mobile networks, fixed-line networks, or internet service provider (ISP) networks, that enable the transmission of user's information to another user of the network \citep{ghezzi2015strategy} 
 		
 		\item Artificial Intelligence (AI) :
 		 AI refers to the field of computer science that focuses on creating intelligent machines or systems that can perform tasks that would typically require human intelligence. For being practical, it encompasses algorithms, models and technologies that enable computers and machines to simulate human like cognitive processes such as learning, reasoning, problem-solving, perception and language understanding.  
 		 
 		 \item ML (Machine Learning)  : 
-		 Machine learning is a subfield of Artificial Intelligence that focus on the development of algorithms and models that enable computers to learn from data and make decisions or predictions without being explicitly programmed\cite{smola2010introduction}. Clearly, when the data is labeled during the training, we refer to it as supervised model. If contrast, when the data is unlabeled and the model must discover patterns and relationships itself, it is an unsupervised model. Additionally, whenever it performs both the labeling  and discovering patterns tasks, it refers to a semi-supervised model. Furthermore, there is the last type called reinforcement. This one, is used to teach a computer or an AI agent how to make series of decisions in an environment. Just like, we learn to play the game better by playing it over and over.   
+		 Machine learning is a subfield of Artificial Intelligence that focus on the development of algorithms and models that enable computers to learn from data and make decisions or predictions without being explicitly programmed\citep{smola2010introduction}. Clearly, when the data is labeled during the training, we refer to it as supervised model. If contrast, when the data is unlabeled and the model must discover patterns and relationships itself, it is an unsupervised model. Additionally, whenever it performs both the labeling  and discovering patterns tasks, it refers to a semi-supervised model. Furthermore, there is the last type called reinforcement. This one, is used to teach a computer or an AI agent how to make series of decisions in an environment. Just like, we learn to play the game better by playing it over and over.   
 		 
 		 \item NLP (Natural Language Process):
-		 NLP is a subfield of Machine Learning that studies the human language and combing techniques from statistics, linguistics, life-hoods for making sentiment analysis, text classification, machine translation, question answering and text generation in a way that it can be understood computationally \cite{cambria2014jumping}. 
+		 NLP is a subfield of Machine Learning that studies the human language and combing techniques from statistics, linguistics, life-hoods for making sentiment analysis, text classification, machine translation, question answering and text generation in a way that it can be understood computationally \citep{cambria2014jumping}.  
+		 
+		 \item API(Application Programming Interface): It is a set of protocols, routines, and tools for building software applications. It defines how different software components should interact, making it easier for developers to integrate and use functionalities provided by existing software components or services\citep{tsai2016study}.
 		  \end{enumerate}
 		\subsection{Presentation of the working framework}  
 		In the eastern party of DRC (South Kivu- and North Kivu) the usage of mobile phones has become more common, transforming communication and connectivity in the region. 
-	The DRC itself is a large country, covering over 2,345,000 square kilometers with the eastern provinces of North and South Kivu spanning approximately 59,483 and 65,070 square kilometers respectively \cite{giswatch2018}. According to recent statistics from \textit{GlobalEdge} \footnote{ \href{https://globaledge.msu.edu/}{GlobalEdge}  : Created in 1994 by the International Business Center and the Eli Broad College of Business at Michigan State University (IBC), globalEDGE™ is a knowledge web-portal that connects international business professionals worldwide to a wealth of information, insights, and learning resources on global business activities}, an American company, around 95 million people were living in the DRC in 2022 \cite{monusco2015}, of which approximately 46.9\% had active mobile phones based on \textit{GSM} \footnote{\href{https://www.gsma.com/aboutus/}{GSMA}  (Global System Communications Association) : An industry Organization which represents the interests of mobile network operators worldwide created in 1982 to ease cooperation between countries deploying \textit{GSM} (Global System fo Mobile) technology.} research. \\ 
+	The DRC itself is a large country, covering over 2,345,000 square kilometers with the eastern provinces of North and South Kivu spanning approximately 59,483 and 65,070 square kilometers respectively \citep{giswatch2018}. According to recent statistics from \textit{GlobalEdge} \footnote{ \href{https://globaledge.msu.edu/}{GlobalEdge}  : Created in 1994 by the International Business Center and the Eli Broad College of Business at Michigan State University (IBC), globalEDGE™ is a knowledge web-portal that connects international business professionals worldwide to a wealth of information, insights, and learning resources on global business activities}, an American company, around 95 million people were living in the DRC in 2022 \citep{monusco2015}, of which approximately 46.9\% had active mobile phones based on \textit{GSM} \footnote{\href{https://www.gsma.com/aboutus/}{GSMA}  (Global System Communications Association) : An industry Organization which represents the interests of mobile network operators worldwide created in 1982 to ease cooperation between countries deploying \textit{GSM} (Global System fo Mobile) technology.} research. \\ 
 		
 		In this context, it is observed that more people in cities use mobile phones compared to those in villages, primarily due to limited accessibility. A research study conducted by \textit{Target Canibet} \footnote{\href{https://www.target-sarl.cd/fr/content/etude-sur-la-telephonie-mobile-en-rdc}{Target Canibet: Reseach \& Consulting Group working in DRC. \url{https://www.target-sarl.cd/fr/content/etude-sur-la-telephonie-mobile-en-rdc} }}in 2015 focused on mobile connections in DRC cities including Bukavu, Goma, Kinshasa, Lubumbashi, and Matadi, found that among 1,000 people surveyed in each city, 9 out of 10 individuals were subscribed to a network operator. However, it was noted that approximately half of them subscribed to two operators, while a quarter subscribed to four operators, and 18\% used the services of a single operator.  \\
 		
@@ -332,27 +448,27 @@
 	    According to the Congolese Regulatory Agency (ARPTC), the DRC has four mobile operators - Vodacom RDC,
 	    Airtel Congo, Orange DRC and Africell DRC. Vodacom is the leader in the voice segment, with 35.2\% of the market,
 	    followed by Orange (30\%), Airtel (23.9\%) and Africell (10.9\%). In the mobile internet market, Vodacom has 37.44\%, Airtel
-	    31.25\%, Orange 28.14\% and Africell 3.17\% \cite{stateInternet2019}. \\
+	    31.25\%, Orange 28.14\% and Africell 3.17\% \citep{stateInternet2019}. \\
 	     	     	        
-	   Additionally, since the 190s, when the DRC witnessed the first installation of operator systems such as Celtel(now Airtel) and Vodacom, followed by Orange and Africell, the telecomunications sector has shown significant market growth, reaching 1 Billion in 2022\$ and expanding at a rate of 21\% per year according to  \textit{GlobalData} \footnote{\href{https://www.globaldata.com/store/report/drc-telecom-operators-market-analysis/}{GlobalData: Expert Company of Analysis, innovatove Solutions}}. \\
+	   Additionally, since the 190s, when the DRC witnessed the first installation of operator systems such as Celtel(now Airtel) and Vodacom, followed by Orange and Africell, the telecomunications sector has shown significant market growth, reaching 1 Billion in 2022\$ and expanding at a rate of 21\% per year according to  \textit{GlobalData} \footnote{\href{https://www.globaldata.com/store/report/drc-telecom-operators-market-analysis/}{GlobalData: Expert Company of Analysis, innovative Solutions}}. \\
 	   
 	   However, this growth necessitates the updating of the infrastructure, which includes various generations of technologies, namely the second generation, third, fourth, and fifth(under development).\\
 	   	   
-	   In fact, the second generation have been deployed in various territories to enable more efficient \textbf{voice calls, data networks services, and introduce SMS for text messaging}. The infrastructure required for 2G networks includes the following equipments: 1) BTS(Base Transceiver Station) : Transmit and receives signals between mobile devices. 2) MSC(Mobile Switch Controller) : serves as the switching entity that connects calls between mobile devices. 3) BSC (Base Station Controller) :  manages multiples BTSs and controlling radio resources, managing handovers between cells and optimizing network performance, 4) AuC (Authentication Center) responsible for managing subscriber authentication and encryption keys to ensure communication between mobile devices and the network, 5) Home Location Register (HLR) the database that stores subscriber information such as phone numbers, authentication details, and service profiles, 6) Visitor Location Register (VLR) : The VlR is a temporary database that stores information about roaming subscribers within a specific area 7) MS (Mobile Station), including all the technologies used by the  users's handset and has two parts :\textbf{ Firstly, the mobile equipment which contains the radio equipment, the user interface, the processing capability and memory requirements for call signaling, encryption, SMS and the id of the mobile phone(equipment IMEI number). Secondly the Subscriber Identity module (SIM Card),} used in encryption of codes needed to identify the subscriber, storing subscriber's information, locate the user \cite{realWorldNetworks} as (+243 for each congolese number). \\
+	   In fact, the second generation have been deployed in various territories to enable more efficient \textbf{voice calls, data networks services, and introduce SMS for text messaging}. The infrastructure required for 2G networks includes the following equipments: 1) BTS(Base Transceiver Station) : Transmit and receives signals between mobile devices. 2) MSC(Mobile Switch Controller) : serves as the switching entity that connects calls between mobile devices. 3) BSC (Base Station Controller) :  manages multiples BTSs and controlling radio resources, managing handovers between cells and optimizing network performance, 4) AuC (Authentication Center) responsible for managing subscriber authentication and encryption keys to ensure communication between mobile devices and the network, 5) Home Location Register (HLR) the database that stores subscriber information such as phone numbers, authentication details, and service profiles, 6) Visitor Location Register (VLR) : The VlR is a temporary database that stores information about roaming subscribers within a specific area 7) MS (Mobile Station), including all the technologies used by the  users's handset and has two parts :\textbf{ Firstly, the mobile equipment which contains the radio equipment, the user interface, the processing capability and memory requirements for call signaling, encryption, SMS and the id of the mobile phone(equipment IMEI number). Secondly the Subscriber Identity module (SIM Card),} used in encryption of codes needed to identify the subscriber, storing subscriber's information, locate the user \citep{realWorldNetworks} as (+243 for each congolese number). \\
 	   Indeed, all the 2G technologies covers a large distance varying between 1880MHz - 2700 MHz.\\
 	      
 	   Besides, the third generation appears as revolution, \textbf{allowing multimedia messages, voice calls data, faster data speed}; however it requires a significant upgrade from the previous generation. Thus, the equipment involved in 3G technology includes : 1) BTS (Base station Transceiver) : Which plays the same role as for 2G; 2) Node B: Responsible for handling the radio interface and connecting mobile devices to the core network; 3) Radio Network Controller (RNC) : Controlling the Node B and managing the radio resources 4) Mobile Switching Center (MSC): The MSC is the central switching entity in the network that \textbf{connects calls between mobile devices}; 5) Serving GPRS Support Node (SGSN) : Responsible for managing packet-switched data services services and handling mobility for mobile internet access; 6) Gateway GPRS Support Node (GGSN): It serves as interface between the mobile network and external networks like internet; 7) The Home Location Register (HLR) and Authentication Center(AuC): plays the same role as in 2G; 8) Operations Support System (OSS) : It provides and functionalities for monitoring and managing the 3G network. 
-	   Indeed, the 3G is appreciated for enabling higher- speed services and covers different frequency bands depending on countries, ranging between 850Mhz - 1700 Mhz \cite{mishra2007advanced}.\\
+	   Indeed, the 3G is appreciated for enabling higher- speed services and covers different frequency bands depending on countries, ranging between 850Mhz - 1700 Mhz \citep{mishra2007advanced}.\\
 	   
-	   Additionally, the fourth generation, commonly referred to as LTE(Long-Term Evolution) represents a significant advancement over previous generations in terms of infrastructure and services. This generation introduces higher data speeds, improved capacity, and better perfomance for mobile communication and data services. The upgrades in infrastructure include: 1) BTS and MSCs : These components remain unchanged from the previous generation 2) Evolved Packet Core (EPC)  The EPC is a critical component of the 4G core network architecture which provides the packet-switched backbone that handles data traffic and ensures efficient data delivery between mobile devices and the internet or other networks; 3)  Radio Access Network (RAN): The Ran is responsible for the radio interface between mobile devices and base stations; 4) LTE (Long-Term Evolution) :  is the primary air interface enabling the high data speeds, low latency; 5) Back-haul Network : It connects base stations to the core network and internet infrastructure; 6) Spectrum Allocation: Hands over the mobile operator access to specific radio frequency bands; 7) Network Management System: These systems monitor and manage the 4G network, ensuring its smooth operation, performance optimization, and troubleshooting.
-	   However, it's spanning or coverage of 4G networks on frequency bands allowed in each country based on their preferences, ranging from 700MHz to 2600 Mhz. The higher frequency bands generally offer faster data speeds but may have a shorter range, while the lower frequency bands can provide broader coverage but with slightly lower data speeds \cite{mishra2007advanced}.
+	   Additionally, the fourth generation, commonly referred to as LTE(Long-Term Evolution) represents a significant advancement over previous generations in terms of infrastructure and services. This generation introduces higher data speeds, improved capacity, and better performance for mobile communication and data services. The upgrades in infrastructure include: 1) BTS and MSCs : These components remain unchanged from the previous generation 2) Evolved Packet Core (EPC)  The EPC is a critical component of the 4G core network architecture which provides the packet-switched backbone that handles data traffic and ensures efficient data delivery between mobile devices and the internet or other networks; 3)  Radio Access Network (RAN): The Ran is responsible for the radio interface between mobile devices and base stations; 4) LTE (Long-Term Evolution) :  is the primary air interface enabling the high data speeds, low latency; 5) Back-haul Network : It connects base stations to the core network and internet infrastructure; 6) Spectrum Allocation: Hands over the mobile operator access to specific radio frequency bands; 7) Network Management System: These systems monitor and manage the 4G network, ensuring its smooth operation, performance optimization, and troubleshooting.
+	   However, it's spanning or coverage of 4G networks on frequency bands allowed in each country based on their preferences, ranging from 700MHz to 2600 Mhz. The higher frequency bands generally offer faster data speeds but may have a shorter range, while the lower frequency bands can provide broader coverage but with slightly lower data speeds \citep{mishra2007advanced}.
 	\subsection{Mobile Phone Models}  
 	Since the mobiles phones are essential tools for communication, there is a wide range of popular mobile widely used by citizens of the DRC. The popular models come from various brands and offer a range of features to cater to different user preferences and needs. Some of the popular mobile phone models in DRC include \textit{ Techno, Itel, Infinix, Samsung, Apple, Huwaei, Itel, HTC, Motorola}. As it can be seen on the figure \ref{fig:mobilevendor}, according  to the  recent statistics conducted by \textit{Statistica},
 	Samsung was the market leader in terms of share from January 2018 to November 2020, but in 2022, Tecno has emerged as the market leader.
 	\begin{figure}
 		\centering 
 		\includegraphics[width=1\linewidth]{Images/mobileMarket.png}
-		\caption{Market share of mobile device vendors in the Democratic Republic of the Congo from January 2018 to March 2022}
+		\caption{Market share of mobile device vendors in the Democratic Republic of the Congo from January 2018 to March 2022 \citep{statisticaOnline}}
 	    \captionsetup{position=top}
 		\label{fig:mobilevendor} 
 	\end{figure}
@@ -368,11 +484,11 @@ Moreover, the services that citizen's subscribers benefit from are as follows :
 
 Firstly, the Internet Access: The Internet services are used to connect people from different nodes. In fact, In accordance with the \textit{WorldBank} \footnote{WorldBank : International Telecommunication Union ( ITU ) World Telecommunication/ICT Indicators Database \url{https://data.worldbank.org/indicator}}  been used by 23\% of the DRC's population in 2020. Nonetheless, it requires payment which proportionally gives mobile data usually expressed in Megabytes. \\
 
-Secondly, the Text Messaging (SMS): Even though the internet is the most used for texting, the SMS remains a widely used form of communication, especially in regions with \textbf{limited internet connectivity or among users who prefer simple text messaging or do not have the internet connection}.Furthermore, with the architecture of GSM(Global System for Mobile Communications) invented in the second generation, sending messages became possible. Nowadays, the web environment has developed application interfaces (API) that connect external systems to operators for sending messages \cite{hassinen2003secure}. One of the platforms that offer these services connects its SMS gateway to the GSM operator, as seen in the case of \textit{Octopush} \footnote{Octopush : SMS platform for businesses connected with their audience} architecture shown in Figure \ref{fig:smsgateway}  
+Secondly, the Text Messaging (SMS): Even though the internet is the most used for texting, the SMS remains a widely used form of communication, especially in regions with \textbf{limited internet connectivity or among users who prefer simple text messaging or do not have the internet connection}.Furthermore, with the architecture of GSM(Global System for Mobile Communications) invented in the second generation, sending messages became possible. Nowadays, the web environment has developed application interfaces (API) that connect external systems to operators for sending messages \citep{hassinen2003secure}. One of the platforms that offer these services connects its SMS gateway to the GSM operator, as seen in the case of \textit{Octopush} \footnote{Octopush : SMS platform for businesses connected with their audience} architecture shown in Figure \ref{fig:smsgateway}  
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{Images/SMSgateway}
-	\caption{SMS Gateway Provider Architecture}
+	\caption{SMS Gateway Provider Architecture \citep{nataf_sms_gateway}}
 	\label{fig:smsgateway} 
 \end{figure}
  \\
@@ -383,11 +499,11 @@ Fourthly, the Mobile Entertainment: Mobile phones offer a range of entertainment
 
 And finally, the others Mobiles apps: This party includes the health services, education, social medias applications.
 \section{Purposes of spammers in mobile messages}
-Most of the time, spammers prefer to promise recipients prizes and then ask for money to claim the offer. They also attack SMS gateways with \textit{DoS} (Denial of Service) messages \cite{androulidakis2013fimess} whose goal is to overwhelm the system with unnecessary messages. Spammers send advertising and promotional messages based on company objectives, as well as SMS containing fake links or impersonating organizations to deceive recipients into taking certain actions or providing sensitive information \cite{tang2022clues}. Additionally, they may send SMS disguised as surveys to gather personal information for various fraudulent purposes. 
+Most of the time, spammers prefer to promise recipients prizes and then ask for money to claim the offer. They also attack SMS gateways with DoS (Denial of Service) messages \citep{androulidakis2013fimess} whose goal is to overwhelm the system with unnecessary messages. Spammers send advertising and promotional messages based on company objectives, as well as SMS containing fake links or impersonating organizations to deceive recipients into taking certain actions or providing sensitive information \citep{tang2022clues}. Additionally, they may send SMS disguised as surveys to gather personal information for various fraudulent purposes. 
 \section{Solutions}
 To address theses problems, it is necessary to involve various stakeholders, including network operators, app developers, regulatory bodies, and users. \\
 
-Firstly, it is recommended to implement mechanisms at the network level \cite{hao2009detecting} to filter messages and block users involved in spamming. \\
+Firstly, it is recommended to implement mechanisms at the network level \citep{hao2009detecting} to filter messages and block users involved in spamming. \\
 
 Secondly, users (subscribers) should be educated on how to analyze messages and report any one that is causing disturbances. \\
 
@@ -407,16 +523,16 @@ In DRC, especially in the eastern party, users face similar issues. This chapter
     
     Furthermore, these researchers have chosen to investigate the detection of spam across various communication channels, including emails and SMS, encompassing Multimedia SMS (MSS) as well. In the following sections, we comprehensively review the body of work that has been accomplished within this context as follows: \\
          
-	\cite{katankar2010short}. \textbf{Dr.V.M Veena K.Katankar}
+	\citep{katankar2010short}. \textbf{Dr.V.M Veena K.Katankar}
 	proposed a system that comprises an SMS gateway for transferring SMS messages after they have been stored and encrypted by the web server. This software operates through a web interface. Whenever a client sends a \textit{POST} request, it is received by the web server, which is responsible for encryption or decryption if necessary. Subsequently, the gateway transfers the message as per its designated route. This solution proves to be particularly valuable in mobile banking and organizational marketing systems. Nevertheless, the author encourages other researchers to delve into channel services in communication and advanced encryption techniques.\\
 		
-	\cite{brown2007sms} In their publication titled \textbf{\textit{Short Message Service}}, \textbf{Brown, Jeff and Shipman} members of IEEE, delve into several significant aspects. They start by exploring th growth of mobile phones and SMS services. They also examine the system architecture of SMS Centers and technologies used for message communication
+	\citep{brown2007sms} In their publication titled \textbf{\textit{Short Message Service}}, \textbf{Brown, Jeff and Shipman} members of IEEE, delve into several significant aspects. They start by exploring th growth of mobile phones and SMS services. They also examine the system architecture of SMS Centers and technologies used for message communication
 	
 	Furthermore, they shine the spotlight on aggregators and services providers. These are the entities that enable users to send bulk messages, essentially sending messages with a large amount of text to a group of recipients. This includes the interesting capability of converting email messages into SMS.
 	
-	Moreover, the article highlights that some of these aggregators may choose to collaborate with cellular networks. In this collaborative role, they act as intermediaries, connecting third-party entities that don't have direct relationships with cellular service providers. To achieve this, they employ a \textit{SMPP (Simple Messaging Peer to Peer)} protocols.\\
+	Moreover, the article highlights that some of these aggregators may choose to collaborate with cellular networks. In this collaborative role, they act as intermediaries, connecting third-party entities that don't have direct relationships with cellular service providers. To achieve this, they employ a SMPP (Simple Messaging Peer to Peer) protocols.\\
 	
-	\cite{medani2011review} \textbf{Researchers A. Medani and A. Gani}, affiliated with the University of Malaysia, have published a comprehensive review focusing on security concerns and techniques related to mobile Short Message Service (SMS).\\
+	\citep{medani2011review} \textbf{Researchers A. Medani and A. Gani}, affiliated with the University of Malaysia, have published a comprehensive review focusing on security concerns and techniques related to mobile Short Message Service (SMS).\\
 	
 	In their paper, they illuminate the process by wich a subscriber sends a message to another party while adhering to specific principles of the Over-The-Air (OTA) structure. This process involves transmitting the message from the sender to the base station and then forwarding it to the intended recipient trough the SMS Center (SMSC).\\
 	
@@ -425,23 +541,23 @@ In DRC, especially in the eastern party, users face similar issues. This chapter
 	To address these security concerns within GSM systems, the researchers propose the implementation of \textit{XML Key Management Specification} as a middleware solution. This middle ware system servers an intermediary, facilitating secure communication between mobile devices and enhancing overall system security for the benefit of clients.\\
 	
 	
-	\cite{crawford2015survey} \textbf{Nikhil Kumar}, a reseacher affiliated with the University of New Delphi in India, published an article focusing on the topic of Email Spam Detection Using Machine Learning. In his study, he placed particular emphasis on comparing various machine algorithms, including \textbf{\textit{Naive Bayes, Support Vector Classifier, AdaBoosting, K-Nearest Neighbour, and Bagging Classifier}}. The objective was to predict wether an email was categorized as spam or legitimate (ham). To demonstrate his approach, he utilized an existing dataset available in the Kaggle workspace.\newline	
+	\citep{crawford2015survey} \textbf{Nikhil Kumar}, a reseacher affiliated with the University of New Delphi in India, published an article focusing on the topic of Email Spam Detection Using Machine Learning. In his study, he placed particular emphasis on comparing various machine algorithms, including \textbf{\textit{Naive Bayes, Support Vector Classifier, AdaBoosting, K-Nearest Neighbour, and Bagging Classifier}}. The objective was to predict wether an email was categorized as spam or legitimate (ham). To demonstrate his approach, he utilized an existing dataset available in the Kaggle workspace.\newline	
 	Through experimentation and parameter tuning, Nikhil found that Naive Bayes delivered promising results in terms of accuracy. However, he also pointed out a limitation associated with the Naive Bayes algorithm. This limitation is tied to its assumption of class-conditional independence, which implies that each feature is considered independent of the presence of the other features. In cases where this assumption does not hold, it can lead to misclassification of data points.
 	
 	To address this limitation and enhance the performance of spam detection, the author recommended the use of \textbf{ensemble methods}. These methods involve the use of multiple classifiers for making class predictions, allowing for more robust and accurate results.\\
 		
-	\cite{navaney2018sms} In 2018, researchers Pavas Navaney, Gaurav Dubey, and Ajax Rana, who are affiliated with the University of Southern California and Amity presented a conference paper titled "SMS Spam Filtering using Supervised Machine Learning Algorithms".
+	\citep{navaney2018sms} In 2018, researchers Pavas Navaney, Gaurav Dubey, and Ajax Rana, who are affiliated with the University of Southern California and Amity presented a conference paper titled "SMS Spam Filtering using Supervised Machine Learning Algorithms".
 	
 	Their study concentrated on a dataset comprising 5574 records, of which 4827 messages were categorized as "ham" (legimate messages), while 747 messages were classified as "spam" (unsollicited or unwanted messages).
 	
 	The researchers applied three different machine learning methods to this dataset. Among these methods, it was observed that the \textit{Support Vector Machine (SVM)} algorithm achieved the highest accuracy compared to the Naive Bayes and Maximum Entropy Classifier algorithms. \\
 	
-	\cite{shirani2013sms}  \textbf{Houshmand Shirani-Mehr}, a researcher in Machine Learning, published an article in 2013 titled : "SMS Spam Detection using Machine Learning Approach". His purpose was to address the spam filtering problem by utilizing ML algorithms. Therefore, He utilized a dataset from the  \textit{UCI Machine Learning Repository} repository \footnote{\textbf{UCI ML} : The UCI Machine Learning Repository is a popular collection of datasets maintained by the University of California, Irvine (UCI). It serves as a valuable resource for researchers and practitioners in the field of machine learning and data mining. \url{https://archive.ics.uci.edu/}} , which contained real SMS messages. In development, he employed the algorithms to tackle that problem such as :  Naive Bayes with Laplace smoothing, Support Vector Machine, and Ensemble methods (\textit{AdaBoosting and Random Forest}). As an improvement, the author added meaningful features such as the length of messages in terms of the number of characters and certain thresholds.
+	\citep{shirani2013sms}  \textbf{Houshmand Shirani-Mehr}, a researcher in Machine Learning, published an article in 2013 titled : "SMS Spam Detection using Machine Learning Approach". His purpose was to address the spam filtering problem by utilizing ML algorithms. Therefore, He utilized a dataset from the  \textit{UCI Machine Learning Repository} repository \footnote{\textbf{UCI ML} : The UCI Machine Learning Repository is a popular collection of datasets maintained by the University of California, Irvine (UCI). It serves as a valuable resource for researchers and practitioners in the field of machine learning and data mining. \url{https://archive.ics.uci.edu/}} , which contained real SMS messages. In development, he employed the algorithms to tackle that problem such as :  Naive Bayes with Laplace smoothing, Support Vector Machine, and Ensemble methods (\textit{AdaBoosting and Random Forest}). As an improvement, the author added meaningful features such as the length of messages in terms of the number of characters and certain thresholds.
 	
 	The results obtained after applying these methods to the dataset indicate that the SVM algorithm achieved the highest accuracy score.
 	\\
 	
-	\cite{gupta2021sms} The authors of the article titled "SMS Spam Detection Using Machine Learning", namely
+	\citep{gupta2021sms} The authors of the article titled "SMS Spam Detection Using Machine Learning", namely
 	\textbf{Gupta, Suparna Das and Saha, Soumyabrata and Das, Suman Kumar}. Their focus was on reviewing various techniques employed by other researchers in the realm of machine algorithms for SMS spam detection. \\
 	
 	In their research, they adopted a similar approach by incorporating the \textit{TF-IDF (Term Frenquency-Inverse Document Frequency)} method. This technique assesses the frequency of a word within a document and evaluates its importance in that document. \textit{TF-IDF} is a well-known method for measuring word relevance in a collection of texts.\\
@@ -452,9 +568,9 @@ In DRC, especially in the eastern party, users face similar issues. This chapter
 	
 	As shown above, many researchers have investigated the same topic using different approaches. Some have focused on security within mobile architecture, including message transfer processes, while others have concentrated on using Machine Learning (ML) models to combat the issue of spam. In general, these approaches are valuable to this project and serve as its inspiration at the point that many techniques related to these approaches have been implemented in this project.\\
 
-    However, what sets this project apart is its pratical approach involving specific society. Rather than solely relying on existing datasets from platforms like \textit{Kaggle and UC Machine Learning Repository}, this project has actively engaged with people to collect data. It has also integrated some data from these platform datasets to enhance the quality of information. \\
+    However, what sets this project apart is its practical approach involving specific society. Rather than solely relying on existing datasets from platforms like \textit{Kaggle and UC Machine Learning Repository}, this project has actively engaged with people to collect data. It has also integrated some data from these platform datasets to enhance the quality of information. \\
         
-    Furthermore, this project harnesses the latest advancements in machine learning. It utilizes Ensemble Methods to achieve high levels of accuracy. Addionnally, it employs technical parameter tuning, including \textit{GridSearcher and VotingClassifier}. In fact, GridSearcher assists in identifying the most suitable parameters required for algorithm models. \\
+    Furthermore, this project harnesses the latest advancements in machine learning. It utilizes Ensemble Methods to achieve high levels of accuracy. Additionally, it employs technical parameter tuning, including \textit{GridSearcher and VotingClassifier}. In fact, GridSearcher assists in identifying the most suitable parameters required for algorithm models. \\
     
     Moreover, this project doesn't stop at model development, it extends to the deployment of the models generated through the processes. It provides backend \textit{APIs} for certain platforms interested in learning from these results. \\
     
@@ -475,12 +591,11 @@ In DRC, especially in the eastern party, users face similar issues. This chapter
 	Hence, The choices made by the authors are \textit{Python (with Django \textit{Framework})} as programming language and \textit{SQL} for data structuring language in \textit{backend} development and HTML, CSS and Javascript (with \textit{Vue-Js Framework}) for \textit{frontend} environment. \\
 	
 	\subsubsection{Back-end Development with \textit{Python} (\textit{Django}) and \textit{SQL} :}  
-	\includegraphics[width=0.2\linewidth]{pythonImage.png}
-	 is a powerful language appeared in 1980 firstly implemented by Guido van Rossum at \textit{Stichting Mathematisch Centrum} in the Netherlands as a successor of a language called  \textit{ABC} \cite{tulchak2016history}. It newest version is \textit{Python 3} \footnote{Python : \url{https://www.python.org/}}  which is available for all most environments, either \textit{Macos} or \textit{Linux} and \textit{Windows}.\\
+	Python is a powerful language appeared in 1980 firstly implemented by Guido van Rossum at \textit{Stichting Mathematisch Centrum} in the Netherlands as a successor of a language called  \textit{ABC} \citep{tulchak2016history}. It newest version is \textit{Python 3} \footnote{Python : \url{https://www.python.org/}}  which is available for all most environments, either \textit{Macos} or \textit{Linux} and \textit{Windows}.\\
 	 	 
-	 In comparison with {Java, C, C++, MATLAB}, \textit{Python} is more readable, since it requires few lines of code which are clean. Next, it is a good choice for those who want to start with programming \cite{bogdanchikov2013python}. Technically it is versatile, since it used for a wide range of applications, from web development to mobile apps (with Kivy \footnote{Kivy: \url{https://realpython.com/mobile-app-kivy-python/}} ), data analysis, machine learning, and scientific computing. Actually, the high reason that influenced the use of this programming language is its capacity to deal with data by proving scientists with many libraries. \\
+	 In comparison with {Java, C, C++, MATLAB}, \textit{Python} is more readable, since it requires few lines of code which are clean. Next, it is a good choice for those who want to start with programming \citep{bogdanchikov2013python}. Technically it is versatile, since it used for a wide range of applications, from web development to mobile apps (with Kivy \footnote{Kivy: \url{https://realpython.com/mobile-app-kivy-python/}} ), data analysis, machine learning, and scientific computing. Actually, the high reason that influenced the use of this programming language is its capacity to deal with data by proving scientists with many libraries. \\
 	 
-	 Since the frameworks help to gain time in terms of development and structuring a project, \textit{Python} provides many frameworks for web development. Notable these are Django, Flask, and more. Authors's choice, Django, is a high-level, open-source web framework for building robust and dynamic web applications. It's written in \textit{Python}, which is one of the reasons for its popularity. It follows the \textbf{\textit{batteries-included}} philosophy, providing a wealth of built-in features like authentification, URL routing, a powerful admin interface, and an ORM (Object-Relational Mapping) system, which simplifies database operations \cite{alchin2013pro}. \\
+	 Since the frameworks help to gain time in terms of development and structuring a project, \textit{Python} provides many frameworks for web development. Notable these are Django, Flask, and more. Authors's choice, Django, is a high-level, open-source web framework for building robust and dynamic web applications. It's written in \textit{Python}, which is one of the reasons for its popularity. It follows the \textbf{\textit{batteries-included}} philosophy, providing a wealth of built-in features like authentification, URL routing, a powerful admin interface, and an ORM (Object-Relational Mapping) system, which simplifies database operations \citep{alchin2013pro}. \\
 	 
 	Actually, Django's ORM abstracts many \textit{SQL} complexities, enabling developers to interact with the database using \textit{Python} code, without needing to write raw \textit{SQL} queries. This higher-level interaction simplifies database access and makes the development process more efficient. So, while \textit{SQL} is at core of database interaction, Django's \textit{ORM} providers a user-interface for developers, streamlining the development of data-driven web applications.\\ 
 	
@@ -494,13 +609,8 @@ from myapp.models import Employee
   employees = Employee.objects.filters(salary__gt = 4000)
 \end{lstlisting}
     \subsubsection*{How did we get there ?}
-   In fact, the project must be running for doing that. For installing \textit{Python}, just go to the official website for the  download, no matter the OS version, either \textit{ \href{https://www.python.org/downloads/macos/}{MACOS} , \href{https://www.python.org/downloads/windows/}{Windows} } or \href{https://www.python.org/downloads/source/}{\textit{Linux/UNIX}} since \textit{Python} is portable. Indeed, the last version at the writing of this project was Python 3.12.0. To test if the it is working, just enter the command \textcolor{blue}{python} as in figure \ref{fig:testpython}.
-   \begin{figure}
-   	\centering
-   	\includegraphics[width=1\linewidth]{testPython}
-   	\caption{Testing if python is running on the OS (LINUX)}
-   	\label{fig:testpython}
-   \end{figure}
+   In fact, the project must be running for doing that. For installing \textit{Python}, just go to the official website for the  download, no matter the OS version, either \textit{ \href{https://www.python.org/downloads/macos/}{MACOS} , \href{https://www.python.org/downloads/windows/}{Windows} } or \href{https://www.python.org/downloads/source/}{\textit{Linux/UNIX}} since \textit{Python} is portable. Indeed, the last version at the writing of this project was Python 3.12.0. To test if the it is working, just enter the command \textcolor{blue}{python} as in annexes figure\ref{fig:testpython}.
+  
    
    
    Next, for installing Django, the steps remain pretty the same, going on the official page and following the guides as resumed in the as follows:   
@@ -512,35 +622,17 @@ from myapp.models import Employee
   In \textbf{MACOS/Linux} : Only the way of activating the \textit{VM} changes. Then just by entering the following command:\newline
   \texttt{source myenv/bin/activate}; the virtual will be functioning. \\
   
-   \textbf{Finally}, as the \textit{VM} is working Django, can be installed, by the command :  \texttt{pip install Django}. At the writing of this project, the last version 4.2.6. The bit steps to follow for installing are demonstrated in the figure \ref{fig:installdjango}
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{installDjango}
-	\caption{How to install django ? Here, the name of \textit{VE} is SpamAppEnv}
-	\label{fig:installdjango}
-\end{figure}
-\\
- Now, the project can be created, followed by the app inside, depending on interests. For that the commands  : \textcolor{blue}{ \texttt{django-admin startproject projectname}} and : \textcolor{blue}{\texttt{django-admin startproject appname}} can be utilized. The result is demonstrated in figure \ref{fig:visualstudio}. 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{visualStudio}
-	\caption{After the project and app are already created}
-	\label{fig:visualstudio}
-\end{figure} 
- \\
+   \textbf{Finally}, as the \textit{VM} is working Django, can be installed, by the command :  \texttt{pip install Django}. At the writing of this project, the last version 4.2.6. The bit steps to follow for installing are demonstrated in  the annexes figure \ref{fig:installdjango}
+
+ Now, the project can be created, followed by the app inside, depending on interests. For that the commands  : \textcolor{blue}{ \texttt{django-admin startproject projectname}} and : \textcolor{blue}{\texttt{django-admin startproject appname}} can be utilized. The result is demonstrated in annexes figure \ref{fig:visualstudio}. 
  
-  However, the configuration about the app created, ought to be made lest it should raise the error. Thus, in settings file, present in the project folder the properties called \textit{INSTALLED\_APPS}, as in the figure \ref{fig:appinstallname}.\newline After, this we can just enter the commands : 
+  However, the configuration about the app created, ought to be made lest it should raise the error. Thus, in settings file, present in the project folder the properties called \textit{INSTALLED\_APPS}, as in annexes fig.\ref{fig:appinstallname}.\newline After, this we can just enter the commands : 
  \begin{lstlisting}[style=stylejupyter]
  python manage.py makemigrations
  python manage.py migrate
 \end{lstlisting}
 For sure, the first command line says to Django the new changes, and the second applies or assesses them. 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth, height=3.5cm]{appInstallName}
-	\caption{Adding the appname in \textit{INSTALLED\_APPS} dependencies }
-	\label{fig:appinstallname}
-\end{figure} 
+
 
 \subsubsection*{How does Django deal with the database ?} 
 Django deals with databases through \textit{ORM} as mentioned above. Its management involves to follow different steps such as:
@@ -592,12 +684,12 @@ Indeed, we can see that even a non-professional in \textit{SQL} can now deal wit
 Furthermore, the use of abstraction techniques to interact with database, enhances its security of by guarding against \textit{SQL injection}. 
 \subsubsection{How does Django do for interacting with APIs ?}
 
-\textit{Django} presents a useful package for interacting with the \textit{API} called \textit{DRF \footnote{DRF (Django Rest Framwork) : a powerful tools serving to interact with Apis. \url{https://www.django-rest-framework.org/}}} It allows : authentication policies including optional packages for \textit{OAuth1a} and \textit{OAuth2 \footnote{OAuth2 :   (Open Authorization 2.0) : is a framework that allows third-party applications to access a user's data without exposing their credentials, such as passwords.OAuth 1.Oa is the old version of OAuth2  }}, web browsable API  and serialization \footnote{Serialization : converting data into formats like \textit{JSON}, \textit{XML}, etc. The deserialization involves the reconstruction of the same operation} and deserialization that supports both \textit{ORM} And \textit{NO-ORM} data sources \cite{nader2023django}. 
+\textit{Django} presents a useful package for interacting with the \textit{API} called \textit{DRF \footnote{DRF (Django Rest Framwork) : a powerful tools serving to interact with Apis. \url{https://www.django-rest-framework.org/}}} It allows : authentication policies including optional packages for \textit{OAuth1a} and \textit{OAuth2 \footnote{OAuth2 :   (Open Authorization 2.0) : is a framework that allows third-party applications to access a user's data without exposing their credentials, such as passwords.OAuth 1.Oa is the old version of OAuth2  }}, web browsable API  and serialization \footnote{Serialization : converting data into formats like \textit{JSON}, \textit{XML}, etc. The deserialization involves the reconstruction of the same operation} and deserialization that supports both \textit{ORM} And \textit{NO-ORM} data sources \citep{nader2023django}. 
  
 \subsubsection{\large \textit{Front-end} Development with \textit{HTML}, \textit{CSS} and \textit{Js} :} 
 The Front-end development is a crucial aspect of web development that focuses on creating the user interface and user experience of a website or web application. It involves using a combination of HTML,CSS, and Javascript to build the visible and interactive elements of a website. \\
 
-The HTML (Hypertext Markup Language) is used as a maker of web pages by providing its structure and content. It uses a markup language with various tags to define headings, paragraphs, links, images, forms, and more \cite{stark2010building}. For example a page with a heading and a paragraph should look like this in the content :
+The HTML (Hypertext Markup Language) is used as a maker of web pages by providing its structure and content. It uses a markup language with various tags to define headings, paragraphs, links, images, forms, and more \citep{stark2010building}. For example a page with a heading and a paragraph should look like this in the content :
 \begin{lstlisting}[style=htmlcssjsstyle]
  <div>
      <h1>Page Dev</h1>
@@ -614,7 +706,7 @@ h1{
 }
 \end{lstlisting} 
 
-Apart from that, the other powerful tool used in web development is \textit{JS(JavaScript)}. It adds interactivity and dynamic behavior to web pages. It also leveraged for creating features like images sliders, form validation, animations and real-time updates without having to \textbf{reload the page}. The common frameworks used to extend its productivity are : React, Angular and Vue-js \cite{wohlgethan2018supportingweb}. By updating the above \textit{HTML} code, we can see the interactivity created by JS: 
+Apart from that, the other powerful tool used in web development is \textit{JS(JavaScript)}. It adds interactivity and dynamic behavior to web pages. It also leveraged for creating features like images sliders, form validation, animations and real-time updates without having to \textbf{reload the page}. The common frameworks used to extend its productivity are : React, Angular and Vue-js \citep{wohlgethan2018supportingweb}. By updating the above \textit{HTML} code, we can see the interactivity created by JS: 
 \begin{lstlisting}[style=htmlcssjsstyle, label=lst:jsCode]
 <!DOCTYPE html>
 <html>
@@ -654,22 +746,16 @@ Machine learning involves learning from data, visualizing, analyzing it, and mak
 
 In Python, common packages used for working with data include\textbf{ numpy, pandas, matplotlib, seaborn, scikit-learn, tensorflow}, and more.
 
-The Integrated Development Environment (\textit{IDE}) used for working in Python, even for all backend-development is : Visual studio. It is portable and downloadable from the official page( \url{https://code.visualstudio.com/}). Additionally, we have another \textit{IDE} called \textit{Anaconda} including \textit{Jupyter notebook} which is used for machine learning and data science projects. It's designed to simplify package management and deployment by using a package manager called \textit{Conda} which helps users to install, update, and manage packages, libraries and dependencies \cite{teimourzadeh2022application}.\\
+The Integrated Development Environment (\textit{IDE}) used for working in Python, even for all backend-development is : Visual studio. It is portable and downloadable from the official page( \url{https://code.visualstudio.com/}). Additionally, we have another \textit{IDE} called \textit{Anaconda} including \textit{Jupyter notebook} which is used for machine learning and data science projects. It's designed to simplify package management and deployment by using a package manager called \textit{Conda} which helps users to install, update, and manage packages, libraries and dependencies \citep{teimourzadeh2022application}.\\
 
-To start a new project we just execute in the terminal, the command :  \texttt{jupyter notebook}, then a default browser configured just open directly the link. The page look like in the fig \ref{fig:jupyteropen}.
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{jupyterOpen}
-	\caption{Start jupyter in conda kernel}
-	\label{fig:jupyteropen}
-\end{figure}  
+To start a new project we just execute in the terminal, the command :  \texttt{jupyter notebook}, then a default browser configured just open directly the link. The page look like in the annexes fig \ref{fig:jupyteropen}.  
 
 \subsubsection{{\large Data manipulation with \textit{Numpy}, \textit{Pandas}}}
   {\textbf{Numpy}} Library\\
  
    Numpy is a fundamental library for scientific computing with Python. It provides support for large, mutli-dimensional arrays and matrices, along with an assortment of high-level mathematical functions to operate on these arrays.\\
    
- Actually, the reason of thinking about a new tool of computing in Python is because, all  data structures it provides: lists for enumerating a collection of objects, dictionaries to build hast tables, are not ideally suited to high-performance numerical computation \cite{van2011numpy}.\newline 
+ Actually, the reason of thinking about a new tool of computing in Python is because, all  data structures it provides: lists for enumerating a collection of objects, dictionaries to build hast tables, are not ideally suited to high-performance numerical computation \citep{van2011numpy}.\newline 
  Basically, the usage of numpy asks for importing its modules like this :  
  \begin{lstlisting}[style=stylejupyter]
  import numpy as np  #np is a common alias used  
@@ -677,7 +763,7 @@ To start a new project we just execute in the terminal, the command :  \texttt{j
  Out [4] : '1.24.3'
  \end{lstlisting} 
  %% We assume that the np alias created will be used for other demonstration.\newline
- \textbf{The structure and creation of a \textit{NumPy} array}. The fundamental data structure provided by the Numpy library for representing arrays is \textbf{ndarray} it refers to the array which is n-dimensional or multi-dimensional \cite{coursAnalyseDonne2}. Thus, several means can be used to create an array as follows  : \newline
+ \textbf{The structure and creation of a \textit{NumPy} array}. The fundamental data structure provided by the Numpy library for representing arrays is \textbf{ndarray} it refers to the array which is n-dimensional or multi-dimensional \citep{coursAnalyseDonne2}. Thus, several means can be used to create an array as follows  : \newline
  - With 1D(dimension):
  \begin{lstlisting}[style=stylejupyter]
 In[8] : np.array([1, 2, 3, 4, 5])
@@ -746,7 +832,7 @@ Out [60] : array([[5, 6],
 \\
 
 \subsubsection*{{\large  Pandas library :}} 
-\textit{Pandas \footnote{https://pandas.pydata.org/} } is an essential open-source Python library used for data manipulation and analysis. It provides functions for reading and writing data structures in various formats, including \textit{CSV} and text files, Microsoft Excel, SQL databases, and the fast \textit{HDF5} \footnote{HDFR (Hierchical Data Format version 5) : It is a versatile and high-performance data storage format commonly used in scientific and data analysis fields.} format. Additionally, Pandas can \textbf{align data, handle missing data, allow reshaping and pivoting, perform data aggregation and transformation, and merge and join data sets} \cite{mckinney2015pandas}. \newline It offers many other capabilities for efficient data processing. 
+\textit{Pandas \footnote{https://pandas.pydata.org/} } is an essential open-source Python library used for data manipulation and analysis. It provides functions for reading and writing data structures in various formats, including \textit{CSV} and text files, Microsoft Excel, SQL databases, and the fast \textit{HDF5} \footnote{HDFR (Hierchical Data Format version 5) : It is a versatile and high-performance data storage format commonly used in scientific and data analysis fields.} format. Additionally, Pandas can \textbf{align data, handle missing data, allow reshaping and pivoting, perform data aggregation and transformation, and merge and join data sets} \citep{mckinney2015pandas}. \newline It offers many other capabilities for efficient data processing. 
 To start with \textit{pandas}, we have to create the pandas  object like this: 
 \begin{lstlisting}[style=stylejupyter]
 import pandas as pd # pd is an alias name
@@ -908,7 +994,7 @@ Name  Age         City   days
 
 \subsubsection{Data Visualization With \textit{Matplotlib} and \textit{Seaborn}} 
 \subsubsection*{\textit{Matplotlib}}
-\textit{Matplotlib} is a open-source, flexible and customizable Python package used for creating 2D and 3D \footnote{mpl\_toolkits.mplots3d : \url{https://matplotlib.org/stable/tutorials/toolkits/mplot3d.html}, tools used for generating 3D plots } plotting having a high production-quality. In addition to this, it includes the capacity of saving images in different output formats (JPG, PNG, PS and others) \cite{tosi2009matplotlib}. 
+\textit{Matplotlib} is a open-source, flexible and customizable Python package used for creating 2D and 3D \footnote{mpl\_toolkits.mplots3d : \url{https://matplotlib.org/stable/tutorials/toolkits/mplot3d.html}, tools used for generating 3D plots } plotting having a high production-quality. In addition to this, it includes the capacity of saving images in different output formats (JPG, PNG, PS and others) \citep{tosi2009matplotlib}. 
 
 To get started with it, we just go to the official page and download the dependencies \footnote{Matplotlib: \url{https://matplotlib.org/}}. However, for who are those using integrated development environment (\textit{IDE}) like \textit{Anaconda} \textit{numpy}, \textit{pandas}, and \textit{matplotlib} are incorporated inside.
 When working with data visualization, the type of plot to choose should depend on the nature of the data. In the table \ref{tab:plotTypeDataTable} , the overview of types of plots and when to use them is given. However, some plots can be combined even though they are primarily made for whether categorical or numerical visualization. 
@@ -988,14 +1074,7 @@ Additionally, \textit{matplotlib} is used for creating 3D as follows :
 	plt.show()
 \end{lstlisting} 
 Notice that: \textit{matplotlib}, uses \textit{mpl\_toolkits} for integrating with 3D, since at its release it was creating 2D plots only. 
-Besides, the difference observed in the code at axis where the function \textit{add\_subplot} receives 111 value as the first argument. It just defines that the plot will be a single for all 3 dimensions as shown in the figure \ref{fig:3ddimensionPlotlib}. 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{3Ddimension}
-	\caption{3D plot with Matplotlib}
-	\label{fig:3ddimensionPlotlib}
-\end{figure}
-
+Besides, the difference observed in the code at axis where the function \textit{add\_subplot} receives 111 value as the first argument. It just defines that the plot will be a single for all 3 dimensions as shown in the annexes figure \ref{fig:3ddimensionPlotlib}. 
 \begin{table}
 	 % Color every other row
 \begin{tabular}{|p{3cm}|p{3.5cm}|p{8cm}|} 
@@ -1043,7 +1122,7 @@ Example : Analyzing the distribution of ages in a population\\
 \end{table}
 
 \subsubsection*{\textit{Seaborn}}
-\textit{Seaborn} is another Python library for statistical data visualization, built on \textit{matplotlib}. It just provides properties able to create more informative an visually appealing graphics \cite{sial2021comparative}. To get started with it, we just visit the official page \footnote{Seaborn: \url{https://seaborn.pydata.org/}} which presents all steps required for installing. Alternatively, we can use an  the integrated development environment \textit{IDE} like \textit{Anaconda} once again, which already includes it. 
+\textit{Seaborn} is another Python library for statistical data visualization, built on \textit{matplotlib}. It just provides properties able to create more informative an visually appealing graphics \citep{sial2021comparative}. To get started with it, we just visit the official page \footnote{Seaborn: \url{https://seaborn.pydata.org/}} which presents all steps required for installing. Alternatively, we can use an  the integrated development environment \textit{IDE} like \textit{Anaconda} once again, which already includes it. 
 
 The following example shows how to combine both \textit{matplotlib} and \textit{seaborn}:  
 \begin{lstlisting}[style=stylejupyter]
@@ -1067,9 +1146,9 @@ The data used in the following code, named 'tips,' is provided for practice purp
 
 
 \subsubsection*{\large Machine learning with scikit-learn} 
-Since Python programming language is establishing itself as one the most popular languages for scientific computing. Many and various libraries are developed inside making it more and more appealing \cite{pedregosa2011scikit}. \\
+Since Python programming language is establishing itself as one the most popular languages for scientific computing. Many and various libraries are developed inside making it more and more appealing \citep{pedregosa2011scikit}. \\
 
-\textit{Scikit-learn} is an open-source and commercially(usage - BSD license) machine learning library for the Python programming language. It was initially developed by David Counapeu in 2007 as part of the Google Summer of Code project. Since then, it has grown to become one the most popular and widely used Machine Learning libraries in Python ecosystem \cite{scikitlearnCode1}.   
+\textit{Scikit-learn} is an open-source and commercially(usage - BSD license) machine learning library for the Python programming language. It was initially developed by David Counapeu in 2007 as part of the Google Summer of Code project. Since then, it has grown to become one the most popular and widely used Machine Learning libraries in Python ecosystem \citep{scikitlearnCode1}.   
 The techniques and properties used inside of it, allows it to predictive data analysis by performing the  classification, regression, clustering, preprocessing and more other tasks.\\
 
 To get started with it as usually, the official page present all the steps for downloading all the packages or using \textit{IDE} like \textit{Anaconda} which encompasses it. \newline
@@ -1147,14 +1226,14 @@ The completion of this project necessitated the utilization of various dependenc
 Choosing a right methodology including approaches and methods to use, is an important task. However, the nature of environment defers and leads to challenging evaluation before determining the fit one. Thus, since this project investigates in Machine Learning project, the appealing methodology chosen for its achievement is inspired from MLOps(ML Operating systems).
 
 \subsection{\large  ML operating systems} 
-ML endeavors aim to deal with their projects from development till the production step. However, a large number of projects based on ML don't reach the final step according to their expectations. Actually, the paradigm of MLOps came to face this issue \cite{kreuzberger2023machine}. For that, it is a set of principles, best practices and concepts, and development culture that provide an end-to-end machine learning development process to design, build and manage reproducible, testable and evolvable ML-powered software. \\
+ML endeavors aim to deal with their projects from development till the production step. However, a large number of projects based on ML don't reach the final step according to their expectations. Actually, the paradigm of MLOps came to face this issue \citep{kreuzberger2023machine}. For that, it is a set of principles, best practices and concepts, and development culture that provide an end-to-end machine learning development process to design, build and manage reproducible, testable and evolvable ML-powered software. \\
 
-Furthermore, MLops involves the union of many disciples, including Machine learning, software engineering (concerning DevOps too), data engineering as clarified in figure \ref{fig:mlopsdisciplines}.
+Furthermore, MLops involves the union of many disciples, including Machine learning, software engineering (concerning DevOps too), data engineering as clarified in figure \ref{fig:mlopsdisciplines} .
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1\linewidth]{../../../Books/Report/MLopsDisciplines}
-	\caption{Intersection of disciplines in MLops}
-	\label{fig:mlopsdisciplines}
+	\caption{Intersection of disciplines in MLops \citep{mlopIntersertion}} 
+	 \label{fig:mlopsdisciplines}
 \end{figure} 
 
 \textbf The {Machine learning part} is dealt by \textbf{data scientists} and have the principle role of building the models that address the business question or needs. While \textbf{Data Engineering} is conducted by data engineers making sure that data pipelines which are the core of the ML model life cycle, are in turn and clean. Next, the \textbf{Software engineering}, encompasses \textbf{software engineers} not highly concerned by the machine learning model building since they bring ML problem into a well-engineered product (into applications). 
@@ -1173,7 +1252,7 @@ All these disciplines work together to follow the ML life cycle, demonstrating t
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1\linewidth]{ml-engineeringInspiration}
-	\caption{Machine Learning Workflow}
+	\caption{Machine Learning Workflow \citep{workflowPageMllif}}
 	\label{fig:mllifecyle}
 \end{figure}
 \subsection{Definition of the object and specification}
@@ -1186,23 +1265,23 @@ At this step, raw data are collected from various data pipeline(sources) dependi
 
 (b)  Files (CSV, Text Files). This mean is highly used. It requires important analysis of the content for being aware of how and what part to extract (as spreadsheets for Excel), separated values (as for CSV files).
 
-(c) APis. They are also the common use for structured data( in JSON, XML format) , leveraging web services for providing data to third parties or internal parties of the system \cite{dataScienceMLeric}.
+(c) APis. They are also the common use for structured data( in JSON, XML format) , leveraging web services for providing data to third parties or internal parties of the system \citep{dataScienceMLeric}.
 
-(d) Web Scrapping. This mean refers to techniques used for collecting data from web sites (sometimes illegally) and structure it into spreadsheets, CSV or others simple means \cite{sirisuriya2015comparative}. It's more appreciated when data are not available from the APIs. That being, some applications performs like 
+(d) Web Scrapping. This mean refers to techniques used for collecting data from web sites (sometimes illegally) and structure it into spreadsheets, CSV or others simple means \citep{sirisuriya2015comparative}. It's more appreciated when data are not available from the APIs. That being, some applications performs like 
 
-(e) Images and videos : Images, videos are generated from cameras, satellites and other imaging devices. Thus, they are useful in specific tasks of ML like classification of taxonomy videos \cite{reviewVideo2020}. 
+(e) Images and videos : Images, videos are generated from cameras, satellites and other imaging devices. Thus, they are useful in specific tasks of ML like classification of taxonomy videos \citep{reviewVideo2020}. 
 Many others means exist like surveys and questionnaires, audio data, however the guidance is problem to address. 
 \\
 Once the data are collected, it stored in \textbf{dataset} where they are subjected to manipulation and analysis.
 \subsection{Data preparation and exploratory}
-The preparation refers to two main tasks : The data pre-processing and data exploration . The data pre-prepocessing involves the learning of nature of the data and its characteristics, types format and quality. It can result to the cleaning of data if it noticed that they are unnecessary or tidy for the analysis. In all cases based on preparing data, can be called \textbf{data wrangling} \cite{furche2016data} process.
+The preparation refers to two main tasks : The data pre-processing and data exploration . The data pre-prepocessing involves the learning of nature of the data and its characteristics, types format and quality. It can result to the cleaning of data if it noticed that they are unnecessary or tidy for the analysis. In all cases based on preparing data, can be called \textbf{data wrangling} \citep{furche2016data} process.
 
-In the other hand,\textbf{ the exploratory data analysis} process aims to receive collected and cleaned data and facilitates the visualization that can be helpful in detection of outliers, identification of clusters and trends \cite{unwin2020data}. 
+In the other hand,\textbf{ the exploratory data analysis} process aims to receive collected and cleaned data and facilitates the visualization that can be helpful in detection of outliers, identification of clusters and trends \citep{unwin2020data}. 
 \subsection{Model training and selection}
 When this stage is reached, it's obviously understood that the previous, ie. gathering, preparation, exploratory steps are already fulfilled. However, it is possible to go back there once again according to the analysis requirements.
 What's happen during the training and testing stages ?
 Since all clean data are found in a dataset containing features in columns and data values in rows, the class based on choices made for the comfortable algorithm can be subsequently used to generate a model. This model is able to learn relationships and patterns within the data, is what we call \textbf{'training'}. 
-Thus, the selection of suit ML algorithm is more competitive involving studies, testing. However it is more lead by the kind of problem we wish to solve, the number of features and its types, the kind of model that would suit the data more the best \cite{wang2016machine}. 
+Thus, the selection of suit ML algorithm is more competitive involving studies, testing. However it is more lead by the kind of problem we wish to solve, the number of features and its types, the kind of model that would suit the data more the best \citep{wang2016machine}. 
 
 So, according to those principles, here are the types of ML algorithms used:
 
@@ -1216,19 +1295,19 @@ Therefore, for reaching a high score of precision, the prepared dataset can be s
 
 A part from spiting the dataset, several tasks are used by the supervised ML models for solving problems, as follows:
 
-\textbf{- Classification tasks}: These tasks involve categorizing input data into predefined classes or labels \cite{osisanwo2017supervised}. The model learns to assign the correct category to new data based on patterns learned during training. Thus, they can are used for: Spam detection for classifying whether a message is a spam or not; Sentiment analysis for determining the social media posts text which can be positive, negative or neutral; image classification for identifying objects or categories in images.
+\textbf{- Classification tasks}: These tasks involve categorizing input data into predefined classes or labels \citep{osisanwo2017supervised}. The model learns to assign the correct category to new data based on patterns learned during training. Thus, they can are used for: Spam detection for classifying whether a message is a spam or not; Sentiment analysis for determining the social media posts text which can be positive, negative or neutral; image classification for identifying objects or categories in images.
 
-\textbf{- Regression tasks}  : Regression tasks focus on prediction continuous numeric values based on input features. Besides, they are used to establish relationship among those features \cite{maulud2020review}. The algorithms based on these tasks are able to predict : The house prices, stock prices even the temperature forecasts.
+\textbf{- Regression tasks}  : Regression tasks focus on prediction continuous numeric values based on input features. Besides, they are used to establish relationship among those features \citep{maulud2020review}. The algorithms based on these tasks are able to predict : The house prices, stock prices even the temperature forecasts.
 
-\textbf{- Object Detection and Recognition} :  The algorithms related to these tasks are used to develop which are able to locate and identify objects within images and videos. They are often used in autonomous vehicles and surveillance systems and crops detection diseases \cite{bai2020object} .
+\textbf{- Object Detection and Recognition} :  The algorithms related to these tasks are used to develop which are able to locate and identify objects within images and videos. They are often used in autonomous vehicles and surveillance systems and crops detection diseases \citep{bai2020object} .
 
-\textbf{- Natural Language Processing (NLP)}  : This task involves the algorithms generating models which are wonderful in process of translating text form one language to another and identifying entities (e.g, names, locations) in text \cite{razno2019machine} . 
+\textbf{- Natural Language Processing (NLP)}  : This task involves the algorithms generating models which are wonderful in process of translating text form one language to another and identifying entities (e.g, names, locations) in text \citep{razno2019machine} . 
 
-\textbf{- Time series Forecasting} : The model developed here, predict future values based on historical time-order data, with applications in in finance, weather forecasting (eg. prediction of wind speed \cite{langkvist2014review}), and demand prediction.
+\textbf{- Time series Forecasting} : The model developed here, predict future values based on historical time-order data, with applications in in finance, weather forecasting (eg. prediction of wind speed \citep{langkvist2014review}), and demand prediction.
 
-\textbf{- Speech Recognition} : Here, the concerned models able to convert spoken language into text, for enabling voice assistants and transcription services \cite{jiao2021spoken}.
+\textbf{- Speech Recognition} : Here, the concerned models able to convert spoken language into text, for enabling voice assistants and transcription services \citep{jiao2021spoken}.
 
-\textbf{- Deep learning} : The uniqueness of models designed for this task lies in their capacity to delve deeply into extensive and intricate data, including unstructured forms such as images, text, and audio. These models possess the remarkable ability to autonomously learn complex hierarchies, enabling them to perform a wide range of tasks \cite{janiesch2021machine}.
+\textbf{- Deep learning} : The uniqueness of models designed for this task lies in their capacity to delve deeply into extensive and intricate data, including unstructured forms such as images, text, and audio. These models possess the remarkable ability to autonomously learn complex hierarchies, enabling them to perform a wide range of tasks \citep{janiesch2021machine}.
 \\
 
 To gain deeper insight into the structure and impact of algorithms based on their tasks, the table \ref{whichTaskWhichModel} provides a more meaningful overview of some of it. 
@@ -1269,19 +1348,19 @@ To gain deeper insight into the structure and impact of algorithms based on thei
 \end{table} 
 
 \subsubsection{\textbf{(b) Unsupervised Models}} 
-Unlike supervised models which learns from the labels data, the unsupervised models are trained on unlabeled data. Their particularity lies in their ability to learn from complex and large amount of data. Their best goal is to find hidden patterns, structures or relationships within the data even though they are not proportional. Therefore, they are categorized as non-linear models  \cite{khanum2015survey}.\\
+Unlike supervised models which learns from the labels data, the unsupervised models are trained on unlabeled data. Their particularity lies in their ability to learn from complex and large amount of data. Their best goal is to find hidden patterns, structures or relationships within the data even though they are not proportional. Therefore, they are categorized as non-linear models  \citep{khanum2015survey}.\\
 
-However, for professionally dealing with complex dataset containing linear or non linear, supervised and unsupervised models can be combined. In this case, the unsupervised can be mostly used to reduce the dimensionality of data before applying and the supervised model for linear regression prediction for example. This approach let profit from all both method's advantages \cite{liu2000interactive}.\\ 
+However, for professionally dealing with complex dataset containing linear or non linear, supervised and unsupervised models can be combined. In this case, the unsupervised can be mostly used to reduce the dimensionality of data before applying and the supervised model for linear regression prediction for example. This approach let profit from all both method's advantages \citep{liu2000interactive}.\\ 
 
 The common tasks concerned by this ML type include : clustering, dimensionality reduction, data compression, topic modeling and many others. \\
 
 \textbf{Clustering task}, is the fundamental task of this type. It is helps to group data into sensible grouping objects according to similarities and  characteristics. It obvious that all any class if pre-selected, or fore-grouped. Thus, the problem like : Grouping customers into clusters based on their purchasing behavior for market segmentation.\\
 
-Subsequently, \textbf{the dimensionality reduction tasks} involves  model's techniques simplifying  the dataset to train while preserving its essential characteristics, that can be helpful to improve the performance of the model. The challenge of this method when projecting data \cite{sorzano2014survey}, is to choose the right techniques, we mean parameters, features,...  The related solutions include : Data processing for machine learning tasks, visualization of high-dimensional data in fields like biology and natural language processing. 
+Subsequently, \textbf{the dimensionality reduction tasks} involves  model's techniques simplifying  the dataset to train while preserving its essential characteristics, that can be helpful to improve the performance of the model. The challenge of this method when projecting data \citep{sorzano2014survey}, is to choose the right techniques, we mean parameters, features,...  The related solutions include : Data processing for machine learning tasks, visualization of high-dimensional data in fields like biology and natural language processing. 
 
-In addition, \textbf{the data compression} task, is inspired from the recent advancements in the field of information technology resulted to the generation of huge amount of data at each and every second \cite{jayasankar2021survey} . Therefore, the need of having a method able to eliminate data redundancy and irrelevancy is observed. This need becomes fulfilled by the unsupervised models allowing further analysis and pre-processing.\\
+In addition, \textbf{the data compression} task, is inspired from the recent advancements in the field of information technology resulted to the generation of huge amount of data at each and every second \citep{jayasankar2021survey} . Therefore, the need of having a method able to eliminate data redundancy and irrelevancy is observed. This need becomes fulfilled by the unsupervised models allowing further analysis and pre-processing.\\
 
-Furthermore, \textbf{the topic modeling}, is due to the growth of texts in new environment like internet, where informations including news headlines, web pages, questions/answers are published \cite{qiang2020short}. Thus, analysis of text becomes essential. It is performed by unsupervised models focusing on language, frequent words, and many others parameters.\\
+Furthermore, \textbf{the topic modeling}, is due to the growth of texts in new environment like internet, where informations including news headlines, web pages, questions/answers are published \citep{qiang2020short}. Thus, analysis of text becomes essential. It is performed by unsupervised models focusing on language, frequent words, and many others parameters.\\
 
 The table provides a comprehensive overview of these tasks and the associated algorithms employed to achieve them.
 
@@ -1315,7 +1394,7 @@ The table provides a comprehensive overview of these tasks and the associated al
 
 
 \subsection{Model Evaluation}
-The evaluation of machine learning models is a critical aspect of the model development process. Its helps to assess the model's performance, its ability to make accurate predictions, and its generalizations to unseen data \cite{raschka2018model}. \\
+The evaluation of machine learning models is a critical aspect of the model development process. Its helps to assess the model's performance, its ability to make accurate predictions, and its generalizations to unseen data \citep{raschka2018model}. \\
 
 Therefore, various techniques are implemented to assess that the model is worthy to be used. However, it defers from problem or models types performing a certain tasks. Thus, two main techniques are used : \textbf{cross-validation and the measure of metrics}.\\
 
@@ -1324,7 +1403,7 @@ The cross-validation is used to measure the performance of the model. For perfor
 A part from cross-validation, we have the measure of metrics as one of highly techniques used to estimate the model accuracy. However, the metrics depends on tasks performed by the model: \\
 
 For classification tasks, it used what we call the confusion matrices to evaluate errors in classification problems.
-As shown in table \ref{tab:confusionMatrixTable}, \cite{raschka2018model} , this method focuses on evaluating the ability of model to classify instances into different categories. Thus, there are \textbf{True Positives} (TP) which are instances that were correctly predicted as belonging to the positive class; \textbf{True Negatives} (TN), which are instances that were correctly predicted as belonging to the negative class. In the same way, \textbf{False Positives} (FP) are instances that were incorrectly predicted as belonging to the positive class. While the \textbf{False Negatives} (FN) are instances that were incorrectly predicted as belonging to the negative class \cite{maria2016performance}. 
+As shown in table \ref{tab:confusionMatrixTable}, \citep{raschka2018model} , this method focuses on evaluating the ability of model to classify instances into different categories. Thus, there are \textbf{True Positives} (TP) which are instances that were correctly predicted as belonging to the positive class; \textbf{True Negatives} (TN), which are instances that were correctly predicted as belonging to the negative class. In the same way, \textbf{False Positives} (FP) are instances that were incorrectly predicted as belonging to the positive class. While the \textbf{False Negatives} (FN) are instances that were incorrectly predicted as belonging to the negative class \citep{maria2016performance}. 
 \begin{table}[h]
 	\centering
 	\begin{tabular}{|p{3cm}|p{3.5cm}|p{3cm}|p{5cm}|} 
@@ -1370,7 +1449,7 @@ F1Score = \frac{2 \cdot (Precision \cdot Recall)}{Precision + Recall} = \frac{2V
 
 For sure, all the metrics are convenient for a given situation or problem to solve and have to be high. Most of the time the percent of 80 \% is high, while in others 90\% with the possibility of taking care of false positives.  \\
 
-Besides, the \textbf{Regression Tasks} present too the a lot metrics among them there are \cite{coursAnalyseDonne3} : 
+Besides, the \textbf{Regression Tasks} present too the a lot metrics among them there are \citep{coursAnalyseDonne3} : 
 
 - \textbf{Mean Absolute Error(MAE)}, it measures the average absolute difference between the predicted values and the actual values. 
 
@@ -1392,9 +1471,9 @@ Besides, the \textbf{Regression Tasks} present too the a lot metrics among them 
 In terms of interpretation in a programming language , case of Python, these metrics are found in the packages : \textit{sklearn.metrics}.\\
 
 \subsection{Model Deployment and monitoring}
-Machine Learning Model Deployment refers to the process of taking a trained machine learning model and making it available for use in real-world applications. Therefore, several means are used: Primarily, we have to choose the environment. Is it going to be integrated in a cloud platforms, or applications, edge devices ? Actually, it depends on interests. Some developers can decide to create an \textit{API} that allows software components to interact with clean model built as Web Service \cite{singh2021deploy}. For instance in python the \textit{frameworks} like \textit{Flask, Django} since they offer the \textit{RestApi} services. \\
+Machine Learning Model Deployment refers to the process of taking a trained machine learning model and making it available for use in real-world applications. Therefore, several means are used: Primarily, we have to choose the environment. Is it going to be integrated in a cloud platforms, or applications, edge devices ? Actually, it depends on interests. Some developers can decide to create an \textit{API} that allows software components to interact with clean model built as Web Service \citep{singh2021deploy}. For instance in python the \textit{frameworks} like \textit{Flask, Django} since they offer the \textit{RestApi} services. \\
 
-However, the model required to be integrated in a file for insuring the integration whether in the cloud or others services as emphasized above. Thus, the packages like : \textit{joblib} \footnote{joblib: \url{https://joblib.readthedocs.io/en/latest/index.html}} . Actually, \textit{Joblib} is used for serialization(saving and loading) Python objects. It's convenient for task like \textbf{parallel computing and disk caching of functions}  \cite{faouzi2020pyts}.\\
+However, the model required to be integrated in a file for insuring the integration whether in the cloud or others services as emphasized above. Thus, the packages like : \textit{joblib} \footnote{joblib: \url{https://joblib.readthedocs.io/en/latest/index.html}} . Actually, \textit{Joblib} is used for serialization(saving and loading) Python objects. It's convenient for task like \textbf{parallel computing and disk caching of functions}  \citep{faouzi2020pyts}.\\
 
 In part from, the model should be integrated in a Continuous integration and Continuous Deployment (CI/CD) (task of DevOps developer) to facilitate \textbf{monitoring} and updating, even the easy deployment. \\
 
@@ -1408,7 +1487,7 @@ Since two main types of category are notable in analysis which are : categorical
 \subsection{Predict Qualitative feature} 
 The prediction's result for this kind of data, involves an output which is commonly from binary, text, orders classes. Thus, we have : 
 \subsubsection{Naive Bayes} 
-The Naive Bayes is a classification algorithm based on Baye's theorem, which is a fundamental concept in probability theory \cite{maria2016performance}. 
+The Naive Bayes is a classification algorithm based on Baye's theorem, which is a fundamental concept in probability theory \citep{maria2016performance}. 
 Actually, the Naive Bayes formula is given like this (Eq.\ref{naiveProbaEquation}) : 
 \begin{equation}
 	\label{naiveProbaEquation}
@@ -1432,7 +1511,7 @@ P(A | B_1, B_2, \ldots, B_n) \propto P(A) \prod_{i=1}^{n} P(B_i | A)
 Great,the \textit{Naive Baye} in sckit-learn will consequently look like this : \newline
 \textbf{\textit{sklearn.naive\_bayes.GaussianNB()}}. As it it is \textbf{\textit{GaussianNB}} type, it means that the features's values affected to the model are continuous instead of being discrete, normally distributed. The model can be \textbf{\textit{Multinomial}} too, when it is interested in discrete's values, it means the frequency of words.
 \subsubsection{Logistic Regression} 
-Logistic Regression is a binary and multi-class classification algorithm that models the relationship between inputs features and the probability of a particular event occurring \cite{rymarczyk2019logistic}. For transforming a linear combination of features into probabilities between 0 and 1, it uses the \textit{sigmoid} function as follows :
+Logistic Regression is a binary and multi-class classification algorithm that models the relationship between inputs features and the probability of a particular event occurring \citep{rymarczyk2019logistic}. For transforming a linear combination of features into probabilities between 0 and 1, it uses the \textit{sigmoid} function as follows :
 \begin{equation} 
 \label{sigmoidFunction}
 \sigma(z) = \frac{1}{1 + e^{-z}}
@@ -1444,29 +1523,29 @@ To get started with it, with scickit-learn, we just use the class :
 \textbf{\textit{sklearn.linear\_model.LogisticRegression()}} 
 
 \subsubsection{Decision Trees} 
-As all supervised learning algorithms presented above, Decision Trees(DTs) are a non-parametric method used for classification and regression. Its prediction's ability is based on the if-then-else learn's possibilities \footnote{sckit-learn: \url{https://scikit-learn.org/stable/modules/tree.html} }. Actually, the tree is composed by the nodes and branches. Each node represents features in a category to be classified and each subset defines a value that can be taken by the node \cite{charbuty2021classification}.  
+As all supervised learning algorithms presented above, Decision Trees(DTs) are a non-parametric method used for classification and regression. Its prediction's ability is based on the if-then-else learn's possibilities \footnote{sckit-learn: \url{https://scikit-learn.org/stable/modules/tree.html} }. Actually, the tree is composed by the nodes and branches. Each node represents features in a category to be classified and each subset defines a value that can be taken by the node \citep{charbuty2021classification}.  
 \subsubsection{Support vector machine (SVM)} 
-SVMs are a class of powerful machine learning algorithms used for classification and regression. They aim to find the optimal hyperplane that maximally separates data points of different classes while maximizing a margin. It's a favorite solution for high-dimensional data\cite{memoireUniversitySpam}. Its class look like this : \textbf{\textit{sklearn.svm.SVC()}}
+SVMs are a class of powerful machine learning algorithms used for classification and regression. They aim to find the optimal hyperplane that maximally separates data points of different classes while maximizing a margin. It's a favorite solution for high-dimensional data\citep{memoireUniversitySpam}. Its class look like this : \textbf{\textit{sklearn.svm.SVC()}}
 
 \subsubsection{\textit{KNeighborsClassifier}}
-The \textbf{\textit{KNeighborsClassifier}} is ML algorithm based on \textit{k-Nearest Neighbors} (K-NN) principles. It classifies data points by finding the \textbf{\textit{k}} nearest from the training dataset and assigning a class label based on majority voting. For measuring similarity between data points, it utilizes the distance metric \cite{nayak2022study}. 
+The \textbf{\textit{KNeighborsClassifier}} is ML algorithm based on \textit{k-Nearest Neighbors} (K-NN) principles. It classifies data points by finding the \textbf{\textit{k}} nearest from the training dataset and assigning a class label based on majority voting. For measuring similarity between data points, it utilizes the distance metric \citep{nayak2022study}. 
 To get started with it, we need to use the class\textbf{ \textit{sklearn.neighbors.KNeighborsClassifier()}}. 
 
 \subsubsection{Random Forest}
-Random Forest is an updated algorithm version of  decision trees. It combines trees to enhance predictive accuracy in classification and regression tasks. It employs \textit{bagging} \footnote{Bagging : Boostrap aggregating, improves the accuracy and robustness of models}  to create diverse subsets of the training data and random feature selection for each tree\cite{lin2017ensemble}. Consequently, the overfitting is reduced and generalization is enhanced. \\
+Random Forest is an updated algorithm version of  decision trees. It combines trees to enhance predictive accuracy in classification and regression tasks. It employs \textit{bagging} \footnote{Bagging : Boostrap aggregating, improves the accuracy and robustness of models}  to create diverse subsets of the training data and random feature selection for each tree\citep{lin2017ensemble}. Consequently, the overfitting is reduced and generalization is enhanced. \\
 
 A part from optimizing prediction's result, it is reputed for being scalable and applicable to both small and large datasets. 
 
 To get started with it in Python, scikit-learn library we just the following class : \newline \textbf{\textit{klearn.ensemble.RandomForestClassifier()}}. 
 \subsubsection{Neural Networks (ANN)}
-The Artificial Neural Networks (ANNs) are ML models inspired by the human brain. They consist of interconnected nodes(neurons) \cite{boateng2020basic} organized into layers: input, hidden, and output. They excel in learning complex patterns from data through a process called \textbf{\textit{backpropagation} \cite{lillicrap2020backpropagation}}. 
+The Artificial Neural Networks (ANNs) are ML models inspired by the human brain. They consist of interconnected nodes(neurons) \citep{boateng2020basic} organized into layers: input, hidden, and output. They excel in learning complex patterns from data through a process called \textbf{\textit{backpropagation} \citep{lillicrap2020backpropagation}}. 
 
 To get started with it, we can just use the simple variant's class : \newline \textit{\textbf{sklearn.neural\_network.MLPClassifier()}}.
 
 \subsection{Predict quantitative feature} 
 This section includes algorithms with the objective of prediction numerous values, which can be either discrete or continuous. Therefore, we have :
 \subsubsection{\textit{ElasticNet}}
-ElasticNet is a crucial tool in building of robust and generalized models. It uses regularization techniques in the linear regression, allowing to address the limitations of L1(Lasso) and L2(Ridge) regularization methods \cite{johnsen2020elastic}. 
+ElasticNet is a crucial tool in building of robust and generalized models. It uses regularization techniques in the linear regression, allowing to address the limitations of L1(Lasso) and L2(Ridge) regularization methods \citep{johnsen2020elastic}. 
 To get started with it, we just implement the class : \textit{\textbf{sklearn.linear\_model.ElasticNet()}}
 
 \subsubsection{\textit{Gradient Boosting Regressor (GBR)}}
@@ -1476,40 +1555,40 @@ To get started we wih \textit{GBR}, we just use the following class : \textit{\t
 
 \subsubsection{\textit{Regression Lasso/Ridge}}
  All both (\textit{Ridge/Lasso}) are updated version of \textit{Linear Regression} algorithm, however they are used for avoiding overfitting (regularization) of a model. Therefore, \textit{Lasso} uses \textit{L1} regularization penalty added to the \textbf{loss function}. 
- In the other hand, the Ridge type uses \textit{L2} regularization integrating the loss function based on the square of the model's coefficients \cite{hazan2011optimal}. 
- Actually the loss function is used during the model training stage for quantifying and minimizing the error between the model's predictions and the actual target values for a given data \cite{wang2020comprehensive}.  
+ In the other hand, the Ridge type uses \textit{L2} regularization integrating the loss function based on the square of the model's coefficients \citep{hazan2011optimal}. 
+ Actually the loss function is used during the model training stage for quantifying and minimizing the error between the model's predictions and the actual target values for a given data \\citep{wang2020comprehensive}.  
  
  \subsubsection{\textit{KNeigboursRegressor}}
- The \textit{K-Nearest Neighbors Regressor} often abbreviated as \textit{KNeighborsRegressor} is a member of the \textit{K-Nearest Neighbors(KNN)} family, including classification and regression variants. KNeighborsRegressor is particularly well-suited for solving problems where the target variable is continuous and requires predicting a numeric value, for instance the prediction of crime using KNN Regressor \cite{alsayadi2022improving}.
+ The \textit{K-Nearest Neighbors Regressor} often abbreviated as \textit{KNeighborsRegressor} is a member of the \textit{K-Nearest Neighbors(KNN)} family, including classification and regression variants. KNeighborsRegressor is particularly well-suited for solving problems where the target variable is continuous and requires predicting a numeric value, for instance the prediction of crime using KNN Regressor \citep{alsayadi2022improving}.
  
  In \textit{scikitlearn}, in order to deal with this model, it has to be instantiated from the following class : \newline \textit{\textbf{sklearn.neighbors.KNeighborsRegressor()}}. 
  
-\section{Techniques used for optimizing the model} 
+\section{Techniques used for optimizing the model}  
 Several techniques are employed to ensure that the implemented model achieves a high level of accuracy. While we've touched upon these concepts indirectly in preceding discussions, it's worth highlighting them for more clarity. Thus, we have:
 \subsection*{Regularization} 
-The regularization is technique used upon a model to enhance the generalization ability of the models. The methods like Regression \textit{Ridge}, \textit{Lasso},  \textit{Elastic} can be used for that concern \cite{mlwithpython}.  For instance : \textit{L1} regularization called \textit{Lasso} can be used to drive all  owner's name values feature to exactly zero, since it's \textbf{might have any impact on price}, concerning the house price prediction project.
+The regularization is technique used upon a model to enhance the generalization ability of the models. The methods like Regression \textit{Ridge}, \textit{Lasso},  \textit{Elastic} can be used for that concern \citep{mlwithpython}.  For instance : \textit{L1} regularization called \textit{Lasso} can be used to drive all  owner's name values feature to exactly zero, since it's \textbf{might have any impact on price}, concerning the house price prediction project.
 \subsection*{Ensemble models}
-The ensemble methods combine the predictions of multiple individual models(base models) to produce a more accurate and robust prediction \cite{kabari2019comparison}. Therefore, it raises new methods such as :
+The ensemble methods combine the predictions of multiple individual models(base models) to produce a more accurate and robust prediction \citep{kabari2019comparison}. Therefore, it raises new methods such as :
 \subsubsection{(a) \textit{Bagging} (Boostrap Aggregating)} 
 Actually, Bagging involves the process of training multiple instances of the same base model on different subsets of the training data and finally takes the mean of all the predictions. The case explaining this is how Random Forest works as ensemble method and the Decision Trees as its base models. The examples of the models's genre are : \textbf{\textit{AdaBoost}} and \textbf{\textit{Gradient Boosting}}.
 \subsubsection{(b) \textit{Boosting}} 
-The boosting process focuses on training multiple base models sequentially. Each model in the ensemble corrects the errors of the previous one, with more emphasis on misclassified data points. Actually, the correction's goal is the achievement of accurate prediction rule \cite{praveena2017literature}.
+The boosting process focuses on training multiple base models sequentially. Each model in the ensemble corrects the errors of the previous one, with more emphasis on misclassified data points. Actually, the correction's goal is the achievement of accurate prediction rule \citep{praveena2017literature}.
 
 \subsubsection{(c) \textit{Voting}} 
-Voting ensembles is more special. It combines the predictions of multiple \textbf{base models by taking a majority vote}(for classification) or averaging(for regression) to make the final prediction \cite{kabari2019comparison}. However, if the model is not optimized, it is might be biased. The model like \textit{VotingClassifier, VotingRegressor} are commonly used. 
+Voting ensembles is more special. It combines the predictions of multiple \textbf{base models by taking a majority vote}(for classification) or averaging(for regression) to make the final prediction \citep{kabari2019comparison}. However, if the model is not optimized, it is might be biased. The model like \textit{VotingClassifier, VotingRegressor} are commonly used. 
 \subsection*{\textit{Dimensionality Reduction}}
 Dimension reduction techniques focus on reducing the number of features (dimensions) in a dataset while preserving or maximizing the relevant information. They are also used to address issues associated with high-dimensional data, such as the curse of dimensionality, overfitting, and computational complexity. Thus, we discuss \textbf{feature selection} when we aim to retain the relevant and informative features and \textbf{feature extraction} when data is projected into a lower-dimensional space \cite{cunningham2008dimension}. In practice, the original data is first transformed and then technically selected to create a new representative dataset. 
 
 The common models used for dimensionality reduction include techniques such as Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA).
 \subsection*{\textit{Hyperparameter Tuning}} 
-Hyperparamater tuning, often referred to as hyperparameter optimization, is the process of systematically searching for the best combination of hyperparameters for a machine learning model  \cite{chauhan2020detection}.\\
+Hyperparamater tuning, often referred to as hyperparameter optimization, is the process of systematically searching for the best combination of hyperparameters for a machine learning model  \citep{chauhan2020detection}.\\
 
 Actually, they are settings that are not learned from the data but are set prior to training and setting a model. Examples of hyperparameters include the learning rate in neural networks, the depth of a decision tree, the number of neighbors in k-nearest neighbors, or the regularization strength in linear models. In scikit learn model called \textit{\textbf{GridSearchCv}} can be used to test the convenient parameters. 
 
 \subsection*{\textit{Normalization and standardization}} 
 Both normalization and standardization are preprocessing techniques commonly used in machine learning and statistics to transform data before feeding it into a model. They serve different purposes but aim to make data more suitable for modeling and analysis. \\
 
-The normalization is the process of rescaling data to a common scale, typically between 0 and 1. It's useful when features we have different ranges, and we want to bring them to a uniform scale \cite{ali2014data}, \cite{elen2021standardized}. Common methods for normalization include Min-Max scaling. 
+The normalization is the process of rescaling data to a common scale, typically between 0 and 1. It's useful when features we have different ranges, and we want to bring them to a uniform scale \citep{ali2014data}, \citep{elen2021standardized}. Common methods for normalization include Min-Max scaling. 
 
 The formula used for Min-Max scaling is : 
 \begin{equation}
@@ -1517,13 +1596,15 @@ The formula used for Min-Max scaling is :
 \end{equation} 
 Where \textit{X} is the original value, \textit{X\_min} is the minimum value in the dataset, and \textit{X\_max} is the maximum value.
 
-The standardization, on the other hand, transforms data into a standard normal distribution with a mean of 0 and a standard deviation of 1 \cite{ali2014data}. It's particularly useful when the features follow a normal or near-normal distribution, and the absolute values and relationships between them are important. Practically, it involves subtracting the mean from each value and dividing by the standard deviation. 
+The standardization, on the other hand, transforms data into a standard normal distribution with a mean of 0 and a standard deviation of 1 \citep{ali2014data}. It's particularly useful when the features follow a normal or near-normal distribution, and the absolute values and relationships between them are important. Practically, it involves subtracting the mean from each value and dividing by the standard deviation. 
 \begin{equation}
 	XStardardized = (X - mean) / standardDeviation
 \end{equation}
 In scikit learn the model like \textit{PCA} can be used to compute this formula on a dataset.
+\section{ML Systems and UML diagrams}
+In case of complexity of Machine Learning systems, \citet{mlwithpython} suggests to use UML diagrams. These diagrams describe the structure, behavior and even the interactions within the case\citep{eriksson2003uml}. However, their usage depending on interests. For instance class diagrams are good at representing system being by using relationships, multiplicity, operations and attributes. Additionally, the deployment model is favorable at implementations and the execution environments and artifacts deployed on the hardware \citep{umlOverView}.  
 \section{Summary}
-In this chapter, the primary focus is on the theorical aspects of the current work. It starts by reviewing related works to identify potential enhancements offered by this work. Subsequently, it explores the tools employed for realizing the proposed solution and delved into the methodological approaches adopted.\\
+In this chapter, the primary focus is on the theoretical aspects of the current work. It starts by reviewing related works to identify potential enhancements offered by this work. Subsequently, it explores the tools employed for realizing the proposed solution and delved into the methodological approaches adopted.\\
 
 Regarding tools and techniques, they classified into two main categories. The first category comprises the tools utilized for constructiong machine learning models, which include algorithms implemented in Python using various libraries.
 The second category involves application tools, such as web technologies like HTML, CSS, Javascript, and the Django Framework. These applications tools are instrumental in creating user interfaces for consuming a web service.\\
@@ -1539,8 +1620,8 @@ This work couldn't have any sense without the collaboration, assistance of the v
 The present project witnessed a dynamic partnership between the authors and an enthusiastic academic team, consisting of both the supervisor and director. They played pivotal roles in guiding the project, offering valuable insights into data collection methodologies, and suggesting techniques to achieve our goals effectively. Beyond the academic community, we also benefited from expertise of online scientists who provided valuable advise and coaching to ensure our solutions were relevant and impactfull.
 
 \section{Data collection strategy } 
-Recognizing the pivotal role of data at the heart of our solution, an extensive investigation into data collection became imperative. Our fist approach to streamline this process was by harnessing the power of the online realm. Trough a dedicated website, we deployed a user-friendly survey form; which individuals could readily complete and submit. Visualize this in figure \ref{fig:spamform} in the annexes.
-Therefore, all the data collected have been stored in a database. To really collect it for further investigations, it was just question of clicking on a download button in the website as shown in figure\ref{fig:collectdata} in the annexes.
+Recognizing the pivotal role of data at the heart of our solution, an extensive investigation into data collection became imperative. Our fist approach to streamline this process was by harnessing the power of the online realm. Trough a dedicated website, we deployed a user-friendly survey form; which individuals could readily complete and submit. Visualize this in the annexes in figure.ref{fig:spamform} .
+Therefore, all the data collected have been stored in a database. To really collect it for further investigations, it was just question of clicking on a download button in the website as shown in the annexes in figure.\ref{fig:collectdata}.
 
 Furthermore, in keeping with the common practice among data scientists, who often employ online datasets for their experiments and analysis, this work also delved into \textbf{a dataset readily available on} \textit{Kaggle}, which allows this work to tackle broad languages even though they are not highly spoken in case study area. \footnote{https://www.kaggle.com/ : Actually, \textit{Kaggle} is an advanced online community for networking works and storing data mostly used for analysis project.} 
 
@@ -1701,25 +1782,31 @@ plt.show()
 visualisationMsg(messageInSwahili, " Swahili messages") 
 visualisationMsg(messageInFrench, ' French messages')  
 visualisationMsg(messageInEnglish, ' English messages')
-\end{lstlisting}
-\begin{figure}[h]
+\end{lstlisting} 
+
+\begin{figure}
 	\centering
+\begin{subfigure}{5cm}
 	\includegraphics[width=01\linewidth]{CollectImages/EnglishPlot} 
 	\caption{Clean English entries }
 	\label{cleanEnglishEntrie}
-\end{figure}
-\begin{figure}[h]
+\end{subfigure}
+	\centering
+\begin{subfigure}{5cm}
 	\centering
 	\includegraphics[width=01\linewidth]{CollectImages/frenchPlot} 
 	\caption{Clean French entries }
 	\label{cleanFrenchEntrie}
-\end{figure}
-\begin{figure}[h]
+\end{subfigure}
+	\centering
+\begin{subfigure}{5cm}
 	\centering
 	\includegraphics[width=01\linewidth]{CollectImages/frenchPlot} 
 	\caption{Clean Swahili entries }
 	\label{cleanSwahiliEntrie}
-\end{figure}
+\end{subfigure}
+	
+\end{figure} 
 
 - Feature engineering:
 
@@ -1885,13 +1972,6 @@ Decision Tree Model Accuracy score is : 0.9602713178294574
 Decision Tree Model Area under the curve for ROC is : 0.8901410398230089
 \end{lstlisting} 
 Actually, SVM realizes the best score for accuracy metric (97.2\%) and Bayes (98.9\%). Thus, the positives are well-learned as ROC graphic shows it in figure\ref{fig:rocenglish}.
- \begin{figure}
- 	\centering
- 	\includegraphics[width=0.9\linewidth]{CollectImages/rocEnglish}
- 	\caption{Comparing models's AUC score based on English messages}
- 	\label{fig:rocenglish}
- \end{figure}
-\\
 
 (b) Swahili model's score:
 
@@ -1906,13 +1986,25 @@ SVM Model Area under the curve for ROC is : 0.8666666666666667
 Logistic Regression Model Accuracy score is : 0.8695652173913043
 Logistic Regression Model Area under the curve for ROC is : 0.85
 Decision Tree Model Accuracy score is : 0.9130434782608695
-Decision Tree Model Area under the curve for ROC is : 0.6666666666666666
+Decision Tree Model Area under the curve for ROC is : 0.6666666666666666 
 \end{lstlisting}  
-\begin{figure}
-	\centering
-	\includegraphics[width=0.9\linewidth]{CollectImages/rocSwahili}
+\begin{figure}[h]
+\begin{subfigure}{7.5cm}
+	\includegraphics[width=1\linewidth]{CollectImages/rocSwahili}
 	\caption{Comparing models's AUC score based on Swahili messages}
 	\label{fig:rocswahili}
+\end{subfigure}
+ \begin{subfigure}{7.5cm}
+	\includegraphics[width=1\linewidth]{CollectImages/rocEnglish}
+	\caption{Comparing models's AUC score based on English messages}
+	\label{fig:rocenglish}
+\end{subfigure} 
+\begin{subfigure}{7.5cm}
+	\centering
+	\includegraphics[width=1\linewidth]{CollectImages/rocFrench}
+	\caption{Comparing model's AUC score based on French messages}
+	\label{fig:rocfrench}
+\end{subfigure} 
 \end{figure}
 
 For the case of Swahili messages, Decision Tree is the learning model with high score for accuracy (91.3\%) and Bayes for AUC (90\%)  (as even shown in the figure \ref{fig:rocswahili}).
@@ -1935,13 +2027,7 @@ Decision Tree Model Area under the curve for ROC is : 0.9096391824249166
 \end{lstlisting}  
 Models evaluated on French messages show that SVM is best predictor based on accuracy metric (97.2\%). In terms of AUC all represented models give 99\% except the Decision Tree Model as shown in ROC (fig. \ref{fig:rocfrench}) graphic. 
 \\
-\begin{figure}
-	\centering
-	\includegraphics[width=0.9\linewidth]{CollectImages/rocFrench}
-	\caption{Comparing model's AUC score based on French messages}
-	\label{fig:rocfrench}
-\end{figure}
-\\
+
 The all results models being combined show the better one according to the language data. The prompt view is shown in the table and in the figure \ref{modelclassificationscore}
 \begin{table}[h]
 \centering
@@ -2050,7 +2136,7 @@ In [380]: best_gb_classifier = grid_search.best_estimator_
 Great! The score is the same like the one yielded by the \textit{votingClassifier}  
 
 \subsection{Model Deployment}
-Concerning the current work, at this stage we converted the models into a files usable in production area. We considered all voting models are for each language because the scores they yielded, and dumped them in files.
+Concerning the current work, at this stage we converted the models into files usable in production area. We considered all voting models for each language because the scores they yielded, and finally dumped them in files.
 \subsubsection{Production With Joblib}
 \begin{lstlisting}[style=stylejupyter]
 import joblib
@@ -2064,11 +2150,10 @@ joblib.dump(EnsembleModelVotingEn, 'EnglishModelPrediction.pkl')
 joblib.dump(EnsembleModelVotingFr, 'FrenchModelPrediction.pkl')
 joblib.dump(EnsembleModelVotingSw, 'SwahiliModelPrediction.pkl')
 \end{lstlisting} 
-We have to convert any input into numeric by The \textit{featureExtraction} model from \textit{TdifVectorizer} and then 
-
+We had to convert any input into numeric by The \textit{featureExtraction} model from \textit{TdifVectorizer} and then 
 
 \section{Presentation and Discussion of Results} 
-For sure, this step is the next party of the previous, we just show how the model generated during the deployment stage is integrated in a software for really performing it tasks. As basics, the following step delves into precepts of interaction. 
+For sure, this step was the next party of the previous, we just showed how the model generated during the deployment stage was integrated in a software for really performing it tasks. As basics, the following step delves into precepts of interaction. 
 \subsection{Predicting system }
 Performing predictions which taking account of languages, required this project to use a Python detect\_langs library. Hence, the following function allows us to judge if the input message should be considered as a French, English or Swahili text every time it doesn't match one those languages, it automatically considered as an Swahili text.
 \begin{lstlisting}[style=stylejupyter]
@@ -2113,7 +2198,7 @@ Enter your mail here: jambo kaka
 \end{lstlisting}
 
 \subsection{Model interaction in a Platform for detection}
-Just as the user was completing the form for submitting messages that look like or are spams, at  this stage. When he receives an message in his phones transmitted by a mobile network operator, he has to check its legitimacy by copping it and submitting through the following steps :
+Just as the user was completing the form for submitting messages that look like or are spams, at  this stage (the corresponded description is in the UML class diagram in annexes, figure.\ref{fig:diaclass} ). When he receives an message in his phones transmitted by a mobile network operator, he has to check its legitimacy by copping it and submitting through the following steps :
 \begin{figure}[h]
 	\centering
 	\begin{subfigure}{3.5cm}
@@ -2136,10 +2221,10 @@ Just as the user was completing the form for submitting messages that look like 
 	\end{subfigure}  
 \end{figure}
 
-At the first stage (a), the user has to click on the test link, then completing the form and sending it  at (b), finally waiting for the response of the server.
+At the first stage \ref{fig:formCompleted}(a), the user has to click on the test link, then completing the form and sending it  at \ref{fig:mobilespamtest}(b), finally \ref{fig:mobileponetestanswer}(c) waiting for the response of the server.
 
 \subsection{Model's system with APIs}
-For network operators or other software developers  who would like to integrate the model functionalities or networks operators,  they have to follow the link delivered end-point end-point. The can consume the services as insomnia can do while testing:
+For network operators or other software developers  who would like to integrate the model functionalities or networks operators,  they have to follow the link delivered end-point (the description is in the UML deployment diagram in annexes, figure.\ref{fig:deploymentuml}  ). The can consume the services as insomnia can do while testing:
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=15.8cm, height=2.9cm]{CollectImages/insomniaTest}
@@ -2177,16 +2262,16 @@ To address these problems, this project proposes potential solutions. It not onl
 
 Implementing these solutions requires the use of specific techniques and methods that align with professional standards. This involves using programming languages such as HTML, CSS, and JavaScript to develop user-friendly interfaces. For the development and management of machine learning models and message processing, Python and its libraries (including Pandas, NumPy, Matplotlib, and Scikit-Learn) were employed.\\
 
-Data, often considered the heart of the model, received special attention. They underwent thorough static analysis, preparation, and visualization to ensure a clear understanding and prevent biased results. Once the data were ready, they were used to train machine learning models, employing various algorithms such as Naive Bayes, Logistic Regression, Support Vector Machine, Decision Trees, and ensemble models. These models were trained on datasets in Swahili, French, and English. After training, the models were integrated into a production environment following their deployment.\\
+Data, often considered the heart of the model, received special attention. They underwent thorough static analysis, preparation, and visualization to ensure a clear understanding and prevent biased results. Once the data were ready, they were used to train machine learning models, employing various algorithms such as Naive Bayes, Logistic Regression, Support Vector Machine, Decision Trees, and ensemble models. These models were trained on datasets in Swahili, French as well as English. After training, the models were integrated into a production environment following their deployment.\\
 
 In terms of practical solution, the current work introduces a system that offers a server interaction system with APIs for software developers who wish to incorporate the model's capabilities into their applications. It also addresses the needs of network operators by enhancing monitoring and surveillance tasks.\\
 
 However, the project has its limitations. The quantity of Swahili messages was limited, which could potentially lead to a biased model. Additionally, gaining access to network operator messages can be a challenging process due to legal procedures. Furthermore, the model only supports three languages, while the real-world scenario involves more diversity in language use. Messages often contain mixed languages, and some threats target system architecture rather than message content. These concerns, along with others, provide ample opportunities for future research.
  
  
+\bibliographystyle{apacite}
+\bibliography{bibliofile}
 
-\bibliographystyle{plain}
-\bibliography{bibliofile.bib}
 
 \backmatter
 \appendix
@@ -2194,6 +2279,8 @@ However, the project has its limitations. The quantity of Swahili messages was l
 
 \chapter*{Annexes}
 \addcontentsline{toc}{chapter}{Annexes}
+\addcontentsline{toc}{chapter}{Annexes} 
+\pagenumbering{Roman} % Start Roman numerals for annex pages
 
 \section{Collect message spams} 
 In the website running , using the current link \footnote{Spam Collect app : \url{http://spam.kivu-cs.org/}} sent on the a form where its possible to complete both the number of the spam message's sender and the message.The form receiving the data and sent it to the management system where they are stored in the database if they are valid. This is th illustrative image:
@@ -2210,8 +2297,68 @@ In the website running , using the current link \footnote{Spam Collect app : \ur
 	\label{fig:collectdata} 	
 \end{figure}
 \\
+\section{Figures concerning configuring and installing tools}  
+The figures concerning the images for configuring such as : Installing django(fig.\ref{fig:installdjango}) the new app installed in the django app(fig.\ref{fig:appinstallname}), VisualStudio (fig.\ref{fig:visualstudio}), (fig.\ref{fig:jupyteropen}), (\ref{fig:testpython})
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth, height=3.5cm]{appInstallName}
+	\caption{Adding the appname in \textit{INSTALLED\_APPS} dependencies }
+	\label{fig:appinstallname}
+\end{figure}  
 
-\section{Code for the api interaction}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{visualStudio}
+	\caption{After the project and app are already created}
+	\label{fig:visualstudio}
+\end{figure}  
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{jupyterOpen}
+	\caption{Start jupyter in conda kernel}
+	\label{fig:jupyteropen}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{3Ddimension}
+	\caption{3D plot with Matplotlib}
+	\label{fig:3ddimensionPlotlib}
+\end{figure}  
+
+ \begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{testPython}
+	\caption{Testing if python is running on the OS (LINUX)}
+	\label{fig:testpython}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{installDjango}
+	\caption{How to install django ? Here, the name of \textit{VE} is SpamAppEnv}
+	\label{fig:installdjango}
+\end{figure}
+\section{UML Diagrams representation} 
+These part outlines the class used to highlight the machine learning model system being fig.\ref{fig:diaclass} and its the deployment architecture fig.\ref{fig:deploymentuml}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{Images/deploymentUMl}
+	\caption[Deployment architecture in UML.]{ Both the phone User and MSC can contact the MlServerApp by utilizing the interfaces. However the user can benefits the same services if the MSC has already checked the message from the MLServerAPP for user's behalf }
+	\label{fig:deploymentuml}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{Images/diaClass}
+	\caption[Class diagram of the ML]{First, user messages linked by the composition relationship are stored in the dataset, then used for training process which requires extraction of features like converting in numeric, next the model is generated. Finally the spam Detector uses that model to predict, but it has to detect first all its language}
+	\label{fig:diaclass}
+\end{figure}
+
+
+\section{Code for the api interaction} 
+
 \begin{lstlisting}[style=stylejupyter]
 from django.shortcuts import render
 from django.http import HttpResponse
@@ -2400,11 +2547,5 @@ createat = models.DateField(auto_now_add=True)
 \end{lstlisting}
 \backmatter
 \appendix	
-	
-	
-	
-	
-	
-	
 	
 \end{document}

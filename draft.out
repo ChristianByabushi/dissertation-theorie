@@ -1,68 +1,73 @@
-\BOOKMARK [0][-]{chapter*.2}{Epigraph}{}% 1
-\BOOKMARK [0][-]{chapter*.3}{In memoriam}{}% 2
-\BOOKMARK [0][-]{chapter*.4}{Dedicated}{}% 3
-\BOOKMARK [0][-]{chapter*.5}{Acknowledgments}{}% 4
-\BOOKMARK [0][-]{chapter*.9}{Introduction}{}% 5
-\BOOKMARK [1][-]{section.0.1}{Context and generalities}{chapter*.9}% 6
-\BOOKMARK [1][-]{section.0.2}{Problematic}{chapter*.9}% 7
-\BOOKMARK [1][-]{section.0.3}{Hypotheses}{chapter*.9}% 8
-\BOOKMARK [1][-]{section.0.4}{Delimitation and objectives}{chapter*.9}% 9
-\BOOKMARK [2][-]{subsection.0.4.1}{Delimitation}{section.0.4}% 10
-\BOOKMARK [2][-]{subsection.0.4.2}{Objectives}{section.0.4}% 11
-\BOOKMARK [1][-]{section.0.5}{Interest}{chapter*.9}% 12
-\BOOKMARK [1][-]{section.0.6}{Research Methodology}{chapter*.9}% 13
-\BOOKMARK [1][-]{section.0.7}{Work Plan \(or Work Subdivision\)}{chapter*.9}% 14
-\BOOKMARK [0][-]{chapter.1}{Situation analysis and assessment on mobile phones}{}% 15
-\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 16
-\BOOKMARK [1][-]{section.1.2}{Presentation of the working framework and definition of key concepts}{chapter.1}% 17
-\BOOKMARK [2][-]{subsection.1.2.1}{Definition of key concepts}{section.1.2}% 18
-\BOOKMARK [2][-]{subsection.1.2.2}{Presentation of the working framework}{section.1.2}% 19
-\BOOKMARK [2][-]{subsection.1.2.3}{Network coverage and infrastructure}{section.1.2}% 20
-\BOOKMARK [2][-]{subsection.1.2.4}{Mobile Phone Models}{section.1.2}% 21
-\BOOKMARK [2][-]{subsection.1.2.5}{Mobile usage and prevalence}{section.1.2}% 22
-\BOOKMARK [1][-]{section.1.3}{Purposes of spammers in mobile messages}{chapter.1}% 23
-\BOOKMARK [1][-]{section.1.4}{Solutions}{chapter.1}% 24
-\BOOKMARK [1][-]{section.1.5}{Summary}{chapter.1}% 25
-\BOOKMARK [0][-]{chapter.2}{Review of the Literature and description of the approach}{}% 26
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 27
-\BOOKMARK [1][-]{section.2.2}{Revue of the Literature}{chapter.2}% 28
-\BOOKMARK [1][-]{section.2.3}{Tools and Techniques}{chapter.2}% 29
-\BOOKMARK [2][-]{subsection.2.3.1}{Messaging application development tools}{section.2.3}% 30
-\BOOKMARK [2][-]{subsection.2.3.2}{Machine Learning tools and frameworks}{section.2.3}% 31
-\BOOKMARK [2][-]{subsection.2.3.3}{Summary concerning the tools and frameworks}{section.2.3}% 32
-\BOOKMARK [1][-]{section.2.4}{Description of the methodology and approach}{chapter.2}% 33
-\BOOKMARK [2][-]{subsection.2.4.1}{ML operating systems}{section.2.4}% 34
-\BOOKMARK [2][-]{subsection.2.4.2}{Definition of the object and specification}{section.2.4}% 35
-\BOOKMARK [2][-]{subsection.2.4.3}{Gathering data}{section.2.4}% 36
-\BOOKMARK [2][-]{subsection.2.4.4}{Data preparation and exploratory}{section.2.4}% 37
-\BOOKMARK [2][-]{subsection.2.4.5}{Model training and selection}{section.2.4}% 38
-\BOOKMARK [2][-]{subsection.2.4.6}{Model Evaluation}{section.2.4}% 39
-\BOOKMARK [2][-]{subsection.2.4.7}{Model Deployment and monitoring}{section.2.4}% 40
-\BOOKMARK [1][-]{section.2.5}{ML Algorithms and Scikit-learn}{chapter.2}% 41
-\BOOKMARK [2][-]{subsection.2.5.1}{Predict Qualitative feature}{section.2.5}% 42
-\BOOKMARK [2][-]{subsection.2.5.2}{Predict quantitative feature}{section.2.5}% 43
-\BOOKMARK [1][-]{section.2.6}{Techniques used for optimizing the model}{chapter.2}% 44
-\BOOKMARK [1][-]{section.2.7}{Summary}{chapter.2}% 45
-\BOOKMARK [0][-]{chapter.3}{Application of the methodology and results with analysis}{}% 46
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 47
-\BOOKMARK [1][-]{section.3.2}{Participants}{chapter.3}% 48
-\BOOKMARK [2][-]{subsection.3.2.1}{Survey participants}{section.3.2}% 49
-\BOOKMARK [2][-]{subsection.3.2.2}{Team work structure}{section.3.2}% 50
-\BOOKMARK [1][-]{section.3.3}{Data collection strategy }{chapter.3}% 51
-\BOOKMARK [1][-]{section.3.4}{Application of the methodology}{chapter.3}% 52
-\BOOKMARK [2][-]{subsection.3.4.1}{Gathering data}{section.3.4}% 53
-\BOOKMARK [2][-]{subsection.3.4.2}{Data preparation and exploratory}{section.3.4}% 54
-\BOOKMARK [2][-]{subsection.3.4.3}{Model selection and prediction}{section.3.4}% 55
-\BOOKMARK [2][-]{subsection.3.4.4}{Model Evaluation}{section.3.4}% 56
-\BOOKMARK [2][-]{subsection.3.4.5}{Optimization with Ensemble models}{section.3.4}% 57
-\BOOKMARK [2][-]{subsection.3.4.6}{Model Deployment}{section.3.4}% 58
-\BOOKMARK [1][-]{section.3.5}{Presentation and Discussion of Results}{chapter.3}% 59
-\BOOKMARK [2][-]{subsection.3.5.1}{Predicting system }{section.3.5}% 60
-\BOOKMARK [2][-]{subsection.3.5.2}{Model interaction in a Platform for detection}{section.3.5}% 61
-\BOOKMARK [2][-]{subsection.3.5.3}{Model's system with APIs}{section.3.5}% 62
-\BOOKMARK [1][-]{section.3.6}{Theoretical and Practical Contributions}{chapter.3}% 63
-\BOOKMARK [1][-]{section.3.7}{Study Limitations and Future research paths}{chapter.3}% 64
-\BOOKMARK [1][-]{section.3.8}{Summary}{chapter.3}% 65
-\BOOKMARK [0][-]{appendix*.73}{Annexes}{}% 66
-\BOOKMARK [1][-]{section.Alph0.1}{Collect message spams}{appendix*.73}% 67
-\BOOKMARK [1][-]{section.Alph0.2}{Code for the api interaction}{appendix*.73}% 68
+\BOOKMARK [0][-]{chapter*.3}{Epigraph}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{Dedication}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{Acknowledgments}{}% 3
+\BOOKMARK [0][-]{chapter*.6}{Acronyms and Abbreviations}{}% 4
+\BOOKMARK [0][-]{chapter*.10}{Abstract \046 Key words}{}% 5
+\BOOKMARK [0][-]{chapter*.11}{Introduction}{}% 6
+\BOOKMARK [1][-]{section.0.1}{Context and generalities}{chapter*.11}% 7
+\BOOKMARK [1][-]{section.0.2}{Problematic}{chapter*.11}% 8
+\BOOKMARK [1][-]{section.0.3}{Hypotheses}{chapter*.11}% 9
+\BOOKMARK [1][-]{section.0.4}{Delimitation and objectives}{chapter*.11}% 10
+\BOOKMARK [2][-]{subsection.0.4.1}{Delimitation}{section.0.4}% 11
+\BOOKMARK [2][-]{subsection.0.4.2}{Objectives}{section.0.4}% 12
+\BOOKMARK [1][-]{section.0.5}{Interest}{chapter*.11}% 13
+\BOOKMARK [1][-]{section.0.6}{Research Methodology}{chapter*.11}% 14
+\BOOKMARK [1][-]{section.0.7}{Work Plan \(or Work Subdivision\)}{chapter*.11}% 15
+\BOOKMARK [0][-]{chapter.1}{Situation analysis and assessment on mobile phones}{}% 16
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.2}{Presentation of the working framework and definition of key concepts}{chapter.1}% 18
+\BOOKMARK [2][-]{subsection.1.2.1}{Definition of key concepts}{section.1.2}% 19
+\BOOKMARK [2][-]{subsection.1.2.2}{Presentation of the working framework}{section.1.2}% 20
+\BOOKMARK [2][-]{subsection.1.2.3}{Network coverage and infrastructure}{section.1.2}% 21
+\BOOKMARK [2][-]{subsection.1.2.4}{Mobile Phone Models}{section.1.2}% 22
+\BOOKMARK [2][-]{subsection.1.2.5}{Mobile usage and prevalence}{section.1.2}% 23
+\BOOKMARK [1][-]{section.1.3}{Purposes of spammers in mobile messages}{chapter.1}% 24
+\BOOKMARK [1][-]{section.1.4}{Solutions}{chapter.1}% 25
+\BOOKMARK [1][-]{section.1.5}{Summary}{chapter.1}% 26
+\BOOKMARK [0][-]{chapter.2}{Review of the Literature and description of the approach}{}% 27
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 28
+\BOOKMARK [1][-]{section.2.2}{Revue of the Literature}{chapter.2}% 29
+\BOOKMARK [1][-]{section.2.3}{Tools and Techniques}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.3.1}{Messaging application development tools}{section.2.3}% 31
+\BOOKMARK [2][-]{subsection.2.3.2}{Machine Learning tools and frameworks}{section.2.3}% 32
+\BOOKMARK [2][-]{subsection.2.3.3}{Summary concerning the tools and frameworks}{section.2.3}% 33
+\BOOKMARK [1][-]{section.2.4}{Description of the methodology and approach}{chapter.2}% 34
+\BOOKMARK [2][-]{subsection.2.4.1}{ML operating systems}{section.2.4}% 35
+\BOOKMARK [2][-]{subsection.2.4.2}{Definition of the object and specification}{section.2.4}% 36
+\BOOKMARK [2][-]{subsection.2.4.3}{Gathering data}{section.2.4}% 37
+\BOOKMARK [2][-]{subsection.2.4.4}{Data preparation and exploratory}{section.2.4}% 38
+\BOOKMARK [2][-]{subsection.2.4.5}{Model training and selection}{section.2.4}% 39
+\BOOKMARK [2][-]{subsection.2.4.6}{Model Evaluation}{section.2.4}% 40
+\BOOKMARK [2][-]{subsection.2.4.7}{Model Deployment and monitoring}{section.2.4}% 41
+\BOOKMARK [1][-]{section.2.5}{ML Algorithms and Scikit-learn}{chapter.2}% 42
+\BOOKMARK [2][-]{subsection.2.5.1}{Predict Qualitative feature}{section.2.5}% 43
+\BOOKMARK [2][-]{subsection.2.5.2}{Predict quantitative feature}{section.2.5}% 44
+\BOOKMARK [1][-]{section.2.6}{Techniques used for optimizing the model}{chapter.2}% 45
+\BOOKMARK [1][-]{section.2.7}{ML Systems and UML diagrams}{chapter.2}% 46
+\BOOKMARK [1][-]{section.2.8}{Summary}{chapter.2}% 47
+\BOOKMARK [0][-]{chapter.3}{Application of the methodology and results with analysis}{}% 48
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 49
+\BOOKMARK [1][-]{section.3.2}{Participants}{chapter.3}% 50
+\BOOKMARK [2][-]{subsection.3.2.1}{Survey participants}{section.3.2}% 51
+\BOOKMARK [2][-]{subsection.3.2.2}{Team work structure}{section.3.2}% 52
+\BOOKMARK [1][-]{section.3.3}{Data collection strategy }{chapter.3}% 53
+\BOOKMARK [1][-]{section.3.4}{Application of the methodology}{chapter.3}% 54
+\BOOKMARK [2][-]{subsection.3.4.1}{Gathering data}{section.3.4}% 55
+\BOOKMARK [2][-]{subsection.3.4.2}{Data preparation and exploratory}{section.3.4}% 56
+\BOOKMARK [2][-]{subsection.3.4.3}{Model selection and prediction}{section.3.4}% 57
+\BOOKMARK [2][-]{subsection.3.4.4}{Model Evaluation}{section.3.4}% 58
+\BOOKMARK [2][-]{subsection.3.4.5}{Optimization with Ensemble models}{section.3.4}% 59
+\BOOKMARK [2][-]{subsection.3.4.6}{Model Deployment}{section.3.4}% 60
+\BOOKMARK [1][-]{section.3.5}{Presentation and Discussion of Results}{chapter.3}% 61
+\BOOKMARK [2][-]{subsection.3.5.1}{Predicting system }{section.3.5}% 62
+\BOOKMARK [2][-]{subsection.3.5.2}{Model interaction in a Platform for detection}{section.3.5}% 63
+\BOOKMARK [2][-]{subsection.3.5.3}{Model's system with APIs}{section.3.5}% 64
+\BOOKMARK [1][-]{section.3.6}{Theoretical and Practical Contributions}{chapter.3}% 65
+\BOOKMARK [1][-]{section.3.7}{Study Limitations and Future research paths}{chapter.3}% 66
+\BOOKMARK [1][-]{section.3.8}{Summary}{chapter.3}% 67
+\BOOKMARK [0][-]{appendix*.65}{Annexes}{}% 68
+\BOOKMARK [0][-]{appendix*.65}{Annexes}{}% 69
+\BOOKMARK [1][-]{section.Alph0.1}{Collect message spams}{appendix*.65}% 70
+\BOOKMARK [1][-]{section.Alph0.2}{Figures concerning configuring and installing tools}{appendix*.65}% 71
+\BOOKMARK [1][-]{section.Alph0.3}{UML Diagrams representation}{appendix*.65}% 72
+\BOOKMARK [1][-]{section.Alph0.4}{Code for the api interaction}{appendix*.65}% 73

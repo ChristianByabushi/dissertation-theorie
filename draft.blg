@@ -1,119 +1,247 @@
 This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: draft.aux
-The style file: plain.bst
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bibliofile.bib
-I was expecting a `,' or a `}'---line 129 of file bibliofile.bib
+Warning--entry type for "nataf_sms_gateway" isn't style-file defined
+--line 18 of file bibliofile.bib
+Warning--entry type for "statisticaOnline" isn't style-file defined
+--line 25 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 29 of file bibliofile.bib
+ :  
+ :  year = { May 23, 2022}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring workflowPageMllif's extra "howpublished" field
+--line 38 of file bibliofile.bib
+Warning--I'm ignoring workflowPageMllif's extra "note" field
+--line 39 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 45 of file bibliofile.bib
+ :  
+ :  year={2016}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 163 of file bibliofile.bib
  : 
  : pages={34-39},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 261 of file bibliofile.bib
+Repeated entry---line 295 of file bibliofile.bib
  : @book{le2005mobile
  :                   ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 340 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 374 of file bibliofile.bib
  :  
  :  adress={12, Avenue des Aviateurs-Gombe, Kinshasa-BP 8111}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 360 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 394 of file bibliofile.bib
  :  
  :  pages={1--19}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `{' or a `('---line 383 of file bibliofile.bib
- : 
- : @inproceedings{tang2022clues,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 551 of file bibliofile.bib
+I was expecting a `,' or a `}'---line 583 of file bibliofile.bib
  :  
  :  publisher={Apress}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 751 of file bibliofile.bib
+Repeated entry---line 783 of file bibliofile.bib
  : @article{osisanwo2017supervised
  :                                ,
 I'm skipping whatever remains of this entry
-Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
-while executing---line 1049 of file plain.bst
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
-while executing---line 1049 of file plain.bst
-Warning--empty publisher in alchin2013pro
+while executing---line 5062 of file apacite.bst
 Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
-while executing---line 1090 of file plain.bst
+while executing---line 5062 of file apacite.bst
 Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
-while executing---line 1090 of file plain.bst
+while executing---line 5062 of file apacite.bst
 Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
-while executing---line 1090 of file plain.bst
+while executing---line 5062 of file apacite.bst
 Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
-while executing---line 1090 of file plain.bst
+while executing---line 5062 of file apacite.bst
 Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
-while executing---line 1090 of file plain.bst
-Warning--can't use both volume and number fields in bogdanchikov2013python
-Warning--empty journal in faklaris2016oh
-Warning--can't use both volume and number fields in gupta2021sms
-Warning--empty year in lavanya2582sms
+while executing---line 5062 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5066 of file apacite.bst
 Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
-while executing---line 1090 of file plain.bst
-Warning--empty journal in reviewVideo2020
-Warning--empty journal in nader2023django
-Warning--can't use both volume and number fields in nayak2022study
-Warning--empty journal in sirisuriya2015comparative
-Warning--empty school in tulchak2016history
-Warning--empty journal in coursAnalyseDonne2
-Warning--there's a number but no volume in coursAnalyseDonne2
-Warning--empty journal in coursAnalyseDonne3
-Warning--there's a number but no volume in coursAnalyseDonne3
-Warning--empty journal in giswatch2018
-You've used 92 entries,
-            2118 wiz_defined-function locations,
-            995 strings with 20834 characters,
-and the built_in function-call counts, 31146 in all, are:
-= -- 3059
-> -- 1565
-< -- 24
-+ -- 635
-- -- 526
-* -- 2180
-:= -- 5237
-add.period$ -- 285
-call.type$ -- 92
-change.case$ -- 521
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5076 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5076 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5076 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5076 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5076 of file apacite.bst
+Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
+while executing---line 5076 of file apacite.bst
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Ashnah Kalemera, Victor Kapiyo, Paul Kimumwe, Lillian Nalwoga, Juliet Nanfuka, Edrine Wanyama, Wairagala Wakabi, PhD" for entry stateInternet2019
+while executing---line 5079 of file apacite.bst
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No journal in faklaris2016oh
+Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Md Shofiqul Islam, Shanjida Sultana, Uttam Kumar Roy, Jubayer AI Mahmud" for entry reviewVideo2020
+while executing---line 5079 of file apacite.bst
+Warning--No journal in reviewVideo2020
+Warning--No journal in nader2023django
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No journal in sirisuriya2015comparative
+Warning--No school in tulchak2016history
+Warning--No journal in coursAnalyseDonne2
+Warning--No journal in coursAnalyseDonne3
+Warning--No journal in giswatch2018
+You've used 97 entries,
+            6951 wiz_defined-function locations,
+            1792 strings with 28706 characters,
+and the built_in function-call counts, 192423 in all, are:
+= -- 23989
+> -- 1716
+< -- 9247
++ -- 9433
+- -- 208
+* -- 12113
+:= -- 34536
+add.period$ -- 412
+call.type$ -- 97
+change.case$ -- 1643
 chr.to.int$ -- 0
-cite$ -- 107
-duplicate$ -- 1181
-empty$ -- 2312
-format.name$ -- 526
-if$ -- 6425
+cite$ -- 202
+duplicate$ -- 5202
+empty$ -- 7381
+format.name$ -- 2813
+if$ -- 36797
 int.to.chr$ -- 0
-int.to.str$ -- 92
-missing$ -- 102
-newline$ -- 464
-num.names$ -- 184
-pop$ -- 537
+int.to.str$ -- 299
+missing$ -- 0
+newline$ -- 2464
+num.names$ -- 776
+pop$ -- 3281
 preamble$ -- 1
-purify$ -- 442
+purify$ -- 384
 quote$ -- 0
-skip$ -- 842
+skip$ -- 12788
 stack$ -- 0
-substring$ -- 1781
-swap$ -- 246
-text.length$ -- 24
+substring$ -- 10308
+swap$ -- 2958
+text.length$ -- 289
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 344
-warning$ -- 15
-while$ -- 306
-width$ -- 94
-write$ -- 997
-(There were 19 error messages)
+top$ -- 1
+type$ -- 8992
+warning$ -- 12
+while$ -- 952
+width$ -- 0
+write$ -- 3129
+(There were 74 error messages)

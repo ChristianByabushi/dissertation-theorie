@@ -1,555 +1,2681 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{}
 
-\bibitem{alchin2013pro}
-Marty Alchin.
-\newblock {\em Pro Django}.
-\newblock 2013.
+\bibitem [\protect \citeauthoryear {%
+Alchin%
+}{%
+Alchin%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+alchin2013pro}
+\APACinsertmetastar {%
+alchin2013pro}%
+\begin{APACrefauthors}%
+Alchin, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\newblock
+\APACrefbtitle {Pro Django} {Pro django}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{ali2014data}
-Peshawa Jamal~Muhammad Ali, Rezhna~Hassan Faraj, Erbil Koya, Peshawa J~Muhammad
-  Ali, and Rezhna~H Faraj.
-\newblock Data normalization and standardization: a technical report.
-\newblock {\em Mach Learn Tech Rep}, 1(1):1--6, 2014.
+\bibitem [\protect \citeauthoryear {%
+Ali%
+, Faraj%
+, Koya%
+, Ali%
+\BCBL {}\ \BBA {} Faraj%
+}{%
+Ali%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+ali2014data}
+\APACinsertmetastar {%
+ali2014data}%
+\begin{APACrefauthors}%
+Ali, P\BPBI J\BPBI M.%
+, Faraj, R\BPBI H.%
+, Koya, E.%
+, Ali, P\BPBI J\BPBI M.%
+\BCBL {}\ \BBA {} Faraj, R\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Data normalization and standardization: a technical
+  report} {Data normalization and standardization: a technical report}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Mach Learn Tech Rep}{1}{1}{1--6}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{alsayadi2022improving}
-Hamzah~A Alsayadi, Nima Khodadadi, Sunil Kumar, et~al.
-\newblock Improving the regression of communities and crime using ensemble of
-  machine learning models.
-\newblock {\em Journal of Artificial Intelligence and Metaheuristics},
-  1(1):27--7, 2022.
+\bibitem [\protect \citeauthoryear {%
+Alsayadi%
+, Khodadadi%
+, Kumar%
+\BCBL {}\ \protect \BOthers {.}}{%
+Alsayadi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+alsayadi2022improving}
+\APACinsertmetastar {%
+alsayadi2022improving}%
+\begin{APACrefauthors}%
+Alsayadi, H\BPBI A.%
+, Khodadadi, N.%
+, Kumar, S.%
+\BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Improving the Regression of Communities and Crime Using
+  Ensemble of Machine Learning Models} {Improving the regression of communities
+  and crime using ensemble of machine learning models}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Artificial Intelligence and
+  Metaheuristics}{1}{1}{27--7}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{androulidakis2013fimess}
-Iosif Androulidakis, Vasileios Vlachos, and Alexandros Papanikolaou.
-\newblock Fimess: filtering mobile external sms spam.
-\newblock In {\em Proceedings of the 6th Balkan Conference in Informatics},
-  pages 221--227, 2013.
+\bibitem [\protect \citeauthoryear {%
+Androulidakis%
+, Vlachos%
+\BCBL {}\ \BBA {} Papanikolaou%
+}{%
+Androulidakis%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+androulidakis2013fimess}
+\APACinsertmetastar {%
+androulidakis2013fimess}%
+\begin{APACrefauthors}%
+Androulidakis, I.%
+, Vlachos, V.%
+\BCBL {}\ \BBA {} Papanikolaou, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Fimess: filtering mobile external sms spam} {Fimess:
+  filtering mobile external sms spam}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 6th Balkan Conference in Informatics}
+  {Proceedings of the 6th balkan conference in informatics}\ (\BPGS\ 221--227).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{stateInternet2019}
-Paul Kimumwe Lillian Nalwoga Juliet Nanfuka Edrine Wanyama Wairagala Wakabi~PhD
-  Ashnah~Kalemera, Victor~Kapiyo.
-\newblock State of internet freedom democratic republic of the congo 2019.
-\newblock {\em Mapping Trends in Government Internet Controls, 1999-2019},
-  2020.
+\bibitem [\protect \citeauthoryear {%
+Ashnah~Kalemera%
+}{%
+Ashnah~Kalemera%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+stateInternet2019}
+\APACinsertmetastar {%
+stateInternet2019}%
+\begin{APACrefauthors}%
+Ashnah~Kalemera, P\BPBI K\BPBI L\BPBI N\BPBI J\BPBI N\BPBI E\BPBI W\BPBI W\BPBI
+  W\BPBI P., Victor~Kapiyo.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {State of Internet Freedom Democratic Republic of the
+  Congo 2019} {State of internet freedom democratic republic of the congo
+  2019}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Mapping Trends in Government Internet Controls,
+  1999-2019}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{bai2020object}
-Qiang Bai, Shaobo Li, Jing Yang, Qisong Song, Zhiang Li, and Xingxing Zhang.
-\newblock Object detection recognition and robot grasping based on machine
-  learning: A survey.
-\newblock {\em IEEE access}, 8:181855--181879, 2020.
+\bibitem [\protect \citeauthoryear {%
+Bai%
+\ \protect \BOthers {.}}{%
+Bai%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+bai2020object}
+\APACinsertmetastar {%
+bai2020object}%
+\begin{APACrefauthors}%
+Bai, Q.%
+, Li, S.%
+, Yang, J.%
+, Song, Q.%
+, Li, Z.%
+\BCBL {}\ \BBA {} Zhang, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Object detection recognition and robot grasping based on
+  machine learning: A survey} {Object detection recognition and robot grasping
+  based on machine learning: A survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE access}{8}{}{181855--181879}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{bluman2017elementary}
-Allan Bluman.
-\newblock {\em Elementary statistics: A step by step approach}.
-\newblock McGraw-Hill Education, 2017.
+\bibitem [\protect \citeauthoryear {%
+Bluman%
+}{%
+Bluman%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+bluman2017elementary}
+\APACinsertmetastar {%
+bluman2017elementary}%
+\begin{APACrefauthors}%
+Bluman, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2017}.
+\newblock
+\APACrefbtitle {Elementary statistics: A step by step approach} {Elementary
+  statistics: A step by step approach}.
+\newblock
+\APACaddressPublisher{}{McGraw-Hill Education}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{boateng2020basic}
-Ernest~Yeboah Boateng, Joseph Otoo, and Daniel~A Abaye.
-\newblock Basic tenets of classification algorithms k-nearest-neighbor, support
-  vector machine, random forest and neural network: a review.
-\newblock {\em Journal of Data Analysis and Information Processing},
-  8(4):341--357, 2020.
+\bibitem [\protect \citeauthoryear {%
+Boateng%
+, Otoo%
+\BCBL {}\ \BBA {} Abaye%
+}{%
+Boateng%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+boateng2020basic}
+\APACinsertmetastar {%
+boateng2020basic}%
+\begin{APACrefauthors}%
+Boateng, E\BPBI Y.%
+, Otoo, J.%
+\BCBL {}\ \BBA {} Abaye, D\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Basic tenets of classification algorithms
+  K-nearest-neighbor, support vector machine, random forest and neural network:
+  a review} {Basic tenets of classification algorithms k-nearest-neighbor,
+  support vector machine, random forest and neural network: a review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Data Analysis and Information
+  Processing}{8}{4}{341--357}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{bogdanchikov2013python}
-Andrey Bogdanchikov, Meirambek Zhaparov, and Rassim Suliyev.
-\newblock Python to learn programming.
-\newblock In {\em Journal of Physics: Conference Series}, volume 423, page
-  012027. IOP Publishing, 2013.
+\bibitem [\protect \citeauthoryear {%
+Bogdanchikov%
+, Zhaparov%
+\BCBL {}\ \BBA {} Suliyev%
+}{%
+Bogdanchikov%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+bogdanchikov2013python}
+\APACinsertmetastar {%
+bogdanchikov2013python}%
+\begin{APACrefauthors}%
+Bogdanchikov, A.%
+, Zhaparov, M.%
+\BCBL {}\ \BBA {} Suliyev, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Python to learn programming} {Python to learn
+  programming}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Journal of Physics: Conference Series} {Journal of
+  physics: Conference series}\ (\BVOL~423, \BPG~012027).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{brown2007sms}
-Jeff Brown, Bill Shipman, and Ron Vetter.
-\newblock Sms: The short message service.
-\newblock {\em Computer}, 40(12):106--110, 2007.
+\bibitem [\protect \citeauthoryear {%
+Brown%
+, Shipman%
+\BCBL {}\ \BBA {} Vetter%
+}{%
+Brown%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+brown2007sms}
+\APACinsertmetastar {%
+brown2007sms}%
+\begin{APACrefauthors}%
+Brown, J.%
+, Shipman, B.%
+\BCBL {}\ \BBA {} Vetter, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SMS: The short message service} {Sms: The short message
+  service}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer}{40}{12}{106--110}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{cambria2014jumping}
-Erik Cambria and Bebo White.
-\newblock Jumping nlp curves: A review of natural language processing research.
-\newblock {\em IEEE Computational intelligence magazine}, 9(2):48--57, 2014.
+\bibitem [\protect \citeauthoryear {%
+Cambria%
+\ \BBA {} White%
+}{%
+Cambria%
+\ \BBA {} White%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+cambria2014jumping}
+\APACinsertmetastar {%
+cambria2014jumping}%
+\begin{APACrefauthors}%
+Cambria, E.%
+\BCBT {}\ \BBA {} White, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Jumping NLP curves: A review of natural language
+  processing research} {Jumping nlp curves: A review of natural language
+  processing research}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Computational intelligence
+  magazine}{9}{2}{48--57}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{charbuty2021classification}
-Bahzad Charbuty and Adnan Abdulazeez.
-\newblock Classification based on decision tree algorithm for machine learning.
-\newblock {\em Journal of Applied Science and Technology Trends}, 2(01):20--28,
-  2021.
+\bibitem [\protect \citeauthoryear {%
+Charbuty%
+\ \BBA {} Abdulazeez%
+}{%
+Charbuty%
+\ \BBA {} Abdulazeez%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+charbuty2021classification}
+\APACinsertmetastar {%
+charbuty2021classification}%
+\begin{APACrefauthors}%
+Charbuty, B.%
+\BCBT {}\ \BBA {} Abdulazeez, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Classification based on decision tree algorithm for
+  machine learning} {Classification based on decision tree algorithm for
+  machine learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Applied Science and Technology
+  Trends}{2}{01}{20--28}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{chauhan2020detection}
-Anamika Chauhan et~al.
-\newblock Detection of lung cancer using machine learning techniques based on
-  routine blood indices.
-\newblock In {\em 2020 IEEE international conference for innovation in
-  technology (INOCON)}, pages 1--6. IEEE, 2020.
+\bibitem [\protect \citeauthoryear {%
+Chauhan%
+\ \protect \BOthers {.}}{%
+Chauhan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+chauhan2020detection}
+\APACinsertmetastar {%
+chauhan2020detection}%
+\begin{APACrefauthors}%
+Chauhan, A.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Detection of lung cancer using machine learning
+  techniques based on routine blood indices} {Detection of lung cancer using
+  machine learning techniques based on routine blood indices}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2020 IEEE international conference for innovation in
+  technology (INOCON)} {2020 ieee international conference for innovation in
+  technology (inocon)}\ (\BPGS\ 1--6).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{chen2017survey}
-Guangquan Chen, Weijun Wang, and Xuan Zhou.
-\newblock A survey on sms spam filtering techniques.
-\newblock {\em Journal of Network and Computer Applications}, 80:149--159,
-  2017.
+\bibitem [\protect \citeauthoryear {%
+Chen%
+, Wang%
+\BCBL {}\ \BBA {} Zhou%
+}{%
+Chen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+chen2017survey}
+\APACinsertmetastar {%
+chen2017survey}%
+\begin{APACrefauthors}%
+Chen, G.%
+, Wang, W.%
+\BCBL {}\ \BBA {} Zhou, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Survey on SMS Spam Filtering Techniques} {A survey on
+  sms spam filtering techniques}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Network and Computer
+  Applications}{80}{}{149--159}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{cimpanu2019simjacker}
-Catalin Cimpanu.
-\newblock Simjacker vulnerability exploited for surveillance by at least one
-  nation-state.
-\newblock {\em ZDNet}, 2019.
+\bibitem [\protect \citeauthoryear {%
+Cimpanu%
+}{%
+Cimpanu%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+cimpanu2019simjacker}
+\APACinsertmetastar {%
+cimpanu2019simjacker}%
+\begin{APACrefauthors}%
+Cimpanu, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Simjacker vulnerability exploited for surveillance by at
+  least one nation-state} {Simjacker vulnerability exploited for surveillance
+  by at least one nation-state}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ZDNet}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.zdnet.com/article/simjacker-vulnerability-exploited-for-surveillance-by-at-least-one-nation-state/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{crawford2015survey}
-Michael Crawford, Taghi~M Khoshgoftaar, Joseph~D Prusa, Aaron~N Richter, and
-  Hamzah Al~Najada.
-\newblock Survey of review spam detection using machine learning techniques.
-\newblock {\em Journal of Big Data}, 2(1):1--24, 2015.
+\bibitem [\protect \citeauthoryear {%
+Crawford%
+, Khoshgoftaar%
+, Prusa%
+, Richter%
+\BCBL {}\ \BBA {} Al~Najada%
+}{%
+Crawford%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+crawford2015survey}
+\APACinsertmetastar {%
+crawford2015survey}%
+\begin{APACrefauthors}%
+Crawford, M.%
+, Khoshgoftaar, T\BPBI M.%
+, Prusa, J\BPBI D.%
+, Richter, A\BPBI N.%
+\BCBL {}\ \BBA {} Al~Najada, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Survey of review spam detection using machine learning
+  techniques} {Survey of review spam detection using machine learning
+  techniques}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Big Data}{2}{1}{1--24}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{creswell2014research}
-John~W Creswell.
-\newblock {\em Research design: Qualitative, quantitative, and mixed methods
+\bibitem [\protect \citeauthoryear {%
+Creswell%
+}{%
+Creswell%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+creswell2014research}
+\APACinsertmetastar {%
+creswell2014research}%
+\begin{APACrefauthors}%
+Creswell, J\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2014}.
+\newblock
+\APACrefbtitle {Research design: Qualitative, quantitative, and mixed methods
+  approaches} {Research design: Qualitative, quantitative, and mixed methods
   approaches}.
-\newblock Sage publications, 2014.
+\newblock
+\APACaddressPublisher{}{Sage publications}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{realWorldNetworks}
-Prof.~Dantu’s CSE.
-\newblock Cellular network basics.
-\newblock In {\em ADV. REAL-WORLD NETWORKS}, volume 14-760. University of North
-  Texas, 2018.
+\bibitem [\protect \citeauthoryear {%
+CSE%
+}{%
+CSE%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+realWorldNetworks}
+\APACinsertmetastar {%
+realWorldNetworks}%
+\begin{APACrefauthors}%
+CSE, P\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {CELLULAR NETWORK BASICS} {Cellular network
+  basics}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {ADV. REAL-WORLD NETWORKS} {Adv. real-world networks}\
+  (\BVOL\ 14-760).
+\newblock
+\APACaddressPublisher{}{University of North Texas}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{cunningham2008dimension}
-P{\'a}draig Cunningham.
-\newblock Dimension reduction.
-\newblock In {\em Machine learning techniques for multimedia: Case studies on
-  organization and retrieval}, pages 91--112. Springer, 2008.
+\bibitem [\protect \citeauthoryear {%
+Cunningham%
+}{%
+Cunningham%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+cunningham2008dimension}
+\APACinsertmetastar {%
+cunningham2008dimension}%
+\begin{APACrefauthors}%
+Cunningham, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dimension reduction} {Dimension reduction}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Machine learning techniques for multimedia: Case studies
+  on organization and retrieval} {Machine learning techniques for multimedia:
+  Case studies on organization and retrieval}\ (\BPGS\ 91--112).
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{mlwithpython}
-Julian David.
-\newblock Designing machine learning systems with python.
-\newblock {\em Community Experience Distilled}, pages 381--386, April 2016.
+\bibitem [\protect \citeauthoryear {%
+David%
+}{%
+David%
+}{%
+{\protect \APACyear {April 2016}}%
+}]{%
+mlwithpython}
+\APACinsertmetastar {%
+mlwithpython}%
+\begin{APACrefauthors}%
+David, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{April 2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Designing Machine Learning Systems With Python}
+  {Designing machine learning systems with python}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Community Experience Distilled}{}{}{381--386}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{monusco2015}
-MONUSCO DRC.
-\newblock Protect, stabilize, consolidate peace, monusco's report.
-\newblock {\em United Nations Organisation Stabilization Mission in the
-  Democratic Republic of Congo}, pages 1--4, 2015.
+\bibitem [\protect \citeauthoryear {%
+DRC%
+}{%
+DRC%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+monusco2015}
+\APACinsertmetastar {%
+monusco2015}%
+\begin{APACrefauthors}%
+DRC, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Protect, Stabilize, Consolidate Peace, Monusco's report}
+  {Protect, stabilize, consolidate peace, monusco's report}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{United Nations Organisation Stabilization Mission in
+  the Democratic Republic of Congo}{}{}{1--4}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{elen2021standardized}
-Abdullah Elen and Emre Avu{\c{c}}lu.
-\newblock Standardized variable distances: A distance-based machine learning
-  method.
-\newblock {\em Applied Soft Computing}, 98:106855, 2021.
+\bibitem [\protect \citeauthoryear {%
+Elen%
+\ \BBA {} Avu{\c{c}}lu%
+}{%
+Elen%
+\ \BBA {} Avu{\c{c}}lu%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+elen2021standardized}
+\APACinsertmetastar {%
+elen2021standardized}%
+\begin{APACrefauthors}%
+Elen, A.%
+\BCBT {}\ \BBA {} Avu{\c{c}}lu, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Standardized Variable Distances: A distance-based
+  machine learning method} {Standardized variable distances: A distance-based
+  machine learning method}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Applied Soft Computing}{98}{}{106855}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{faklaris2016oh}
-Cori Faklaris and Sara~Anne Hook.
-\newblock Oh, snap! the state of electronic discovery amid the rise of
-  snapchat, whatsapp, kik, and other mobile messaging apps.
-\newblock 2016.
+\bibitem [\protect \citeauthoryear {%
+Eriksson%
+, Penker%
+, Lyons%
+\BCBL {}\ \BBA {} Fado%
+}{%
+Eriksson%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+eriksson2003uml}
+\APACinsertmetastar {%
+eriksson2003uml}%
+\begin{APACrefauthors}%
+Eriksson, H\BHBI E.%
+, Penker, M.%
+, Lyons, B.%
+\BCBL {}\ \BBA {} Fado, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2003}.
+\newblock
+\APACrefbtitle {UML 2 toolkit} {Uml 2 toolkit}.
+\newblock
+\APACaddressPublisher{}{John Wiley \& Sons}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{faouzi2020pyts}
-Johann Faouzi and Hicham Janati.
-\newblock pyts: A python package for time series classification.
-\newblock {\em The Journal of Machine Learning Research}, 21(1):1720--1725,
-  2020.
+\bibitem [\protect \citeauthoryear {%
+Faklaris%
+\ \BBA {} Hook%
+}{%
+Faklaris%
+\ \BBA {} Hook%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+faklaris2016oh}
+\APACinsertmetastar {%
+faklaris2016oh}%
+\begin{APACrefauthors}%
+Faklaris, C.%
+\BCBT {}\ \BBA {} Hook, S\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Oh, snap! The state of electronic discovery amid the
+  rise of Snapchat, WhatsApp, Kik, and other mobile messaging apps} {Oh, snap!
+  the state of electronic discovery amid the rise of snapchat, whatsapp, kik,
+  and other mobile messaging apps}.{\BBCQ}
+\newblock
 
-\bibitem{furche2016data}
-Tim Furche, Georg Gottlob, Leonid Libkin, Giorgio Orsi, and Norman~W Paton.
-\newblock Data wrangling for big data: Challenges and opportunities.
-\newblock In {\em EDBT}, volume~16, pages 473--478, 2016.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{ghezzi2015strategy}
-Antonio Ghezzi, Marcelo~Nogueira Cortimiglia, and Alejandro~Germ{\'a}n Frank.
-\newblock Strategy and business model design in dynamic telecommunications
-  industries: A study on italian mobile network operators.
-\newblock {\em Technological Forecasting and Social Change}, 90:346--354, 2015.
+\bibitem [\protect \citeauthoryear {%
+Faouzi%
+\ \BBA {} Janati%
+}{%
+Faouzi%
+\ \BBA {} Janati%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+faouzi2020pyts}
+\APACinsertmetastar {%
+faouzi2020pyts}%
+\begin{APACrefauthors}%
+Faouzi, J.%
+\BCBT {}\ \BBA {} Janati, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {pyts: A python package for time series classification}
+  {pyts: A python package for time series classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Journal of Machine Learning
+  Research}{21}{1}{1720--1725}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{gupta2021sms}
-Suparna~Das Gupta, Soumyabrata Saha, and Suman~Kumar Das.
-\newblock Sms spam detection using machine learning.
-\newblock In {\em Journal of Physics: Conference Series}, volume 1797, page
-  012017. IOP Publishing, 2021.
+\bibitem [\protect \citeauthoryear {%
+Furche%
+, Gottlob%
+, Libkin%
+, Orsi%
+\BCBL {}\ \BBA {} Paton%
+}{%
+Furche%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+furche2016data}
+\APACinsertmetastar {%
+furche2016data}%
+\begin{APACrefauthors}%
+Furche, T.%
+, Gottlob, G.%
+, Libkin, L.%
+, Orsi, G.%
+\BCBL {}\ \BBA {} Paton, N\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Data Wrangling for Big Data: Challenges and
+  Opportunities.} {Data wrangling for big data: Challenges and
+  opportunities.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {EDBT} {Edbt}\ (\BVOL~16, \BPGS\ 473--478).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{hadullo2021machine}
-Kennedy~Ochilo Hadullo and DM~Getuno.
-\newblock Machine learning software architecture and model workflow. a case of
-  django rest framework.
-\newblock {\em American Journal of Applied Sciences}, 18(1):152--164, 2021.
+\bibitem [\protect \citeauthoryear {%
+Ghezzi%
+, Cortimiglia%
+\BCBL {}\ \BBA {} Frank%
+}{%
+Ghezzi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+ghezzi2015strategy}
+\APACinsertmetastar {%
+ghezzi2015strategy}%
+\begin{APACrefauthors}%
+Ghezzi, A.%
+, Cortimiglia, M\BPBI N.%
+\BCBL {}\ \BBA {} Frank, A\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Strategy and business model design in dynamic
+  telecommunications industries: A study on Italian mobile network operators}
+  {Strategy and business model design in dynamic telecommunications industries:
+  A study on italian mobile network operators}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Technological Forecasting and Social
+  Change}{90}{}{346--354}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{hao2009detecting}
-Shuang Hao, Nadeem~Ahmed Syed, Nick Feamster, Alexander~G Gray, and Sven
-  Krasser.
-\newblock Detecting spammers with snare: Spatio-temporal network-level
-  automatic reputation engine.
-\newblock In {\em USENIX security symposium}, volume~9, 2009.
+\bibitem [\protect \citeauthoryear {%
+Gupta%
+, Saha%
+\BCBL {}\ \BBA {} Das%
+}{%
+Gupta%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+gupta2021sms}
+\APACinsertmetastar {%
+gupta2021sms}%
+\begin{APACrefauthors}%
+Gupta, S\BPBI D.%
+, Saha, S.%
+\BCBL {}\ \BBA {} Das, S\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SMS spam detection using machine learning} {Sms spam
+  detection using machine learning}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Journal of Physics: Conference Series} {Journal of
+  physics: Conference series}\ (\BVOL\ 1797, \BPG~012017).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{hassinen2003secure}
-Marko Hassinen and Smile Markovski.
-\newblock Secure sms messaging using quasigroup encryption and java sms api.
-\newblock {\em SPLST}, 3:187, 2003.
+\bibitem [\protect \citeauthoryear {%
+Hadullo%
+\ \BBA {} Getuno%
+}{%
+Hadullo%
+\ \BBA {} Getuno%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+hadullo2021machine}
+\APACinsertmetastar {%
+hadullo2021machine}%
+\begin{APACrefauthors}%
+Hadullo, K\BPBI O.%
+\BCBT {}\ \BBA {} Getuno, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine learning software architecture and model
+  workflow. A case of Django rest framework} {Machine learning software
+  architecture and model workflow. a case of django rest framework}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American Journal of Applied Sciences}{18}{1}{152--164}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{hazan2011optimal}
-Elad Hazan and Tomer Koren.
-\newblock Optimal algorithms for ridge and lasso regression with partially
-  observed attributes.
-\newblock {\em arXiv preprint arXiv:1108.4559}, 2011.
+\bibitem [\protect \citeauthoryear {%
+Hao%
+, Syed%
+, Feamster%
+, Gray%
+\BCBL {}\ \BBA {} Krasser%
+}{%
+Hao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+hao2009detecting}
+\APACinsertmetastar {%
+hao2009detecting}%
+\begin{APACrefauthors}%
+Hao, S.%
+, Syed, N\BPBI A.%
+, Feamster, N.%
+, Gray, A\BPBI G.%
+\BCBL {}\ \BBA {} Krasser, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Detecting Spammers with SNARE: Spatio-temporal
+  Network-level Automatic Reputation Engine.} {Detecting spammers with snare:
+  Spatio-temporal network-level automatic reputation engine.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {USENIX security symposium} {Usenix security symposium}\
+  (\BVOL~9).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{jangir2016design}
-Sunil~Kumar Jangir, Manoj~Kumar Sharma, and Pawan~Kumar Gupta.
-\newblock Design and implementation of sms gateway api for mobile communication
-  networks.
-\newblock {\em International Journal of Computer Applications}, 151(9):1--5,
-  2016.
+\bibitem [\protect \citeauthoryear {%
+Hassinen%
+\ \BBA {} Markovski%
+}{%
+Hassinen%
+\ \BBA {} Markovski%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+hassinen2003secure}
+\APACinsertmetastar {%
+hassinen2003secure}%
+\begin{APACrefauthors}%
+Hassinen, M.%
+\BCBT {}\ \BBA {} Markovski, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Secure SMS messaging using Quasigroup encryption and
+  Java SMS API.} {Secure sms messaging using quasigroup encryption and java sms
+  api.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{SPLST}{3}{}{187}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{janiesch2021machine}
-Christian Janiesch, Patrick Zschech, and Kai Heinrich.
-\newblock Machine learning and deep learning.
-\newblock {\em Electronic Markets}, 31(3):685--695, 2021.
+\bibitem [\protect \citeauthoryear {%
+Hazan%
+\ \BBA {} Koren%
+}{%
+Hazan%
+\ \BBA {} Koren%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+hazan2011optimal}
+\APACinsertmetastar {%
+hazan2011optimal}%
+\begin{APACrefauthors}%
+Hazan, E.%
+\BCBT {}\ \BBA {} Koren, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Optimal algorithms for ridge and lasso regression with
+  partially observed attributes} {Optimal algorithms for ridge and lasso
+  regression with partially observed attributes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1108.4559}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{jayasankar2021survey}
-Uthayakumar Jayasankar, Vengattaraman Thirumal, and Dhavachelvan Ponnurangam.
-\newblock A survey on data compression techniques: From the perspective of data
-  quality, coding schemes, data type and applications.
-\newblock {\em Journal of King Saud University-Computer and Information
-  Sciences}, 33(2):119--140, 2021.
+\bibitem [\protect \citeauthoryear {%
+Jangir%
+, Sharma%
+\BCBL {}\ \BBA {} Gupta%
+}{%
+Jangir%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+jangir2016design}
+\APACinsertmetastar {%
+jangir2016design}%
+\begin{APACrefauthors}%
+Jangir, S\BPBI K.%
+, Sharma, M\BPBI K.%
+\BCBL {}\ \BBA {} Gupta, P\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Design and Implementation of SMS Gateway API for Mobile
+  Communication Networks} {Design and implementation of sms gateway api for
+  mobile communication networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Computer
+  Applications}{151}{9}{1--5}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{jiao2021spoken}
-Fengming Jiao, Jiao Song, Xin Zhao, Ping Zhao, and Ru~Wang.
-\newblock A spoken english teaching system based on speech recognition and
-  machine learning.
-\newblock {\em International Journal of Emerging Technologies in Learning
-  (iJET)}, 16(14):68--82, 2021.
+\bibitem [\protect \citeauthoryear {%
+Janiesch%
+, Zschech%
+\BCBL {}\ \BBA {} Heinrich%
+}{%
+Janiesch%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+janiesch2021machine}
+\APACinsertmetastar {%
+janiesch2021machine}%
+\begin{APACrefauthors}%
+Janiesch, C.%
+, Zschech, P.%
+\BCBL {}\ \BBA {} Heinrich, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine learning and deep learning} {Machine learning
+  and deep learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Electronic Markets}{31}{3}{685--695}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{johnsen2020elastic}
-Tim~K Johnsen and Jerry~Z Gao.
-\newblock Elastic net to forecast covid-19 cases.
-\newblock In {\em 2020 International Conference on Innovation and Intelligence
-  for Informatics, Computing and Technologies (3ICT)}, pages 1--6. IEEE, 2020.
+\bibitem [\protect \citeauthoryear {%
+Jayasankar%
+, Thirumal%
+\BCBL {}\ \BBA {} Ponnurangam%
+}{%
+Jayasankar%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+jayasankar2021survey}
+\APACinsertmetastar {%
+jayasankar2021survey}%
+\begin{APACrefauthors}%
+Jayasankar, U.%
+, Thirumal, V.%
+\BCBL {}\ \BBA {} Ponnurangam, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A survey on data compression techniques: From the
+  perspective of data quality, coding schemes, data type and applications} {A
+  survey on data compression techniques: From the perspective of data quality,
+  coding schemes, data type and applications}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of King Saud University-Computer and
+  Information Sciences}{33}{2}{119--140}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{kabari2019comparison}
-Ledisi~G Kabari and Ugochukwu~C Onwuka.
-\newblock Comparison of bagging and voting ensemble machine learning algorithm
-  as a classifier.
-\newblock {\em International Journals of Advanced Research in Computer Science
-  and Software Engineering}, 9(3):19--23, 2019.
+\bibitem [\protect \citeauthoryear {%
+Jiao%
+, Song%
+, Zhao%
+, Zhao%
+\BCBL {}\ \BBA {} Wang%
+}{%
+Jiao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+jiao2021spoken}
+\APACinsertmetastar {%
+jiao2021spoken}%
+\begin{APACrefauthors}%
+Jiao, F.%
+, Song, J.%
+, Zhao, X.%
+, Zhao, P.%
+\BCBL {}\ \BBA {} Wang, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A spoken English teaching system based on speech
+  recognition and machine learning} {A spoken english teaching system based on
+  speech recognition and machine learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Emerging Technologies in
+  Learning (iJET)}{16}{14}{68--82}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{kabari2019compari}
-Ledisi~G Kabari and Ugochukwu~C Onwuka.
-\newblock Comparison of bagging and voting ensemble machine learning algorithm
-  as a classifier.
-\newblock {\em International Journals of Advanced Research in Computer Science
-  and Software Engineering}, 9(3):19--23, 2019.
+\bibitem [\protect \citeauthoryear {%
+Johnsen%
+\ \BBA {} Gao%
+}{%
+Johnsen%
+\ \BBA {} Gao%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+johnsen2020elastic}
+\APACinsertmetastar {%
+johnsen2020elastic}%
+\begin{APACrefauthors}%
+Johnsen, T\BPBI K.%
+\BCBT {}\ \BBA {} Gao, J\BPBI Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Elastic net to forecast COVID-19 cases} {Elastic net to
+  forecast covid-19 cases}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2020 International Conference on Innovation and
+  Intelligence for Informatics, Computing and Technologies (3ICT)} {2020
+  international conference on innovation and intelligence for informatics,
+  computing and technologies (3ict)}\ (\BPGS\ 1--6).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{karl1986model}
-Thomas~R Karl, Claude~N Williams~Jr, Pamela~J Young, and Wayne~M Wendland.
-\newblock A model to estimate the time of observation bias associated with
-  monthly mean maximum, minimum and mean temperatures for the united states.
-\newblock {\em Journal of Applied Meteorology and Climatology}, 25(2):145--160,
-  1986.
+\bibitem [\protect \citeauthoryear {%
+Kabari%
+\ \BBA {} Onwuka%
+}{%
+Kabari%
+\ \BBA {} Onwuka%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+kabari2019comparison}
+\APACinsertmetastar {%
+kabari2019comparison}%
+\begin{APACrefauthors}%
+Kabari, L\BPBI G.%
+\BCBT {}\ \BBA {} Onwuka, U\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comparison of bagging and voting ensemble machine
+  learning algorithm as a classifier} {Comparison of bagging and voting
+  ensemble machine learning algorithm as a classifier}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journals of Advanced Research in Computer
+  Science and Software Engineering}{9}{3}{19--23}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{katankar2010short}
-Veena~K Katankar and VM~Thakare.
-\newblock Short message service using sms gateway.
-\newblock {\em International Journal on Computer Science and Engineering},
-  2(04):1487--1491, 2010.
+\bibitem [\protect \citeauthoryear {%
+Karl%
+, Williams~Jr%
+, Young%
+\BCBL {}\ \BBA {} Wendland%
+}{%
+Karl%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1986}}%
+}]{%
+karl1986model}
+\APACinsertmetastar {%
+karl1986model}%
+\begin{APACrefauthors}%
+Karl, T\BPBI R.%
+, Williams~Jr, C\BPBI N.%
+, Young, P\BPBI J.%
+\BCBL {}\ \BBA {} Wendland, W\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1986}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A model to estimate the time of observation bias
+  associated with monthly mean maximum, minimum and mean temperatures for the
+  United States} {A model to estimate the time of observation bias associated
+  with monthly mean maximum, minimum and mean temperatures for the united
+  states}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Applied Meteorology and
+  Climatology}{25}{2}{145--160}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{khanum2015survey}
-Memoona Khanum, Tahira Mahboob, Warda Imtiaz, Humaraia~Abdul Ghafoor, and
-  Rabeea Sehar.
-\newblock A survey on unsupervised machine learning algorithms for automation,
-  classification and maintenance.
-\newblock {\em International Journal of Computer Applications}, 119(13), 2015.
+\bibitem [\protect \citeauthoryear {%
+Katankar%
+\ \BBA {} Thakare%
+}{%
+Katankar%
+\ \BBA {} Thakare%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+katankar2010short}
+\APACinsertmetastar {%
+katankar2010short}%
+\begin{APACrefauthors}%
+Katankar, V\BPBI K.%
+\BCBT {}\ \BBA {} Thakare, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Short message service using SMS gateway} {Short message
+  service using sms gateway}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal on Computer Science and
+  Engineering}{2}{04}{1487--1491}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{kreuzberger2023machine}
-Dominik Kreuzberger, Niklas K{\"u}hl, and Sebastian Hirschl.
-\newblock Machine learning operations (mlops): Overview, definition, and
-  architecture.
-\newblock {\em IEEE Access}, 2023.
+\bibitem [\protect \citeauthoryear {%
+Khanum%
+, Mahboob%
+, Imtiaz%
+, Ghafoor%
+\BCBL {}\ \BBA {} Sehar%
+}{%
+Khanum%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+khanum2015survey}
+\APACinsertmetastar {%
+khanum2015survey}%
+\begin{APACrefauthors}%
+Khanum, M.%
+, Mahboob, T.%
+, Imtiaz, W.%
+, Ghafoor, H\BPBI A.%
+\BCBL {}\ \BBA {} Sehar, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A survey on unsupervised machine learning algorithms for
+  automation, classification and maintenance} {A survey on unsupervised machine
+  learning algorithms for automation, classification and maintenance}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Computer
+  Applications}{119}{13}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{langkvist2014review}
-Martin L{\"a}ngkvist, Lars Karlsson, and Amy Loutfi.
-\newblock A review of unsupervised feature learning and deep learning for
-  time-series modeling.
-\newblock {\em Pattern recognition letters}, 42:11--24, 2014.
+\bibitem [\protect \citeauthoryear {%
+Kreuzberger%
+, K{\"u}hl%
+\BCBL {}\ \BBA {} Hirschl%
+}{%
+Kreuzberger%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+kreuzberger2023machine}
+\APACinsertmetastar {%
+kreuzberger2023machine}%
+\begin{APACrefauthors}%
+Kreuzberger, D.%
+, K{\"u}hl, N.%
+\BCBL {}\ \BBA {} Hirschl, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine learning operations (mlops): Overview,
+  definition, and architecture} {Machine learning operations (mlops): Overview,
+  definition, and architecture}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Access}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{lavanya2582sms}
-M~Lavanya and KR~Aruna.
-\newblock Sms spam detection using deep learning.
-\newblock {\em Journal homepage: www. ijrpr. com ISSN}, 2582:7421.
+\bibitem [\protect \citeauthoryear {%
+L{\"a}ngkvist%
+, Karlsson%
+\BCBL {}\ \BBA {} Loutfi%
+}{%
+L{\"a}ngkvist%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+langkvist2014review}
+\APACinsertmetastar {%
+langkvist2014review}%
+\begin{APACrefauthors}%
+L{\"a}ngkvist, M.%
+, Karlsson, L.%
+\BCBL {}\ \BBA {} Loutfi, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A review of unsupervised feature learning and deep
+  learning for time-series modeling} {A review of unsupervised feature learning
+  and deep learning for time-series modeling}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Pattern recognition letters}{42}{}{11--24}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{le2005mobile}
-Gwenael Le~Bodic.
-\newblock {\em Mobile messaging technologies and services: SMS, EMS and MMS}.
-\newblock John Wiley \& Sons, 2005.
+\bibitem [\protect \citeauthoryear {%
+Lavanya%
+\ \BBA {} Aruna%
+}{%
+Lavanya%
+\ \BBA {} Aruna%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+lavanya2582sms}
+\APACinsertmetastar {%
+lavanya2582sms}%
+\begin{APACrefauthors}%
+Lavanya, M.%
+\BCBT {}\ \BBA {} Aruna, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SMS Spam Detection Using Deep Learning} {Sms spam
+  detection using deep learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal homepage: www. ijrpr. com ISSN}{2582}{}{7421}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{mobilemessaging}
-Gwenaël Le~Bodic and Hatim Zaghloul.
-\newblock {\em Mobile Messaging Technologies and Services: SMS, EMS, and MMS}.
-\newblock ABC Publishing, 2022.
+\bibitem [\protect \citeauthoryear {%
+Le~Bodic%
+}{%
+Le~Bodic%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+le2005mobile}
+\APACinsertmetastar {%
+le2005mobile}%
+\begin{APACrefauthors}%
+Le~Bodic, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2005}.
+\newblock
+\APACrefbtitle {Mobile messaging technologies and services: SMS, EMS and MMS}
+  {Mobile messaging technologies and services: Sms, ems and mms}.
+\newblock
+\APACaddressPublisher{}{John Wiley \& Sons}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{leppaniemi2008mobile}
-Matti Lepp{\"a}niemi and Heikki Karjaluoto.
-\newblock Mobile marketing: From marketing strategy to mobile marketing
-  campaign implementation.
-\newblock {\em International Journal of Mobile Marketing}, 3(1), 2008.
+\bibitem [\protect \citeauthoryear {%
+Le~Bodic%
+\ \BBA {} Zaghloul%
+}{%
+Le~Bodic%
+\ \BBA {} Zaghloul%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+mobilemessaging}
+\APACinsertmetastar {%
+mobilemessaging}%
+\begin{APACrefauthors}%
+Le~Bodic, G.%
+\BCBT {}\ \BBA {} Zaghloul, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2022}.
+\newblock
+\APACrefbtitle {Mobile Messaging Technologies and Services: SMS, EMS, and MMS}
+  {Mobile messaging technologies and services: Sms, ems, and mms}.
+\newblock
+\APACaddressPublisher{}{ABC Publishing}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{lillicrap2020backpropagation}
-Timothy~P Lillicrap, Adam Santoro, Luke Marris, Colin~J Akerman, and Geoffrey
-  Hinton.
-\newblock Backpropagation and the brain.
-\newblock {\em Nature Reviews Neuroscience}, 21(6):335--346, 2020.
+\bibitem [\protect \citeauthoryear {%
+Lepp{\"a}niemi%
+\ \BBA {} Karjaluoto%
+}{%
+Lepp{\"a}niemi%
+\ \BBA {} Karjaluoto%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+leppaniemi2008mobile}
+\APACinsertmetastar {%
+leppaniemi2008mobile}%
+\begin{APACrefauthors}%
+Lepp{\"a}niemi, M.%
+\BCBT {}\ \BBA {} Karjaluoto, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mobile marketing: From marketing strategy to mobile
+  marketing campaign implementation.} {Mobile marketing: From marketing
+  strategy to mobile marketing campaign implementation.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Mobile Marketing}{3}{1}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{lin2017ensemble}
-Weiwei Lin, Ziming Wu, Longxin Lin, Angzhan Wen, and Jin Li.
-\newblock An ensemble random forest algorithm for insurance big data analysis.
-\newblock {\em Ieee access}, 5:16568--16575, 2017.
+\bibitem [\protect \citeauthoryear {%
+Lillicrap%
+, Santoro%
+, Marris%
+, Akerman%
+\BCBL {}\ \BBA {} Hinton%
+}{%
+Lillicrap%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+lillicrap2020backpropagation}
+\APACinsertmetastar {%
+lillicrap2020backpropagation}%
+\begin{APACrefauthors}%
+Lillicrap, T\BPBI P.%
+, Santoro, A.%
+, Marris, L.%
+, Akerman, C\BPBI J.%
+\BCBL {}\ \BBA {} Hinton, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Backpropagation and the brain} {Backpropagation and the
+  brain}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature Reviews Neuroscience}{21}{6}{335--346}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{liu2000interactive}
-Qiong Liu, Stephen Levinson, Ying Wu, and Thomas Huang.
-\newblock Interactive and incremental learning via a mixture of supervised and
-  unsupervised learning strategies.
-\newblock In {\em Proceedings of the Fifth Joint Conference on Information
-  Sciences}, volume~1, pages 555--558, 2000.
+\bibitem [\protect \citeauthoryear {%
+Lin%
+, Wu%
+, Lin%
+, Wen%
+\BCBL {}\ \BBA {} Li%
+}{%
+Lin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+lin2017ensemble}
+\APACinsertmetastar {%
+lin2017ensemble}%
+\begin{APACrefauthors}%
+Lin, W.%
+, Wu, Z.%
+, Lin, L.%
+, Wen, A.%
+\BCBL {}\ \BBA {} Li, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An ensemble random forest algorithm for insurance big
+  data analysis} {An ensemble random forest algorithm for insurance big data
+  analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ieee access}{5}{}{16568--16575}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{memoireUniversitySpam}
-FATIMA~AIT MAHAMMED.
-\newblock Approches d'apprentissage automatique pour la dÉtection du spam web
-  : Exploration de diverses caractÉristiques.
-\newblock {\em Computational Linguistics and Intelligent Systems}, pages
-  85--90, 2018.
+\bibitem [\protect \citeauthoryear {%
+Liu%
+, Levinson%
+, Wu%
+\BCBL {}\ \BBA {} Huang%
+}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+liu2000interactive}
+\APACinsertmetastar {%
+liu2000interactive}%
+\begin{APACrefauthors}%
+Liu, Q.%
+, Levinson, S.%
+, Wu, Y.%
+\BCBL {}\ \BBA {} Huang, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Interactive and incremental learning via a mixture of
+  supervised and unsupervised learning strategies} {Interactive and incremental
+  learning via a mixture of supervised and unsupervised learning
+  strategies}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the Fifth Joint Conference on Information
+  Sciences} {Proceedings of the fifth joint conference on information
+  sciences}\ (\BVOL~1, \BPGS\ 555--558).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{maria2016performance}
-JR~Maria~Navin and R~Pankaja.
-\newblock Performance analysis of text classification algorithms using
-  confusion matrix.
-\newblock {\em International Journal of Engineering and Technical Research
-  (IJETR)}, 6(4):75--8, 2016.
+\bibitem [\protect \citeauthoryear {%
+MAHAMMED%
+}{%
+MAHAMMED%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+memoireUniversitySpam}
+\APACinsertmetastar {%
+memoireUniversitySpam}%
+\begin{APACrefauthors}%
+MAHAMMED, F\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {APPROCHES D'APPRENTISSAGE AUTOMATIQUE POUR LA DÉTECTION
+  DU SPAM WEB : EXPLORATION DE DIVERSES CARACTÉRISTIQUES} {Approches
+  d'apprentissage automatique pour la dÉtection du spam web : Exploration de
+  diverses caractÉristiques}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computational Linguistics and Intelligent
+  Systems}{}{}{85--90}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{maulud2020review}
-Dastan Maulud and Adnan~M Abdulazeez.
-\newblock A review on linear regression comprehensive in machine learning.
-\newblock {\em Journal of Applied Science and Technology Trends},
-  1(4):140--147, 2020.
+\bibitem [\protect \citeauthoryear {%
+Maria~Navin%
+\ \BBA {} Pankaja%
+}{%
+Maria~Navin%
+\ \BBA {} Pankaja%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+maria2016performance}
+\APACinsertmetastar {%
+maria2016performance}%
+\begin{APACrefauthors}%
+Maria~Navin, J.%
+\BCBT {}\ \BBA {} Pankaja, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Performance analysis of text classification algorithms
+  using confusion matrix} {Performance analysis of text classification
+  algorithms using confusion matrix}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Engineering and Technical
+  Research (IJETR)}{6}{4}{75--8}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{mckinney2015pandas}
-Wes McKinney and PD~Team.
-\newblock Pandas-powerful python data analysis toolkit.
-\newblock {\em Pandas—Powerful Python Data Analysis Toolkit}, 1625, 2015.
+\bibitem [\protect \citeauthoryear {%
+Maulud%
+\ \BBA {} Abdulazeez%
+}{%
+Maulud%
+\ \BBA {} Abdulazeez%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+maulud2020review}
+\APACinsertmetastar {%
+maulud2020review}%
+\begin{APACrefauthors}%
+Maulud, D.%
+\BCBT {}\ \BBA {} Abdulazeez, A\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A review on linear regression comprehensive in machine
+  learning} {A review on linear regression comprehensive in machine
+  learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Applied Science and Technology
+  Trends}{1}{4}{140--147}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{reviewVideo2020}
-Uttam Kumar Roy Jubayer AI~Mahmud Md~Shofiqul~Islam, Shanjida~Sultana.
-\newblock A review on video classification with methods, findings, performance,
-  challenges, limitatios and future work.
-\newblock 2020.
+\bibitem [\protect \citeauthoryear {%
+McKinney%
+\ \BBA {} Team%
+}{%
+McKinney%
+\ \BBA {} Team%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+mckinney2015pandas}
+\APACinsertmetastar {%
+mckinney2015pandas}%
+\begin{APACrefauthors}%
+McKinney, W.%
+\BCBT {}\ \BBA {} Team, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Pandas-Powerful python data analysis toolkit}
+  {Pandas-powerful python data analysis toolkit}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Pandas—Powerful Python Data Analysis
+  Toolkit}{1625}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{medani2011review}
-A~Medani, Abdullah Gani, O~Zakaria, AA~Zaidan, and BB~Zaidan.
-\newblock Review of mobile short message service security issues and techniques
-  towards the solution.
-\newblock {\em Scientific Research and Essays}, 6(6):1147--1165, 2011.
+\bibitem [\protect \citeauthoryear {%
+Md~Shofiqul~Islam%
+}{%
+Md~Shofiqul~Islam%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+reviewVideo2020}
+\APACinsertmetastar {%
+reviewVideo2020}%
+\begin{APACrefauthors}%
+Md~Shofiqul~Islam, U\BPBI K\BPBI R\BPBI J\BPBI A\BPBI M., Shanjida~Sultana.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A review on Video Classification with Methods, Findings,
+  Performance, Challenges, Limitatios and future work} {A review on video
+  classification with methods, findings, performance, challenges, limitatios
+  and future work}.{\BBCQ}
+\newblock
 
-\bibitem{mishra2007advanced}
-Ajay~R Mishra.
-\newblock {\em Advanced cellular network planning and optimisation: 2G/2.5
-  G/3G... evolution to 4G}.
-\newblock John Wiley \& Sons, 2007.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{nader2023django}
-Anuar~Manuel Nader~Meljem.
-\newblock Django rest framework (drf) secure code guidelines.
-\newblock 2023.
+\bibitem [\protect \citeauthoryear {%
+Medani%
+, Gani%
+, Zakaria%
+, Zaidan%
+\BCBL {}\ \BBA {} Zaidan%
+}{%
+Medani%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+medani2011review}
+\APACinsertmetastar {%
+medani2011review}%
+\begin{APACrefauthors}%
+Medani, A.%
+, Gani, A.%
+, Zakaria, O.%
+, Zaidan, A.%
+\BCBL {}\ \BBA {} Zaidan, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Review of mobile short message service security issues
+  and techniques towards the solution} {Review of mobile short message service
+  security issues and techniques towards the solution}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Scientific Research and Essays}{6}{6}{1147--1165}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{navaney2018sms}
-Pavas Navaney, Gaurav Dubey, and Ajay Rana.
-\newblock Sms spam filtering using supervised machine learning algorithms.
-\newblock In {\em 2018 8th international conference on cloud computing, data
-  science \& engineering (confluence)}, pages 43--48. IEEE, 2018.
+\bibitem [\protect \citeauthoryear {%
+Mishra%
+}{%
+Mishra%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+mishra2007advanced}
+\APACinsertmetastar {%
+mishra2007advanced}%
+\begin{APACrefauthors}%
+Mishra, A\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle {Advanced cellular network planning and optimisation: 2G/2.5
+  G/3G... evolution to 4G} {Advanced cellular network planning and
+  optimisation: 2g/2.5 g/3g... evolution to 4g}.
+\newblock
+\APACaddressPublisher{}{John Wiley \& Sons}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{nayak2022study}
-Swathi Nayak, Manisha Bhat, NV~Subba Reddy, and B~Ashwath Rao.
-\newblock Study of distance metrics on k-nearest neighbor algorithm for star
-  categorization.
-\newblock In {\em Journal of Physics: Conference Series}, volume 2161, page
-  012004. IOP Publishing, 2022.
+\bibitem [\protect \citeauthoryear {%
+Nader~Meljem%
+}{%
+Nader~Meljem%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+nader2023django}
+\APACinsertmetastar {%
+nader2023django}%
+\begin{APACrefauthors}%
+Nader~Meljem, A\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Django REST Framework (DRF) Secure Code Guidelines}
+  {Django rest framework (drf) secure code guidelines}.{\BBCQ}
+\newblock
 
-\bibitem{osisanwo2017supervised}
-FY~Osisanwo, JET Akinsola, O~Awodele, JO~Hinmikaiye, O~Olakanmi, J~Akinjobi,
-  et~al.
-\newblock Supervised machine learning algorithms: classification and
-  comparison.
-\newblock {\em International Journal of Computer Trends and Technology
-  (IJCTT)}, 48(3):128--138, 2017.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{Statista2020}
-Statista's own team~of researchers and analysts.
-\newblock {\em Number of mobile messages worldwide from 2019 to 2023 (in
+\bibitem [\protect \citeauthoryear {%
+Nataf%
+}{%
+Nataf%
+}{%
+{\protect \APACyear {Consulted on Nov 10, 2023 at 11:45}}%
+}]{%
+nataf_sms_gateway}
+\APACinsertmetastar {%
+nataf_sms_gateway}%
+\begin{APACrefauthors}%
+Nataf, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{Consulted on Nov 10, 2023 at 11:45}{}{}.
+\newblock
+\APACrefbtitle {SMS Gateway Provider: Send text messages from your computer.}
+  {Sms gateway provider: Send text messages from your computer.}
+\newblock
+\begin{APACrefURL} \url{https://octopush.com/en/channels/sms/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Navaney%
+, Dubey%
+\BCBL {}\ \BBA {} Rana%
+}{%
+Navaney%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+navaney2018sms}
+\APACinsertmetastar {%
+navaney2018sms}%
+\begin{APACrefauthors}%
+Navaney, P.%
+, Dubey, G.%
+\BCBL {}\ \BBA {} Rana, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SMS spam filtering using supervised machine learning
+  algorithms} {Sms spam filtering using supervised machine learning
+  algorithms}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2018 8th international conference on cloud computing,
+  data science \& engineering (confluence)} {2018 8th international conference
+  on cloud computing, data science \& engineering (confluence)}\ (\BPGS\
+  43--48).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nayak%
+, Bhat%
+, Reddy%
+\BCBL {}\ \BBA {} Rao%
+}{%
+Nayak%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+nayak2022study}
+\APACinsertmetastar {%
+nayak2022study}%
+\begin{APACrefauthors}%
+Nayak, S.%
+, Bhat, M.%
+, Reddy, N\BPBI S.%
+\BCBL {}\ \BBA {} Rao, B\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Study of distance metrics on k-nearest neighbor
+  algorithm for star categorization} {Study of distance metrics on k-nearest
+  neighbor algorithm for star categorization}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Journal of Physics: Conference Series} {Journal of
+  physics: Conference series}\ (\BVOL\ 2161, \BPG~012004).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Osisanwo%
+\ \protect \BOthers {.}}{%
+Osisanwo%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+osisanwo2017supervised}
+\APACinsertmetastar {%
+osisanwo2017supervised}%
+\begin{APACrefauthors}%
+Osisanwo, F.%
+, Akinsola, J.%
+, Awodele, O.%
+, Hinmikaiye, J.%
+, Olakanmi, O.%
+, Akinjobi, J.%
+\BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Supervised machine learning algorithms: classification
+  and comparison} {Supervised machine learning algorithms: classification and
+  comparison}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Computer Trends and Technology
+  (IJCTT)}{48}{3}{128--138}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+own team~of researchers%
+\ \BBA {} analysts%
+}{%
+own team~of researchers%
+\ \BBA {} analysts%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Statista2020}
+\APACinsertmetastar {%
+Statista2020}%
+\begin{APACrefauthors}%
+own team~of researchers, S.%
+\BCBT {}\ \BBA {} analysts.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2020}.
+\newblock
+\APACrefbtitle {Number of mobile messages worldwide from 2019 to 2023 (in
+  trillions)} {Number of mobile messages worldwide from 2019 to 2023 (in
   trillions)}.
-\newblock https://fr.statista.com/, 2020.
+\newblock
+\APACaddressPublisher{}{https://fr.statista.com/}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{park2012dictionary}
-Chris Park.
-\newblock {\em A Dictionary of Environment and Conservation}.
-\newblock Oxford University Press, 1 edition, 2012.
-\newblock Online Publication.
+\bibitem [\protect \citeauthoryear {%
+Padmanabhan%
+}{%
+Padmanabhan%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+umlOverView}
+\APACinsertmetastar {%
+umlOverView}%
+\begin{APACrefauthors}%
+Padmanabhan, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {UNIFIED MODELING LANGUAGE (UML) OVERVIEW} {Unified
+  modeling language (uml) overview}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Principles of Software Engineering}{}{}{1--12}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{scikitlearnCode1}
-F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
-  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
-  D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay.
-\newblock Scikit-learn: Machine learning in {P}ython.
-\newblock {\em Journal of Machine Learning Research}, 12:2825--2830, 2011.
+\bibitem [\protect \citeauthoryear {%
+Park%
+}{%
+Park%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+park2012dictionary}
+\APACinsertmetastar {%
+park2012dictionary}%
+\begin{APACrefauthors}%
+Park, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {A Dictionary of Environment and Conservation} {A dictionary of
+  environment and conservation}\ (\PrintOrdinal{1}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Oxford University Press}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.oxfordreference.com/view/10.1093/acref/9780198609957.001.0001/acref-9780198609957}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Online Publication}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{pedregosa2011scikit}
-Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel,
-  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
-  Weiss, Vincent Dubourg, et~al.
-\newblock Scikit-learn: Machine learning in python.
-\newblock {\em the Journal of machine Learning research}, 12:2825--2830, 2011.
+\bibitem [\protect \citeauthoryear {%
+Pedregosa%
+\ \protect \BOthers {.}}{%
+Pedregosa%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+pedregosa2011scikit}
+\APACinsertmetastar {%
+pedregosa2011scikit}%
+\begin{APACrefauthors}%
+Pedregosa, F.%
+, Varoquaux, G.%
+, Gramfort, A.%
+, Michel, V.%
+, Thirion, B.%
+, Grisel, O.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011{\protect \BCnt {1}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Scikit-learn: Machine learning in Python} {Scikit-learn:
+  Machine learning in python}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{the Journal of machine Learning
+  research}{12}{}{2825--2830}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{praveena2017literature}
-M~Praveena and V~Jaiganesh.
-\newblock A literature review on supervised machine learning algorithms and
-  boosting process.
-\newblock {\em International Journal of Computer Applications}, 169(8):32--35,
-  2017.
+\bibitem [\protect \citeauthoryear {%
+Pedregosa%
+\ \protect \BOthers {.}}{%
+Pedregosa%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+scikitlearnCode1}
+\APACinsertmetastar {%
+scikitlearnCode1}%
+\begin{APACrefauthors}%
+Pedregosa, F.%
+, Varoquaux, G.%
+, Gramfort, A.%
+, Michel, V.%
+, Thirion, B.%
+, Grisel, O.%
+\BDBL {}Duchesnay, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011{\protect \BCnt {2}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Scikit-learn: Machine Learning in {P}ython}
+  {Scikit-learn: Machine learning in {P}ython}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Machine Learning
+  Research}{12}{}{2825--2830}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{qiang2020short}
-Jipeng Qiang, Zhenyu Qian, Yun Li, Yunhao Yuan, and Xindong Wu.
-\newblock Short text topic modeling techniques, applications, and performance:
-  a survey.
-\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
-  34(3):1427--1445, 2020.
+\bibitem [\protect \citeauthoryear {%
+Praveena%
+\ \BBA {} Jaiganesh%
+}{%
+Praveena%
+\ \BBA {} Jaiganesh%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+praveena2017literature}
+\APACinsertmetastar {%
+praveena2017literature}%
+\begin{APACrefauthors}%
+Praveena, M.%
+\BCBT {}\ \BBA {} Jaiganesh, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A literature review on supervised machine learning
+  algorithms and boosting process} {A literature review on supervised machine
+  learning algorithms and boosting process}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Computer
+  Applications}{169}{8}{32--35}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{raschka2018model}
-Sebastian Raschka.
-\newblock Model evaluation, model selection, and algorithm selection in machine
-  learning.
-\newblock {\em arXiv preprint arXiv:1811.12808}, 2018.
+\bibitem [\protect \citeauthoryear {%
+Qiang%
+, Qian%
+, Li%
+, Yuan%
+\BCBL {}\ \BBA {} Wu%
+}{%
+Qiang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+qiang2020short}
+\APACinsertmetastar {%
+qiang2020short}%
+\begin{APACrefauthors}%
+Qiang, J.%
+, Qian, Z.%
+, Li, Y.%
+, Yuan, Y.%
+\BCBL {}\ \BBA {} Wu, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Short text topic modeling techniques, applications, and
+  performance: a survey} {Short text topic modeling techniques, applications,
+  and performance: a survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Knowledge and Data
+  Engineering}{34}{3}{1427--1445}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{raschka2017python}
-Sebastian Raschka and Vahid Mirjalili.
-\newblock Python machine learning: Machine learning and deep learning with
-  python.
-\newblock {\em Scikit-Learn, and TensorFlow. Second edition ed}, 3, 2017.
+\bibitem [\protect \citeauthoryear {%
+Raschka%
+}{%
+Raschka%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+raschka2018model}
+\APACinsertmetastar {%
+raschka2018model}%
+\begin{APACrefauthors}%
+Raschka, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Model evaluation, model selection, and algorithm
+  selection in machine learning} {Model evaluation, model selection, and
+  algorithm selection in machine learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1811.12808}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{razno2019machine}
-Maria Razno.
-\newblock Machine learning text classification model with nlp approach.
-\newblock {\em Computational Linguistics and Intelligent Systems}, 2:71--73,
-  2019.
+\bibitem [\protect \citeauthoryear {%
+Raschka%
+\ \BBA {} Mirjalili%
+}{%
+Raschka%
+\ \BBA {} Mirjalili%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+raschka2017python}
+\APACinsertmetastar {%
+raschka2017python}%
+\begin{APACrefauthors}%
+Raschka, S.%
+\BCBT {}\ \BBA {} Mirjalili, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Python machine learning: Machine learning and deep
+  learning with python} {Python machine learning: Machine learning and deep
+  learning with python}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Scikit-Learn, and TensorFlow. Second edition
+  ed}{3}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{rymarczyk2019logistic}
-Tomasz Rymarczyk, Edward Koz{\l}owski, Grzegorz K{\l}osowski, and Konrad
-  Niderla.
-\newblock Logistic regression for machine learning in process tomography.
-\newblock {\em Sensors}, 19(15):3400, 2019.
+\bibitem [\protect \citeauthoryear {%
+Razno%
+}{%
+Razno%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+razno2019machine}
+\APACinsertmetastar {%
+razno2019machine}%
+\begin{APACrefauthors}%
+Razno, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine learning text classification model with NLP
+  approach} {Machine learning text classification model with nlp
+  approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computational Linguistics and Intelligent
+  Systems}{2}{}{71--73}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{shafi2017review}
-Muhammad~Abdulhamid Shafi’I, Muhammad~Shafie Abd~Latiff, Haruna Chiroma,
-  Oluwafemi Osho, Gaddafi Abdul-Salaam, Adamu~I Abubakar, and Tutut Herawan.
-\newblock A review on mobile sms spam filtering techniques.
-\newblock {\em IEEE Access}, 5:15650--15666, 2017.
+\bibitem [\protect \citeauthoryear {%
+Rymarczyk%
+, Koz{\l}owski%
+, K{\l}osowski%
+\BCBL {}\ \BBA {} Niderla%
+}{%
+Rymarczyk%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+rymarczyk2019logistic}
+\APACinsertmetastar {%
+rymarczyk2019logistic}%
+\begin{APACrefauthors}%
+Rymarczyk, T.%
+, Koz{\l}owski, E.%
+, K{\l}osowski, G.%
+\BCBL {}\ \BBA {} Niderla, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Logistic regression for machine learning in process
+  tomography} {Logistic regression for machine learning in process
+  tomography}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Sensors}{19}{15}{3400}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{shirani2013sms}
-Houshmand Shirani-Mehr.
-\newblock Sms spam detection using machine learning approach.
-\newblock {\em unpublished) http://cs229. stanford. edu/proj2013/Shir aniMeh
-  r-SMSSpamDetectionUsingMachineLearningApproach. pdf}, 2013.
+\bibitem [\protect \citeauthoryear {%
+Science%
+}{%
+Science%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+mlopIntersertion}
+\APACinsertmetastar {%
+mlopIntersertion}%
+\begin{APACrefauthors}%
+Science, T\BPBI \BPBI E\BPBI C\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Intersection of MLOps Paragibm} {Intersection of mlops
+  paragibm}.{\BBCQ}.
+\newblock
+\begin{APACrefURL} \url{https://web.facebook.com/dataScienceAnalytics}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{sial2021comparative}
-Ali~Hassan Sial, Syed Yahya~Shah Rashdi, and Abdul~Hafeez Khan.
-\newblock Comparative analysis of data visualization libraries matplotlib and
-  seaborn in python.
-\newblock {\em International Journal}, 10(1), 2021.
+\bibitem [\protect \citeauthoryear {%
+Shafi’I%
+\ \protect \BOthers {.}}{%
+Shafi’I%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+shafi2017review}
+\APACinsertmetastar {%
+shafi2017review}%
+\begin{APACrefauthors}%
+Shafi’I, M\BPBI A.%
+, Abd~Latiff, M\BPBI S.%
+, Chiroma, H.%
+, Osho, O.%
+, Abdul-Salaam, G.%
+, Abubakar, A\BPBI I.%
+\BCBL {}\ \BBA {} Herawan, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A review on mobile SMS spam filtering techniques} {A
+  review on mobile sms spam filtering techniques}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Access}{5}{}{15650--15666}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{singh2021deploy}
-Pramod Singh.
-\newblock Deploy machine learning models to production.
-\newblock {\em Cham, Switzerland: Springer}, 2021.
+\bibitem [\protect \citeauthoryear {%
+Shirani-Mehr%
+}{%
+Shirani-Mehr%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+shirani2013sms}
+\APACinsertmetastar {%
+shirani2013sms}%
+\begin{APACrefauthors}%
+Shirani-Mehr, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SMS spam detection using machine learning approach} {Sms
+  spam detection using machine learning approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{unpublished) http://cs229. stanford. edu/proj2013/Shir
+  aniMeh r-SMSSpamDetectionUsingMachineLearningApproach. pdf}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{sirisuriya2015comparative}
-De~S Sirisuriya et~al.
-\newblock A comparative study on web scraping.
-\newblock 2015.
+\bibitem [\protect \citeauthoryear {%
+Sial%
+, Rashdi%
+\BCBL {}\ \BBA {} Khan%
+}{%
+Sial%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+sial2021comparative}
+\APACinsertmetastar {%
+sial2021comparative}%
+\begin{APACrefauthors}%
+Sial, A\BPBI H.%
+, Rashdi, S\BPBI Y\BPBI S.%
+\BCBL {}\ \BBA {} Khan, A\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comparative analysis of data visualization libraries
+  Matplotlib and Seaborn in Python} {Comparative analysis of data visualization
+  libraries matplotlib and seaborn in python}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal}{10}{1}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{smola2010introduction}
-Alex Smola and S.V.N. Vishwanathan.
-\newblock {\em Introduction to Machine Learning}.
-\newblock Cambridge University Press, Cambridge, UK, 2010.
+\bibitem [\protect \citeauthoryear {%
+Singh%
+}{%
+Singh%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+singh2021deploy}
+\APACinsertmetastar {%
+singh2021deploy}%
+\begin{APACrefauthors}%
+Singh, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deploy Machine Learning Models to Production} {Deploy
+  machine learning models to production}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cham, Switzerland: Springer}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{sorzano2014survey}
-Carlos Oscar~S{\'a}nchez Sorzano, Javier Vargas, and A~Pascual Montano.
-\newblock A survey of dimensionality reduction techniques.
-\newblock {\em arXiv preprint arXiv:1403.2877}, 2014.
+\bibitem [\protect \citeauthoryear {%
+Sirisuriya%
+\ \protect \BOthers {.}}{%
+Sirisuriya%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+sirisuriya2015comparative}
+\APACinsertmetastar {%
+sirisuriya2015comparative}%
+\begin{APACrefauthors}%
+Sirisuriya, D\BPBI S.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A comparative study on web scraping} {A comparative
+  study on web scraping}.{\BBCQ}
+\newblock
 
-\bibitem{stark2010building}
-Jonathan Stark, Paco Nathan, John Papaconstantinou, Paco Lagerstrom, and Paco
-  Hope.
-\newblock {\em Building Android apps with HTML, CSS, and JavaScript}.
-\newblock " O'Reilly Media, Inc.", 2010.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{tang2022clues}
-Siyuan Tang, Xianghang Mi, Ying Li, XiaoFeng Wang, and Kai Chen.
-\newblock Clues in tweets: Twitter-guided discovery and analysis of sms spam.
-\newblock In {\em Proceedings of the 2022 ACM SIGSAC Conference on Computer and
-  Communications Security}, pages 2751--2764, 2022.
+\bibitem [\protect \citeauthoryear {%
+Smola%
+\ \BBA {} Vishwanathan%
+}{%
+Smola%
+\ \BBA {} Vishwanathan%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+smola2010introduction}
+\APACinsertmetastar {%
+smola2010introduction}%
+\begin{APACrefauthors}%
+Smola, A.%
+\BCBT {}\ \BBA {} Vishwanathan, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {Introduction to Machine Learning} {Introduction to machine
+  learning}.
+\newblock
+\APACaddressPublisher{Cambridge, UK}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{teimourzadeh2022application}
-Aria Teimourzadeh, Samaneh Kakavand, and Benjamin Kakavand.
-\newblock Application of python in marketing education: a big data analytics
-  perspective.
-\newblock {\em Marketing Education Review}, pages 1--16, 2022.
+\bibitem [\protect \citeauthoryear {%
+Sorzano%
+, Vargas%
+\BCBL {}\ \BBA {} Montano%
+}{%
+Sorzano%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+sorzano2014survey}
+\APACinsertmetastar {%
+sorzano2014survey}%
+\begin{APACrefauthors}%
+Sorzano, C\BPBI O\BPBI S.%
+, Vargas, J.%
+\BCBL {}\ \BBA {} Montano, A\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A survey of dimensionality reduction techniques} {A
+  survey of dimensionality reduction techniques}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1403.2877}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{tosi2009matplotlib}
-Sandro Tosi.
-\newblock {\em Matplotlib for Python developers}.
-\newblock Packt Publishing Ltd, 2009.
+\bibitem [\protect \citeauthoryear {%
+Stark%
+, Nathan%
+, Papaconstantinou%
+, Lagerstrom%
+\BCBL {}\ \BBA {} Hope%
+}{%
+Stark%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+stark2010building}
+\APACinsertmetastar {%
+stark2010building}%
+\begin{APACrefauthors}%
+Stark, J.%
+, Nathan, P.%
+, Papaconstantinou, J.%
+, Lagerstrom, P.%
+\BCBL {}\ \BBA {} Hope, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {Building Android apps with HTML, CSS, and JavaScript} {Building
+  android apps with html, css, and javascript}.
+\newblock
+\APACaddressPublisher{}{" O'Reilly Media, Inc."}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{tulchak2016history}
-LV~Tulchak and AO~Mapchuk.
-\newblock {\em History of python}.
-\newblock PhD thesis, 2016.
+\bibitem [\protect \citeauthoryear {%
+Tang%
+, Mi%
+, Li%
+, Wang%
+\BCBL {}\ \BBA {} Chen%
+}{%
+Tang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+tang2022clues}
+\APACinsertmetastar {%
+tang2022clues}%
+\begin{APACrefauthors}%
+Tang, S.%
+, Mi, X.%
+, Li, Y.%
+, Wang, X.%
+\BCBL {}\ \BBA {} Chen, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Clues in tweets: Twitter-guided discovery and analysis
+  of SMS spam} {Clues in tweets: Twitter-guided discovery and analysis of sms
+  spam}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 2022 ACM SIGSAC Conference on
+  Computer and Communications Security} {Proceedings of the 2022 acm sigsac
+  conference on computer and communications security}\ (\BPGS\ 2751--2764).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{unwin2020data}
-Antony Unwin.
-\newblock Why is data visualization important? what is important in data
-  visualization?
-\newblock {\em Harvard Data Science Review}, 2(1):1, 2020.
+\bibitem [\protect \citeauthoryear {%
+Taylor%
+}{%
+Taylor%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+statisticaOnline}
+\APACinsertmetastar {%
+statisticaOnline}%
+\begin{APACrefauthors}%
+Taylor, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Mobile vendor market share in DRC 2018-2022, by month.} {Mobile
+  vendor market share in drc 2018-2022, by month.}
+\newblock
+\begin{APACrefURL} \url{https://www.statista.com/statistics/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{van2011numpy}
-Stefan Van Der~Walt, S~Chris Colbert, and Gael Varoquaux.
-\newblock The numpy array: a structure for efficient numerical computation.
-\newblock {\em Computing in science \& engineering}, 13(2):22--30, 2011.
+\bibitem [\protect \citeauthoryear {%
+Teimourzadeh%
+, Kakavand%
+\BCBL {}\ \BBA {} Kakavand%
+}{%
+Teimourzadeh%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+teimourzadeh2022application}
+\APACinsertmetastar {%
+teimourzadeh2022application}%
+\begin{APACrefauthors}%
+Teimourzadeh, A.%
+, Kakavand, S.%
+\BCBL {}\ \BBA {} Kakavand, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Application of python in marketing education: a big data
+  analytics perspective} {Application of python in marketing education: a big
+  data analytics perspective}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Marketing Education Review}{}{}{1--16}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{wang2016machine}
-H~Wang, ZeZXeZBePJ Lei, X~Zhang, B~Zhou, and J~Peng.
-\newblock Machine learning basics.
-\newblock {\em Deep learning}, pages 98--164, 2016.
+\bibitem [\protect \citeauthoryear {%
+Tosi%
+}{%
+Tosi%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+tosi2009matplotlib}
+\APACinsertmetastar {%
+tosi2009matplotlib}%
+\begin{APACrefauthors}%
+Tosi, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2009}.
+\newblock
+\APACrefbtitle {Matplotlib for Python developers} {Matplotlib for python
+  developers}.
+\newblock
+\APACaddressPublisher{}{Packt Publishing Ltd}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{wang2020comprehensive}
-Qi~Wang, Yue Ma, Kun Zhao, and Yingjie Tian.
-\newblock A comprehensive survey of loss functions in machine learning.
-\newblock {\em Annals of Data Science}, pages 1--26, 2020.
+\bibitem [\protect \citeauthoryear {%
+Tsai%
+, Jain%
+, Abdul%
+\BCBL {}\ \BBA {} Porter%
+}{%
+Tsai%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+tsai2016study}
+\APACinsertmetastar {%
+tsai2016study}%
+\begin{APACrefauthors}%
+Tsai, C\BHBI C.%
+, Jain, B.%
+, Abdul, N\BPBI A.%
+\BCBL {}\ \BBA {} Porter, D\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A study of modern linux api usage and compatibility:
+  What to support when you're supporting} {A study of modern linux api usage
+  and compatibility: What to support when you're supporting}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the Eleventh European Conference on
+  Computer Systems} {Proceedings of the eleventh european conference on
+  computer systems}\ (\BPGS\ 1--16).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{wohlgethan2018supportingweb}
-Eric Wohlgethan.
-\newblock {\em Supporting web development decisions by comparing three major
-  javascript frameworks: Angular, react and vue. js}.
-\newblock PhD thesis, Hochschule f{\"u}r Angewandte Wissenschaften Hamburg,
-  2018.
+\bibitem [\protect \citeauthoryear {%
+Tulchak%
+\ \BBA {} Mapchuk%
+}{%
+Tulchak%
+\ \BBA {} Mapchuk%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+tulchak2016history}
+\APACinsertmetastar {%
+tulchak2016history}%
+\begin{APACrefauthors}%
+Tulchak, L.%
+\BCBT {}\ \BBA {} Mapchuk, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2016}.
+\unskip\
+\newblock
+\APACrefbtitle {History of python} {History of python}\ \APACtypeAddressSchool
+  {\BUPhD}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{coursAnalyseDonne2}
-Phd.~Elie Zihindula.
-\newblock Courses of multivariate statistical analysis. part2. python et les
-  données : Numpy et pandas.
-\newblock (23):2--10, 2023.
+\bibitem [\protect \citeauthoryear {%
+Unwin%
+}{%
+Unwin%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+unwin2020data}
+\APACinsertmetastar {%
+unwin2020data}%
+\begin{APACrefauthors}%
+Unwin, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Why is data visualization important? what is important
+  in data visualization?} {Why is data visualization important? what is
+  important in data visualization?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Harvard Data Science Review}{2}{1}{1}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{coursAnalyseDonne3}
-Phd.~Elie Zihindula.
-\newblock Courses of multivariate statistical analysis. part8. elements de
-  classification.
-\newblock (22):18--20, 2023.
+\bibitem [\protect \citeauthoryear {%
+Van Der~Walt%
+, Colbert%
+\BCBL {}\ \BBA {} Varoquaux%
+}{%
+Van Der~Walt%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+van2011numpy}
+\APACinsertmetastar {%
+van2011numpy}%
+\begin{APACrefauthors}%
+Van Der~Walt, S.%
+, Colbert, S\BPBI C.%
+\BCBL {}\ \BBA {} Varoquaux, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The NumPy array: a structure for efficient numerical
+  computation} {The numpy array: a structure for efficient numerical
+  computation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computing in science \& engineering}{13}{2}{22--30}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{giswatch2018}
-Pacifique Zikomangane.
-\newblock A free wireless network in the drc: An answer to internet shutdowns
-  and exorbitant access costs.
-\newblock 2018.
+\bibitem [\protect \citeauthoryear {%
+Visengeriyeva%
+, Kammer%
+, Bär%
+, Kniesz%
+\BCBL {}\ \BBA {} Advisor)%
+}{%
+Visengeriyeva%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+workflowPageMllif}
+\APACinsertmetastar {%
+workflowPageMllif}%
+\begin{APACrefauthors}%
+Visengeriyeva, D\BPBI L.%
+, Kammer, A.%
+, Bär, I.%
+, Kniesz, A.%
+\BCBL {}\ \BBA {} Advisor), M\BPBI P\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {An Overview of the End-to-End Machine Learning Workflow.} {An
+  overview of the end-to-end machine learning workflow.}
+\newblock
+\APAChowpublished {\url{https://ml-ops.org/content/end-to-end-ml-workflow}}.
+\newblock
+\APACrefnote{Consulted on November 10 at 09:24}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{dataScienceMLeric}
-Michel~Lutz Éric Biernat.
-\newblock {\em Data science : fondamentaux et études de cas. Machine learning
-  avec Python et R}.
-\newblock Eyrolles, 61, bd Saint-Germain 75240 Paris Cedex 05., 2015.
+\bibitem [\protect \citeauthoryear {%
+Wang%
+, Lei%
+, Zhang%
+, Zhou%
+\BCBL {}\ \BBA {} Peng%
+}{%
+Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+wang2016machine}
+\APACinsertmetastar {%
+wang2016machine}%
+\begin{APACrefauthors}%
+Wang, H.%
+, Lei, Z.%
+, Zhang, X.%
+, Zhou, B.%
+\BCBL {}\ \BBA {} Peng, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine learning basics} {Machine learning
+  basics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Deep learning}{}{}{98--164}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wohlgethan%
+}{%
+Wohlgethan%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+wohlgethan2018supportingweb}
+\APACinsertmetastar {%
+wohlgethan2018supportingweb}%
+\begin{APACrefauthors}%
+Wohlgethan, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2018}.
+\unskip\
+\newblock
+\APACrefbtitle {Supporting web development decisions by comparing three major
+  javascript frameworks: Angular, react and vue. js} {Supporting web
+  development decisions by comparing three major javascript frameworks:
+  Angular, react and vue. js}\ \APACtypeAddressSchool {\BUPhD}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Hochschule f{\"u}r Angewandte Wissenschaften Hamburg}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zihindula%
+}{%
+Zihindula%
+}{%
+{\protect \APACyear {2023}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+coursAnalyseDonne2}
+\APACinsertmetastar {%
+coursAnalyseDonne2}%
+\begin{APACrefauthors}%
+Zihindula, P\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023{\protect \BCnt {1}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Courses of Multivariate Statistical Analysis. Part2.
+  Python et les données : Numpy et Pandas} {Courses of multivariate
+  statistical analysis. part2. python et les données : Numpy et
+  pandas}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{}{}{23}{2--10}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zihindula%
+}{%
+Zihindula%
+}{%
+{\protect \APACyear {2023}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+coursAnalyseDonne3}
+\APACinsertmetastar {%
+coursAnalyseDonne3}%
+\begin{APACrefauthors}%
+Zihindula, P\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023{\protect \BCnt {2}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Courses of Multivariate Statistical Analysis. Part8.
+  Elements de Classification} {Courses of multivariate statistical analysis.
+  part8. elements de classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{}{}{22}{18--20}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zikomangane%
+}{%
+Zikomangane%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+giswatch2018}
+\APACinsertmetastar {%
+giswatch2018}%
+\begin{APACrefauthors}%
+Zikomangane, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A FREE WIRELESS NETWORK IN THE DRC: AN ANSWER TO
+  INTERNET SHUTDOWNS AND EXORBITANT ACCESS COSTS} {A free wireless network in
+  the drc: An answer to internet shutdowns and exorbitant access costs}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Éric Biernat%
+}{%
+Éric Biernat%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+dataScienceMLeric}
+\APACinsertmetastar {%
+dataScienceMLeric}%
+\begin{APACrefauthors}%
+Éric Biernat, M\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {Data science : fondamentaux et études de cas. Machine learning
+  avec Python et R} {Data science : fondamentaux et études de cas. machine
+  learning avec python et r}.
+\newblock
+\APACaddressPublisher{61, bd Saint-Germain 75240 Paris Cedex 05.}{Eyrolles}.
+\PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
